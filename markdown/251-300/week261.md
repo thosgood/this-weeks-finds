@@ -223,17 +223,20 @@ discriminant vanishes:
 $$4B^3 + 27C^2 = 0$$
 If we only consider the case where $B$ and $C$ are real, the discriminant
 locus looks like this:
-
-                       |C
-               o       |      
-                o      |     
-                   o   |  
-            -----------o-------------
-                   o   |           B
-                o      |     
-               o       |
-                       |
-
+$$
+  \begin{tikzpicture}
+    \begin{axis}[
+      axis x line=middle,
+      axis y line=middle,
+      ticks=none,
+      xlabel={$B$},
+      ylabel={$C$},
+      xmin=-1,xmax=1
+      ]
+      \addplot[thick,domain=-1:1,samples=50] ({-x^2},{x^3});
+    \end{axis}
+  \end{tikzpicture}
+$$
 It's smooth except at the origin, where it has a sharp point called a
 "cusp".
 
@@ -272,17 +275,20 @@ $$|u| = |v| = 1$$
 But if you think about it, we also get a trefoil knot for any other
 $c > 0$. This trefoil shrinks as $c \to 0$, and at $c = 0$ it reduces to a single
 point, which is also the cusp here:
-
-                         |u         
-                         |      o
-                         |     o
-                         |   o
-              -----------o-------------
-                         |   o        v
-                         |     o
-                         |      o
-                         |          
-
+$$
+  \begin{tikzpicture}
+    \begin{axis}[
+      axis x line=middle,
+      axis y line=middle,
+      ticks=none,
+      xlabel={$v$},
+      ylabel={$u$},
+      xmin=-1,xmax=1
+      ]
+      \addplot[thick,domain=-1:1,samples=50] ({x^2},{x^3});
+    \end{axis}
+  \end{tikzpicture}
+$$
 We don't see trefoil knots in this picture because it's just a real 2d
 slice of the complex 2d picture. But, they're lurking in the
 background!
@@ -300,19 +306,14 @@ $$a + b + c = 0$$
 So, there are three coordinate systems we can use: the $(a,b)$ system, the
 $(b,c)$ system and the $(c,a)$ system. We can draw all three coordinate
 systems at once like this:
-
-                    b         
-                     \       /
-                      \     /
-                       \   /
-                        \ /
-                 --------o--------a
-                        / \
-                       /   \
-                      /     \
-                     /       \
-                    c
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,->] (180:2) to (0:2) node[label=right:{$a$}]{};
+    \draw[thick,->] (-60:2) to (120:2) node[label=above left:{$b$}]{};
+    \draw[thick,->] (60:2) to (-120:2) node[label=below left:{$c$}]{};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 The group of permutations of 3 things acts on this picture by permuting
 the three axes. Beware: I've only drawn a $2$-dimensional *real* vector
 space here, just a slice of the full 2d complex space.
@@ -321,15 +322,20 @@ Now suppose we take this 2d complex space and mod out by the permutation
 symmetries. What do we get? It turns out we get *another* 2d complex
 vector space! In this new space, the three coordinate axes shown above
 become just one thing... but this thing is a curve, like this:
-
-                o
-                 o
-                    o
-                       o
-                    o
-                 o
-                o
-
+$$
+  \begin{tikzpicture}
+    \begin{axis}[
+      axis x line=none,
+      axis y line=none,
+      ticks=none,
+      xlabel={},
+      ylabel={},
+      xmin=-1,xmax=1
+      ]
+      \addplot[thick,domain=-1:1,samples=50] ({-x^2},{x^3});
+    \end{axis}
+  \end{tikzpicture}
+$$
 Look familiar? Sure! It's just the discriminant locus we've seen
 before.
 
@@ -353,31 +359,30 @@ So, the map where we mod out by permutation symmetries of the roots is
 exactly the map from roots to coefficients.
 
 The lines in this picture are places where two roots are equal:
-
-                c=a        
-                  \       /
-                   \     /
-                    \   /
-                     \ /
-              --------o-------- b=c
-                     / \
-                    /   \
-                   /     \
-                  /       \
-                a=b
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,->] (180:2) to (0:2) node[label=right:{$b=c$}]{};
+    \draw[thick,->] (-60:2) to (120:2) node[label=above left:{$c=a$}]{};
+    \draw[thick,->] (60:2) to (-120:2) node[label=below left:{$a=b$}]{};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 So, when we apply the map from roots to coefficients, these lines get
 mapped to the discriminant locus:
-
-                      |
-              o       |      
-               o      |     
-                  o   |  
-           -----------o-------------
-                  o   |           
-               o      |     
-              o       |
-                      |
+$$
+  \begin{tikzpicture}
+    \begin{axis}[
+      axis x line=middle,
+      axis y line=middle,
+      ticks=none,
+      xlabel={},
+      ylabel={},
+      xmin=-1,xmax=1
+      ]
+      \addplot[thick,domain=-1:1,samples=50] ({-x^2},{x^3});
+    \end{axis}
+  \end{tikzpicture}
+$$
 
 You should now feel happy and quit reading... unless you know a bit of
 topology. If you *do* know a little topology, here's a nice spinoff of
@@ -473,17 +478,14 @@ any Dynkin diagram, or even any Coxeter diagram! (See
 Yes, we've secretly been studying the Coxeter diagram $\mathrm{A}_2$, whose
 "Coxeter group" is the group of permutations of 3 things, and whose
 "Weyl chambers" look like this:
-
-                     \       /
-                      \     /
-                       \   /
-                        \ /
-                 --------o--------
-                        / \
-                       /   \
-                      /     \
-                     /       \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,->] (180:2) to (0:2);
+    \draw[thick,->] (-60:2) to (120:2);
+    \draw[thick,->] (60:2) to (-120:2);
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 Let me just sketch how we can generalize this to $\mathrm{A}_{n-1}$. Here the
 Coxeter group is the group of permutations of $n$ things, which I'll call
 $n!$.
@@ -504,30 +506,32 @@ is just the map from roots to coefficients!
 Sitting inside $X$ is the set $D$ consisting of $n$-tuples of roots where two
 or more roots are equal. $D$ is the union of a bunch of hyperplanes, as we
 saw in our example:
-
-                      \       /
-                       \     /
-                        \   /
-                         \ /
-                  --------o--------
-                         / \
-                        /   \
-                       /     \
-                      /       \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,->] (180:2) to (0:2);
+    \draw[thick,->] (-60:2) to (120:2);
+    \draw[thick,->] (60:2) to (-120:2);
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 Sitting inside $X/n!$ is the "discriminant locus" $D/n!$, consisting of
 *degenerate* depressed polynomials of degree $n$ --- that is, those with two
 or more roots equal. This is a variety that's smooth except for some
 sort of "cusp" at the origin:
-
-                  o
-                   o
-                      o
-                          o
-                      o
-                   o
-                  o
-
+$$
+  \begin{tikzpicture}
+    \begin{axis}[
+      axis x line=middle,
+      axis y line=middle,
+      ticks=none,
+      xlabel={$B$},
+      ylabel={$C$},
+      xmin=-1,xmax=1
+      ]
+      \addplot[thick,domain=-1:1,samples=50] ({-x^2},{x^3});
+    \end{axis}
+  \end{tikzpicture}
+$$
 The fundamental group of the complement of the discriminant locus is the
 braid group on $n$ strands. The reason is that this group describes
 homotopy classes of ways that n points in the plane can move around and

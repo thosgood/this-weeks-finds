@@ -64,6 +64,9 @@ printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
 
 printf "\n" >> $TEX
+printf '%s\n' '\usepackage{pgfplots}' >> $TEX
+
+printf "\n" >> $TEX
 printf '%s\n' '\usepackage{etoolbox}' >> $TEX
 printf '%s\n' '\AtBeginEnvironment{quote}{\itshape}' >> $TEX
 
