@@ -2,6 +2,7 @@
 
 - something better than `" "` in the tables in e.g. week049
 - check images in week258
+- graph in week261
 
 - HTML output?
     + https://pandoc.org/lua-filters.html#building-images-with-tikz
