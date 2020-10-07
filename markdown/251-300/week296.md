@@ -466,13 +466,13 @@ T*V. So, it's a "symplectic" vector space:
 `http://en.wikipedia.org/wiki/Symplectic_vector_space`
 
 Namely, it has a "symplectic structure" - that is, a nondegenerate
-antisymmetric bilinear form ω given by:
+antisymmetric bilinear form \omega given by:
 
-ω((v,f),(v',f')) = f(v') - f'(v)
+\omega((v,f),(v',f')) = f(v') - f'(v)
 
 And it's a general fact that the graph of any quadratic form on V is a
 "Lagrangian" subspace of T*V = V \times V*, meaning a maximal subspace on
-which ω vanishes.
+which \omega vanishes.
 
 But, there are Lagrangian subspaces of T*V that are not the graphs of
 quadratic forms. There are also "limits" of graphs of quadratic forms

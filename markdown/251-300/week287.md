@@ -160,11 +160,11 @@ Next let's define $1$-forms. Since the job of these is to eat vector
 fields and spit out functions, let's define a "1-form" to be a linear
 map
 
-ω\colon Der(A) \to A
+\omega\colon Der(A) \to A
 
 which is actually a module homomorphism, meaning
 
-ω(fv) = f ω(v)
+\omega(fv) = f \omega(v)
 
 whenever f is in A. Let \Omega^1(A) be the set of $1$-forms. Again, this is a
 module of A.
@@ -228,9 +228,9 @@ where p ranges over all natural numbers. Linear combinations of guys of
 this sort for a particular fixed p are called "p-forms". We also say
 they're "of degree p". And the algebra of differential forms obeys
 
-\nuω = (-1)^pq^ ω\nu
+\nu\omega = (-1)^pq^ \omega\nu
 
-whenever \nu is of degree p and ω is of degree q. This is what we mean by
+whenever \nu is of degree p and \omega is of degree q. This is what we mean by
 saying \Omega(A) is "graded commutative".
 
 But the algebra of differential forms is better than a mere graded
@@ -247,15 +247,15 @@ df dg_1 dg_2 ... dg_p
 This definition implies three facts. First, it implies that d of a
 p-form is a (p+1)-form. That's pretty obvious. Second, it implies that
 
-d(dω) = 0
+d(d\omega) = 0
 
-for any differential form ω. Why? Well, I'll let you check it, but
+for any differential form \omega. Why? Well, I'll let you check it, but
 I'll give you a hint: the key step is to show that d1 = 0. And third,
 it implies this version of the product rule:
 
-d(\nuω) = (d\nu) ω + (-1)^p^ \nudω
+d(\nu\omega) = (d\nu) \omega + (-1)^p^ \nud\omega
 
-for any p-form \nu and q-form ω. Again the proof is a little calculation.
+for any p-form \nu and q-form \omega. Again the proof is a little calculation.
 
 We can summarize these three facts, together with the linearity of d, by
 saying that differential forms are a "differential graded commutative

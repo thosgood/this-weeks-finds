@@ -654,10 +654,10 @@ geometers have looked into it!
 
 If we didn't need the equations \[H,F\] = {S,F} = 0, we could easily
 get the necessary brackets starting with a Kähler manifold. The
-imaginary part of the Kähler structure is a symplectic structure, say ω,
+imaginary part of the Kähler structure is a symplectic structure, say \omega,
 so we can define
 
-{F,G} = ω(dF,dG)
+{F,G} = \omega(dF,dG)
 
 as usual to get Poisson brackets. The real part of the Kähler structure
 is a Riemannian structure, say g, so we can define
@@ -678,13 +678,13 @@ the gradient of F, the function F increases. So adding the second term
 to Hamilton's equations has the effect of pushing the system towards
 increasing entropy.
 
-Note that I'm being a tad unorthodox by letting ω and g eat cotangent
+Note that I'm being a tad unorthodox by letting \omega and g eat cotangent
 vectors instead of tangent vectors - but that's no big deal. The big
 deal is this: if we start with a Kähler manifold and define brackets
 this way, we don't get \[H,F\] = 0 or {S,F} = 0 for all functions F
 unless H and S are constant! That's no good for applications to
 physics. To get around this problem, we would need to consider some sort
-of *degenerate* Kähler structure - one where ω and g are degenerate
+of *degenerate* Kähler structure - one where \omega and g are degenerate
 bilinear forms on the cotangent space.
 
 Has anyone thought about such things? They remind me a little of "Dirac
