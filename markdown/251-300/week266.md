@@ -675,7 +675,7 @@ n-groupoid to *be* a homotopy $n$-type, this should not be hard.
 But this was just the warmup for Aurora's talk, which was about
 K-theory. Quillen set up modern algebraic K-theory by defining the
 K-groups of a ring R to be the homotopy groups of a certain space called
-B\mathrm{GL}(R)^+^. In here talk, Aurora defined the K-2-groups of a ring in the
+B\mathrm{GL}(R)^+. In here talk, Aurora defined the K-2-groups of a ring in the
 same way, but using homotopy 2-groups! And then she went ahead and
 studied them...
 
