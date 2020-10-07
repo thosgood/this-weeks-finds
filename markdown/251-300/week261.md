@@ -438,6 +438,7 @@ $$
         to [out=down,in=up] (1,-2)
         to [out=down,in=up] (0,-3);
     \end{knot}
+    \node at (1,-3.5) {$XYX$};
   \end{tikzpicture}
   \raisebox{4em}{\quad=\quad}
   \begin{tikzpicture}
@@ -455,19 +456,9 @@ $$
         to [out=down,in=up] (0,-2)
         to (0,-3);
     \end{knot}
+    \node at (1,-3.5) {$YXY$};
   \end{tikzpicture}
 $$
-
-    \ /  |        |  \ /
-     /   |        |   /
-    / \  |        |  / \
-    |  \ /        \ /   |
-    |   /     =    /    |           XYX = YXY
-    |  / \        / \   |
-    \ /  |        |  \ /
-     /   |        |   /
-    / \  |        |  / \
-
 So: the 3-strand braid group is *isomorphic* to the fundamental group of
 the complement of the trefoil! You may enjoy checking this
 algebraically, using generators and relations, and then figuring out how
