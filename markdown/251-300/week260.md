@@ -429,7 +429,7 @@ It then turns out that the exceptional Lie algebras \mathrm{F}_4, \mathrm{E}_6, 
 
      \        /                
       \      /                
-       ----/                
+       \----/                
        |    |                       
        |    |           = 
        /----\            
