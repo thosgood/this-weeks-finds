@@ -843,7 +843,7 @@ loop, where we run it backwards in time, is only an inverse up to
 homotopy.
 
 The concept of a topological monoid "up to homotopy" can be made
-precise using Stasheff's theory of A~\infty~ spaces. So, we can learn to
+precise using Stasheff's theory of $A_\infty$ spaces. So, we can learn to
 love those - and we should. But we can also fight harder to get an
 honest topological group!
 
@@ -861,7 +861,7 @@ need to do any reparametrization. So, if we let \Omega(X) be the space of
 based Moore loops on X, it's a topological monoid!
 
 Even better, the space of based Moore loops is homotopy equivalent to
-the space of ordinary based loops. They're even equivalent "as A~\infty~
+the space of ordinary based loops. They're even equivalent "as $A_\infty$
 spaces" - that is, topological spaces with a multiplication that's
 associative up to a homotopy that satisfies some equation up to
 homotopy... and so on to infinity.
@@ -887,7 +887,7 @@ and gave the classic reference.
 
 Now, if we start with a *path-connected* topological monoid M, its group
 completion GM is homotopy equivalent to M. They're even equivalent as
-A~\infty~ spaces, I think. So in this case we're just improving M slightly
+$A_\infty$ spaces, I think. So in this case we're just improving M slightly
 to make it into a group. But if M has lots of connected components, GM
 can be drastically different. For example, if we start with the natural
 numbers, its group completion is the integers!
