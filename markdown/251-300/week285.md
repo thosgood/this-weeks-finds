@@ -240,7 +240,7 @@ of an oriented d-dimensional manifold M. This is the space LM of all
 maps from a circle into M. In their fundamental paper on the subject:
 
 9) Moira Chas and Dennis Sullivan, String topology, available as
-[`arXiv:math/9911159`](http://arXiv.org/abs/arXiv:math/9911159).
+[`arXiv:math/9911159`](http://arXiv.org/abs/math/9911159).
 
 Chas and Sullivan showed that the homology groups of LM with degrees
 shifted by d:
@@ -651,7 +651,7 @@ to the Jacobi identity:
 
 16) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
 Saito, Cohomology of categorical self-distributivity, available as
-[`arXiv:math/0607417`](http://arXiv.org/abs/arXiv:math/0607417).
+[`arXiv:math/0607417`](http://arXiv.org/abs/math/0607417).
 
 It's possible to explain this relation a lot more deeply than I just
 did... but anyway, what Alissa did is start *categorifying* this

@@ -771,7 +771,7 @@ The details are explained here:
 22) Frdric Chapoton and Muriel Livernet, Pre-Lie algebras and the
 rooted trees operad, Int. Math. Res. Not. 2001 (2001), 395-408. Also
 available as
-[`arXiv:math/0002069`](http://arXiv.org/abs/arXiv:math/0002069).
+[`arXiv:math/0002069`](http://arXiv.org/abs/math/0002069).
 
 The idea is that A is a lot like O, since we get elements of the free
 O-algebra on one generator by hitting that generator with operations in

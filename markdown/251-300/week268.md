@@ -639,7 +639,7 @@ up to 2004:
 
 24) Damien Calaque and Pavel Etingof, Lectures on tensor categories,
 available as
-[`arXiv:math/0401246`](http://arXiv.org/abs/arXiv:math/0401246).
+[`arXiv:math/0401246`](http://arXiv.org/abs/math/0401246).
 
 Still more recently, Hendryk Pfeiffer has written what promises to be a
 fundamental paper describing how to think of any modular tensor category

@@ -343,7 +343,7 @@ deeply involved in this business. For more, try these papers:
 
 8) N. Kurokawa, $Zeta functions over \mathbb{F}_1$, _Proc. Japan Acad. Ser. A Math. Sci._ **81** (2006), 180--184.
 
-9) Anton Deitmar, "Remarks on zeta functions and K-theory over $\mathbb{F}_1$", available as [`arXiv:math/0605429`](http://arXiv.org/abs/arXiv:math/0605429).
+9) Anton Deitmar, "Remarks on zeta functions and K-theory over $\mathbb{F}_1$", available as [`arXiv:math/0605429`](http://arXiv.org/abs/math/0605429).
 
 But instead of talking about zeta functions, I'd like to talk about two
 approaches to giving a formal definition of the field with one element.
@@ -355,9 +355,9 @@ of "exotic fields".
 
 For Deitmar's approach, try these:
 
-10) Anton Deitmar, "Schemes over $\mathbb{F}_1$", available as [`arXiv:math/0404185`](http://arXiv.org/abs/arXiv:math/0404185).
+10) Anton Deitmar, "Schemes over $\mathbb{F}_1$", available as [`arXiv:math/0404185`](http://arXiv.org/abs/math/0404185).
 
-    $\mathbb{F}_1$-schemes and toric varieties, available as [`arXiv:math/0608179`](http://arXiv.org/abs/arXiv:math/0608179).
+    $\mathbb{F}_1$-schemes and toric varieties, available as [`arXiv:math/0608179`](http://arXiv.org/abs/math/0608179).
 
 The usual approach to fields treats fields as specially nice commutative
 rings. A "[commutative ring](http://en.wikipedia.org/wiki/Commutative_ring)" is a gadget where

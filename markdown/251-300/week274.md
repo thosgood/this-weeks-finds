@@ -195,7 +195,7 @@ known. You can see a bunch here:
 11) John Baez and Aaron Lauda, Higher-dimensional algebra V: 2-groups,
 Theory and Applications of Categories 12 (2004), 423-491. Available at
 `http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html` and as
-[`arXiv:math/0307200`](http://arXiv.org/abs/arXiv:math/0307200).
+[`arXiv:math/0307200`](http://arXiv.org/abs/math/0307200).
 
 However, Barrett and Mackaay discovered something rather upsetting.
 While Lie groups have lots of interesting representations on
@@ -402,7 +402,7 @@ Sheppeard:
 
 17) Louis Crane and Marnie D. Sheppeard, $2$-categorical Poincare
 representations and state sum applications, available as
-[`arXiv:math/0306440`](http://arXiv.org/abs/arXiv:math/0306440).
+[`arXiv:math/0306440`](http://arXiv.org/abs/math/0306440).
 
 Crane and Sheppeard studied the $2$-category of representations of the
 "Poincare 2-group". It turns out that we can get representations of

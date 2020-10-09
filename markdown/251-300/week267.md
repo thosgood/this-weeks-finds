@@ -516,7 +516,7 @@ or separately as `http://www.uni-essen.de/~hm0002/stacks.pdf`
 
 12) Kai Behrend and Ping Xu, Differentiable stacks and gerbes,
 available as
-[`arXiv:math/0605694`](http://arXiv.org/abs/arXiv:math/0605694).
+[`arXiv:math/0605694`](http://arXiv.org/abs/math/0605694).
 
 Now, besides the Alhambra, Granada also has a wonderful Department of
 Algebra. Yes - a whole department, just for algebra! And this department

@@ -220,7 +220,7 @@ quantum mechanics:
 
 2) G. L. Litvinov, The Maslov dequantization, idempotent and tropical
 mathematics: a brief introduction, available as
-[`arXiv:math/0507014`](http://arXiv.org/abs/arXiv:math/0507014).
+[`arXiv:math/0507014`](http://arXiv.org/abs/math/0507014).
 
 3) John Baez, Spans in quantum theory,
 `http://math.ucr.edu/home/baez/span/`
