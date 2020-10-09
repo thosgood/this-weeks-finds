@@ -203,9 +203,9 @@ C(d,0,1) in the limit d \to \infty. They mention some known results and prove
 some new ones: this set is contained in the half-plane Re(z) < 3/2 and
 contained in the annulus
 
-1/Φ < |z| < Φ
+1/\Phi < |z| < \Phi
 
-where Φ is the golden ratio, (√5 + 1)/2. In fact they trap it, not just
+where \Phi is the golden ratio, (√5 + 1)/2. In fact they trap it, not just
 between these circles, but between two subtler curves. They also show
 that the closure of this set is path connected but not simply connected.
 

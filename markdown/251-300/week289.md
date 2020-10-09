@@ -161,7 +161,7 @@ measured the ratio of masses of two of the 8 "particles" formed as
 kink-antikink bound states - namely, the lightest two. According to
 Zamolodchikov's calculation, it should be the golden ratio! You know:
 
-Φ = (1 + √5)/ 2
+\Phi = (1 + √5)/ 2
 
 And that's what the experiment saw!
 
