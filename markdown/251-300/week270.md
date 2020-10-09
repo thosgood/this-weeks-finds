@@ -1,8 +1,8 @@
 # October 11, 2008 {#week270}
 
-Greg Egan has a new novel out, called "Incandescence" - so I want to
+Greg Egan has a new novel out, called "Incandescence" --- so I want to
 talk about that. Then I'll talk about three of my favorite numbers: 5,
-8, and 24. I'll show you how each regular polytope with 5-fold
+8, and 24. I'll show you how each regular polytope with $5$-fold
 rotational symmetry has a secret link to a lattice living in twice as
 many dimensions. For example, the pentagon is a 2d projection of a
 beautiful shape that lives in 4 dimensions. Finally, I'll wrap up with
@@ -10,27 +10,22 @@ a simple but surprising property of the number 12.
 
 But first: another picture of Jupiter's moon Io! Now we'll zoom in
 much closer. This was taken in 2000 by the Galileo probe:
+$$\href{http://apod.nasa.gov/apod/ap000606.html}{\includegraphics[max width=0.65\linewidth]{../images/io_lava.jpg}}$$
 
-::: {align="center"}
-[![](io_lava.jpg)](http://apod.nasa.gov/apod/ap000606.html)
-:::
-
-1) A continuous eruption on Jupiter's moon Io, Astronomy Picture of
-the Day, `http://apod.nasa.gov/apod/ap000606.html`
+1) "A continuous eruption on Jupiter's moon Io", Astronomy Picture of the Day, `http://apod.nasa.gov/apod/ap000606.html`
 
 Here we see a vast plain of sulfur and silicate rock, 250 kilometers
-across - and on the left, glowing hot lava! The white dots are spots so
+across --- and on the left, glowing hot lava! The white dots are spots so
 hot that their infrared radiation oversaturated the detection equipment.
 This was the first photo of an active lava flow on another world.
 
 If you like pictures like this, maybe you like science fiction. And if
-you like hard science fiction - "diamond-scratching hard", as one
-reviewer put it - Greg Egan is your man. His latest novel is one of the
+you like hard science fiction --- "diamond-scratching hard", as one
+reviewer put it --- Greg Egan is your man. His latest novel is one of the
 most realistic evocations of the distant future I've ever read. Check
 out the website:
 
-2) Greg Egan, Incandescence, Night Shade Books, 2008. Website at
-`http://www.gregegan.net/INCANDESCENCE/Incandescence.html`
+2) Greg Egan, _Incandescence_, Night Shade Books, 2008. Website at `http://www.gregegan.net/INCANDESCENCE/Incandescence.html`
 
 The story features two parallel plots. One is about a galaxy-spanning
 civilization called the Amalgam, and two of its members who go on a
@@ -42,8 +37,8 @@ comes in.
 I might as well quote Egan himself:
 
 > "Incandescence" grew out of the notion that the theory of general
-> relativity - widely regarded as one of the pinnacles of human
-> intellectual achievement - could be discovered by a pre-industrial
+> relativity --- widely regarded as one of the pinnacles of human
+> intellectual achievement --- could be discovered by a pre-industrial
 > civilization with no steam engines, no electric lights, no radio
 > transmitters, and absolutely no tradition of astronomy.
 >
@@ -63,7 +58,7 @@ I might as well quote Egan himself:
 > When Newton was finally overthrown by Einstein, the birth of the new
 > theory owed much less to the astronomical facts it could explain -
 > such as a puzzling drift in the point where Mercury made its closest
-> approach to the sun - than to an elegant theory of electromagnetism
+> approach to the sun --- than to an elegant theory of electromagnetism
 > that had arisen more or less independently of ideas about gravity.
 > Electrostatic and magnetic effects had been unified by James Clerk
 > Maxwell, but Maxwell's equations only offered one value for the speed
@@ -75,9 +70,9 @@ I might as well quote Egan himself:
 > space.
 >
 > So for us, astronomy was crucial even to reach as far as Newton, and
-> postulating Einstein's theory - let alone validating it to high
+> postulating Einstein's theory --- let alone validating it to high
 > precision, with atomic clocks on satellites and observations of pulsar
-> orbits - depended on a wealth of other ideas and technologies.
+> orbits --- depended on a wealth of other ideas and technologies.
 >
 > How, then, could my alien civilization possibly reach the same
 > conceptual heights, when they were armed with none of these apparent
@@ -94,7 +89,7 @@ I might as well quote Egan himself:
 > experience and the experience of other beings who have kept their
 > distance. My aliens would probably need to be sheltering deep inside
 > some rocky structure to protect them from the radiation of the
-> accretion disk - and the glow of the disk itself would also render
+> accretion disk --- and the glow of the disk itself would also render
 > astronomy immensely difficult.
 >
 > Blind to the heavens, how could they come to learn anything at all
@@ -110,8 +105,8 @@ I might as well quote Egan himself:
 > orbiting the Earth, you could easily prove that you were not just
 > drifting through interstellar space, light-years from the nearest
 > planet. How? Put on your space suit, and pump out all the station's
-> air. Then fill the station with small objects - paper clips, pens,
-> whatever - being careful to place them initially at rest with respect
+> air. Then fill the station with small objects --- paper clips, pens,
+> whatever --- being careful to place them initially at rest with respect
 > to the walls.
 >
 > Wait, and see what happens.
@@ -136,8 +131,8 @@ I might as well quote Egan himself:
 > unless the orbital period was very long, you could stick with the
 > technology-free approach and just watch and wait.
 >
-> A range of simple experiments like this - none of them much harder
-> than those conducted by Galileo and his contemporaries - were the
+> A range of simple experiments like this --- none of them much harder
+> than those conducted by Galileo and his contemporaries --- were the
 > solution to my aliens' need to catch up with Newton. But catching up
 > with Einstein? Surely that was beyond hope?
 >
@@ -182,8 +177,7 @@ Willerton. I'd been invited to the University of Glasgow to give a
 series of talks called the 2008 Rankin Lectures. I spoke about my three
 favorite numbers, and you can see the slides here:
 
-3) John Baez, My favorite numbers, available at
-`http://math.ucr.edu/home/baez/numbers/`
+3) John Baez, "My favorite numbers", available at `http://math.ucr.edu/home/baez/numbers/`
 
 I wanted to explain how different numbers have different personalities
 that radiate like force fields through diverse areas of mathematics and
@@ -207,92 +201,73 @@ especially when he started pulling out the unusual variants that he
 collects, eagerly explaining their subtleties. My favorite was the
 Rubik's dodecahedron, or "Megaminx":
 
-4) Wikipedia, Megaminx, `http://en.wikipedia.org/wiki/Megaminx`
+4) Wikipedia, "Megaminx", `http://en.wikipedia.org/wiki/Megaminx`
 
 Then I got to thinking: it would be even better to have a Rubik's
-icosahedron, since its symmetries would then include M~12~, the smallest
+icosahedron, since its symmetries would then include $M_{12}$, the smallest
 Mathieu group. And it turns out that such a gadget exists! It's called
 "Dogic":
 
-5) Wikipedia, Dogic, `http://en.wikipedia.org/wiki/Dogic`
+5) Wikipedia, "Dogic", `http://en.wikipedia.org/wiki/Dogic`
 
-The Mathieu group M~12~ is the smallest of the sporadic finite simple
+The Mathieu group $M_{12}$ is the smallest of the sporadic finite simple
 groups. Someday I'd like to understand the Monster, which is the
 biggest of the lot. But if the Monster is the Mount Everest of finite
-group theory, M~12~ is like a small foothill. A good place to start.
+group theory, $M_{12}$ is like a small foothill. A good place to start.
 
 Way back in ["Week 20"](#week20), I gave a cute description of
-M~12~ lifted from Conway and Sloane's classic book. If you get 12
+$M_{12}$ lifted from Conway and Sloane's classic book. If you get 12
 equal-sized balls to touch a central one of the same size, and arrange
 them to lie at the corners of a regular icosahedron, they don't touch
 their neighbors. There's even room to roll them around in interesting
 ways! For example, you can twist 5 of them around clockwise so that this
 arrangement:
-
-                               1
-     
-                          5         2
-                               6
-                            
-                            4     3
-
+$$\includegraphics[max width=0.65\linewidth]{../images/wk20_fig9.pdf}$$
 becomes this:
-
-                               5
-     
-                          4         1
-                               6
-                            
-                            3     2
-
+$$\includegraphics[max width=0.65\linewidth]{../images/wk20_fig8.pdf}$$
 We can generate lots of permutations of the 12 outer balls using twists
-of this sort - in fact, all even permutations. But suppose we only use
+of this sort --- in fact, all even permutations. But suppose we only use
 moves where we first twist 5 balls around clockwise and then twist 5
 others counterclockwise. These generate a smaller group: the Mathieu
-group M~12~.
+group $M_{12}$.
 
-Since we can do twists like this in the Dogic puzzle, I believe M~12~
+Since we can do twists like this in the Dogic puzzle, I believe $M_{12}$
 sits inside the symmetry group of this puzzle! In a way it's not
-surprising: the Dogic puzzle has a vast group of symmetries, while M~12~
+surprising: the Dogic puzzle has a vast group of symmetries, while $M_{12}$
 has a measly
-
-8 \times 9 \times 10 \times 11 \times 12 = 95040
-
+$$8 \times 9 \times 10 \times 11 \times 12 = 95040$$
 elements. But it'd still be cool to have a toy where you can explore
-the Mathieu group M~12~ with your own hands!
+the Mathieu group $M_{12}$ with your own hands!
 
 The math department lounge at the University of Glasgow has some old
 books in the shelves waiting for someone to pick them up and read them
 and love them. They're sort of like dogs at the pound, sadly waiting
 for somebody to take them home. I took one that explains how Mathieu
-groups arise as symmetries of "[Steiner
-systems](http://en.wikipedia.org/wiki/Steiner_system)":
+groups arise as symmetries of "[Steiner systems](http://en.wikipedia.org/wiki/Steiner_system)":
 
-6) Thomas Beth, Dieter Jungnickel, and Hanfried Lenz, Design Theory,
-Cambridge U. Press, Cambridge, 1986.
+6) Thomas Beth, Dieter Jungnickel, and Hanfried Lenz, _Design Theory_, Cambridge U. Press, Cambridge, 1986.
 
-Here's how they get M~12~. Take a 12-point set and think of it as the
-"projective line over F11" - in other words, the integers mod 11
-together with a point called infinity. Among the integers mod 11, six
+Here's how they get $M_{12}$. Take a $12$-point set and think of it as the
+"projective line over $\mathbb{F}_{11}$" --- in other words, the integers $\mod 11$
+together with a point called infinity. Among the integers $\mod 11$, six
 are perfect squares:
-
-{0,1,3,4,5,9}
-
+$$\{0,1,3,4,5,9\}$$
 Call this set a "block". From this, get a bunch more blocks by
 applying fractional linear transformations:
-
-z \mapsto (az + b)/(cz + d)
-
+$$z \mapsto \frac{az + b}{cz + d}$$
 where the matrix
-
-(a b)\
-(c d)\
-
-has determinant $1$. These blocks then form a "(5,6,12) Steiner system".
+$$
+  \left(
+    \begin{array}{cc}
+      a&b\\c&d
+    \end{array}
+  \right)
+$$
+has determinant $1$. These blocks then form a "$(5,6,12)$ Steiner system".
 In other words: there are 12 points, 6 points in each block, and any set
 of 5 points lies in a unique block.
 
-The group M~12~ is then the group of all transformations of the
+The group $M_{12}$ is then the group of all transformations of the
 projective line that map points to points and blocks to blocks!
 
 If I make more progress on understanding this stuff I'll let you know.
@@ -301,74 +276,81 @@ cubes.
 
 Anyway, in my second talk I turned to the number 8. This gave me a great
 excuse to tell the story of how Graves discovered the octonions, and
-then talk about sphere packings and the marvelous \mathrm{E}_8 lattice, whose
+then talk about sphere packings and the marvelous $\mathrm{E}_8$ lattice, whose
 points can also be seen as "integer octonions". I also sketched the
 basic ideas behind Bott periodicity, triality, and the role of division
 algebras in superstring theory.
 
 If you look at my slides you'll also see an appendix that describes two
-ways to get the \mathrm{E}_8 lattice starting from the dodecahedron. This is a
+ways to get the $\mathrm{E}_8$ lattice starting from the dodecahedron. This is a
 nice interaction between the magic powers of the number 5 and those of
 the number 8. After my talk, Christian Korff from the University of
 Glasgow showed me a paper that fits this relation into a bigger pattern:
 
-7) Andreas Fring and Christian Korff, Non-crystallographic reduction of
-Calogero-Moser models, Jour. Phys. A 39 (2006), 1115-1131. Also
-available as
-[`hep-th/0509152`](http://arxiv.org/abs/hep-th/0509152).
+7) Andreas Fring and Christian Korff, "Non-crystallographic reduction of Calogero-Moser models", _Jour. Phys. A_ **39** (2006), 1115--1131. Also available as [`hep-th/0509152`](http://arxiv.org/abs/hep-th/0509152).
 
 They set up a nice correspondence between some non-crystallographic
 Coxeter groups and some crystallographic ones:
 
-the H_2 Coxeter group and the A_4 Coxeter group,\
-the H_3 Coxeter group and the D_6 Coxeter group,\
-the H_4 Coxeter group and the \mathrm{E}_8 Coxeter group.\
+- the $\mathrm{H}_2$ Coxeter group and the $\mathrm{A}_4$ Coxeter group,
+- the $\mathrm{H}_3$ Coxeter group and the $\mathrm{D}_6$ Coxeter group,
+- the $\mathrm{H}_4$ Coxeter group and the $\mathrm{E}_8$ Coxeter group.
 
-A Coxeter group is a finite group of linear transformations of R^n
+A Coxeter group is a finite group of linear transformations of $\mathbb{R}^n$
 that's generated by reflections. We say such a group is
 "non-crystallographic" if it's not the symmetries of any lattice. The
 ones listed above are closely tied to the number 5:
 
-H_2 is the symmetry group of a regular
-[pentagon](http://en.wikipedia.org/wiki/Pentagon).\
-H_3 is the symmetry group of a regular
-[dodecahedron](http://en.wikipedia.org/wiki/Dodecahedron).\
-H_4 is the symmetry group of a regular
-[120-cell](http://en.wikipedia.org/wiki/120-cell).\
+- $\mathrm{H}_2$ is the symmetry group of a regular [pentagon](http://en.wikipedia.org/wiki/Pentagon).
+- $\mathrm{H}_3$ is the symmetry group of a regular [dodecahedron](http://en.wikipedia.org/wiki/Dodecahedron).
+- $\mathrm{H}_4$ is the symmetry group of a regular [120-cell](http://en.wikipedia.org/wiki/120-cell).
 
 Note these live in 2d, 3d and 4d space. Only in these dimensions are
-there regular polytopes with 5-fold rotational symmetry! Their symmetry
+there regular polytopes with $5$-fold rotational symmetry! Their symmetry
 groups are non-crystallographic, because no lattice can have 5-fold
 rotational symmetry.
 
 A Coxeter group is "crystallographic", or a "Weyl group", if it *is*
 symmetries of a lattice. In particular:
 
-A_4 is the symmetry group of a $4$-dimensional lattice also called A_4.\
-D_6 is the symmetry group of a $6$-dimensional lattice also called D_6.\
-\mathrm{E}_8 is the symmetry group of an $8$-dimensional lattice also called
-\mathrm{E}_8.\
+- $\mathrm{A}_4$ is the symmetry group of a $4$-dimensional lattice also called $\mathrm{A}_4$.
+- $\mathrm{D}_6$ is the symmetry group of a $6$-dimensional lattice also called $\mathrm{D}_6$.
+- $\mathrm{E}_8$ is the symmetry group of an $8$-dimensional lattice also called
+$\mathrm{E}_8$.
 
 You can see precise descriptions of these lattices in
-["Week 65"](#week65) - they're pretty simple.
+["Week 65"](#week65) --- they're pretty simple.
 
 Both crystallographic and noncrystallographic Coxeter groups are
 described by Coxeter diagrams, as explained back in
-["Week 62"](#week62). The H_2, H_3 and H_4 Coxeter diagrams look
+["Week 62"](#week62). The $\mathrm{H}_2$, $\mathrm{H}_3$ and $\mathrm{H}_4$ Coxeter diagrams look
 like this:
-
-      5
-    o---o
-
-      5
-    o---o---o
-
-      5
-    o---o---o---o
-
-The A_4, D_6 and \mathrm{E}_8 Coxeter diagrams (usually called Dynkin
-diagrams) have twice as many dots as their smaller partners H_2, H_3
-and H_4:
+$$
+  \begin{gathered}
+    \begin{tikzpicture}
+      \node at (0,0) {$\bullet$};
+      \node at (1,0) {$\bullet$};
+      \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0);
+    \end{tikzpicture}
+    \qquad\qquad
+    \begin{tikzpicture}
+      \node at (0,0) {$\bullet$};
+      \node at (1,0) {$\bullet$};
+      \node at (2,0) {$\bullet$};
+      \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0) to (2,0);
+    \end{tikzpicture}
+  \\\begin{tikzpicture}
+      \node at (0,0) {$\bullet$};
+      \node at (1,0) {$\bullet$};
+      \node at (2,0) {$\bullet$};
+      \node at (3,0) {$\bullet$};
+      \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0) to (3,0);
+    \end{tikzpicture}
+  \end{gathered}
+$$
+The $\mathrm{A}_4$, $\mathrm{D}_6$ and $\mathrm{E}_8$ Coxeter diagrams (usually called Dynkin
+diagrams) have twice as many dots as their smaller partners $\mathrm{H}_2$, $\mathrm{H}_3$
+and $\mathrm{H}_4$:
 
             o---o---o---o
 
@@ -387,7 +369,7 @@ I've drawn these in a slightly unorthodox way to show how they
 
 In every case, each dot in the diagram corresponds to one of the
 reflections that generates the Coxeter group. The edges in the diagram
-describe relations - you can read how in ["Week 62"](#week62).
+describe relations --- you can read how in ["Week 62"](#week62).
 
 All this is well-known stuff. But Fring and Korff investigate something
 more esoteric. Each dot in the big diagram corresponds to 2 dots in its
@@ -413,7 +395,7 @@ smaller partner:
     A   B   C   D       D'  C'  B'  A"  B"  A'
 
 If we map each generator of the smaller group (say, the generator D in
-H_4) to the product of the two corresponding generators in the bigger
+\mathrm{H}_4) to the product of the two corresponding generators in the bigger
 one (say, D'D" in \mathrm{E}_8), we get a group homomorphism.
 
 In fact, we get an *inclusion* of the smaller group in the bigger one!
@@ -425,10 +407,10 @@ noncrystallographic ones. For this, they must develop more detailed
 connections than those I've described. But I'm already happy just
 pondering this small piece of their paper.
 
-For example, what does the inclusion of H_2 in A_4 really look like?
+For example, what does the inclusion of \mathrm{H}_2 in $\mathrm{A}_4$ really look like?
 
-It's actually quite beautiful. H_2 is the symmetry group of a regular
-pentagon, including rotations and reflections. A_4 happens to be the
+It's actually quite beautiful. \mathrm{H}_2 is the symmetry group of a regular
+pentagon, including rotations and reflections. $\mathrm{A}_4$ happens to be the
 symmetry group of a $4$-simplex. If you draw a $4$-simplex in the plane, it
 looks like a pentagram:
 
@@ -437,37 +419,37 @@ looks like a pentagram:
 :::
 
 So, any symmetry of the pentagon gives a symmetry of the $4$-simplex. So,
-we get an inclusion of H_2 in A_4.
+we get an inclusion of \mathrm{H}_2 in $\mathrm{A}_4$.
 
 People often say that Penrose tilings arise from lattices in 4d space.
-Maybe I'm finally starting to understand how! The A_4 lattice has a
-bunch of $4$-simplices in it - but when we project these onto the plane
+Maybe I'm finally starting to understand how! The $\mathrm{A}_4$ lattice has a
+bunch of $4$-simplices in it --- but when we project these onto the plane
 correctly, they give pentagrams. I'd be very happy if this were the
 key.
 
-What about the inclusion of H_3 in D_6?
+What about the inclusion of \mathrm{H}_3 in $\mathrm{D}_6$?
 
-Here James Dolan helped me make a guess. H_3 is the symmetry group of a
-regular dodecahedron, including rotations and reflections. D_6 consists
+Here James Dolan helped me make a guess. \mathrm{H}_3 is the symmetry group of a
+regular dodecahedron, including rotations and reflections. $\mathrm{D}_6$ consists
 of all linear transformations of R^6 generated by permuting the 6
 coordinate axes and switching the signs of an even number of
 coordinates. But a dodecahedron has 6 "axes" going between opposite
 pentagons! If we arbitrarily orient all these axes, I believe any
-rotation or reflection of the dodecahedron gives an element of D_6. So,
-we get an inclusion of H_3 in D_6.
+rotation or reflection of the dodecahedron gives an element of $\mathrm{D}_6$. So,
+we get an inclusion of \mathrm{H}_3 in $\mathrm{D}_6$.
 
-And finally, what about the inclusion of H_4 in \mathrm{E}_8?
+And finally, what about the inclusion of \mathrm{H}_4 in \mathrm{E}_8?
 
-H_4 is the symmetry group of the 120-cell, including rotations and
+\mathrm{H}_4 is the symmetry group of the 120-cell, including rotations and
 reflections. In 8 dimensions, you can get 240 equal-sized balls to touch
 a central ball of the same size. \mathrm{E}_8 acts as symmetries of this
 arrangement. There's a clever trick for grouping the 240 balls into 120
 ordered pairs, which is explained by Fring and Korff and also by
 Conway's "icosian" construction of \mathrm{E}_8 described at the end of my
-talk on the number 8. Each element of H_4 gives a permutation of the
-120 faces of the 120-cell - and thanks to that clever trick, this gives
+talk on the number 8. Each element of \mathrm{H}_4 gives a permutation of the
+120 faces of the 120-cell --- and thanks to that clever trick, this gives
 a permutation of the 240 balls. This permutation actually comes from an
-element of \mathrm{E}_8. So, we get an inclusion of H_4 in \mathrm{E}_8.
+element of \mathrm{E}_8. So, we get an inclusion of \mathrm{H}_4 in \mathrm{E}_8.
 
 My last talk was on the number 24. Here I explained Euler's crazy
 "proof" that
@@ -481,7 +463,7 @@ whose symmetry group is the Monster: the largest sporadic finite simple
 group.
 
 A lot of the special properties of the number 24 are really properties
-of the number 12 - and most of these come from the period-12 behavior of
+of the number 12 --- and most of these come from the period-12 behavior of
 modular forms. I explained this back in ["Week 125"](#week125). I
 recently ran into these papers describing yet another curious property
 of the number 12, also related to modular forms, but very easy to state:
@@ -515,7 +497,7 @@ Rodriguez-Villegas:
 ![](lattice_polygons_and_the_number_12.jpg)
 :::
 
-Note that p_2 - p_1 = q_1 and so on. The first polygon has lattice 5
+Note that p_2 --- p_1 = q_1 and so on. The first polygon has lattice 5
 points on its boundary; the second, its dual, has 7. The total is 12.
 
 I like how Poonen and Rodriguez-Villegas' paper uses this theorem as a
@@ -537,13 +519,13 @@ springboard for discussing a big question: what does it mean to
 mistakes.
 
 The only noncrystallographic Coxeter groups are the symmetry groups of
-the 120-cell (H_4), the dodecahedron (H_3), and the regular $n$-gons
+the 120-cell (\mathrm{H}_4), the dodecahedron (\mathrm{H}_3), and the regular $n$-gons
 where n = 5,7,8,9,... The last list of groups is usually called I_n -
 or better, I_2(n), so that the subscript denotes the number of dots in
-the Dynkin diagram, as usual. But Fring and Korff use "H_2" as a
+the Dynkin diagram, as usual. But Fring and Korff use "\mathrm{H}_2" as a
 special name for I_2(5), and that's nice if you're focused on 5-fold
-symmetry, because then H_2 forms a little series together with H_3 and
-H_4.
+symmetry, because then \mathrm{H}_2 forms a little series together with \mathrm{H}_3 and
+\mathrm{H}_4.
 
 If you examine Poonen and Rodriguez-Villegas' picture carefully,
 you'll see a subtlety concerning the claim that the dual of the dual is
@@ -554,6 +536,8 @@ For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/ca
 
 ------------------------------------------------------------------------
 
-*When the blind beetle crawls over the surface of a globe, he doesn't
+> *When the blind beetle crawls over the surface of a globe, he doesn't
 realize that the track he has covered is curved. I was lucky enough to
-have spotted it.* - Albert Einstein
+have spotted it.*
+> 
+> --- Albert Einstein
