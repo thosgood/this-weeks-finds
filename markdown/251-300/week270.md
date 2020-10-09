@@ -352,6 +352,7 @@ The $\mathrm{A}_4$, $\mathrm{D}_6$ and $\mathrm{E}_8$ Coxeter diagrams (usually 
 diagrams) have twice as many dots as their smaller partners $\mathrm{H}_2$, $\mathrm{H}_3$
 and $\mathrm{H}_4$:
 
+
             o---o---o---o
 
                     o
