@@ -416,7 +416,7 @@ a nice description in terms of Frobenius algebras:
 14) Aaron Lauda and Hendryk Pfeiffer, Open-closed strings:
 two-dimensional extended TQFTs and Frobenius algebras, Topology Appl.
 155 (2008) 623-666. Also available as
-[arxiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664).
+[`math.AT/0510664`](http://arxiv.org/abs/math.AT/0510664).
 
 Here's what they prove, encoded as a mysterious slogan:
 
@@ -581,7 +581,7 @@ Calabi-Yau varieties. Then you can do lots of cool stuff:
 
 20) Kevin Costello, Topological conformal field theories and Calabi-Yau
 categories, available as
-[arxiv:math/0412149](http://arxiv.org/abs/math/0412149).
+[`math/0412149`](http://arxiv.org/abs/math/0412149).
 
 Here a "Calabi-Yau category" is just the "many-object" version of a
 Frobenius algebra - a Calabi-Yau category with one object is a Frobenius

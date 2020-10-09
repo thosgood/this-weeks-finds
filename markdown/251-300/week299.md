@@ -596,7 +596,7 @@ important role in the renormalization of quantum field theories:
 21) Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and
 noncommutative geometry, Commun. Math. Phys. 199 (1998), 203-242. Also
 available as
-[`arXiv:hep-th/9808042`](http://arXiv.org/abs/hep-th/9808042).
+[`hep-th/9808042`](http://arXiv.org/abs/hep-th/9808042).
 
 They built this group from Feynman diagrams. How? As you probably know,
 it's good to build groups starting from Lie algebras. And that's

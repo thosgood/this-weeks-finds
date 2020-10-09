@@ -461,7 +461,7 @@ picture somehow:
 >
 > See:
 >
-> 22) T. Fischbacher, H. Nicolai and H. Samtleben, "Non-semisimple and complex gaugings of $N = 16$ supergravity", available as [`arXiv:hep-th/0306276`](http://arxiv.org/abs/hep-th/0306276%22).
+> 22) T. Fischbacher, H. Nicolai and H. Samtleben, "Non-semisimple and complex gaugings of $N = 16$ supergravity", available as [`hep-th/0306276`](http://arxiv.org/abs/hep-th/0306276%22).
 
 ------------------------------------------------------------------------
 

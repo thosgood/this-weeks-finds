@@ -270,7 +270,7 @@ and also here:
 
 13) Jörg Schray, The general classical solution of the superparticle,
 Class. Quant. Grav. 13 (1996), 27-38. Also available as
-[`arXiv:hep-th/9407045`](http://arXiv.org/abs/hep-th/9407045).
+[`hep-th/9407045`](http://arXiv.org/abs/hep-th/9407045).
 
 They also write:
 
@@ -495,15 +495,15 @@ omega-groupoids, available at
 **Addendum:** Francesco Toppan writes:
 
 > In relation with your recent, interesting,
-> [arxiv:0909.0551](http://arxiv.org/abs/arxiv:0909.0551) paper I would
+> [`arxiv:0909.0551`](http://arxiv.org/abs/arxiv:0909.0551) paper I would
 > like to signal that division algebras also appear in the N-extended
 > supersymmetric quantum mechanics (in one dimension) for N=1,2,4,8.
 > This is hardly surprising, of course
-> ([`arXiv:hep-th/0109073`](http://arxiv.org/abs/hep-th/0109073) NPB Pr.
+> ([`hep-th/0109073`](http://arxiv.org/abs/hep-th/0109073) NPB Pr.
 > Sup.). Perhaps slightly more surprising is the fact that the
 > octonionic structure constants enter, as coupling constants, N=8
 > invariant actions, like e.g. the (1,8,7) model of
-> [`arXiv:hep-th/0511274`](http://arxiv.org/abs/hep-th/0511274) (also in
+> [`hep-th/0511274`](http://arxiv.org/abs/hep-th/0511274) (also in
 > JHEP). In this example the 7 auxiliary fields can be associated with
 > the 7 imaginary octonions, preserving the "octonionic covariance". I
 > should add that the representations of N-extended 1D superalgebra are

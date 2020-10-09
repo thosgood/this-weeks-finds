@@ -32,9 +32,9 @@ Seiberg-Witten theory, which is basically just a $\mathrm{U}(1)$ gauge theory li
 Maxwell's equations... but with some important extra twists!
 
 2) Erik Verlinde, "Global aspects of electric-magnetic duality", _Nuc. Phys._ **B455** (1995), 211--225, available as
-[`arXiv:hep-th/9506011`](http://arxiv.org/abs/hep-th/9506011).
+[`hep-th/9506011`](http://arxiv.org/abs/hep-th/9506011).
 
-    George Thompson, "New results in topological field theory and abelian gauge theory", 64 pages, available as [`arXiv:hep-th/9511038`](http://arxiv.org/abs/hep-th/9511038).
+    George Thompson, "New results in topological field theory and abelian gauge theory", 64 pages, available as [`hep-th/9511038`](http://arxiv.org/abs/hep-th/9511038).
 
 Next, it's nice to see that work on the loop representation of quantum
 gravity continues apace:
@@ -117,7 +117,7 @@ Now let me turn to a variety of other matters...
 
     Lev Rozansky, "On finite type invariants of links and rational homology spheres derived from the Jones polynomial and Witten--Reshetikhin--Turaev invariant", available as [`arXiv:q-alg/9511025`](http://arxiv.org/abs/q-alg/9511025).
 
-    Scott Axelrod, "Overview and warmup example for perturbation theory with instantons", available as [`arXiv:hep-th/9511196`](http://arxiv.org/abs/hep-th/9511196).
+    Scott Axelrod, "Overview and warmup example for perturbation theory with instantons", available as [`hep-th/9511196`](http://arxiv.org/abs/hep-th/9511196).
 
 These papers all deal with perturbative Chern-Simons theory and its
 spinoffs. The first two consider homology 3-spheres. In Chern-Simons
@@ -153,9 +153,9 @@ The second paper concentrates precisely on those subtleties due to the
 moduli space of flat connections, developing perturbation theory in the
 presence of "instantons" (here, nontrivial flat connections).
 
-5) Alan Carey, Jouko Mickelsson, and Michael Murray, "Index theory, gerbes, and Hamiltonian quantization", available as [`arXiv:hep-th/9511151`](http://arxiv.org/abs/hep-th/9511151).
+5) Alan Carey, Jouko Mickelsson, and Michael Murray, "Index theory, gerbes, and Hamiltonian quantization", available as [`hep-th/9511151`](http://arxiv.org/abs/hep-th/9511151).
 
-    Alan Carey, M. K. Murray and B. L. Wang, "Higher bundle gerbes and cohomology classes in gauge theories", available as [`arXiv:hep-th/9511169`](http://arxiv.org/abs/hep-th/9511169)
+    Alan Carey, M. K. Murray and B. L. Wang, "Higher bundle gerbes and cohomology classes in gauge theories", available as [`hep-th/9511169`](http://arxiv.org/abs/hep-th/9511169)
 
 Higher-dimensional algebra is sneaking into physics in yet another way:
 gerbs! What's a gerb? Roughly speaking, it's a sheaf of groupoids, but
@@ -169,12 +169,12 @@ excellent book on gerbs, and also:
 
     Jean-Luc Brylinski, "Cech cocyles for characteristic classes", J.-L. Brylinski and D. A. McLaughlin.
 
-7) Joe Polchinski, "Recent results in string duality", available as [`arXiv:hep-th/9511157`](http://arxiv.org/abs/hep-th/9511157).
+7) Joe Polchinski, "Recent results in string duality", available as [`hep-th/9511157`](http://arxiv.org/abs/hep-th/9511157).
 
 This should help folks keep up with the ongoing burst of work on
 dualities relating superficially different string theories.
 
-8) Leonard Susskind and John Uglum, "String physics and black holes", available as [`arXiv:hep-th/9511227`](http://arxiv.org/abs/hep-th/9511227).
+8) Leonard Susskind and John Uglum, "String physics and black holes", available as [`hep-th/9511227`](http://arxiv.org/abs/hep-th/9511227).
 
 Among other things, this review discusses the "holographic hypothesis"
 mentioned in ["Week 57"](#week57):

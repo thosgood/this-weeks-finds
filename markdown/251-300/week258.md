@@ -540,7 +540,7 @@ Eckmann-Hilton argument", which is a precise version of what I was
 attempting to sketch in this Week's Finds. Here's the paper by Getzler
 and Jones:
 
-18) Ezra Getzler and J. D. S. Jones, "Operads, homotopy algebra and iterated integrals for double loop spaces", available as [`arXiv:hep-th/9403055`](http://arXiv.org/abs/hep-th/9403055).
+18) Ezra Getzler and J. D. S. Jones, "Operads, homotopy algebra and iterated integrals for double loop spaces", available as [`hep-th/9403055`](http://arXiv.org/abs/hep-th/9403055).
 
 It's very interesting, but it was never published, perhaps because of
 some subtle flaws caught by Tamarkin.

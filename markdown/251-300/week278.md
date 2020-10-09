@@ -62,7 +62,7 @@ big paper on groupoidification and put it on the arXiv:
 
 1) John Baez, Alexander Hoffnung and Christopher Walker,
 Higher-dimensional algebra VII: groupoidification, available at
-[arxiv:0908.4305](http://math.ucr.edu/home/baez/hda7.pdf).
+[`arxiv:0908.4305`](http://math.ucr.edu/home/baez/hda7.pdf).
 
 You may remember the Tale of Groupoidification, which started in
 ["Week 247"](#week247), went on for several weeks, and then morphed

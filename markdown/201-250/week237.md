@@ -203,7 +203,7 @@ I came up with this crazy idea on my own back in
 that the $2$-form field called $B$ in 10d superstring theory really *is* a
 connection on a $\mathrm{U}(1)$ gerbe:
 
-4) Alan L. Carey, Stuart Johnson and Michael K. Murray, "Holonomy on D-branes", available as [`arXiv:hep-th/0204199`](http://arxiv.org/abs/hep-th/0204199).
+4) Alan L. Carey, Stuart Johnson and Michael K. Murray, "Holonomy on D-branes", available as [`hep-th/0204199`](http://arxiv.org/abs/hep-th/0204199).
 
 Unfortunately there are some problems with naively pushing this idea up
 a dimension. For example, a crucial factor of $1/6$ in the Lagrangian for
@@ -212,9 +212,9 @@ a dimension. For example, a crucial factor of $1/6$ in the Lagrangian for
 Another possible explanation was that this $3$-form is the Chern-Simons
 form of an $\mathrm{E}_8$ bundle over spacetime:
 
-5) Emanuel Diaconescu, Gregory Moore and Edward Witten, "$\mathrm{E}_8$ gauge theory, and a derivation of K-theory from M-theory", _Adv. Theor. Math. Phys._ **6** (2003) 1031--1134. Also available as [`arXiv:hep-th/0005090`](http://arxiv.org/abs/hep-th/0005090).
+5) Emanuel Diaconescu, Gregory Moore and Edward Witten, "$\mathrm{E}_8$ gauge theory, and a derivation of K-theory from M-theory", _Adv. Theor. Math. Phys._ **6** (2003) 1031--1134. Also available as [`hep-th/0005090`](http://arxiv.org/abs/hep-th/0005090).
 
-6) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, "The M-theory $3$-form and $\mathrm{E}_8$ gauge theory", available as [`arXiv:hep-th/0312069`](http://arxiv.org/abs/hep-th/0312069).
+6) Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, "The M-theory $3$-form and $\mathrm{E}_8$ gauge theory", available as [`hep-th/0312069`](http://arxiv.org/abs/hep-th/0312069).
 
 This idea explains that factor of $1/6$. And, it might move towards an
 explanation of how the octonions get into the act, because the group
@@ -228,14 +228,14 @@ Later, it started becoming clear that both ideas --- the twice
 categorified $\mathrm{U}(1)$ connection and the $\mathrm{E}_8$ gauge theory --- fit together in
 some way:
 
-7) Paolo Aschieri and Branislav Jurco, Gerbes, "M5-brane anomalies and $\mathrm{E}_8$ gauge theory", _JHEP_ **0410** (2004), 068. Also available as [`arXiv:hep-th/0409200`](http://arxiv.org/abs/hep-th/0409200).
+7) Paolo Aschieri and Branislav Jurco, Gerbes, "M5-brane anomalies and $\mathrm{E}_8$ gauge theory", _JHEP_ **0410** (2004), 068. Also available as [`hep-th/0409200`](http://arxiv.org/abs/hep-th/0409200).
 
 It all became a lot clearer to me when Urs Schreiber read these papers
 and translated them into a language I like:
 
-8) Leonardo Castellani, "Lie derivatives along antisymmetric tensors, and the M-theory superalgebra", available as [`arXiv:hep-th/0508213`](http://arxiv.org/abs/hep-th/0508213).
+8) Leonardo Castellani, "Lie derivatives along antisymmetric tensors, and the M-theory superalgebra", available as [`hep-th/0508213`](http://arxiv.org/abs/hep-th/0508213).
 
-9) Pietro Fré and Pietro Antonio Grassi, "Pure spinors, free differential algebras, and the supermembrane", available as [`arXiv:hep-th/0606171`](http://arxiv.org/abs/hep-th/0606171).
+9) Pietro Fré and Pietro Antonio Grassi, "Pure spinors, free differential algebras, and the supermembrane", available as [`hep-th/0606171`](http://arxiv.org/abs/hep-th/0606171).
 
 The idea is to think of 11d supergravity as a twice categorifed gauge
 theory --- not just the $3$-form field in 11d supergravity, but all the
@@ -477,7 +477,7 @@ Aaron Bergman replied:
 > > Horava-Witten $\mathrm{E}_8$?
 >
 > A similar observation was made by Horava way back in
-> [`arXiv:hep-th/9712130`](http://arxiv.org/abs/hep-th/9712130) (in the
+> [`hep-th/9712130`](http://arxiv.org/abs/hep-th/9712130) (in the
 > final section).
 >
 > Aaron

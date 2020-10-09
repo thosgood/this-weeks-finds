@@ -1,7 +1,9 @@
 # TODO
 
 - something better than `" "` in the tables in e.g. week049
+- ask john to check wallpaper tilings in week267
 - check images in week258
+- check images (alhambra tiles) in week267
 - graph in week261
 
 - HTML output?

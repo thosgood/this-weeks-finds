@@ -154,7 +154,7 @@ general relativity? Here you go:
 How about quantum field theory? Then you're in luck --- there are *two*
 detailed books available online:
 
-10) Warren Siegel, _Fields_, available as [`arXiv:hep-th/9912205`](http://arXiv.org/abs/arXiv:hep-th/9912205)
+10) Warren Siegel, _Fields_, available as [`hep-th/9912205`](http://arXiv.org/abs/arXiv:hep-th/9912205)
 
 10) Mark Srednicki, _Quantum Field Theory_, Cambridge U. Press, Cambridge, 2007. Also available at `http://www.physics.ucsb.edu/~mark/qft.html`
 

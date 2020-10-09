@@ -415,7 +415,7 @@ The formula is very pretty and simple:
 
 17) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys.
 Lett. B641 (2006), 335-337. Also available as
-[`arXiv:hep-th/0602160`](http://arXiv.org/abs/arXiv:hep-th/0602160).
+[`hep-th/0602160`](http://arXiv.org/abs/arXiv:hep-th/0602160).
 
 This being the 21st century, there is even a blog on hyperdeterminants:
 
@@ -469,7 +469,7 @@ Lvay, who has allowed me to quote it here:
 >
 > 21) Pter Lvay, Stringy black holes and the geometry of entanglement,
 > available as
-> [`arXiv:hep-th/0603136`](http://arxiv.org/abs/hep-th/0603136).
+> [`hep-th/0603136`](http://arxiv.org/abs/hep-th/0603136).
 >
 > Pter Lvay, A three-qubit interpretation of BPS and non-BPS STU black
 > holes, available as [`arXiv:0708.2799`](http://arxiv.org/abs/0708.2799).
@@ -492,7 +492,7 @@ Lvay, who has allowed me to quote it here:
 >
 > 22) Pter Lvay, Strings, black holes, the tripartite entanglement of
 > seven qubits and the Fano plane, available as
-> [`arXiv:hep-th/0610314`](http://arxiv.org/abs/hep-th/0610314).
+> [`hep-th/0610314`](http://arxiv.org/abs/hep-th/0610314).
 >
 > Here I made the conjecture that Freudenthal systems and issues
 > concerning the magic square could be relevant to further developments

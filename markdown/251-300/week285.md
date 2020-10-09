@@ -397,7 +397,7 @@ supersymmetric sigma models](ams_2009/Waldorf_AMS_UCR_2009.mov)":
 `http://www.konradwaldorf.de/docs/riverside.pdf`
 
 14) Konrad Waldorf, String connections and Chern-Simons theory,
-available as [arxiv:0906.0117](http://arxiv.org/abs/0906.0117).
+available as [`arxiv:0906.0117`](http://arxiv.org/abs/0906.0117).
 
 His talk was a great introduction to some things I know and love, and
 some others that I'd never quite understood before... but loved at
