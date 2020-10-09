@@ -474,36 +474,41 @@ $$
 which corresponds to the Lie group $\mathrm{PSL}(3)$. And, this is the group of
 symmetries of projective plane geometry! Each dot in the Dynkin
 corresponds to a "type of figure":
-
-    POINT    LINE
-      o-------o
-
+$$
+  \begin{tikzpicture}
+    \node[label=above:{point}] at (0,0) {$\bullet$};
+    \node[label=above:{line}] at (2,0) {$\bullet$};
+    \draw[thick] (0,0) to (2,0);
+  \end{tikzpicture}
+$$
 and the edge corresponds to an "incidence relation": in projective
 plane geometry, a point can lie on a line. This shape, which we've seen
 before:
-
-                      o
-                      .  .   
-                      .     . 
-                      .        o
-                      .     .  
-                      .  .
-                      o
-
+$$
+  \begin{tikzpicture}[scale=0.8]
+    \foreach \a in {0,120,240}{
+      \node at (\a:2) {$\bullet$};
+      \draw[thick] (\a:2) to ({\a+120}:2);
+    };
+  \end{tikzpicture}
+$$
 is then revealed to stand for a configuration of 3 points and 3 lines,
 satisfying incidence relations obvious from the picture. To put points
 and lines on an equal footing, we switch to the the Coxeter complex:
-
-                   POINT    LINE      
-                      o-----o
-                     /       \
-                    /         \
-              LINE o           oPOINT
-                    \         / 
-                     \       /
-                      o-----o
-                  POINT     LINE
-
+$$
+  \begin{tikzpicture}[scale=0.8]
+    \foreach \a in {0,60,120,180,240,300}{
+      \node at (\a:2) {$\bullet$};
+      \draw[thick] (\a:2) to ({\a+60}:2);
+    };
+    \node at (0:2.65) {point};
+    \node at (60:2.65) {line};
+    \node at (120:2.65) {point};
+    \node at (180:2.65) {line};
+    \node at (240:2.65) {point};
+    \node at (300:2.65) {line};
+  \end{tikzpicture}
+$$
 where now the vertices represent "figures" and the edges represent
 "incidence relations". It turns out that inside any projective plane,
 we can find lots of configurations like this: 3 points and 3 lines, each
@@ -533,14 +538,10 @@ is that tholins contain nitrogen!
 
 I found some more information on tholins here:
 
-16) J. H. Waite, Jr., et al, The process of tholin formation in
-Titan's upper atmosphere, Science 316 (2007), 870-875.
+16) J. H. Waite, Jr., et al, "The process of tholin formation in Titan's upper atmosphere", _Science_ **316** (2007), 870--875.
 
 Here's a picture of how tholins get made, from this paper:
-
-::: {align="center"}
-![](titan_tholins.gif)
-:::
+$$\includegraphics[max width=0.65\linewidth]{../images/titan_tholins.png}$$
 
 You can see more discussion and also *questions I'm dying to know the
 answers to* over at the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/04/this_weeks_finds_in_mathematic_24.html).
