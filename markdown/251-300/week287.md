@@ -386,7 +386,7 @@ Sullivan's paper, or this paper I recommended last time:
 6) Kathryn Hess, Rational homotopy theory: a brief introduction, in
 Interactions Between Homotopy Theory and Algebra, ed. Luchezar L.
 Avramov, Contemp. Math 436, AMS, Providence, Rhode Island, 2007. Also
-available as [math.AT/0604626](http://arxiv.org/abs/math.AT/0604626).
+available as [`math.AT/0604626`](http://arxiv.org/abs/math.AT/0604626).
 
 For more detail, try this book:
 
@@ -781,7 +781,7 @@ Here's the point: this process is a lot like "geometric realization".
 In geometric realization we start with a simplicial set S, which is
 really a functor
 
-S\colon \Delta^op^ \to \mathsf{Set}
+S\colon \Delta^\mathrm{op} \to \mathsf{Set}
 
 where \Delta is the category of simplices. And we know how to turn any
 simplex into a topological space, so we also have a functor
@@ -799,11 +799,11 @@ work, all we need is that the category Top has colimits.
 Similarly, we know how to turn any simplex into a DGCA, namely the
 rational differential forms on that simplex! So we also have a functor
 
-F ′\colon \Delta \to \[DGCAs\]^op^
+F ′\colon \Delta \to \[DGCAs\]^\mathrm{op}
 
 There's an "op" here because of the usual contravariant relation
 between algebra and geometry. But never mind: what matters is that
-DGCA^op^ has colimits. So we can copy what we did before, and take the
+DGCA^\mathrm{op} has colimits. So we can copy what we did before, and take the
 weighted colimit of f ′ with S as our weight. And now this creates a
 DGCA: the "rational differential forms" on our simplicial set S.
 
@@ -814,7 +814,7 @@ should say "coglue", because of that "op".
 While we're playing these games, I should point out a simpler version.
 We also have a functor
 
-F"\colon \Delta \to \[commutative algebras\]^op^
+F"\colon \Delta \to \[commutative algebras\]^\mathrm{op}
 
 and we can pull the same stunt to turn our simplicial set into a
 commutative algebra, which is the algebra of functions that restrict to
@@ -822,7 +822,7 @@ polynomials with rational coefficients on each simplex!
 
 But in this case, there's a super-famous name for the category
 
-\[commutative algebras\]^op^
+\[commutative algebras\]^\mathrm{op}
 
 It's called the category of "affine schemes". And so we can think of
 this stunt more geometrically as the process of taking an affine scheme
@@ -833,7 +833,7 @@ realization" with affine schemes replacing topological spacs.
 This leads up to a question for the experts. Is there a famous name for
 the category
 
-\[DGCAs\]^op^ ?
+\[DGCAs\]^\mathrm{op} ?
 
 It's *related* to the category of "simplicial affine schemes", no?
 But it's not quite the same. Can we think of this category as

@@ -132,7 +132,7 @@ ones!
 There are, alas, some deficiencies in the semistrict world, which Steve
 Lack has recently noted:
 
-2) Steve Lack, "$\mathsf{Bicat}$ is not triequivalent to $\mathsf{Gray}$", available as [math.CT/0612299](https://arxiv.org/abs/math.CT/0612299).
+2) Steve Lack, "$\mathsf{Bicat}$ is not triequivalent to $\mathsf{Gray}$", available as [`math.CT/0612299`](https://arxiv.org/abs/math.CT/0612299).
 
 To understand this, you may need a little warmup. Given strict
 $2$-categories $\mathcal{B}$ and $\mathcal{C}$ there's a strict $2$-category $\operatorname{Hom}(\mathcal{B},\mathcal{C})$ such that

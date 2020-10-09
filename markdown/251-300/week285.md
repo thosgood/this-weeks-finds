@@ -356,7 +356,7 @@ the set of isomorphism classes of vector bundles. Then take formal
 linear combinations of these to get an abelian group, and then impose
 the equivalence relation
 
-\[M \oplus  N\] = \[M\] + \[N\]
+\[M \oplus N\] = \[M\] + \[N\]
 
 The result is an abelian group K(X) called the "K-theory" of X. And in
 fact it's a ring, since we can also take tensor products of vector

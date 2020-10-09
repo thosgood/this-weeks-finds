@@ -322,13 +322,13 @@ power supply, since he'd blown out his previous one.
 
 Anyway, he and Döring have just come out with a series of papers:
 
-14) Andreas Döring and Christopher Isham, "A topos foundation for theories of physics: I. Formal languages for physics", available as [`arXiv:quant-ph/0703060`](https://arxiv.org/abs/quant-ph/0703060).
+14) Andreas Döring and Christopher Isham, "A topos foundation for theories of physics: I. Formal languages for physics", available as [`quant-ph/0703060`](https://arxiv.org/abs/quant-ph/0703060).
 
-    "II. Daseinisation and the liberation of quantum theory", available as [`arXiv:quant-ph/0703062`](https://arxiv.org/abs/quant-ph/0703062).
+    "II. Daseinisation and the liberation of quantum theory", available as [`quant-ph/0703062`](https://arxiv.org/abs/quant-ph/0703062).
 
-    "III. The representation of physical quantities with arrows", available as [`arXiv:quant-ph/0703064`](https://arxiv.org/abs/quant-ph/0703064).
+    "III. The representation of physical quantities with arrows", available as [`quant-ph/0703064`](https://arxiv.org/abs/quant-ph/0703064).
 
-    "IV. Categories of systems", available as [`arXiv:quant-ph/0703066`](https://arxiv.org/abs/quant-ph/0703066).
+    "IV. Categories of systems", available as [`quant-ph/0703066`](https://arxiv.org/abs/quant-ph/0703066).
 
 Though they probably don't think of it this way, you can think of their
 work as making precise Bohr's ideas on seeing the quantum world through

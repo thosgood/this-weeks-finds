@@ -306,12 +306,12 @@ papers:
 
 13) Akimasa Miyake and Miki Wadati, Multipartite entanglement and
 hyperdeterminants, Quant. Info. Comp. 2 (2002), 540-555. Also available
-as [`arXiv:quant-ph/0212146`](http://arxiv.org/abs/quant-ph/0212146).
+as [`quant-ph/0212146`](http://arxiv.org/abs/quant-ph/0212146).
 
 14) Michael J. Duff and S. Ferrara, \mathrm{E}_7 and the tripartite
 entanglement of seven qubits, Phys. Rev. D 76 025018 (2007). Also
 available as
-[`arXiv:quant-ph/0609227`](http://arxiv.org/abs/quant-ph/0609227).
+[`quant-ph/0609227`](http://arxiv.org/abs/quant-ph/0609227).
 
 15) Michael J. Duff and S. Ferrara, \mathrm{E}_6 and the bipartite entanglement
 of qutrits, Phys. Rev. D 76 124023 (2007). Also available as
@@ -451,7 +451,7 @@ Lvay, who has allowed me to quote it here:
 >
 > 19) Pter Lvay, The twistor geometry of three-qubit entanglement,
 > available as
-> [`arXiv:quant-ph/0403060`](http://arxiv.org/abs/quant-ph/0403060).
+> [`quant-ph/0403060`](http://arxiv.org/abs/quant-ph/0403060).
 >
 > on the "Cayley" hyperdeterminant, twistors and three qubit
 > entanglement was the one that motivated originally Duff's work (as he
@@ -459,7 +459,7 @@ Lvay, who has allowed me to quote it here:
 > the four qubit case (hyperdeterminant):
 >
 > 20) Pter Lvay, On the geometry of four qubit invariants, available as
-> [`arXiv:quant-ph/0605151`](http://arxiv.org/abs/quant-ph/0605151).
+> [`quant-ph/0605151`](http://arxiv.org/abs/quant-ph/0605151).
 >
 > After Duff's and Kallosh and Linde's paper I have shown that the
 > black hole qubit analogy also works for issues concerning DYNAMICS. I

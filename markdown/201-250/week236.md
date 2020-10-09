@@ -756,7 +756,7 @@ quantum mechanics! For that, we'd need a generalization of finite sets
 whose cardinality can be be complex. And that's what my student Jeffrey
 Morton introduces here:
 
-26) Jeffrey Morton, "Categorified algebra and quantum mechanics", _Theory and Application of Categories_ **16** (2006), 785--854. Available at `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also available as [math.QA/0601458](http://arxiv.org/abs/math.QA/0601458).
+26) Jeffrey Morton, "Categorified algebra and quantum mechanics", _Theory and Application of Categories_ **16** (2006), 785--854. Available at `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html`; also available as [`math.QA/0601458`](http://arxiv.org/abs/math.QA/0601458).
 
 He starts from the beginning, explains how and why one would try to
 categorify the harmonic oscillator, introduces the "$\mathrm{U}(1)$-sets" and

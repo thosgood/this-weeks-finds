@@ -474,7 +474,7 @@ to address that question here:
 
 14) Victor Kac and Alexi Rudakov, "Representations of the exceptional Lie superalgebra $\mathrm{E}(3,6)$: I. Degeneracy conditions". Available as [`math-ph/0012049`](http://arxiv.org/abs/math-ph/0012049).
 
-    "Representations of the exceptional Lie superalgebra $\mathrm{E}(3,6)$: II. Four series of degenerate modules". Available as [math-ph/0012050](http://arxiv.org/abs/math-ph/0012050).
+    "Representations of the exceptional Lie superalgebra $\mathrm{E}(3,6)$: II. Four series of degenerate modules". Available as [`math-ph/0012050`](http://arxiv.org/abs/math-ph/0012050).
 
     "Representations of the exceptional Lie superalgebra $\mathrm{E}(3,6)$ III: Classification of singular vectors". Available as [`math-ph/0310045`](http://arxiv.org/abs/math-ph/0310045).
 
@@ -504,7 +504,7 @@ instead. This also contains
 $$\mathfrak{sl}(3,\mathbb{C}) \oplus \mathfrak{sl}(2,\mathbb{C}) \oplus \mathfrak{gl}(1,\mathbb{C})$$
 in a canonical way.
 
-19) Thomas A. Larsson, "Symmetries of everything", available as [math.RT/0202193](http://arxiv.org/abs/math-ph/0103013).
+19) Thomas A. Larsson, "Symmetries of everything", available as [`math.RT/0202193`](http://arxiv.org/abs/math-ph/0103013).
 
     "Exceptional Lie superalgebras, invariant morphisms, and a second-gauged Standard Model", available as [`math-ph/020202`](http://arxiv.org/abs/math-ph/020202).
 

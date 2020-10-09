@@ -247,7 +247,7 @@ papers:
 The Mathematics of Quantum Computation and Technology, eds. Chen,
 Kauffman and Lomonaco, Chapman and Hall/CRC, New York, pp. 559-596. Also
 available as
-[`arXiv:quant-ph/0608035`](http://arXiv.org/abs/quant-ph/0608035).
+[`quant-ph/0608035`](http://arXiv.org/abs/quant-ph/0608035).
 
 4) Jamie Vicary, Categorical formulation of quantum algebras, available
 as [`arXiv:0805.0432`](http://arXiv.org/abs/0805.0432).
@@ -777,7 +777,7 @@ The idea is that A is a lot like O, since we get elements of the free
 O-algebra on one generator by hitting that generator with operations in
 O. More precisely, we have
 
-A = \oplus  O_n/S_n
+A = \oplus O_n/S_n
 
 Here O_n is the space of $n$-ary operations in O, which is acted on by
 the permutation group S_n. So, we can draw an element of A like this:
@@ -854,7 +854,7 @@ I've told you that the free pre-Lie algebra on one generator has a
 basis given by rooted trees. And I've told you a general fact: the free
 O-algebra on one generator is
 
-\oplus  O_n/S_n
+\oplus O_n/S_n
 
 So, taking O = PL, it should come as no surprise that PL_n, the space
 of $n$-ary operations in PL, has a basis given by rooted trees with n

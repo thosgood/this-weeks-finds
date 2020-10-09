@@ -166,7 +166,7 @@ nitrogen-vacancy centers. People are busy studying the options:
 
 13) Ph. Tamarat et al, "The excited state structure of the nitrogen-vacancy center in diamond", available as [`arXiv:cond-mat/0610357`](http://arxiv.org/abs/cond-mat/0610357).
 
-14) R. Hanson, O. Gywat and D. D. Awschalom, "Room-temperature manipulation and decoherence of a single spin in diamond", _Phys. Rev._ **B74** (2006) 161203. Also available as [`arXiv:quant-ph/0608233`](http://arxiv.org/abs/quant-ph/0608233)
+14) R. Hanson, O. Gywat and D. D. Awschalom, "Room-temperature manipulation and decoherence of a single spin in diamond", _Phys. Rev._ **B74** (2006) 161203. Also available as [`quant-ph/0608233`](http://arxiv.org/abs/quant-ph/0608233)
 
 But regardless of whether anyone can coax them into quantum computation,
 I like diamonds. Not to own --- just to contemplate! I told you about the
@@ -305,13 +305,13 @@ $\mathrm{SO}(8)$, so the Lie algebra of Killing vectors is $\mathfrak{so}(8)$. T
 8-dimensional space of Killing spinors, and the action of $\mathfrak{so}(8)$ on this
 gives the real left-handed spinor representation $S_8^+$. The Jacobi
 identity holds, and you get a Lie algebra structure on
-$$\mathfrak{so}(8) \oplus  S_8^+$$
+$$\mathfrak{so}(8) \oplus S_8^+$$
 But then, thanks to triality, you knock yourself on the head and say "I
 could have had a $V_8$!" After all, up to an outer automorphism of
 $\mathfrak{so}(8)$, the spinor representation $S_8^+$ is the same as the
 $8$-dimensional vector representation $V_8$. So, your Lie algebra is the
 same as
-$$\mathfrak{so}(8) \oplus  V_8$$
+$$\mathfrak{so}(8) \oplus V_8$$
 with a certain obvious Lie algebra structure. This is just $\mathfrak{so}(9)$. So,
 it's nothing exceptional, though you arrived at it by a devious route.
 
@@ -320,7 +320,7 @@ vector fields is $\mathfrak{so}(9)$. Now there's a $16$-dimensional space of Kil
 spinor fields, and the action of $\mathfrak{so}(9)$ on this gives the real
 (non-chiral) spinor representation $S_9$. The Jacobi identity holds, and
 you get a Lie algebra structure on
-$$\mathfrak{so}(9) \oplus  S_9$$
+$$\mathfrak{so}(9) \oplus S_9$$
 This gives the exceptional Lie algebra $\mathfrak{f}_4$!
 
 Finally, if you take $S^{15}$ with its usual round metric, the Lie algebra
@@ -328,7 +328,7 @@ of Killing vector fields is $\mathfrak{so}(16)$. Now there's a $128$-dimensional
 of Killing spinor fields, and the action of $\mathfrak{so}(16)$ on this gives the
 left-handed real spinor representation $S_{16}^+$. The Jacobi identity
 holds, and you get a Lie algebra structure on
-$$\mathfrak{so}(16) \oplus  S_{16}^+$$
+$$\mathfrak{so}(16) \oplus S_{16}^+$$
 This gives the exceptional Lie algebra $\mathfrak{e}_8$!
 
 In short, what Figueroa-O'Farrill has done is found a nice geometrical
@@ -347,9 +347,9 @@ $\mathfrak{f}_4$ somehow.
 
 I also wonder if there's a Killing superalgebra interpretation of the
 Lie algebra constructions
-$$\mathfrak{e}_6 = \mathfrak{so}(10) \oplus  S_{10} \oplus  \mathfrak{u}(1)$$
+$$\mathfrak{e}_6 = \mathfrak{so}(10) \oplus S_{10} \oplus \mathfrak{u}(1)$$
 and
-$$\mathfrak{e}_7 = \mathfrak{so}(12) \oplus  S_{12}^+ \oplus  \mathfrak{su}(2)$$
+$$\mathfrak{e}_7 = \mathfrak{so}(12) \oplus S_{12}^+ \oplus \mathfrak{su}(2)$$
 These would need to be trickier, with the $\mathfrak{u}(1)$ showing up from the fact
 that $S_{10}$ is a complex representation, and the $\mathfrak{su}(2)$ showing up from
 the fact that $S_{12}^+$ is a quaternionic representation. The algebra is

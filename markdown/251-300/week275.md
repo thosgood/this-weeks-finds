@@ -166,13 +166,13 @@ symmetric monoidal bicategory where:
 A profunctor is a categorified version of a matrix. More precisely, a
 profunctor from C to D is a functor
 
-F\colon C \times D^op^ \to \mathsf{Set}
+F\colon C \times D^\mathrm{op} \to \mathsf{Set}
 
 so it's like a matrix of sets. A span of groupoids where the legs are
 fibrations is also a categorified version of a matrix, since by a
 theorem of Grothendieck we can reinterpret it as a weak 2-functor
 
-F\colon C \times D^op^ \to Gpd
+F\colon C \times D^\mathrm{op} \to Gpd
 
 where now C and D are groupoids. So, both these students are studying
 aspects of "categorified matrix mechanics"... and we need symmetric

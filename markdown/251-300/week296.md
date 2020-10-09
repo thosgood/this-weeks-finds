@@ -305,14 +305,14 @@ like this:
 
           |  |          
         --------        
-       |   Q†   |       
+       |   Q$\dagger$   |       
         --------        
             |             
 
-to obtain a new circuit Q^†^\colon W \to V. Mathematically this operation is
+to obtain a new circuit Q^$\dagger$^\colon W \to V. Mathematically this operation is
 defined as follows:
 
-Q^†^(v,w) = Q(w,v)
+Q^$\dagger$^(v,w) = Q(w,v)
 
 A category with duals for morphisms is usually called a
 "dagger-category". It's easy to check that our category is one of
@@ -386,7 +386,7 @@ categories. Here are the fundamental references:
 protocols, in Proceedings of the 19th IEEE conference on Logic in
 Computer Science (LICS04), IEEE Computer Science Press (2004). Also
 available at
-[`arXiv:quant-ph/0402130`](http://arXiv.org/abs/quant-ph/0402130).
+[`quant-ph/0402130`](http://arXiv.org/abs/quant-ph/0402130).
 
 9) Peter Selinger, Dagger compact closed categories and completely
 positive maps, in Proceedings of the 3rd International Workshop on

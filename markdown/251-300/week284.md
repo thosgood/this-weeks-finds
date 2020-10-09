@@ -159,7 +159,7 @@ equivalent, roughly this:
 > generate an abelian group with relations saying that direct sums
 > should act like sums:
 >
-> \[M \oplus  N\] = \[M\] + \[N\]
+> \[M \oplus N\] = \[M\] + \[N\]
 >
 > This gives a certain "integral form" of the positive part of the
 > quantum group. If we tensor this with the complex numbers, we get the

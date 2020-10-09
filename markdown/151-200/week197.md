@@ -528,7 +528,7 @@ For how elliptic cohomology is related to $2$-vector spaces, read this:
 
 4) Nils A. Baas, Bjorn Ian Dundas and John Rognes, Two-vector bundles
 and forms of elliptic cohomology, available as
-[math.AT/0306027](http://www.arXiv.org/abs/math.AT/0306027).
+[`math.AT/0306027`](http://www.arXiv.org/abs/math.AT/0306027).
 
 I'll quote the abstract because it will be enlightening to a few of
 you:
