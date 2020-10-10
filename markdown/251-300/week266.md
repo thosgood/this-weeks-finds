@@ -580,7 +580,7 @@ Aurora del Río spoke on fundamental $2$-groups and their application to
 K-theory. Whenever we have a fibration of pointed spaces
 $$F \to E \to B$$
 we get a long exact sequence of homotopy groups
-$$\ldots \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi _{n-1}(F) \to \ldots$$
+$$\ldots \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi_{n-1}(F) \to \ldots$$
 This is a standard tool in algebraic topology; I sketched how it works
 in ["Week 151"](#week151).
 

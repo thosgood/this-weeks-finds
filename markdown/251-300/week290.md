@@ -624,7 +624,7 @@ finite simple groups. Anyway, here we go:
 
 -   How many feet are in 1.5 miles?
 
-    7,920, which is the order of the finite simple group M~11~ - the
+    7,920, which is the order of the finite simple group M_{11} - the
     smallest of the finite simple groups called [Mathieu
     groups](http://en.wikipedia.org/wiki/Mathieu_group). See
     ["Week 234"](#week234) for more about this.
@@ -638,7 +638,7 @@ finite simple groups. Anyway, here we go:
 
 -   How many inches are in 1.5 miles?
 
-    95,040, which is the order of the finite simple group M~12~ - the
+    95,040, which is the order of the finite simple group M_{12} - the
     second smallest of the Mathieu groups. See
     ["Week 234"](#week234) for more about this one, too.
 
@@ -658,7 +658,7 @@ finite simple groups. Anyway, here we go:
 
 -   How many seconds are in 3 weeks?
 
-    1,814,400, which is the order of the finite simple group A~10~.
+    1,814,400, which is the order of the finite simple group A_{10}.
 
 If you like this sort of stuff, you might enjoy this essay:
 

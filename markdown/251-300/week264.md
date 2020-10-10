@@ -119,17 +119,17 @@ $$
   \\\pi_2(S^2) &= \mathbb{Z}
   \\\pi_3(S^2) &= \mathbb{Z}
   \\\pi_4(S^2) &= \mathbb{Z}/2
-  \\\pi _5(S^2) &= \mathbb{Z}/2
-  \\\pi _6(S^2) &= \mathbb{Z}/4 \times \mathbb{Z}/3
-  \\\pi _7(S^2) &= \mathbb{Z}/2
-  \\\pi _8(S^2) &= \mathbb{Z}/2
-  \\\pi ~9~(S^2) &= \mathbb{Z}/3
-  \\\pi ~10~(S^2) &= \mathbb{Z}/3 \times \mathbb{Z}/5
-  \\\pi ~11~(S^2) &= \mathbb{Z}/2
-  \\\pi ~12~(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2
-  \\\pi ~13~(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2 \times \mathbb{Z}/3
-  \\\pi ~14~(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2 \times \mathbb{Z}/4 \times \mathbb{Z}/3 \times \mathbb{Z}/7
-  \\\pi ~15~(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2
+  \\\pi_5(S^2) &= \mathbb{Z}/2
+  \\\pi_6(S^2) &= \mathbb{Z}/4 \times \mathbb{Z}/3
+  \\\pi_7(S^2) &= \mathbb{Z}/2
+  \\\pi_8(S^2) &= \mathbb{Z}/2
+  \\\pi_9(S^2) &= \mathbb{Z}/3
+  \\\pi_{10}(S^2) &= \mathbb{Z}/3 \times \mathbb{Z}/5
+  \\\pi_{11}(S^2) &= \mathbb{Z}/2
+  \\\pi_{12}(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2
+  \\\pi_{13}(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2 \times \mathbb{Z}/3
+  \\\pi_{14}(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2 \times \mathbb{Z}/4 \times \mathbb{Z}/3 \times \mathbb{Z}/7
+  \\\pi_{15}(S^2) &= \mathbb{Z}/2 \times \mathbb{Z}/2
   \end{aligned}
 $$
 Apart from the fact that they're all abelian groups, all finite except
@@ -380,7 +380,7 @@ $S^2$ as base space and $S^1$ as fiber:
 $$S^1 \to S^3 \to S^2$$
 Like any fiber bundle, it gives a long exact sequence of homotopy groups
 as explained in ["Week 151"](#week151):
-$$\ldots \to \pi_n(S^1) \to \pi_n(S^3) \to \pi_n(S^2) \to \pi _{n-1}(S^1) \to \ldots$$
+$$\ldots \to \pi_n(S^1) \to \pi_n(S^3) \to \pi_n(S^2) \to \pi_{n-1}(S^1) \to \ldots$$
 but the homotopy groups of $S^1$ vanishes after the first, so we get
 $$\ldots \to 0 \to \pi_n(S^3) \to \pi_n(S^2) \to 0 \to \ldots$$
 for $n > 2$, which says that

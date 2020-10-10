@@ -1,18 +1,14 @@
 # November 28, 2008 {#week272}
 
 Today I want to talk about the Enceladus plumes, the Io flux tube,
-special properties of the number 6 - and the wonders of standard Borel
+special properties of the number 6 --- and the wonders of standard Borel
 spaces, commutative von Neumann algebras and Polish groups.
 
 Let's start by leaving the fire and brimstone of Io. Let's sail out to
 the icy splendor of Saturn's moon Enceladus, and gaze at its geysers:
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_geysers.jpg}$$
 
-::: {align="center"}
-![](enceladus_geysers.jpg)
-:::
-
-1) NASA Photojournal, Jet blue,
-`http://photojournal.jpl.nasa.gov/catalog/PIA08386`
+1) NASA Photojournal, "Jet blue", `http://photojournal.jpl.nasa.gov/catalog/PIA08386`
 
 We've seen Enceladus once before, in ["Week 231"](#week231). I
 showed you a photo of the icy geysers near its south pole, taken by the
@@ -26,13 +22,9 @@ better look at large cracks on the icy surface of Enceladus. They're
 called "tiger stripes", and this where the geysers are. On August
 11th, the Cassini probe shot past Enceladus at a distance of just 50
 kilometers. It took some wonderful photos as it approached:
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_tiger_stripes.jpg}$$
 
-::: {align="center"}
-![](enceladus_tiger_stripes.jpg)
-:::
-
-2) NASA Photojournal, Great southern land,
-`http://photojournal.jpl.nasa.gov/catalog/PIA11112`
+2) NASA Photojournal, "Great southern land", `http://photojournal.jpl.nasa.gov/catalog/PIA11112`
 
 Here you see the four main tiger stripes on Enceladus. They're the big
 greenish cracks near the south pole, running from left to right. For
@@ -40,35 +32,27 @@ some reason these tiger stripes are named after cities mentioned in that
 wonderful book of tales called One Thousand and One Nights. From top to
 bottom: Damascus Sulcus, Baghdad Sulcus, Cairo Sulcus and Alexandria
 Sulcus. "Sulcus" is Latin for a depression or fissure. It's often
-used as a medical term, especially for features of the brain - but on
+used as a medical term, especially for features of the brain --- but on
 Enceladus it just means "tiger stripe".
 
 These tiger stripes are about 2 kilometers wide and 500 meters deep.
 They're flanked by ridges that are about 2-4 kilometers wide and 100
 meters tall. The Damascus and Baghdad Sulci are the most active ones, as
 far as geysers go:
-
-::: {align="center"}
-![](enceladus_baghdad_damascus.jpg)
-:::
-
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_baghdad_damascus.jpg}$$
 Alexandria Sulcus is the least active.
 
 The white stuff in this false-color image is fine-grained ice. The green
-stuff is bigger chunks of ice - even house-sized boulders. These bigger
+stuff is bigger chunks of ice --- even house-sized boulders. These bigger
 chunks are concentrated along valley floors and walls, and along the
 upraised flanks of the tiger stripes.
 
 At its closest approach, Cassini took much higher resolution photographs
 of the tiger stripes, like this closeup of the big fork in Damascus
 Sulcus:
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_damascus_sulcus.jpg}$$
 
-::: {align="center"}
-![](enceladus_damascus_sulcus.jpg){width="500"}
-:::
-
-3) NASA Photojournal, Damascus Sulcus on Enceladus,
-`http://photojournal.jpl.nasa.gov/catalog/PIA11113`
+3) NASA Photojournal, "Damascus Sulcus on Enceladus", `http://photojournal.jpl.nasa.gov/catalog/PIA11113`
 
 The hard part was compensating for the fact that the spacecraft was
 whizzing by the moon. The NASA team used a clever maneuver they called a
@@ -97,21 +81,16 @@ It worked amazingly well. They got some photos that could see features
 as small as 10 meters! It's great fun to read blogs of the scientists
 involved, and watch a video of the maneuver:
 
-4) NASA Blogs, Enceladus - Aug08,
-`http://blogs.nasa.gov/cm/blog/cassini-aug08/`
+4) NASA Blogs, "Enceladus --- Aug08", `http://blogs.nasa.gov/cm/blog/cassini-aug08/`
 
 During this flyby, an infrared spectrometer on the Cassini probe saw
 that the tiger stripes are significantly warmer than their surroundings.
 Here's a temperature map with approximate locations of active geysers.
 From left to right you can see Damascus Sulcus, Baghdad Sulcus, Cairo
 Sulcus and Alexandria Sulcus:
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_jet_spots.jpg}$$
 
-::: {align="center"}
-![](enceladus_jet_spots.jpg){width="400"}
-:::
-
-5) NASA Photojournal, Jet spots in tiger stripes,
-`http://photojournal.jpl.nasa.gov/catalog/PIA10361`
+5) NASA Photojournal, "Jet spots in tiger stripes", `http://photojournal.jpl.nasa.gov/catalog/PIA10361`
 
 Other instruments detected a plume of water vapor, ice, methane, carbon
 dioxide, nitrogen, and more complicated organic compounds. All this is
@@ -122,23 +101,19 @@ Triton, Europa, Titan, Ganymede and Miranda.
 
 Cassini made two more flybys in October, and another in November:
 
-6) NASA Blogs, Enceladus, `http://blogs.nasa.gov/cm/blog/enceladus`
+6) NASA Blogs, "Enceladus", `http://blogs.nasa.gov/cm/blog/enceladus`
 
 And just this week, Candice Hansen and her coauthors came out with a new
 paper about the geysers of Enceladus:
 
-7) C. J. Hansen, L. W. Esposito, A. I. F. Stewart, B. Meinke, B.
-Wallis, J. E. Colwell, A. R. Hendrix, K. Larsen, W. Pryor and F. Tian,
-Water vapour jets inside the plume of gas leaving Enceladus, Nature 456
-(27 November 2008), 477-479.
+7) C. J. Hansen, L. W. Esposito, A. I. F. Stewart, B. Meinke, B. Wallis, J. E. Colwell, A. R. Hendrix, K. Larsen, W. Pryor and F. Tian, "Water vapour jets inside the plume of gas leaving Enceladus", _Nature_ **456** (27 November 2008), 477--479.
 
-8) NASA, Enceladus Jets: Are They Wet or Just Wild?,
-`http://www.nasa.gov/mission_pages/cassini/whycassini/cassinif-20081126.html`
+8) NASA, "Enceladus Jets: Are They Wet or Just Wild?", `http://www.nasa.gov/mission_pages/cassini/whycassini/cassinif-20081126.html`
 
 They analyzed data from the ultraviolet spectrometer on Cassini and saw
 four separate jets of water blocking out the light of distant stars.
 With further clever reasoning they estimated the velocity of these jets.
-They seem to be moving at supersonic speeds - up to 2000 kilometers per
+They seem to be moving at supersonic speeds --- up to 2000 kilometers per
 hour.
 
 Then, they argue that such high speeds are only possible if there's
@@ -153,16 +128,13 @@ structures that trap gas molecules inside. There are about 6 trillion
 tons of gas clathrates on the ocean floors here on Earth. Maybe they're
 also on Enceladus:
 
-9) Susan W. Kieffer, Xinli Lu, Craig M. Bethke, John R. Spencer,
-Stephen Marshak, Alexandra Navrotsky, A clathrate reservoir hypothesis
-for Enceladus' south polar plume, Science 314 (15 December 2006),
-1764-1766.
+9) Susan W. Kieffer, Xinli Lu, Craig M. Bethke, John R. Spencer, Stephen Marshak, Alexandra Navrotsky, "A clathrate reservoir hypothesis for Enceladus' south polar plume", _Science_ **314** (15 December 2006), 1764--1766.
 
 Only time will tell.
 
 What's not controversial is that the geysers of Enceladus shoot out
-plumes of stuff - mainly water vapor and ice, but also other gases and
-dust - at speeds exceeding escape velocity. Enceladus is small: just 500
+plumes of stuff --- mainly water vapor and ice, but also other gases and
+dust --- at speeds exceeding escape velocity. Enceladus is small: just 500
 kilometers across. So its gravity is weak; its escape velocity is low.
 So it's easy for geysers to blast stuff straight out into space.
 
@@ -170,14 +142,10 @@ And then what? Then it spreads out and form a huge ring around Saturn:
 the "E ring". The E ring is much more diffuse than the really famous
 rings of Saturn. It's much further out, and usually almost invisible.
 But here's a great photo of the E ring, again taken by the hero of this
-story - the Cassini probe:
+story --- the Cassini probe:
+$$\includegraphics[max width=0.65\linewidth]{../images/enceladus_e_ring.jpg}$$
 
-::: {align="center"}
-![](enceladus_e_ring.jpg){width="500"}
-:::
-
-10) NASA Photojournal, Ghostly fingers of Enceladus,
-`http://photojournal.jpl.nasa.gov/catalog/PIA08321`
+10) NASA Photojournal, "Ghostly fingers of Enceladus", `http://photojournal.jpl.nasa.gov/catalog/PIA08321`
 
 The trick was to take the shot with the sun almost directly behind the
 camera. Unexpected wispy patterns may hint at interactions between the
@@ -193,8 +161,7 @@ are funnelled down something called the "Io flux tube" to Jupiter's
 surface, where they create light shows 1000 times brighter than the
 aurora borealis here on earth! You can see pictures here:
 
-11) Astronomy Picture of the Day, Jovian aurora,
-`http://apod.nasa.gov/apod/ap980123.html`
+11) Astronomy Picture of the Day, "Jovian aurora", `http://apod.nasa.gov/apod/ap980123.html`
 
 Next: some exceptional properties of the number 6.
 
@@ -202,40 +169,36 @@ Every set has a group of symmetries, but so does every group. The
 symmetries of a group are called "automorphisms" of the group. Every
 symmetry of a set gives a symmetry of its group of its symmetries,
 called an "inner automorphism". But of all finite sets, only the
-six-element set has a symmetry group with an EXTRA symmetry - a symmetry
+six-element set has a symmetry group with an **extra** symmetry --- a symmetry
 that doesn't come from a symmetry of that set! This is called an
 "outer automorphism".
 
-In more jargonesque terms: of all the permutation groups S_n, only S_6
+In more jargonesque terms: of all the permutation groups $S_n$, only $S_6$
 has an outer automorphism. It has just one, and I described it here:
 
-12) John Baez, Some thoughts on the number six,
-`http://math.ucr.edu/home/baez/six.html`
+12) John Baez, "Some thoughts on the number six", `http://math.ucr.edu/home/baez/six.html`
 
 Recently my friend Bruce Westbury told me some more cool facts about the
 number 6. One of these is another nice description of the outer
-automorphism of S_6. He heard this from the group theorist Brian
+automorphism of $S_6$. He heard this from the group theorist Brian
 Bowditch, who heard it from Chris Penrose (Roger's son). I haven't
 checked it! I'll just pass it on, as gossip, and let you see if it's
 true.
 
 It goes like this. Start with the icosahedron, drawn as a graph on the
 sphere, and identify oposite points. This gives a graph on the
-projective plane. This graph is called K_6: the "complete graph on 6
+projective plane. This graph is called $K_6$: the "complete graph on 6
 vertices". In other words, it's the graph with 6 vertices, each one
 connected to every other one by a single edge. The faces of this graph
-are triangles. Apparently there are twelve embeddings of K_6 in the
+are triangles. Apparently there are twelve embeddings of $K_6$ in the
 projective plane and they come in six pairs. Each permutation of the six
-vertices of K_6 induces a permutation of these six pairs. This process
-gives an automorphism of S_6. And apparently this is the outer
+vertices of $K_6$ induces a permutation of these six pairs. This process
+gives an automorphism of $S_6$. And apparently this is the outer
 automorphism!
 
 Westbury later pointed out this related paper:
 
-13) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, A description
-of the outer automorphism of S_6, and the invariants of six points in
-projective space, available as
-[`arXiv:0710.5916`](http://arxiv.org/abs/0710.5916).
+13) Ben Howard, John Millson, Andrew Snowden, Ravi Vakil, "A description of the outer automorphism of $S_6$", and the invariants of six points in projective space, available as [`arXiv:0710.5916`](http://arxiv.org/abs/0710.5916).
 
 I haven't checked to see if the results here imply the claim above.
 
@@ -249,43 +212,40 @@ One cool fact is that this probability is never zero. Every finite
 simple group can be generated by two elements! So, they're all
 quotients of the free group on two generators.
 
-Another cool fact is that this probability tends to 1 as the order of
+Another cool fact is that this probability tends to $1$ as the order of
 the group tends to infinity:
 
-14) M. Liebeck and A. Shalev, The probability of generating a finite
-simple group, Geometrica Dedicata 56 (1995), 103-111.
+14) M. Liebeck and A. Shalev, "The probability of generating a finite simple group", _Geometrica Dedicata_ **56** (1995), 103--111.
 
 This implies that this probability attains a *mininum value* for some
-finite simple group. For A_6 - the group of even permutations of a
-6-element set - the probability is 53/90. Holt's conjecture is that
+finite simple group. For $A_6$ --- the group of even permutations of a
+$6$-element set --- the probability is $53/90$. Holt's conjecture is that
 this is the minimum among all finite simple groups.
 
 Here are the probabilities for a few finite simple groups, listed in
 order of increasing size:
 
-A_2                                       1                           =
-1.000
+|    |    |    |
+| :- | :- | :- |
+| $A_2$ | $1$ | $=1.000$ |
+| $A_3$ | $\frac89$ | $\sim .889$ |
+| $\mathrm{PSL}(2,3) \cong A_4$ | $\frac23$ | $\sim .667$ |
 
-A_3                                       8/9                       \~
-.889
+\mathrm{PSL}(2,4) \cong \mathrm{PSL}(2,5) \cong A_5   19/30                   \sim .633
 
-\mathrm{PSL}(2,3) \cong A_4                     2/3                       \~ .667
+\mathrm{PSL}(2,7) \cong \mathrm{PSL}(3,2)           19/28                   \sim .679
 
-\mathrm{PSL}(2,4) \cong \mathrm{PSL}(2,5) \cong A_5   19/30                   \~ .633
+\mathrm{PSL}(2,8)                             71/84                   \sim .845
 
-\mathrm{PSL}(2,7) \cong \mathrm{PSL}(3,2)           19/28                   \~ .679
+\mathrm{PSL}(2,9) \cong A_6                     53/90                   \sim .589
 
-\mathrm{PSL}(2,8)                             71/84                   \~ .845
+\mathrm{PSL}(2,11)                           127/165               \sim .770
 
-\mathrm{PSL}(2,9) \cong A_6                     53/90                   \~ .589
+A_7                                       229/315               \sim .727
 
-\mathrm{PSL}(2,11)                           127/165               \~ .770
+\mathrm{PSL}(4,2) \cong A_8                     133/180               \sim .739
 
-A_7                                       229/315               \~ .727
-
-\mathrm{PSL}(4,2) \cong A_8                     133/180               \~ .739
-
-A~9~                                       15403/18144       \~ .849
+A_9                                       15403/18144       \sim .849
 
 Here A_n is the group of even permutations of an $n$-element set, while
 \mathrm{PSL}(n,q) is the group of n \times n matrices with determinant $1$ having
@@ -295,7 +255,7 @@ this one just because I wanted to list *all* the unexpected isomorphisms
 between "alternating" groups (A_n's) and "projective special
 linear" groups (PSL's).
 
-(Each of these isomorphisms makes a wonderful story in itself - but not
+(Each of these isomorphisms makes a wonderful story in itself --- but not
 for today! If you want to know these stories, try the first of Conway's
 "Three Lectures on Exceptional Groups" from his book with Sloane on
 Sphere Packings, Lattices and Groups. Also try
@@ -389,7 +349,7 @@ That's pretty amazing. It means that standard Borel spaces are
 classified by just their *cardinality*, which can only be finite,
 countably infinite, or the cardinality of the continuum. The "continuum
 hypothesis" says there's no cardinality between the countably infinite
-one and the cardinality of the continuum - but we don't need the
+one and the cardinality of the continuum --- but we don't need the
 continuum hypothesis to prove this result.
 
 This amazing result has a nice relative in the world of von Neumann
@@ -402,7 +362,7 @@ agree except on a set of measure zero.
 
 L^\infty(X) is an algebra where we multiply functions pointwise. We can
 think of it as an algebra of multiplication operators on L^2(X). In
-fact, it forms a "von Neumann algebra" - a kind of algebra that's
+fact, it forms a "von Neumann algebra" --- a kind of algebra that's
 great for quantum theory. I defined von Neumann algebras back in
 ["Week 175"](#week175), so I won't do it again here.
 
@@ -436,7 +396,7 @@ It's a bit slippery, you see. Not every standard Borel group comes from
 a Polish group. But the counterexamples seem to be horrid. And more
 importantly, every measurable homomorphism between Polish groups is
 automatically continuous! So there must be some way to define Polish
-groups as standard Borel groups with an extra *property* - not extra
+groups as standard Borel groups with an extra *property* --- not extra
 structure.
 
 There are other similar results with the same flavor. For example,
@@ -449,7 +409,7 @@ its original measurable sets.)
 
 There are also interesting results saying that Polish spaces and Polish
 groups "aren't too big". Some of these theorems mention the "Hilbert
-cube" - that is, a countable product of copies of \[0,1\], with its
+cube" --- that is, a countable product of copies of \[0,1\], with its
 product topology. This space sounds big, but thanks to Tychonoff's
 theorem it's compact! It's also metrizable: that is, its topology
 comes from a metric. And it's separable: it has a countable dense
@@ -569,7 +529,7 @@ the group and got 2/3:
 >
 >     -Ted
 
-He later realized that the A~9~ calculation would take at least a
+He later realized that the A_9 calculation would take at least a
 century. Greg Egan wrote a Mathematica program based on a more efficient
 algorithm and got the answer in less than a day.
 
@@ -578,5 +538,7 @@ the [$n$-Category Café](http://golem.ph.utexas.edu/category/2008/11/this_weeks_
 
 ------------------------------------------------------------------------
 
-*The splitting into something discrete and something continuous seems to
-me to be a basic issue in all morphology.* - Hermann Weyl
+> *The splitting into something discrete and something continuous seems to
+me to be a basic issue in all morphology.*
+> 
+> --- Hermann Weyl
