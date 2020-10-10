@@ -230,30 +230,22 @@ order of increasing size:
 | $A_2$ | $1$ | $=1.000$ |
 | $A_3$ | $\frac89$ | $\sim .889$ |
 | $\mathrm{PSL}(2,3) \cong A_4$ | $\frac23$ | $\sim .667$ |
+| $\mathrm{PSL}(2,4) \cong \mathrm{PSL}(2,5) \cong A_5$ | $\frac{19}{30}$ | $\sim .633$ |
+| $\mathrm{PSL}(2,7) \cong \mathrm{PSL}(3,2)$ | $\frac{19}{28}$ | $\sim .679$ |
+| $\mathrm{PSL}(2,8)$ | $\frac{71}{84}$ | $\sim .845$ |
+| $\mathrm{PSL}(2,9) \cong A_6$ | $\frac{53}{90}$ | $\sim .589$ |
+| $\mathrm{PSL}(2,11)$ | $\frac{127}{165 }$| $\sim .770$ |
+| $A_7$ | $\frac{229}{315}$ | $\sim .727$ |
+| $\mathrm{PSL}(4,2) \cong A_8$ | $\frac{133}{180}$ | $\sim .739$ |
+| $A_9$ | $\frac{15403}{18144}$ | $\sim .849$ |
 
-\mathrm{PSL}(2,4) \cong \mathrm{PSL}(2,5) \cong A_5   19/30                   \sim .633
-
-\mathrm{PSL}(2,7) \cong \mathrm{PSL}(3,2)           19/28                   \sim .679
-
-\mathrm{PSL}(2,8)                             71/84                   \sim .845
-
-\mathrm{PSL}(2,9) \cong A_6                     53/90                   \sim .589
-
-\mathrm{PSL}(2,11)                           127/165               \sim .770
-
-A_7                                       229/315               \sim .727
-
-\mathrm{PSL}(4,2) \cong A_8                     133/180               \sim .739
-
-A_9                                       15403/18144       \sim .849
-
-Here A_n is the group of even permutations of an $n$-element set, while
-\mathrm{PSL}(n,q) is the group of n \times n matrices with determinant $1$ having
-entries in the field with q elements, mod multiples of the identity
-matrix. Of the groups listed above, only A_4 is not simple. I included
+Here $A_n$ is the group of even permutations of an $n$-element set, while
+$\mathrm{PSL}(n,q)$ is the group of $n \times n$ matrices with determinant $1$ having
+entries in the field with $q$ elements, mod multiples of the identity
+matrix. Of the groups listed above, only $A_4$ is not simple. I included
 this one just because I wanted to list *all* the unexpected isomorphisms
-between "alternating" groups (A_n's) and "projective special
-linear" groups (PSL's).
+between "alternating" groups ($A_n$'s) and "projective special
+linear" groups ($\mathrm{PSL}$'s).
 
 (Each of these isomorphisms makes a wonderful story in itself --- but not
 for today! If you want to know these stories, try the first of Conway's
@@ -263,12 +255,12 @@ Sphere Packings, Lattices and Groups. Also try
 Galois' fatal duel and the buckyball.)
 
 So, you see the number 6 has several special properties, all related to
-permutations of a 6-element set. What do these special properties really
+permutations of a $6$-element set. What do these special properties really
 mean? I don't know! They're just little clues waiting for a big
 mystery story to come along.
 
 Lately I've been finishing up a big paper on infinite-dimensional
-representations of 2-groups, which I'm writing along with my former
+representations of $2$-groups, which I'm writing along with my former
 student Derek Wise, the physicist Laurent Freidel, and his student
 Aristide Baratin. Derek and Aristide are doing all the really hard work,
 but I used to do functional analysis when I was a youngster, and
@@ -291,7 +283,7 @@ It's a kind of "measurable space", meaning a space equipped a
 collection of subsets that's closed under countable intersections,
 countable unions and complement. Such a collection is called a
 "sigma-algebra", and we call the sets in here "measurable". A
-"measure" on a measurable space assigns a number between 0 and +\infty to
+"measure" on a measurable space assigns a number between $0$ and $+\infty$ to
 each measurable set, in such a way that for any countable disjoint union
 of measurable sets, the measure of their union is the sum of their
 measures.
@@ -310,8 +302,7 @@ that assigns to each interval its usual length. This is called
 "Lebesgue measure".
 
 Some topological spaces are big and nasty. But
-[separable](http://en.wikipedia.org/wiki/Separable_space) [complete
-metric spaces](http://en.wikipedia.org/wiki/Complete_metric_space) are
+[separable](http://en.wikipedia.org/wiki/Separable_space) [complete metric spaces](http://en.wikipedia.org/wiki/Complete_metric_space) are
 not so bad.
 
 We don't care about the metric in this game. So, we use the term
@@ -332,18 +323,18 @@ classify standard Borel spaces! The reason is that metric spaces are
 like diamonds: you can't bend or stretch them at all without breaking
 them entirely. But topological spaces are like rubber... and measurable
 spaces are like dust. So, it's very hard for two metric spaces to be
-isomorphic, but it's easier for their underlying topological spaces -
+isomorphic, but it's easier for their underlying topological spaces ---
 and even easier for their underlying measurable spaces.
 
 For example, the line and plane are isomorphic, if we use their usual
 sigma-algebras of Borel sets to make them into measurable spaces! And
-the plane is isomorphic to R^n for every n, and all these are
+the plane is isomorphic to $\mathbb{R}^n$ for every $n$, and all these are
 isomorphic to a separable Hilbert space! As measurable spaces, that is.
 
 In fact, every standard Borel space is isomorphic to one of these:
 
--   a countable set with its sigma-algebra of all subsets,
--   the real line with its sigma-algebra of Borel subsets.
+- a countable set with its sigma-algebra of all subsets,
+- the real line with its sigma-algebra of Borel subsets.
 
 That's pretty amazing. It means that standard Borel spaces are
 classified by just their *cardinality*, which can only be finite,
@@ -355,28 +346,27 @@ continuum hypothesis to prove this result.
 This amazing result has a nice relative in the world of von Neumann
 algebras.
 
-Starting from a measure space X, we can form the Hilbert space L^2(X).
-We can also form L^\infty(X), the space of equivalence classes of bounded
-measurable complex functions on X, where we identify functions that
+Starting from a measure space $X$, we can form the Hilbert space $L^2(X)$.
+We can also form $L^\infty(X)$, the space of equivalence classes of bounded
+measurable complex functions on $X$, where we identify functions that
 agree except on a set of measure zero.
 
-L^\infty(X) is an algebra where we multiply functions pointwise. We can
-think of it as an algebra of multiplication operators on L^2(X). In
+$L^\infty(X)$ is an algebra where we multiply functions pointwise. We can
+think of it as an algebra of multiplication operators on $L^2(X)$. In
 fact, it forms a "von Neumann algebra" --- a kind of algebra that's
 great for quantum theory. I defined von Neumann algebras back in
 ["Week 175"](#week175), so I won't do it again here.
 
-L^\infty(X) is a very special sort of von Neumann algebra, namely a
+$L^\infty(X)$ is a very special sort of von Neumann algebra, namely a
 *commutative* one. There's a nice theorem: every commutative von
 Neumann algebra is isomorphic (as an abstract $C^*$-algebra) to one of
 this form. Even better, every commutative von Neumann algebra of
-operators on a *separable* Hilbert space is isomorphic to L^\infty(X) for
-one of these choices of X:
+operators on a *separable* Hilbert space is isomorphic to $L^\infty(X)$ for
+one of these choices of $X$:
 
--   a countable set (equipped with counting measure),
--   the real line (with Lebesgue measure),
--   the disjoint union of a countable set and the real line (with the
-    obvious measure).
+- a countable set (equipped with counting measure),
+- the real line (with Lebesgue measure),
+- the disjoint union of a countable set and the real line (with the obvious measure).
 
 We're really talking about measure theory now, even when it seems I'm
 talking about commutative von Neumann algebras. But sometimes topology
@@ -400,16 +390,16 @@ groups as standard Borel groups with an extra *property* --- not extra
 structure.
 
 There are other similar results with the same flavor. For example,
-suppose we have a Polish group G acting as measurable transformations on
-a standard Borel space X. Then we can make X into a Polish space so that
-the action of G on X becomes continuous!
+suppose we have a Polish group $G$ acting as measurable transformations on
+a standard Borel space $X$. Then we can make $X$ into a Polish space so that
+the action of $G$ on $X$ becomes continuous!
 
-(Of course we also require that the new Borel sets of X are the same as
+(Of course we also require that the new Borel sets of $X$ are the same as
 its original measurable sets.)
 
 There are also interesting results saying that Polish spaces and Polish
 groups "aren't too big". Some of these theorems mention the "Hilbert
-cube" --- that is, a countable product of copies of \[0,1\], with its
+cube" --- that is, a countable product of copies of $[0,1]$, with its
 product topology. This space sounds big, but thanks to Tychonoff's
 theorem it's compact! It's also metrizable: that is, its topology
 comes from a metric. And it's separable: it has a countable dense
@@ -425,43 +415,37 @@ group is a Polish group iff it's isomorphic to a subgroup of the group
 of homeomorphisms of the Hilbert cube!
 
 I'll wrap up with a nice fact about measures on standard Borel spaces.
-A "probability measure" on a measure space X is one that assigns the
-number 1 to the whole set X. Then the measure of a measurable subset S
-of X can be interpreted as the probability of a point being in X. This
+A "probability measure" on a measure space $X$ is one that assigns the
+number $1$ to the whole set $X$. Then the measure of a measurable subset $S$
+of $X$ can be interpreted as the probability of a point being in $X$. This
 idea of using measures to study probabilities lies at the foundation of
 modern probability theory.
 
-But here's a lesser-known fact: the set of probability measures on X,
-say M(X), is itself a measurable space!
+But here's a lesser-known fact: the set of probability measures on $X$,
+say $M(X)$, is itself a measurable space!
 
-How does this work? First we give M(X) its "weak topology". This is
-the topology where a bunch of measures \mu_i converge to \mu if for every
-bounded continuous function f on X,
-
-\int f d\mu_i \to \int f d\mu
-
-Starting with this topology and taking the Borel sets, M(X) becomes a
+How does this work? First we give $M(X)$ its "weak topology". This is
+the topology where a bunch of measures $\mu_i$ converge to $\mu$ if for every
+bounded continuous function $f$ on $X$,
+$$\int f d\mu_i \to \int f d\mu$$
+Starting with this topology and taking the Borel sets, $M(X)$ becomes a
 measurable space.
 
-It then turns out that M(X) is a standard Borel space iff X is!
+It then turns out that $M(X)$ is a standard Borel space iff $X$ is!
 
-In fact, M is what category theorists call a "monad" on the category
+In fact, $M$ is what category theorists call a "monad" on the category
 of standard Borel spaces. I said what a monad is back in
 ["Week 89"](#week89), so I won't do it again, but here it
 involves the presence of god-given measurable maps
-
-M(M(X)) \to M(X)
-
+$$M(M(X)) \to M(X)$$
 and
-
-X \to M(X)
-
+$$X \to M(X)$$
 The first map is the most interesting: a probability measure on the
-space of probability measures of X gives a probability measure on X! In
+space of probability measures of $X$ gives a probability measure on $X$! In
 layman's terms: if you're uncertain about how uncertain you are, you
 might as well just say you're uncertain.
 
-The second map just sends any point in X to the Dirac delta measure at
+The second map just sends any point in $X$ to the Dirac delta measure at
 that point. In layman's terms: if you're certain, you might as well
 say you're uncertain (just not very much). That is, if you're
 completely certain about something, you can still describe your state of
@@ -469,29 +453,22 @@ knowledge by a probability distribution.
 
 You can see some applications of this monad here:
 
-15) David Corfield, Category theoretic probability theory II,
-`http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability_1.html`
+15) David Corfield, "Category theoretic probability theory II", `http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability_1.html`
 
-16) Ernst-Erich Doberkat, Characterizing the Eilenberg-Moore algebras
-for a monad of stochastic relations, Universitat Dortmund, Fachbereit
-Informatik, Lehrstule fuer Software-Technologie, Memo 147. Also
-available at
-<https://eldorado.uni-dortmund.de/bitstream/2003/2717/1/147.pdf>
+16) Ernst-Erich Doberkat, "Characterizing the Eilenberg-Moore algebras for a monad of stochastic relations", _Universitat Dortmund, Fachbereit Informatik, Lehrstule fuer Software-Technologie_, Memo **147**. Also available at `https://eldorado.uni-dortmund.de/bitstream/2003/2717/1/147.pdf`
 
 For more on standard Borel spaces in probability theory, try this:
 
-17) K. R. Parthasrathy, Probability Measures on Metric Spaces, Academic
-Press, San Diego, 1967.
+17) K. R. Parthasrathy, _Probability Measures on Metric Spaces_, Academic Press, San Diego, 1967.
 
 For standard Borel spaces and von Neumann algebras, try this:
 
-18) W. Arveson, An Invitation to C*-Algebra, Springer, Berlin, 1976.
+18) W. Arveson, _An Invitation to $C^*$-Algebra_, Springer, Berlin, 1976.
 
 And for really hard-core results on standard Borel spaces and Polish
 groups, try this:
 
-19) H. Becker and A. S. Kechris, Descriptive \mathsf{Set} Theory of Polish Group
-Actions, Cambridge U. Press, Cambridge, 1996.
+19) H. Becker and A. S. Kechris, _Descriptive Set Theory of Polish Group Actions_, Cambridge U. Press, Cambridge, 1996.
 
 I can't imagine any of the normal readers of This Week's Finds will
 enjoy this book, but I could be wrong: there could be some really scary
@@ -504,12 +481,12 @@ for corrections and improvements. Originally I had a less complete table
 of probabilities for finite simple groups, and I begged my readers for
 help. Ted Nitz and Greg Egan stepped into save me.
 
-Ted Nitz calculated the odds that a pair of elements in A_4 generates
-the group and got 2/3:
+Ted Nitz calculated the odds that a pair of elements in $A_4$ generates
+the group and got $2/3$:
 
->     I decided to take your challenge. For A4 the odds 
->     are 96/144 = 2/3 that a pair generates. For reference, 
->     the sage code that gave the probability is:
+> I decided to take your challenge. For A4 the odds 
+> are 96/144 = 2/3 that a pair generates. For reference, 
+> the sage code that gave the probability is:
 >
 >     A4 = AlternatingGroup(4)
 >     order = A4.order()
@@ -522,14 +499,14 @@ the group and got 2/3:
 >                 j += 1
 >     print (j,i)
 >     j/i
->
->     It was blindingly fast for A4, and if it ever 
->     finishes for A9, I'll let you know the probability 
->     there.
->
->     -Ted
+> 
+> It was blindingly fast for A4, and if it ever 
+> finishes for A9, I'll let you know the probability 
+> there.
+> 
+> -Ted
 
-He later realized that the A_9 calculation would take at least a
+He later realized that the $A_9$ calculation would take at least a
 century. Greg Egan wrote a Mathematica program based on a more efficient
 algorithm and got the answer in less than a day.
 
