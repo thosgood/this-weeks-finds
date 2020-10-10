@@ -396,7 +396,7 @@ other things. But it's not true!
 Most importantly, Tom Leinster has come out with a big book on
 $n$-categories and operads:
 
-10) Tom Leinster, _Higher Operads, Higher Categories_, Cambridge U. Press, Cambridge, 2003. Also available as [`arXiv:math.CT/0305049`](http://arxiv.org/abs/math.CT/0305049).
+10) Tom Leinster, _Higher Operads, Higher Categories_, Cambridge U. Press, Cambridge, 2003. Also available as [`math.CT/0305049`](http://arxiv.org/abs/math.CT/0305049).
 
 As you'll note, he managed to talk the press into letting him keep his
 book freely available online! We should all do this. Nobody will ever
@@ -441,9 +441,9 @@ Secondly, Michael Batanin has worked out a beautiful extension of his
 ideas on $n$-categories which sheds new light on their applications to
 homotopy theory:
 
-11) Michael A. Batanin, "The Eckmann-Hilton argument, higher operads and $E_n$ spaces", available as [`arXiv:math.CT/0207281`](http://arxiv.org/abs/math.CT/0207281).
+11) Michael A. Batanin, "The Eckmann-Hilton argument, higher operads and $E_n$ spaces", available as [`math.CT/0207281`](http://arxiv.org/abs/math.CT/0207281).
 
-    Michael A. Batanin, "The combinatorics of iterated loop spaces", available as [`arXiv:math.CT/0301221`](http://arxiv.org/abs/math.CT/0301221).
+    Michael A. Batanin, "The combinatorics of iterated loop spaces", available as [`math.CT/0301221`](http://arxiv.org/abs/math.CT/0301221).
 
 Getting a manageable combinatorial understanding of the space of loops
 in the spaces of loops in the space of loops... in some space has

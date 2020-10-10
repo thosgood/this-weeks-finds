@@ -298,7 +298,7 @@ on Hopf algebras and Feynman diagrams. I talked about this back in
 ["Week 122"](#week122) --- but here's a more recent review, with a
 hundred references for further study:
 
-18) Kurusch Ebrahimi-Fard and Dirk Kreimer, "Hopf algebra approach to Feynman diagram calculations", available as [`hep-th/0510202`](http://arXiv.org/abs/arXiv:hep-th/0510202).
+18) Kurusch Ebrahimi-Fard and Dirk Kreimer, "Hopf algebra approach to Feynman diagram calculations", available as [`hep-th/0510202`](http://arXiv.org/abs/hep-th/0510202).
 
 This yields lots of applications of Bill's ideas to quantum physics. I
 have no idea how this huge industry is related to my work with James

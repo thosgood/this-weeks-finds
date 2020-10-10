@@ -39,15 +39,15 @@ Maxwell's equations... but with some important extra twists!
 Next, it's nice to see that work on the loop representation of quantum
 gravity continues apace:
 
-3) Thomas Thiemann, "An account of transforms on $\overline(\mathcal{A}/\mathcal{G})$", available as [`arXiv:gr-qc/9511049`](http://arxiv.org/abs/gr-qc/9511049).
+3) Thomas Thiemann, "An account of transforms on $\overline(\mathcal{A}/\mathcal{G})$", available as [`gr-qc/9511049`](http://arxiv.org/abs/gr-qc/9511049).
 
-    Thomas Thiemann, "Reality conditions inducing transforms for quantum gauge field theory and quantum gravity", available as [`arXiv:gr-qc/9511057`](http://arxiv.org/abs/gr-qc/9511057).
+    Thomas Thiemann, "Reality conditions inducing transforms for quantum gauge field theory and quantum gravity", available as [`gr-qc/9511057`](http://arxiv.org/abs/gr-qc/9511057).
 
-    Abhay Ashtekar, "A generalized Wick transform for gravity", available as [`arXiv:gr-qc/9511083`](http://arxiv.org/abs/gr-qc/9511083).
+    Abhay Ashtekar, "A generalized Wick transform for gravity", available as [`gr-qc/9511083`](http://arxiv.org/abs/gr-qc/9511083).
 
-    Renate Loll, "Making quantum gravity calculable", preprint available in LaTeX form as [`arXiv:gr-qc/9511080`](http://arxiv.org/abs/gr-qc/9511080).
+    Renate Loll, "Making quantum gravity calculable", preprint available in LaTeX form as [`gr-qc/9511080`](http://arxiv.org/abs/gr-qc/9511080).
 
-    Rodolfo Gambini and Jorge Pullin, "A rigorous solution of the quantum Einstein equations", available as [`arXiv:gr-qc/9511042`](http://arxiv.org/abs/gr-qc/9511042).
+    Rodolfo Gambini and Jorge Pullin, "A rigorous solution of the quantum Einstein equations", available as [`gr-qc/9511042`](http://arxiv.org/abs/gr-qc/9511042).
 
 The first three papers here discuss some new work tackling the "reality
 conditions" and "Hamiltonian constraint", two of the toughest issues
@@ -113,9 +113,9 @@ regularization of the theory.
 
 Now let me turn to a variety of other matters...
 
-4) Matt Greenwood and Xiao-Song Lin, "On Vassiliev knot invariants induced from finite type", available as [`arXiv:q-alg/9506001`](http://arxiv.org/abs/q-alg/9506001).
+4) Matt Greenwood and Xiao-Song Lin, "On Vassiliev knot invariants induced from finite type", available as [`q-alg/9506001`](http://arxiv.org/abs/q-alg/9506001).
 
-    Lev Rozansky, "On finite type invariants of links and rational homology spheres derived from the Jones polynomial and Witten--Reshetikhin--Turaev invariant", available as [`arXiv:q-alg/9511025`](http://arxiv.org/abs/q-alg/9511025).
+    Lev Rozansky, "On finite type invariants of links and rational homology spheres derived from the Jones polynomial and Witten--Reshetikhin--Turaev invariant", available as [`q-alg/9511025`](http://arxiv.org/abs/q-alg/9511025).
 
     Scott Axelrod, "Overview and warmup example for perturbation theory with instantons", available as [`hep-th/9511196`](http://arxiv.org/abs/hep-th/9511196).
 
@@ -179,13 +179,13 @@ dualities relating superficially different string theories.
 Among other things, this review discusses the "holographic hypothesis"
 mentioned in ["Week 57"](#week57):
 
-9) Boguslaw Broda, "A gauge-field approach to 3- and 4-manifold invariants", available in TeX form as [`arXiv:q-alg/9511010`](http://arxiv.org/abs/q-alg/9511010).
+9) Boguslaw Broda, "A gauge-field approach to 3- and 4-manifold invariants", available in TeX form as [`q-alg/9511010`](http://arxiv.org/abs/q-alg/9511010).
 
 This summarizes the Reshetikhin-Turaev construction of 3d topological
 quantum field theories from quantum groups, and Broda's own closely
 related approach to 4d topological quantum field theories.
 
-10) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
+10) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", available as [`q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
 
 In this paper, we begin with a brief sketch of what is known and
 conjectured concerning braided monoidal $2$-categories and their

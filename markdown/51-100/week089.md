@@ -251,7 +251,7 @@ something called the "Eckmann-Hilton principle". Some more
 sophisticated ramifications of this principle are discussed in the
 following paper:
 
-8) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", _Adv. Math._ **121** (1996), 196--244. Also available as [`arXiv:q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
+8) John Baez and Martin Neuchl, "Higher-dimensional algebra I: braided monoidal $2$-categories", _Adv. Math._ **121** (1996), 196--244. Also available as [`q-alg/9511013`](http://arxiv.org/abs/q-alg/9511013).
 
 We can get into some curious self-referential loops, too: the category
 having (small) categories as objects and functors as morphisms becomes a

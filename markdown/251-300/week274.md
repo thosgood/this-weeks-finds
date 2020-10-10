@@ -136,7 +136,7 @@ more details, try section 6.1 of this old paper:
 
 4) John Baez, Higher-dimensional algebra II: 2-Hilbert spaces, Adv.
 Math. 127 (1997), 125-189. Also available as
-[`arXiv:q-alg/9609018`](http://arXiv.org/abs/arXiv:q-alg/9609018).
+[`q-alg/9609018`](http://arXiv.org/abs/q-alg/9609018).
 
 As you can see from the title, I was trying to go beyond 2-vector spaces
 and think about "2-Hilbert spaces". That's because in quantum
@@ -181,7 +181,7 @@ categorical groups, Th. Appl. Cat. 16 (2006), 529-557. Also available as
 
 10) Josep Elgueta, Representation theory of 2-groups on finite
 dimensional 2-vector spaces, available as
-[`arXiv:math.CT/0408120`](http://arXiv.org/abs/math.CT/0408120).
+[`math.CT/0408120`](http://arXiv.org/abs/math.CT/0408120).
 
 A group is a category with one object, all of whose morphisms are
 invertible. Similarly, a 2-group is a $2$-category with one object, all of

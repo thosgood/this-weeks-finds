@@ -117,7 +117,7 @@ Ashtekar taught:
 
 4) Abhay Ashtekar, An introduction to loop quantum gravity through
 cosmology, Nuovo Cimento 122B (2007), 135-155. Also available as
-[`arXiv:gr-qc/0702030`](http://arXiv.org/abs/gr-qc/0702030).
+[`gr-qc/0702030`](http://arXiv.org/abs/gr-qc/0702030).
 
 Anyway, the real fun will start when people systematically compute the
 behavior of inhomogeneous perturbations in loop quantum cosmology model.
@@ -198,7 +198,7 @@ Lagrangian for gravity:
 5) Soren Holst, Barbero's Hamiltonian derived from a generalized
 Hilbert-Palatini action, Phys. Rev. D53 (1996), 5966-5969. Also
 available as
-[`arXiv:gr-qc/9511026`](http://arXiv.org/abs/arXiv:gr-qc/9511026).
+[`gr-qc/9511026`](http://arXiv.org/abs/gr-qc/9511026).
 
 It looks like this:
 

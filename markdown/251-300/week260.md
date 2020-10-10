@@ -149,12 +149,12 @@ There are free online books at all levels... so let's soar a bit
 higher. How about if you're a more advanced student trying to learn
 general relativity? Here you go:
 
-9) Sean M. Carroll, _Lecture Notes on General Relativity_, available as [`arXiv:gr-qc/9712019`](http://arXiv.org/abs/arXiv:gr-qc/9712019)
+9) Sean M. Carroll, _Lecture Notes on General Relativity_, available as [`gr-qc/9712019`](http://arXiv.org/abs/gr-qc/9712019)
 
 How about quantum field theory? Then you're in luck --- there are *two*
 detailed books available online:
 
-10) Warren Siegel, _Fields_, available as [`hep-th/9912205`](http://arXiv.org/abs/arXiv:hep-th/9912205)
+10) Warren Siegel, _Fields_, available as [`hep-th/9912205`](http://arXiv.org/abs/hep-th/9912205)
 
 10) Mark Srednicki, _Quantum Field Theory_, Cambridge U. Press, Cambridge, 2007. Also available at `http://www.physics.ucsb.edu/~mark/qft.html`
 

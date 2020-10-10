@@ -415,7 +415,7 @@ The formula is very pretty and simple:
 
 17) Michael J. Duff, Hidden symmetries of the Nambu-Goto action, Phys.
 Lett. B641 (2006), 335-337. Also available as
-[`hep-th/0602160`](http://arXiv.org/abs/arXiv:hep-th/0602160).
+[`hep-th/0602160`](http://arXiv.org/abs/hep-th/0602160).
 
 This being the 21st century, there is even a blog on hyperdeterminants:
 

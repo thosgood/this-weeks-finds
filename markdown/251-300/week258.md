@@ -502,7 +502,7 @@ Modulo some typographical changes, Michael Batanin wrote:
 > complicated and still developing. The most conceptual and correct
 > proof I know is provided by Tamarkin in
 >
-> 14) Dmitry Tamarkin, "What do DG categories form?", available as [`arXiv:math.CT/0606553`](http://arXiv.org/abs/math.CT/0606553).
+> 14) Dmitry Tamarkin, "What do DG categories form?", available as [`math.CT/0606553`](http://arXiv.org/abs/math.CT/0606553).
 >
 > And it uses my up to homotopy Eckmann--Hilton argument. This argument
 > is based on a techniques of compactification of configuration spaces
