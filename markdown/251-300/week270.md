@@ -386,26 +386,62 @@ describe relations --- you can read how in ["Week 62"](#week62).
 All this is well-known stuff. But Fring and Korff investigate something
 more esoteric. Each dot in the big diagram corresponds to 2 dots in its
 smaller partner:
-
-      5
-    o---o                       o---o---o---o
-    A   B                       B'  A"  B"  A'
-
-
-
-                                        o C"
-      5                                 |
-    o---o---o               o---o---o---o---o
-    A   B   C               C'  B'  A"  B"  A'
-
-
-                                        o D"
-                                        |
-                                        o C"
-      5                                 |
-    o---o---o---o       o---o---o---o---o---o
-    A   B   C   D       D'  C'  B'  A"  B"  A'
-
+$$
+  \begin{tikzpicture}
+    \node[label=below:{$A$}] at (0,0) {$\bullet$};
+    \node[label=below:{$B$}] at (1,0) {$\bullet$};
+    \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0);
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}
+    \node[label=below:{$B'$}] at (0,0) {$\bullet$};
+    \node[label=below:{$A''$}] at (1,0) {$\bullet$};
+    \node[label=below:{$B''$}] at (2,0) {$\bullet$};
+    \node[label=below:{$A'$}] at (3,0) {$\bullet$};
+    \draw[thick] (0,0) to (3,0);
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \node[label=below:{$A$}] at (0,0) {$\bullet$};
+    \node[label=below:{$B$}] at (1,0) {$\bullet$};
+    \node[label=below:{$C$}] at (2,0) {$\bullet$};
+    \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0) to (2,0);
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}
+    \node[label=below:{$C'$}] at (0,0) {$\bullet$};
+    \node[label=below:{$B'$}] at (1,0) {$\bullet$};
+    \node[label=below:{$A''$}] at (2,0) {$\bullet$};
+    \node[label=below:{$B''$}] at (3,0) {$\bullet$};
+    \node[label=below:{$A'$}] at (4,0) {$\bullet$};
+    \draw[thick] (0,0) to (4,0);
+    \node[label=above:{$C''$}] at (3,1) {$\bullet$};
+    \draw[thick] (3,0) to (3,1);
+  \end{tikzpicture}
+$$
+$$
+  \begin{tikzpicture}
+    \node[label=below:{$A$}] at (0,0) {$\bullet$};
+    \node[label=below:{$B$}] at (1,0) {$\bullet$};
+    \node[label=below:{$C$}] at (2,0) {$\bullet$};
+    \node[label=below:{$D$}] at (3,0) {$\bullet$};
+    \draw[thick] (0,0) to node[label=above:{$5$}]{} (1,0) to (3,0);
+  \end{tikzpicture}
+  \qquad\qquad
+  \begin{tikzpicture}
+    \node[label=below:{$D'$}] at (0,0) {$\bullet$};
+    \node[label=below:{$C'$}] at (1,0) {$\bullet$};
+    \node[label=below:{$B'$}] at (2,0) {$\bullet$};
+    \node[label=below:{$A''$}] at (3,0) {$\bullet$};
+    \node[label=below:{$B''$}] at (4,0) {$\bullet$};
+    \node[label=below:{$A'$}] at (5,0) {$\bullet$};
+    \draw[thick] (0,0) to (5,0);
+    \node[label={[label distance=-1mm]left:{$C''$}}] at (3,1) {$\bullet$};
+    \node[label=above:{$D''$}] at (3,2) {$\bullet$};
+    \draw[thick] (3,0) to (3,2);
+  \end{tikzpicture}
+$$
 If we map each generator of the smaller group (say, the generator $D$ in
 $\mathrm{H}_4)$ to the product of the two corresponding generators in the bigger
 one (say, $D'D''$ in $\mathrm{E}_8$), we get a group homomorphism.
