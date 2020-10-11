@@ -130,7 +130,7 @@ Here's a timeline loosely taken from this paper:
         $$
           \begin{gathered}
             \href{http://en.wikipedia.org/wiki/T_Tauri_star}{\includegraphics[max width=0.65\linewidth]{../images/TTauriStarDrawing.jpg}}
-          \\\text{Artist's image of the Sun as a \href{T Tauri star}{http://en.wikipedia.org/wiki/T_Tauri_star}.}
+          \\\text{Artist's image of the Sun as a T Tauri Star.}
           \end{gathered}
         $$
     - Aqueous alteration, thermal alteration, and shocks form
@@ -495,7 +495,7 @@ Here are some fancier ones:
 - $A$ is [torsion-free](http://en.wikipedia.org/wiki/Torsion_(algebra)#Definition) and [discrete](http://en.wikipedia.org/wiki/Discrete_group) iff $A^*$ is [connected](http://en.wikipedia.org/wiki/Connected_space) and [compact](http://en.wikipedia.org/wiki/Compact_space).
 - $A$ is [compact](http://en.wikipedia.org/wiki/Compact_space) and [metrizable](http://en.wikipedia.org/wiki/Metrization_theorem) iff $A^*$ is [countable](http://en.wikipedia.org/wiki/Countable_set).
 - $A$ is a [Lie group](http://en.wikipedia.org/wiki/Lie_group) iff $A^*$ has [finite rank](http://en.wikipedia.org/wiki/Rank_of_an_abelian_group).
-- $A$ is [metrizable](http://en.wikipedia.org/wiki/Metrization_theorem) iff $A^*$ is [\sigma-compact](http://en.wikipedia.org/wiki/%CE%A3-compact_space).
+- $A$ is [metrizable](http://en.wikipedia.org/wiki/Metrization_theorem) iff $A^*$ is [$\sigma$-compact](http://en.wikipedia.org/wiki/%CE%A3-compact_space).
 - $A$ is [second countable](http://en.wikipedia.org/wiki/Second-countable_space) iff $A^*$ is [second countable](http://en.wikipedia.org/wiki/Second-countable_space).
 
 If you know more snappy results like this, tell me! I'm collecting them

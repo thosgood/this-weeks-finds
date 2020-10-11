@@ -131,7 +131,7 @@ pull on their sun.
 
 Here's a chart showing the masses and orbital radii of known exoplanets
 as of 2004:
-$$\href{http://en.wikipedia.org/wiki/Extrasolar_planet}{\includegraphics[max width=0.65\linewidth]{../images/exoplanets.jpg}}$$
+$$\href{http://en.wikipedia.org/wiki/Extrasolar_planet}{\includegraphics[max width=0.65\linewidth]{../images/exoplanets.png}}$$
 
 2) P. R. Lawson, S. C. Unwin, and C. A. Beichman, "Precursor Science for the Terrestrial Planet Finder", _JPL Pub_ **04-014**, Oct. 2004, page 21, fig. 5. Chart at `http://en.wikipedia.org/wiki/Image:Extrasolar_Planets_2004-08-31.png`. Report at `http://planetquest.jpl.nasa.gov/documents/RdMp272.pdf`
 

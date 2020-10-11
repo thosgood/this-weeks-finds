@@ -455,7 +455,7 @@ noncrystallographic ones. For this, they must develop more detailed
 connections than those I've described. But I'm already happy just
 pondering this small piece of their paper.
 
-For example, what does the inclusion of \mathrm{H}_2 in $\mathrm{A}_4$ really look like?
+For example, what does the inclusion of $\mathrm{H}_2$ in $\mathrm{A}_4$ really look like?
 
 It's actually quite beautiful. $\mathrm{H}_2$ is the symmetry group of a regular
 pentagon, including rotations and reflections. $\mathrm{A}_4$ happens to be the

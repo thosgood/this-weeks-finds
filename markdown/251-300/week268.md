@@ -528,7 +528,7 @@ my own.
 First, from what I've said already, every commutative special Frobenius
 algebra over the complex numbers looks like
 $$\mathbb{C} \oplus \mathbb{C} \oplus \ldots \mathbb{C} \oplus \mathbb{C}$$
-It's a direct sum of finitely many copies of \mathbb{C}, equipped with its
+It's a direct sum of finitely many copies of $\mathbb{C}$, equipped with its
 god-given bilinear form
 $$g(a,b) = \operatorname{tr}(L_a L_b)$$
 So, this sort of Frobenius algebra is just an algebra of complex

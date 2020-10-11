@@ -284,7 +284,7 @@ More precisely, the Lie algebra of $\mathrm{E}_6$ can be chopped into 3 pieces i
 a noncanonical way:
 
 - $\mathfrak{so}(10)$
-- the unique irreducible real spinor representation of \mathfrak{so}(10), which by now we've given three different names:
+- the unique irreducible real spinor representation of $\mathfrak{so}(10)$, which by now we've given three different names:
     $$S_{10} \cong \wedge^\mathrm{even}(\mathbb{C}^5) \cong (\mathbb{C} \otimes \mathbb{O})^2$$
 - $\mathfrak{u}(1)$
 

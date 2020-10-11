@@ -449,7 +449,7 @@ picture somehow:
 > As you know, there is a nice triality symmetric construction of $\mathrm{E}_8$
 > that starts from $\mathrm{SO}(8)\times\mathrm{SO}(8)$. But, considering the maximally split
 > real form $\mathrm{E}_8(8)$, did you also know that this $\mathrm{SO}(8)\times\mathrm{SO}(8)$ is best
-> regarded as $\mathrm{SO}(8,\mathbb{C}^+)$, with \mathbb{C}^+ being the split-complex numbers with
+> regarded as $\mathrm{SO}(8,\mathbb{C}^+)$, with $\mathbb{C}^+$ being the split-complex numbers with
 > $i^2=+1$? There also are $56$-dimensional real subgroups such as $\mathrm{SO}(8,\mathbb{C})$
 > (2 different embeddings --- "IIA" and "IIB") --- and there also is
 > $\mathrm{SO}(8,\mathbb{C}0)$.

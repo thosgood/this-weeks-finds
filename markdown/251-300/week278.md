@@ -148,7 +148,7 @@ periodically puffing out dust like smokestacks.
 
 "Red supergiants" like Betelgeuse are different. Betelgeuse is about
 20 times as massive as our Sun. Stars this big are rare, but they pump
-out a lot more dust. A well-studied example is α Herculis, known to some
+out a lot more dust. A well-studied example is $\alpha$ Herculis, known to some
 early astronomers as Ras Algethi. It's sort of small for a red
 supergiant, only 14 times the mass of our Sun. Some people classify it
 as a "bright giant" instead. It's part of a triple star system. It

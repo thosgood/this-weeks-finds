@@ -29,11 +29,11 @@ Let's start with a riddle.
 What's a million times thinner than paper, stronger than diamond, a
 better conductor than copper, and absorbs exactly
 
-\pi  α \~ 3.14159 / 137.035 \~ 2.29254%
+\pi  $\alpha$ \~ 3.14159 / 137.035 \~ 2.29254%
 
 of the light you shine through it?
 
-Hint: α is the "fine structure constant" - a fundamental dimensionless
+Hint: $\alpha$ is the "fine structure constant" - a fundamental dimensionless
 constant that specifies the strength of the electromagnetic force.
 
 Can't guess? Okay, here's the answer: graphene!
@@ -304,7 +304,7 @@ energy^2 = momentum^2 c^2
 remains unchanged when you rescale both distances and times by the same
 factor, graphene reacts exactly the same way to light of different
 wavelengths - at least within some range where all the approximations
-we've made are good. And, it turns out to absorb \pi α of the light you
+we've made are good. And, it turns out to absorb \pi $\alpha$ of the light you
 shine through it:
 
 10) A. B. Kuzmenko, E. van Heumen, F. Carbone, and D. van der Marel,

@@ -629,7 +629,7 @@ algebraic varieties over $k$. Then, they consider the category of
 
 A simplicial presheaf on $\mathsf{Sm}(k)$ is just a functor
 $$F\colon \mathsf{Sm}(k)^\mathrm{op} \to \mathsf{SimpSet}$$
-where \mathsf{SimpSet} is the category of simplicial sets (see item C of
+where $\mathsf{SimpSet}$ is the category of simplicial sets (see item C of
 ["Week 115"](#week115)) We think of $F$ as specifying some sort of
 space by telling us for each smooth algebraic variety $X$ the simplicial
 set $F(X)$ of all maps into this space.

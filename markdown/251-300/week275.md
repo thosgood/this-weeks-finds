@@ -133,7 +133,7 @@ symmetric monoidal bicategory where:
 - $2$-morphisms are natural transformations between profunctors.
 
 A profunctor is a categorified version of a matrix. More precisely, a
-profunctor from \mathcal{C} to \mathcal{D} is a functor
+profunctor from $\mathcal{C}$ to $\mathcal{D}$ is a functor
 $$F\colon \mathcal{C} \times \mathcal{D}^\mathrm{op} \to \mathsf{Set}$$
 so it's like a matrix of sets. A span of groupoids where the legs are
 fibrations is also a categorified version of a matrix, since by a

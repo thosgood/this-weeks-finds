@@ -52,7 +52,7 @@ The colors look unreal. They are.
     singly ionized nitrogen.
 - O III light is shown as blue, but it's actually green. This is
     light from doubly ionized oxygen.
-- Furthermore, the colors have been adjusted so that regions where Hα
+- Furthermore, the colors have been adjusted so that regions where H$\alpha$
     and O II overlap are orange.
 
 Okay, so the colors are fake. But how did this weird nebula form? You
