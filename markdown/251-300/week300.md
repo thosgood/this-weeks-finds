@@ -168,7 +168,7 @@ We can write the answer using an infinite product:
 
 Or, we can write the answer using an infinite sum:
 
-p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 + ...
+p(0)/p^0 + p(1)/p^1 + p(2)/p^2 + ...
 
 Here p(n) is the number of "partitions" of n: that is, the number of
 ways to write it as a sum of positive integers in decreasing order. For
@@ -186,7 +186,7 @@ quite famous.
 
 But Hall proved something even cuter. This number
 
-p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 + ...
+p(0)/p^0 + p(1)/p^1 + p(2)/p^2 + ...
 
 is also the cardinality of another, really *different* groupoid.
 Remember how I said you can build a groupoid as the "disjoint union"
@@ -202,7 +202,7 @@ Hall didn't know about groupoid cardinality, so here's how he said it:
 It's pretty easy to see that sum of the reciprocals of the orders of
 all the Abelian groups of order a power of p is
 
-p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 + ...
+p(0)/p^0 + p(1)/p^1 + p(2)/p^2 + ...
 
 To do this, you just need to show that there are p(n) abelian groups
 with p^n elements. If I shows you how it works for n = 4, you can guess
@@ -220,7 +220,7 @@ how the proof works in general:
 
 So, the hard part is showing that
 
-p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 + ...
+p(0)/p^0 + p(1)/p^1 + p(2)/p^2 + ...
 
 is also the sum of the reciprocals of the sizes of the automorphism
 groups of all groups whose size is a power of p.
@@ -521,7 +521,7 @@ Indeed, as you'll see in these books (or in
 ["Week 126"](#week126)), the function
 we saw earlier:
 
-1/(1-p^{-1})(1-p^-2^)(1-p^-3^) ... = p(0)/p^0^ + p(1)/p^1 + p(2)/p^2 +
+1/(1-p^{-1})(1-p^-2^)(1-p^-3^) ... = p(0)/p^0 + p(1)/p^1 + p(2)/p^2 +
 ...
 
 is *also* important in string theory: it shows up as a "partition

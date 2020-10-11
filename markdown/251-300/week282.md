@@ -682,9 +682,9 @@ K, their product JK consists of all linear combinations of composites f
 o (g_1, ..., g_n) where f is in J and at least one of the g_i's in
 in K. So, given our ideal I, we get a sequence of ideals
 
-I^0^, I^1, I^2, I^3, ....
+I^0, I^1, I^2, I^3, ....
 
-each containing the next. Here we set I^0^ = Assoc and I^1 = I to get
+each containing the next. Here we set I^0 = Assoc and I^1 = I to get
 things going. We say the operad Assoc is "filtered" by this sequence
 of operad ideals. In highbrow terms, this means it's an operad in the
 category of filtered vector spaces. In lowbrow terms: each vector space
@@ -695,7 +695,7 @@ I^m^ I^n ⊆ I^m+n^
 As with rings, this lets us form the "associated graded" operad
 gr(Assoc), which is this direct sum:
 
-gr(Assoc) = I^0^/I^1 + I^1/I^2 + I^2/I^3 + ...
+gr(Assoc) = I^0/I^1 + I^1/I^2 + I^2/I^3 + ...
 
 And this is the Poisson operad!
 
@@ -744,7 +744,7 @@ and
 
 (x,y) \mapsto yx
 
-live in I^0^/I^1, but now they're equal, because they differ by the
+live in I^0/I^1, but now they're equal, because they differ by the
 commutator, which lives in I^1. So, multiplication becomes commutative!
 Meanwhile, the operation
 
@@ -813,7 +813,7 @@ First of all, when k = 0 we just get 1. This is the dimension of space
 of $n$-ary operations in the Poisson operad that don't use the bracket at
 all. Or in other words, operations in Comm:
 
-I^0^/I^1 = Assoc/I = Comm
+I^0/I^1 = Assoc/I = Comm
 
 And we know this space is $1$-dimensional. For example, for n = 4 it has
 this basis vector:
