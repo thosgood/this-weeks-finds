@@ -358,11 +358,11 @@ categorification:
 
 12) Claudio Hermida, "From coherent structures to universal properties", available at `http://www.cs.math.ist.utl.pt/cs/s84/claudio.html`
 
-and also two papers about 2-groupoids and topology:
+and also two papers about $2$-groupoids and topology:
 
 13) K. A. Hardie, K. H. Kamps, R. W. Kieboom, "A homotopy bigroupoid of a topological space", in _Categorical Methods in Algebra and Topology_, pp. 209--222, Mathematik-Arbeitspapiere **48**, Universitaet Bremen, 1997. _Appl. Categ. Structures_, to appear.
 
-  K. A. Hardie, K. H. Kamps, R. W. Kieboom, "A homotopy 2-groupoid of a Hausdorff space", preprint.
+  K. A. Hardie, K. H. Kamps, R. W. Kieboom, "A homotopy $2$-groupoid of a Hausdorff space", preprint.
 
 I would talk about these if I had the energy, but it's already past my
 bed-time. Good night!
@@ -375,7 +375,7 @@ remarks....
 
 > > > 3) The American Physical Society: A Century of Physics, available
 > > > at http://timeline.aps.org/APS/home_HighRes.html
->
+> >
 > > \[TB\] I like how they make the famous picture of Buzz Aldrin,
 > > the one that everyone thinks is a picture of Neil Armstrong,
 > > into a picture of Neil Armstrong after all:
@@ -385,11 +385,11 @@ remarks....
 
 ------------------------------------------------------------------------
 
-> > >  5) John Conway and Peter Doyle, Division by three.  
+> > >  5) John Conway and Peter Doyle, Division by three.
 > > >  http://math.dartmouth.edu/~doyle/docs/three/three/three.html
->
+> > >
 > > > The latter article studies this question: if I give you an isomorphism 
-> > > between $3x$ and $3y$, can you construct a isomorphism between $x$ and $y$?  
+> > > between $3x$ and $3y$, can you construct a isomorphism between $x$ and $y$?
 >
 > > \[TB\] The answer must be something that won't work
 > > if 3 is replaced by an infinite cardinal.
@@ -454,7 +454,7 @@ remarks....
 > > > So: let's define the "homotopy cardinality" of a topological space $X$ to
 > > > be the alternating product $|X| = \prod_{i>0} |\pi_i(X)|^{(-1)^i}$
 > > > when $X$ is connected and the product converges;
->
+> >
 > > \[TB\] What about divergence to $0$?
 > > If $\pi_i(X)$ is infinite for some odd $i$ but no even $i$,
 > > can we say $|X|$ is $0$?
@@ -466,12 +466,11 @@ remarks....
 > is familiar from the case of infinite sums (where $+\infty$ and $-\infty$ are the
 > culprits), and the resolution seems to be either:
 >
-> -   disallow both $0$ and $\infty$ as legitimate answers for the above product,
+> - disallow both $0$ and $\infty$ as legitimate answers for the above product,
 >
 > or
 >
-> -   allow both but then be extra careful when stating your theorems so
->     that you don't run into problems.
+> - allow both but then be extra careful when stating your theorems so that you don't run into problems.
 
 ------------------------------------------------------------------------
 
@@ -486,7 +485,7 @@ remarks....
 > > > since $EG$ is contractible it is tame, and $|EG| = 1$.  Thus $G$ is tame if 
 > > > and only if $BG$ is, and $|BG| = 1 / |G|$,
 > > > so we can think of $BG$ as the reciprocal' of $G$!
->
+> >
 > > \[TB\] OTOH, $G$ is already a kind of reciprocal of itself.
 > > If $G$ is a discrete group, it's a topological space
 > > with $|G|\text{homotopy} = |G|\text{set}$.
@@ -543,7 +542,7 @@ remarks....
 > > > well-defined Euler characteristic.  So they're like Jekyll and Hyde --- 
 > > > you hardly ever see them in the same place at the same time, so you 
 > > > can't tell if they're really the same guy.
->
+> >
 > > \[TB\] So, are they ever both defined but different?
 >
 > \[JB\] I don't recall any examples where they're both finite, but
@@ -562,8 +561,8 @@ remarks....
 > > > Euler characteristic were the same, this would imply
 > > > $$|G| = 1/|BG| = 1/\chi(S) = 1/(2 - 2g)$$.
 > > > 
-> > > But the fundamental group $G$ is infinite!  What's going on?  
->
+> > > But the fundamental group $G$ is infinite!  What's going on?
+> >
 > > \[TB\] This doesn't seem too surprising.  $1/(2 - 2g)$ is also infinite.
 > > Just use the geometric series in reverse:
 > > $$1/(2 - 2g) = (1/2) \sum_i g^i,$$ 

@@ -419,77 +419,58 @@ $2$-groups are a great way to dip your toe in vast ocean of $n$-category
 theory. They're one step to the right of groups in the $n$-groupoid
 version of the periodic table:
 
-                       k-tuply groupal $n$-groupoids
+|       | $n=0$ | $n=1$ | $n=2$ |
+| ----- | :--- | :--- | :--- |
+| $k=0$ | sets | groupoids | $2$-groupoids |
+| | | | |
+| $k=1$ | groups | $2$-groups | $3$-groups |
+| | | | |
+| $k=2$ | abelian groups | braided $2$-groups | braided $3$-groups |
+| | | | |
+| $k=3$ | " " | symmetric $2$-groups | sylleptic $3$-groups |
+| | | | |
+| $k=4$ | " " | " " | symmetric $3$-groups |
+| | | | |
+| $k=5$ | " " | " " | " " |
 
-                  n = 0           n = 1             n = 2
-
-    k = 0         sets           groupoids        2-groupoids
-
-    k = 1        groups          2-groups          3-groups
-
-    k = 2        abelian         braided           braided
-                 groups          2-groups          3-groups
-
-    k = 3         " "            symmetric         sylleptic
-                                 2-groups          3-groups
-
-    k = 4         " "             " "              symmetric
-                                                   3-groups
-
-    k = 5         " "             " "                "  "
+:$k$-tuply groupal $n$-groupoids
 
 Just as abelian groups are especially simple and nice, so are
-symmetric 2-groups. Where an abelian group obeys the equation
-
-xy = yx
-
-a symmetric 2-group instead has an isomorphism
-
-S~x,y~\colon x \otimes y \to y \otimes x
-
+symmetric $2$-groups. Where an abelian group obeys the equation
+$$xy = yx$$
+a symmetric $2$-group instead has an isomorphism
+$$S_{x,y}\colon x \otimes y \to y \otimes x$$
 with the property that doing it twice gives the identity:
-
-S~y,x~ S~x,y~ = 1
-
+$$S_{y,x} S_{x,y} = 1$$
 Lately people have been generalizing a lot of math from abelian groups
-to symmetric 2-groups. See ["Week 266"](#week266) for more, and
+to symmetric $2$-groups. See ["Week 266"](#week266) for more, and
 especially this:
 
-15) Mathieu Dupont, Abelian categories in dimension 2, Ph.D thesis,
-l'Universite Catholique de Louvain, 2008. Available as
-[`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available
-in French at `http://hdl.handle.net/2078.1/12735`
+15) Mathieu Dupont, _Abelian categories in dimension 2_, Ph.D thesis, l'Universite Catholique de Louvain, 2008. Available as [`arXiv:0809.1760`](http://arxiv.org/abs/0809.1760). Original available in French at `http://hdl.handle.net/2078.1/12735`
 
-But the simplest symmetric 2-groups are those with this extra
+But the simplest symmetric $2$-groups are those with this extra
 property:
-
-S~x,x~ = 1
-
+$$S_{x,x} = 1$$
 Emin Tatar calls these "Picard categories", following Deligne.
 
-(I would like to call these "Picard 2-groups", but that might be
+(I would like to call these "Picard $2$-groups", but that might be
 confusing, since "Picard group" already means something quite
 different. To add to the confusion, it seems that Dupont and others
-use "Picard category" as a synonym for symmetric 2-group!)
+use "Picard category" as a synonym for symmetric $2$-group!)
 
 Anyway, there's a nice description of Picard categories. They're all
-equivalent to the 2-groups that you get from 2-term chain complexes of
+equivalent to the $2$-groups that you get from $2$-term chain complexes of
 abelian groups!
 
-It's nice to see how this works. Take a 2-term chain complex of
+It's nice to see how this works. Take a $2$-term chain complex of
 abelian groups:
-
-        d
-    A <--- B
-
-Then there's a category where the objects are elements of A, and the
-morphisms from a to a' are elements b of B with
-
-a' = a + db
-
+$$A \xleftarrow{d} B$$
+Then there's a category where the objects are elements of $A$, and the
+morphisms from $a$ to $a'$ are elements $b$ of $B$ with
+$$a' = a + db$$
 Addition lets you compose morphisms --- but it also lets you add
-objects, making this category into a 2-group. And the abelianness
-makes this not just a symmetric 2-group, but even a Picard category!
+objects, making this category into a $2$-group. And the abelianness
+makes this not just a symmetric $2$-group, but even a Picard category!
 
 But the cool fact is that every Picard category is equivalent to one
 arising this way.
@@ -509,37 +490,30 @@ Then everything works great. Just as we can talk about sheaves of
 abelian groups, we can talk about stacks of Picard categories --- or
 "Picard stacks", for short. And the cool fact I mentioned
 generalizes to these! Every Picard stack is equivalent to one that
-comes from a 2-term complex of sheaves of abelian groups. This was
+comes from a $2$-term complex of sheaves of abelian groups. This was
 proved by Deligne quite a while ago --- it's Lemma 1.4.13 here:
 
-15) Pierre Deligne, La formule de dualité globale, Sem. Geom.
-Algébrique Bois-Marie 1963/64, SGA 4 III, No. XVIII, Springer Lecture
-Notes in Mathematics 305, 1973, pp. 481-587. Also available at
-`http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf`
+15) Pierre Deligne, "La formule de dualité globale", _Sem. Geom. Algébrique Bois-Marie 1963/64, SGA 4 III_, No. XVIII, Springer Lecture Notes in Mathematics **305**, 1973, pp. 481--587. Also available at `http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf`
 
 But you can also see a different proof in Proposition 8.3.2 of this
 paper by Tatar's advisor and Behrang Noohi:
 
-16) Ettore Aldrovandi and Behrang Noohi, Butterflies I: morphisms of
-2-group stacks, Adv. Math. 221 (2009), 687-773. Also available as
-[`arXiv:0808.3627`](http://arxiv.org/abs/0808.3627).
+16) Ettore Aldrovandi and Behrang Noohi, "Butterflies I: morphisms of $2$-group stacks", _Adv. Math._ **221** (2009), 687--773. Also available as [`arXiv:0808.3627`](http://arxiv.org/abs/0808.3627).
 
 Now, what did Tatar do? He categorified all this stuff once more! In
-other words, he defined Picard 2-stacks, and proved that every Picard
-2-stack is equivalent to one coming from a 3-term chain complex of
+other words, he defined Picard $2$-stacks, and proved that every Picard
+$2$-stack is equivalent to one coming from a $3$-term chain complex of
 sheaves of abelian groups!
 
-Next, David Spivak of the University of Oregon spoke on "[Mapping
-spaces in quasi-categories](ams_2009/Spivak_AMS_UCR_2009.mov)".
+Next, David Spivak of the University of Oregon spoke on "[Mapping spaces in quasi-categories](https://math.ucr.edu/home/baez/ams_2009/Spivak_AMS_UCR_2009.mov)".
 [Quasicategories](http://arxiv.org/abs/math/0608040) are a nice way to
-formalize the idea of an (\infty,1)-category --- that is, an \infty-category where
+formalize the idea of an $(\infty,1)$-category --- that is, an $\infty$-category where
 all the morphisms above the $1$-morphisms are weakly invertible.
-Technically, quasicategories they're just [simplicial
-sets](http://en.wikipedia.org/wiki/Simplicial_set) with a special
+Technically, quasicategories are just [simplicial sets](http://en.wikipedia.org/wiki/Simplicial_set) with a special
 property. So, one can study them using all the simplicial machinery
 that homotopy theorists have been developing over the years.
 
-However, there are many other ways to formalize (\infty,1)-categories. A
+However, there are many other ways to formalize $(\infty,1)$-categories. A
 classic one is "simplicial categories". These are just categories
 "enriched over simplicial sets". In other words, they have a
 simplicial set of morphisms from any object to any other object, and
@@ -553,46 +527,37 @@ so soon! By this point I figure all the wimps are gone.)
 A while back, Jacob Lurie described a way to turn any quasicategory
 into a simplicial category --- see for example Remark 1.1.5.18 here:
 
-16) Jacob Lurie, Higher Topos Theory, Annals of Mathematics Studies
-170, Princeton University Press, Princeton, NJ, 2009. Also available
-as [`arXiv:math/0608040`](http://arXiv.org/abs/math/0608040).
+16) Jacob Lurie, _Higher Topos Theory_, Annals of Mathematics Studies **170**, Princeton University Press, Princeton, NJ, 2009. Also available as [`arXiv:math/0608040`](http://arXiv.org/abs/math/0608040).
 
 This involves taking two vertices of our quasicategory --- which,
 remember, is just a simplicial set with some properties --- and cooking
 up a simplicial set of "morphisms" from one to the other. Recently
 Daniel Dugger and David Spivak have come up with another way:
 
-17) Daniel Dugger and David I. Spivak, Rigidification of
-quasi-categories, available as
-[`arXiv:0910.0814`](http://arxiv.org/abs/0910.0814).
+17) Daniel Dugger and David I. Spivak, "Rigidification of quasi-categories", available as [`arXiv:0910.0814`](http://arxiv.org/abs/0910.0814).
 
-18) Daniel Dugger and David I. Spivak, Mapping spaces in
-quasi-categories, available as
-[`arXiv:0911.0469`](http://arxiv.org/abs/0911.0469).
+18) Daniel Dugger and David I. Spivak, "Mapping spaces in quasi-categories", available as [`arXiv:0911.0469`](http://arxiv.org/abs/0911.0469).
 
 And that's what David explained in his talk!
 
 The day concluded with two talks of a somewhat more concrete nature.
-Ben Williams of Stanford University spoke on "[An application of
-A^1-homotopy theory to problems in commutative
-algebra](ams_2009/Williams_AMS_UCR_2009.mov)". Like Jonathan Lee, the
+Ben Williams of Stanford University spoke on "[An application of $A^1$-homotopy theory to problems in commutative algebra](https://math.ucr.edu/home/baez/ams_2009/Williams_AMS_UCR_2009.mov)". Like Jonathan Lee, the
 problems he was considering included the conjecture of Halperin and
 Carlsson that I mentioned before. But, he used ideas from
-A^1-homotopy theory. So, let me say a word about that.
+$A^1$-homotopy theory. So, let me say a word about that.
 
-I actually tried my hand at explaining A^1-homotopy theory near the
+I actually tried my hand at explaining $A^1$-homotopy theory near the
 end of ["Week 255"](#week255). It's an attempt to do homotopy
 theory for algebraic varieties, where homotopies are parametrized not
 by the interval but by the line --- since the line is an algebraic
-variety. Algebraic geometers call the line A^1, just to make the rest
+variety. Algebraic geometers call the line $A^1$, just to make the rest
 of us feel dumb.
 
-In his work on A^1-homotopy theory, Voevodsky studied certain
-cohomology groups for a variety X, called "[motivic cohomology
-groups](http://en.wikipedia.org/wiki/Motivic_cohomology)". The
+In his work on $A^1$-homotopy theory, Voevodsky studied certain
+cohomology groups for a variety $X$, called "[motivic cohomology groups](http://en.wikipedia.org/wiki/Motivic_cohomology)". The
 curious thing is that they're bigraded instead of just graded.
-Instead of getting cohomology groups H^p^(X,A) with coefficients in an
-abelian group A, we get cohomology groups H^p,q^(X,A).
+Instead of getting cohomology groups $H^p(X,A)$ with coefficients in an
+abelian group $A$, we get cohomology groups $H^{p,q}(X,A)$.
 
 Why is this? I wish I understood it better... but I think it's
 basically because we could already define cohomology groups for
@@ -603,35 +568,31 @@ defined using simplicial sheaves, and the *simplicial* aspect of these
 sheaves gives a new grading.
 
 And indeed, Voevodsky was able to relate motivic cohomology to another
-bigraded gadget: the "higher Chow groups" of the variety X. These
+bigraded gadget: the "higher Chow groups" of the variety $X$. These
 are a lot easier to define, so let me describe those. Consider the
 free abelian group generated by irreducible subvarieties of
-codimension k in
-
-X \times \Delta^n
-
-where \Delta^n is the $n$-simplex. (Actually, we should only use
+codimension $k$ in
+$$X \times \Delta^n$$
+where $\Delta^n$ is the $n$-simplex. (Actually, we should only use
 subvarieties that hit the faces of the simplex "properly".) As we
-let n vary, we get a simplicial abelian group. But a simplicial
+let $n$ vary, we get a simplicial abelian group. But a simplicial
 abelian group is just a chain complex in disguise! --- I explained how
 in item H of ["Week 116"](#week116).
 
 So, define the higher Chow groups to be the homology groups of this
 chain complex. They depend on two parameters: the "simplicial"
-dimension n, but also the "geometrical" codimension k.
+dimension $n$, but also the "geometrical" codimension $k$.
 
 Obviously it would take me a few years of hard work to get from this
 to the point of actually understanding Ben William's talk!
 
 Finally, Christian Haesemeyer of UCLA wrapped up the day with a talk
-"[On the K-theory of toric
-varieties](ams_2009/Haesemeyer_AMS_UCR_2009.mov)". For quite a while
+"[On the K-theory of toric varieties](https://math.ucr.edu/home/baez/ams_2009/Haesemeyer_AMS_UCR_2009.mov)". For quite a while
 I've been meaning to explain toric varieties, which are a marvelous
 playground for exploring algebraic geometry. Roughly: just as an
 [algebraic variety](http://en.wikipedia.org/wiki/Algebraic_variety)
 looks locally like the solution set of a bunch of polynomial
-equations, a [toric
-variety](http://en.wikipedia.org/wiki/Toric_geometry) looks like the
+equations, a [toric variety](http://en.wikipedia.org/wiki/Toric_geometry) looks like the
 solution set of a bunch of polynomial equations *where you're not
 allowed to add, only multiply!*
 
@@ -639,11 +600,9 @@ This restriction makes them marvelously tractable --- you can easily
 describe them using pictures called "fans". Here's a nice informal
 explanation of how this works:
 
-19) David Speyer, Toric varieties and polytopes,
-`http://sbseminar.wordpress.com/2009/02/09/toric-varieties-and-polytopes/`
+19) David Speyer, "Toric varieties and polytopes", `http://sbseminar.wordpress.com/2009/02/09/toric-varieties-and-polytopes/`
 
-Toric varieties and fans,
-`http://sbseminar.wordpress.com/2009/02/18/toric-varieties-and-fans/`
+    "Toric varieties and fans", `http://sbseminar.wordpress.com/2009/02/18/toric-varieties-and-fans/`
 
 Once you become a fan of fans --- and it's easy to do --- you can't
 resist wanting to take all your favorite invariants of algebraic
@@ -654,7 +613,7 @@ Hmm. I'm only described the first day's worth of talks, and it's
 taken more than one day. And I'm left with a lot of questions. For
 example:
 
----   Aaron Lauda wrote: "It turns out, at least in the simply-laced
+- Aaron Lauda wrote: "It turns out, at least in the simply-laced
     case, that our algebras are also isomorphic to the Ext algebras
     between simple perverse sheaves on the Lusztig quiver variety.
     Lusztig's bilinear form can be seen as taking the graded
@@ -662,27 +621,26 @@ example:
     relationship between the two constructions." Can someone say more
     about what's going on here? Please *don't* assume I understand
     what Aaron told me!
----   How does the representation Licata describes, involving the
-    cohomology of the cotangent bundle of the Grassmannians \mathrm{Gr}(n,k)
-    for k between 0 and n, fit into a more general story? I think the
+- How does the representation Licata describes, involving the
+    cohomology of the cotangent bundle of the Grassmannians $\mathrm{Gr}(n,k)$
+    for $k$ between $0$ and $n$, fit into a more general story? I think the
     disjoint union of these Grassmannians should be thought of as the
-    space of 1-stage "Springer flags" in n dimensions --- where an
-    m-stage Springer flag is a chain of m subspaces of $\mathbb{C}^n$. I vaguely
-    recall that it's interesting to generalize by letting m be
+    space of $1$-stage "Springer flags" in $n$ dimensions --- where an
+    $m$-stage Springer flag is a chain of $m$ subspaces of $\mathbb{C}^n$. I vaguely
+    recall that it's interesting to generalize by letting $m$ be
     arbitrary. And I think that an even more general story --- where we
-    pass from \mathfrak{sl}(2) to \mathfrak{sl}(N) --- involves Springer flags in the category
+    pass from $\mathfrak{sl}(2)$ to $\mathfrak{sl}(N)$ --- involves Springer flags in the category
     of quiver representations. Is this right? What's the big picture?
----   Is my account of Johnson-Wilson theories accurate? What are the
+- Is my account of Johnson-Wilson theories accurate? What are the
     most important things that I left out here?
----   What's "motivic" about Voevodsky's motivic cohomology? Does he
+- What's "motivic" about Voevodsky's motivic cohomology? Does he
     propose a definition of motives? How is it related to
     Grothendieck's conception of motives? How, from this viewpoint,
     can we see that motivic cohomology should be bigraded?
----   What other things should I have said, but didn't?
+- What other things should I have said, but didn't?
 
 If you have answers, or just other questions, please visit the
-[$n$-Category
-Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_45.html).
+[$n$-Category Café](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_45.html).
 
 Happy Thanksgiving!
 

@@ -520,7 +520,7 @@ $$
 $$
 Okay, say we do this: treat the integers as a $2$-category. We again are
 faced with a question: do we make all the $2$-morphisms invertible? If we
-do, we get a "2-groupoid", or actually a "groupal 2-groupoid". But
+do, we get a "$2$-groupoid", or actually a "groupal $2$-groupoid". But
 again, to do so amounts to committing the sin of decategorification. To
 avoid this sin, we should tread the integers as a $3$-category. Etc, etc!
 
@@ -536,15 +536,15 @@ iceberg! The following picture is similar to that in
 
 |       | $n=0$ | $n=1$ | $n=2$ |
 | ----- | :--- | :--- | :--- |
-| $k=0$ | sets | groupoids | 2-groupoids |
+| $k=0$ | sets | groupoids | $2$-groupoids |
 | | | | |
-| $k=1$ | groups | groupal groupoids | groupal 2-groupoids |
+| $k=1$ | groups | groupal groupoids | groupal $2$-groupoids |
 | | | | |
-| $k=2$ | commutative groups | braided groupal groupoids | braided groupal 2-groupoids |
+| $k=2$ | commutative groups | braided groupal groupoids | braided groupal $2$-groupoids |
 | | | | |
-| $k=3$ | " " | symmetric groupal groupoids | weakly involutory groupal 2-groupoids |
+| $k=3$ | " " | symmetric groupal groupoids | weakly involutory groupal $2$-groupoids |
 | | | | |
-| $k=4$ | " " | " " | strongly involutory groupal 2-groupoids |
+| $k=4$ | " " | " " | strongly involutory groupal $2$-groupoids |
 | | | | |
 | $k=5$ | " " | " " | " " |
 

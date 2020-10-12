@@ -657,7 +657,7 @@ It's possible to explain this relation a lot more deeply than I just
 did... but anyway, what Alissa did is start *categorifying* this
 relation. Together with the topologists Carter and Saito, she's
 studying "2-quandles", which should relate 2-tangles to conjugation in
-2-groups.
+$2$-groups.
 
 Next, Chad Giusti of the University of Oregon spoke on "[Unstable
 Vassiliev theory](ams_2009/Giusti_AMS_UCR_2009.mov)":

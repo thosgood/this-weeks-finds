@@ -36,7 +36,7 @@ But this madness is *tripled* in dimension 24. In this dimension,
 spinors are pairs of octooctooctonions: the octonions tensored with
 themselves thrice! But more importantly, this is the dimension where
 Monstrous Moonshine lives. While bosonic string theory works best in
-26-dimensional spacetime, two of those dimensions really come from the
+$26$-dimensional spacetime, two of those dimensions really come from the
 fact that a string worldsheet is a 2d surface, so the real magic comes
 from secret relations between $2$-dimensional stuff (complex analysis) and
 the number 24.
@@ -335,12 +335,12 @@ basically just the life support system for the eyebrows! Similarly, in
 $\mathsf{Equiv}$ we have a $2$-category which is just the life support system for an
 adjunction: no more and no less.
 
-Anyway, the walking equivalence is a weak 2-groupoid: a $2$-category where
+Anyway, the walking equivalence is a weak $2$-groupoid: a $2$-category where
 every $2$-morphism is invertible and every morphism is invertible up to
-2-isomorphism. Weak 2-groupoids are secretly the same thing as homotopy
+2-isomorphism. Weak $2$-groupoids are secretly the same thing as homotopy
 2-types: roughly speaking, topological spaces whose homotopy groups
 vanish above dimension 2. And there's a pretty easy way to turn a weak
-2-groupoid into a homotopy 2-type. First you turn it into a simplicial
+$2$-groupoid into a homotopy 2-type. First you turn it into a simplicial
 set, called its "nerve", and then you take the geometric realization
 of that.
 

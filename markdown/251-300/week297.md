@@ -129,9 +129,9 @@ enough!
 And finally, a comment from Nora Ganter. If you look at the cohomology
 of the symmetric groups, you find an element of order 12 in
 H^3(S_n,Q/Z) for n greater or equal to 4. But the third cohomology of
-a group classifies ways of extending it to a 2-group. So whenever you
+a group classifies ways of extending it to a $2$-group. So whenever you
 realize a finite group as a group of permutations of 4 or more things,
-you automatically get a way of extending it to a 2-group!
+you automatically get a way of extending it to a $2$-group!
 
 I would like to understand this better. In particular, the number 12
 here should be related to the fact that

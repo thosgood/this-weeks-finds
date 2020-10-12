@@ -177,8 +177,8 @@ As you may know, Lie groups and their Lie algebras are incredibly
 important in gauge theory, which describe how particles change when you
 move them around. Lately people have been developing "higher gauge
 theory", which does the same job for strings and higher-dimensional
-membranes. For strings we need Lie 2-groups and their Lie 2-algebras.
-Lie 2-groups are like Lie groups except that they're *categories*
+membranes. For strings we need Lie $2$-groups and their Lie 2-algebras.
+Lie $2$-groups are like Lie groups except that they're *categories*
 instead of sets... and similarly for Lie 2-algebras. Go up one more
 dimension and you need math based on *$2$-categories*. So, for $2$-branes,
 which look like soap bubbles instead of loops of string, you need Lie
