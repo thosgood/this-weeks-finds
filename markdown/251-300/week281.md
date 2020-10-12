@@ -425,10 +425,7 @@ The last one is a huge treasure trove of images!
 > This one can be run in full-screen mode.
 
 Here's a sample of what it produces:
-
-::: {align="center"}
-[![](girih_egan_2.jpg)](http://gregegan.customer.netspace.net.au/APPLETS/33/33.html)
-:::
+$$\href{http://gregegan.customer.netspace.net.au/APPLETS/33/33.html}{\includegraphics[max width=0.65\linewidth]{../images/girih_egan_2.jpg}}$$
 
 I got an email [Craig Kaplan](http://www.cgl.uwaterloo.ca/~csk/), whose
 wonderful work on tilings I mentioned above. He writes:
@@ -463,16 +460,12 @@ wonderful work on tilings I mentioned above. He writes:
 >
 > Cromwell's article was in part a response to Lu & Steinhardt's. You
 > also might be interested in three upcoming articles of his, to appear
-> in the [Journal of Mathematics and the
-> Arts](http://www.tandf.co.uk/journals/TMAA) (for which I'm an
-> associate editor):
+> in the [Journal of Mathematics and the Arts](http://www.tandf.co.uk/journals/TMAA)
+> (for which I'm an associate editor):
 >
-> - Islamic geometric designs from the Topkapi Scroll I: Unusual
->     arrangements of stars.
-> - Islamic geometric designs from the Topkapi Scroll II: A modular
->     design system.
-> - Hybrid 1-point and 2-point constructions for some Islamic
->     geometric designs.
+> - "Islamic geometric designs from the Topkapi Scroll I: Unusual arrangements of stars".
+> - "Islamic geometric designs from the Topkapi Scroll II: A modular design system".
+> - "Hybrid 1-point and 2-point constructions for some Islamic geometric designs".
 >
 > Hopefully they'll be out soon.
 >
@@ -481,46 +474,37 @@ wonderful work on tilings I mentioned above. He writes:
 > decagons, pentagons, and funky hexagons. It's in this paper, which
 > you didn't link to:
 >
-> 52) Craig S. Kaplan, Islamic star patterns from polygons in contact,
-> in GI '05: Proceedings of the 2005 conference on Graphics Interface,
-> 2005. Also available at
-> `http://www.cgl.uwaterloo.ca/~csk/papers/gi2005.html`
+> 52) Craig S. Kaplan, "Islamic star patterns from polygons in contact", in _GI '05: Proceedings of the 2005 conference on Graphics Interface_, 2005. Also available at `http://www.cgl.uwaterloo.ca/~csk/papers/gi2005.html`
 >
 > Hope that's useful to you, and thanks for the mention.
 
 Brian Wichmann pointed out this online database:
 
-53) Brian Wichmann, A tiling database, `http://www.tilingsearch.org/`
+53) Brian Wichmann, "A tiling database", `http://www.tilingsearch.org/`
 
 Here's a database entry from the Alhambra:
-
-::: {align="center"}
-![](tiling_wichmann.jpg)
-:::
+$$\includegraphics[max width=0.65\linewidth]{../images/tiling_wichmann.jpg}$$
 
 Michael D. Hirschhorn emailed me to say that nearly 30 years ago, he and
 David C. Hunt published a paper in the *Journal of Combinatorial Theory*
 classifying all tilings of the plane by identical convex equilateral
-pentagons. The most famous appears to be the "Hirschhorn medallion"
+pentagons. The most famous appears to be the "Hirschhorn medallion".
 [Bob Jenkins](http://burtleburtle.net/bob/tile/pentagon.html) used it to
 tile his bathroom:
-
-::: {align="center"}
-[![](http://burtleburtle.net/bob/picture/981215d.jpg)](http://burtleburtle.net/bob/tile/pentagon.html)
-:::
-
+$$\href{http://burtleburtle.net/bob/tile/pentagon.html}{\includegraphics[max width=0.65\linewidth]{../images/981215d.jpg}}$$
 Later Hirschhorn and Hunt extended their result to cover all
 *non-*convex equilateral tilings, but this has never been published.
 
 Presumably this page is based on Hirschhorn and Hunt's work:
 
-54) MathPuzzle, The 14 different types of convex pentagons that tile
-the plane, available at `http://www.mathpuzzle.com/tilepent.html`
+54) MathPuzzle, "The 14 different types of convex pentagons that tile the plane", available at `http://www.mathpuzzle.com/tilepent.html`
 
 For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/category/2009/10/this_weeks_finds_in_mathematic_42.html).
 
 ------------------------------------------------------------------------
 
-*The arabesques displayed a profound use of mathematical principles, and
+> *The arabesques displayed a profound use of mathematical principles, and
 were made up of obscurely symmetrical curves and angles based on the
-quantity of five.* --- H. P. Lovecraft
+quantity of five.*
+> 
+> --- H. P. Lovecraft
