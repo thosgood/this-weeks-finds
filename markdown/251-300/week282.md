@@ -1077,21 +1077,26 @@ with an ideal I has a suboperad whose $n$-ary operations are those lying
 in $\mathcal{I}^{n-1}$", you might have been puzzled by the "$-1$". Here's the
 point. All ways of composing operations can be built up from ways like
 this:
-
-           |    \    /  |
-           |     \  /   |
-           |     ---    |
-           |    |   |   | 
-            \    ---    /
-             \    |    /
-              \   |   /  
-               \  |  / 
-                ----- 
-               |     |  
-                -----  
-                  |   
-                  |  
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (-1,3.5)
+        to (-1,2.25)
+        to [out=down,in=up] (-0.33,1);
+      \strand[thick] (1,3.5)
+        to (1,2.25)
+        to [out=down,in=up] (0.33,1);
+    \end{knot}
+    \node at (0,2.25) {};
+    \draw[thick] (-0.5,3.5) to (-0.25,2.5);
+    \draw[thick] (0.5,3.5) to (0.25,2.5);
+    \draw[rounded corners=1mm] (-0.5,2.5) rectangle ++(1,-0.5);
+    \draw[thick] (0,2) to (0,1);
+    \node at (0,0.75) {};
+    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick] (0,0.5) to (0,-0.5);
+  \end{tikzpicture}
+$$
 where we compose an $m$-ary operation and an $n$-ary operation (together
 with some identity operations). The result is an $(m+n-1)$-ary operation!
 For example, above I'm composing a $3$-ary operation and a $2$-ary
