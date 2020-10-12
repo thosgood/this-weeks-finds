@@ -261,64 +261,56 @@ $\mathbb{K}^2$ and multiply them to get a guy in $\mathrm{h}_2(\mathbb{K})$?
 In saying this, I was ignoring everything about energy and momentum, and
 focusing on the "spin" aspect of this absorption process. It's only
 the "spin", or intrinsic angular momentum, of a photon that's
-described by an element of \mathrm{h}_2(\mathbb{K}) --- with K = C, since we live in
-4-dimensional spacetime. And it's only the spin of the electron that's
-described by an element of \mathbb{K}^2.
+described by an element of $\mathrm{h}_2(\mathbb{K})$ --- with $\mathbb{K} = \mathbb{C}$, since we live in
+$4$-dimensional spacetime. And it's only the spin of the electron that's
+described by an element of $\mathbb{K}^2$.
 
 But it's even worse than that. In $4$-dimensional spacetime, spinors come
 in left- and right-handed forms. For example, the neutrinos we most
 easily see --- not that easily, actually! --- are left-handed spinors, while
 antineutrinos are right-handed. Electrons come in both left and
-right-handed forms, so we actually describe them using C^2 \oplus C^2 =
-C^4. We call C^4 the space of "Dirac spinors", and we call the two
+right-handed forms, so we actually describe them using
+$\mathbb{C}^2 \oplus \mathbb{C}^2 = \mathbb{C}^4$.
+We call $\mathbb{C}^4$ the space of "Dirac spinors", and we call the two
 pieces left- and right-handed "Weyl spinors".
 
 Similar but subtly different things happen in other dimensions. As far
 as our division algebras story goes, the crucial fact is that besides
-the "obvious" way for an element of \mathrm{h}_2(\mathbb{K}) to act on \mathbb{K}^2, there is a
-less obvious way that involves the "traced-reversed" form of a 2\times2
+the "obvious" way for an element of $\mathrm{h}_2(\mathbb{K})$ to act on $\mathbb{K}^2$, there is a
+less obvious way that involves the "traced-reversed" form of a $2\times2$
 hermitian matrix:
-
-A^\~^ = A --- \operatorname{tr}(A)
-
-where the trace \operatorname{tr}(A) is the sum of the diagonal entries. We get one
+$$\widetilde{A} = A - \operatorname{tr}(A)$$
+where the trace $\operatorname{tr}(A)$ is the sum of the diagonal entries. We get one
 kind of spinors, say
-
-S~+~ = \mathbb{K}^2
-
+$$S_+ = \mathbb{K}^2$$
 upon which the vectors
-
-V = \mathrm{h}_2(\mathbb{K})
-
+$$V = \mathrm{h}_2(\mathbb{K})$$
 act in the obvious way, and another kind of spinors, say
-
-S~-~ = \mathbb{K}^2
-
-in which vectors act in a nonobvious way. As vector spaces S~+~ and S~-~
+$$S_- = \mathbb{K}^2$$
+in which vectors act in a nonobvious way. As vector spaces $S_+$ and $S_-$
 are the same --- but they differ in how vectors act on them, and we should
 think of this action as interchanging the two kinds of spinor. Here are
 the formulas:
-
-V \otimes S~+~ \to S~-~\
-A \otimes \psi \mapsto A\psi
-
-V \otimes S~-~ \to S~+~\
-A \otimes \psi \mapsto A^\~^ \psi
-
+$$
+  \begin{aligned}
+    V \otimes S_+ &\to S_-
+  \\A \otimes \psi &\mapsto A\psi
+  \\[1em]V \otimes S_- &\to S_+
+  \\A \otimes \psi &\mapsto \widetilde{A} \psi
+  \end{aligned}
+$$
 These actions fit together to yield a Clifford algebra action on the
-direct sum of S~+~ and S~-~, since
-
-A A^\~^ = A^\~^ A = -det(A)
-
+direct sum of $S_+$ and $S_-$, since
+$$A \widetilde{A} = \widetilde{A} A = -\det(A)$$
 and the determinant is related to the metric on Minkowski spacetime, so
 these are the Clifford algebra relations in deep disguise.
 
 What all this really amounts to depends a lot on which of the four
-division algebras we're looking at! Sometimes S~+~ and S~-~ are
+division algebras we're looking at! Sometimes $S_+$ and $S_-$ are
 secretly isomorphic, sometimes not. They always start out being real
-vector spaces, since as vector spaces they're just \mathbb{K}^2, and the only
+vector spaces, since as vector spaces they're just $\mathbb{K}^2$, and the only
 uniform way to think of all four normed division algebras is as *real*
-vector spaces. But sometimes S~+~ and S~-~ admit Lorentz-invariant
+vector spaces. But sometimes $S_+$ and $S_-$ admit Lorentz-invariant
 complex structures, so we can think of them as complex vector spaces!
 
 (By "Lorentz-invariant" I really mean invariant under the action of
@@ -331,42 +323,42 @@ Let me just summarize the facts, without much explanation. This is one
 of those things where I write stuff down so I can forget it and look it
 up later:
 
--   If K = R, we're in 3d Minkowski spacetime. Then S~+~ and S~-~ are
+- If $\mathbb{K} = \mathbb{R}$, we're in 3d Minkowski spacetime. Then $S_+$ and $S_-$ are
     isomorphic as real representations of the Lorentz group --- so it's
     not important to distinguish them. The secret reason for this is
-    that R is commutative. Since S~+~ \cong S~-~ does not have an invariant
+    that $\mathbb{R}$ is commutative. Since $S_+ \cong S_-$ does not have an invariant
     complex structure, we call elements of this space "Majorana"
     spinors, which is the name for real spinors that don't have a
     particular handedness.
 
--   If K = C, we're in 4d Minkowski spacetime. Then S~+~ and S~-~ are
+- If $\mathbb{K} = \mathbb{C}$, we're in 4d Minkowski spacetime. Then $S_+$ and $S_-$ are
     isomorphic as real representations of the Lorentz group --- so it's
     not important to distinguish them. The secret reason for this is
-    that C is commutative. If we treat S~+~ \cong S~-~ as a real vector
+    that $\mathbb{C}$ is commutative. If we treat $S_+ \cong S_-$ as a real vector
     space, we call elements of this space "Majorana" spinors, which is
     the name for real spinors that don't have a particular handedness.
 
     But in fact this real vector space has two invariant complex
     structures, and the resulting complex representations are *not*
-    isomorphic! If we think of S~+~ and S~-~ as two nonisomorphic
+    isomorphic! If we think of $S_+$ and $S_-$ as two nonisomorphic
     complex representations we call their elements left- and
     right-handed "Weyl" spinors, respectively --- since that's the name
     for complex spinors that do have a particular handedness.
 
--   If K = H, we're in 6d Minkowski spacetime. Then S~+~ and S~-~ are
+- If $\mathbb{K} = \mathbb{H}$, we're in 6d Minkowski spacetime. Then $S_+$ and $S_-$ are
     not isomorphic as real representations of the Lorentz group --- so
     it's important to distinguish them. The secret reason for this is
-    that H is not commutative. Furthermore, S~+~ and S~-~ admit
-    invariant complex structures. If we think of S~+~ and S~-~ as
+    that $\mathbb{H}$ is not commutative. Furthermore, $S_+$ and $S_-$ admit
+    invariant complex structures. If we think of $S_+$ and $S_-$ as
     complex representations we call their elements left- and
     right-handed "Weyl" spinors, respectively --- since that's the name
     for complex spinors that do have a particular handedness.
 
--   If K = O we're in 10d Minkowski spacetime. Then S~+~ and S~-~ are
+- If $\mathbb{K} = \mathbb{O}$ we're in 10d Minkowski spacetime. Then $S_+$ and $S_-$ are
     not isomorphic as real representations of the Lorentz group --- so
     it's important to distinguish them. The secret reason for this is
-    that O is not commutative. Furthermore, S~+~ and S~-~ do not admit
-    invariant complex structures. So, we must think of S~+~ and S~-~ as
+    that $\mathbb{O}$ is not commutative. Furthermore, $S_+$ and $S_-$ do not admit
+    invariant complex structures. So, we must think of $S_+$ and $S_-$ as
     real representations, and we call their elements left- and
     right-handed "Majorana-Weyl" spinors, respectively --- since that's
     the name for real spinors that do have a particular handedness.
@@ -397,28 +389,26 @@ For now, here are a few cool things I *won't* tell you much about,
 because I don't understand them well enough. First, as pointed out to
 me by Mike Stay:
 
-14) Generalized continued fractions and equal temperament, Doctroidal
-Dissertations, April 13th, 2009,
-`http://doctroid.wordpress.com/2009/04/13/`
+14) "Generalized continued fractions and equal temperament", _Doctroidal Dissertations_, April 13th, 2009, `http://doctroid.wordpress.com/2009/04/13/`
 
-This starts with the old problem of trying to find a number x such that
-x^n = 2 and x^k^ is almost 3/2. In music jargon, this is called
+This starts with the old problem of trying to find a number $x$ such that
+$x^n = 2$ and $x^k$ is almost $3/2$. In music jargon, this is called
 "finding an equal tempered scale that has a good fifth". In math
 jargon, it amounts to finding a good rational approximation to
-
-log(3/2)/log(2) \~ 0.584962501
-
+$$\frac{\log(3/2)}{\log(2)} \sim 0.584962501$$
 The theory of continued fractions gives us candidates:
-
-    0/1   = 0.000000
-    1/1   = 1.000000
-    1/2   = 0.500000
-    3/5   = 0.600000
-    7/12  = 0.583333
-    24/41 = 0.585366
-    31/53 = 0.584906
-
-and the first really good one is 7/12. Maybe that's why we divide the
+$$
+  \begin{aligned}
+    \frac{0}{1}   &= 0.000000
+  \\\frac{1}{1}   &= 1.000000
+  \\\frac{1}{2}   &= 0.500000
+  \\\frac{3}{5}   &= 0.600000
+  \\\frac{7}{12}  &= 0.583333
+  \\\frac{24}{41} &= 0.585366
+  \\\frac{31}{53} &= 0.584906
+  \end{aligned}
+$$
+and the first really good one is $7/12$. Maybe that's why we divide the
 scale into 12 equal parts, with the the 7th one up playing a crucial
 role!
 
@@ -427,25 +417,15 @@ too, like a good third? That's where "generalized" continued
 fractions come in! I won't tell you what those are.
 
 I also won't tell you about the new revolution linking logic to weak
-\infty-groupoids. For that you'll have to read these:
+$\infty$-groupoids. For that you'll have to read these:
 
-15) Martin Hofmann and Thomas Streicher, The groupoid interpretation of
-type theory, in Sambin, Giovanni, et al, Twenty-five years of
-constructive type theory, Clarendon Press, Oxford, 1998, pp. 83-111.
-Also available at
-`http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.606`
+15) Martin Hofmann and Thomas Streicher, "The groupoid interpretation of type theory", in Sambin, Giovanni, et al, _Twenty-five years of constructive type theory_, Clarendon Press, Oxford, 1998, pp. 83--111. Also available at `http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.606`
 
-16) Steve Awodey and Michael A. Warren, Homotopy theoretic models of
-identity types, available as
-[`arXiv:0709.0248`](http://arxiv.org/abs/0709.0248).
+16) Steve Awodey and Michael A. Warren, "Homotopy theoretic models of identity types", available as [`arXiv:0709.0248`](http://arxiv.org/abs/0709.0248).
 
-17) Steve Awodey, Pieter Hofstra, Michael A. Warren, Martin-Lf
-Complexes, available as
-[`arXiv:0906.4521`](http://arxiv.org/abs/0906.4521).
+17) Steve Awodey, Pieter Hofstra, Michael A. Warren, "Martin-Lf Complexes", available as [`arXiv:0906.4521`](http://arxiv.org/abs/0906.4521).
 
-18) Benno van den Berg and Richard Garner, Types are weak
-omega-groupoids, available at
-`http://www.dpmms.cam.ac.uk/~rhgg2/Typesom/Typesom.pdf`
+18) Benno van den Berg and Richard Garner, "Types are weak omega-groupoids", available at `http://www.dpmms.cam.ac.uk/~rhgg2/Typesom/Typesom.pdf`
 
 ------------------------------------------------------------------------
 
@@ -453,17 +433,17 @@ omega-groupoids, available at
 
 > In relation with your recent, interesting,
 > [`arxiv:0909.0551`](http://arxiv.org/abs/arxiv:0909.0551) paper I would
-> like to signal that division algebras also appear in the N-extended
-> supersymmetric quantum mechanics (in one dimension) for N=1,2,4,8.
+> like to signal that division algebras also appear in the $N$-extended
+> supersymmetric quantum mechanics (in one dimension) for $N=1,2,4,8$.
 > This is hardly surprising, of course
 > ([`hep-th/0109073`](http://arxiv.org/abs/hep-th/0109073) NPB Pr.
 > Sup.). Perhaps slightly more surprising is the fact that the
-> octonionic structure constants enter, as coupling constants, N=8
-> invariant actions, like e.g. the (1,8,7) model of
+> octonionic structure constants enter, as coupling constants, $N=8$
+> invariant actions, like e.g. the $(1,8,7)$ model of
 > [`hep-th/0511274`](http://arxiv.org/abs/hep-th/0511274) (also in
 > JHEP). In this example the 7 auxiliary fields can be associated with
 > the 7 imaginary octonions, preserving the "octonionic covariance". I
-> should add that the representations of N-extended 1D superalgebra are
+> should add that the representations of $N$-extended 1D superalgebra are
 > mathematically very interesting and quite intricate. In the last few
 > years basically two groups, my group and the group of S. Gates and his
 > collaborators, worked out with complementary viewpoints and results
@@ -479,5 +459,7 @@ For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/ca
 
 ------------------------------------------------------------------------
 
-*A creation of importance can only be produced when its author isolates
-himself, it is a child of solitude.* --- Johann Wolfgang von Goethe
+> *A creation of importance can only be produced when its author isolates
+himself, it is a child of solitude.*
+> 
+> --- Johann Wolfgang von Goethe
