@@ -3,174 +3,126 @@
 A while back, my friend Dan Christensen drew a picture of all the roots
 of all the polynomials of degree at most 5 with integer coefficients
 ranging from -4 to 4:
+$$\href{http://math.ucr.edu/home/baez/roots/deg5.png}{\includegraphics[max width=0.65\linewidth]{../images/deg5.png}}$$
 
-::: {align="center"}
-[![](http://math.ucr.edu/home/baez/roots/deg5.png){width="600"}](http://math.ucr.edu/home/baez/roots/deg5.png)
-:::
+1) Dan Christensen, 'Plots of roots of polynomials with integer coefficients', `http://jdc.math.uwo.ca/roots/`
 
-1) Dan Christensen, Plots of roots of polynomials with integer
-coefficients, `http://jdc.math.uwo.ca/roots/`
-
-2) John Baez, The beauty of roots,
-`http://math.ucr.edu/home/baez/roots/`
+2) John Baez, "The beauty of roots", `http://math.ucr.edu/home/baez/roots/`
 
 Click on the picture for bigger view. Roots of quadratic polynomials are
 in grey; roots of cubics are in cyan; roots of quartics are in red and
 roots of quintics are in black. The horizontal axis of symmetry is the
 real axis; the vertical axis of symmetry is the imaginary axis. The big
-hole in the middle is centered at 0; the next biggest holes are at ±1,
-and there are also holes at ±i and all the cube roots of 1.
+hole in the middle is centered at $0$; the next biggest holes are at $\pm1$,
+and there are also holes at $\pm i$ and all the cube roots of $1$.
 
 You can see lots of fascinating patterns here, like how the roots of
 polynomials with integer coefficients tend to avoid integers and roots
-of unity - except when they land *right on* these points! You can see
+of unity --- except when they land *right on* these points! You can see
 more patterns if you zoom in:
-
-::: {align="center"}
-![](http://math.ucr.edu/home/baez/roots/deg5_closeup.jpg)
-:::
-
+$$\includegraphics[max width=0.65\linewidth]{../images/deg5_closeup.jpg}$$
 Now you see beautiful feathers surrounding the blank area around the
-point 1 on the real axis, a hexagonal star around exp(i \pi  / 6), a
-strange red curve from this point to 1, smaller stars around other
+point $1$ on the real axis, a hexagonal star around $\exp(i\pi/6)$, a
+strange red curve from this point to $1$, smaller stars around other
 points, and more....
 
-People should study this sort of thing! Let's define the set C(d,n) to
-be the set of all roots of all polynomials of degree d with integer
-coefficients ranging from -n to n. Clearly C(d,n) gets bigger as we make
-either d or n bigger. It becomes dense in the complex plane as n \to \infty, as
-long as d \geqslant 1. We get all the rational complex numbers if we fix d \geqslant 1
-and let n \to \infty, and all the algebraic complex numbers if let both d,n \to
-\infty.
+People should study this sort of thing! Let's define the set $\mathbb{C}(d,n)$ to
+be the set of all roots of all polynomials of degree $d$ with integer
+coefficients ranging from $-n$ to $n$. Clearly $\mathbb{C}(d,n)$ gets bigger as we make
+either $d$ or $n$ bigger. It becomes dense in the complex plane as $n \to \infty$, as
+long as $d \geqslant 1$. We get all the rational complex numbers if we fix $d \geqslant 1$
+and let $n \to \infty$, and all the algebraic complex numbers if let both $d,n \to \infty$.
 
 But based on the above picture, there seem to be a lot of interesting
-conjectures to make about this set as d \to \infty for fixed n.
+conjectures to make about this set as $d \to \infty$ for fixed $n$.
 
 Inspired by the pictures above, Sam Derbyshire decided to to make a high
 resolution plot of some roots of polynomials. After some
 experimentation, he decided that his favorite were polynomials whose
-coefficients were all 1 or -1 (not 0). He made a high-resolution plot by
+coefficients were all $1$ or $-1$ (not $0$). He made a high-resolution plot by
 computing all the roots of all polynomials of this sort having degree
-24. That's 2^24^ polynomials, and about 24 \times 2^24^ roots --- or about
+24. That's $2^{24}$ polynomials, and about $24 \times 2^{24}$ roots --- or about
 400 million roots! It took Mathematica 4 days to generate the
 coordinates of the roots, producing about 5 gigabytes of data. He then
-used some Java programs to create this amazing image:\
-\
-
-::: {align="center"}
-[![](http://math.ucr.edu/home/baez/roots/polynomialrootssmall.png){width="600"}](http://math.ucr.edu/home/baez/roots/polynomialrootssmall.png)
-:::
-
-\
-\
-
+used some Java programs to create this amazing image:
+$$\href{http://math.ucr.edu/home/baez/roots/polynomialrootssmall.png}{\includegraphics[max width=0.65\linewidth]{../images/polynomialrootssmall.png}}$$
 The coloring shows the density of roots, from black to dark red to
 yellow to white. The picture above is a low-resolution version of the
 original image, which is available as a 90-megabyte file on Dan's
-website. We can zoom in to get more detail:\
-\
-\
-
-::: {align="center"}
-[![](http://math.ucr.edu/home/baez/roots/polynomialroots_closeup.jpg){width="600"}](http://math.ucr.edu/home/baez/roots/polynomialroots_closeup.jpg)
-:::
-
-\
-\
+website. We can zoom in to get more detail:
+$$\href{http://math.ucr.edu/home/baez/roots/polynomialroots_closeup.jpg}{\includegraphics[max width=0.65\linewidth]{../images/polynomialroots_closeup.jpg}}$$
 Note the holes at certain roots of unity, and wondrously intricate
 patterns as we move inside the unit circle. To make all this clearer,
-Sam Derbyshire zoomed in on certain regions, marked here:\
-\
-\
+Sam Derbyshire zoomed in on certain regions, marked here:
+$$\href{http://math.ucr.edu/home/baez/roots/polynomialrootscrops.png}{\includegraphics[max width=0.65\linewidth]{../images/polynomialrootscrops.png}}$$
 
-::: {align="center"}
-[![](http://math.ucr.edu/home/baez/roots/polynomialrootscrops.png){width="600"}](http://math.ucr.edu/home/baez/roots/polynomialrootscrops.png)
-:::
+Here's a closeup of the hole at $1$:
 
-\
-\
-\
-Here's a closeup of the hole at 1:\
-\
-\
+
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialroots1.png){width="500"}](http://math.ucr.edu/home/baez/roots/polynomialroots1.png)
 :::
 
-\
-\
-\
+
+
+
 Note the white line along the real axis. That's because lots more of
 these polynomials have real roots than *nearly* real roots.
 
-Next, here's the hole at i:\
-\
-\
+Next, here's the hole at i:
+
+
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialrootsi.png){width="400"}](http://math.ucr.edu/home/baez/roots/polynomialrootsi.png)
 :::
 
-\
-\
-\
-And here's the hole at exp(i\pi /4) = (1 + i)/√2:\
-\
-\
+
+And here's the hole at exp(i\pi /4) = (1 + i)/√2:
+
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialrootsexpi025p.png){width="400"}](http://math.ucr.edu/home/baez/roots/polynomialrootsexpi025p.png)
 :::
 
-\
-\
-\
+
+
+
 Note how the density of roots increases as we get closer to this point,
 but then suddenly drops off right next to it. Note also the subtle
 patterns in the density of roots.
 
 But the feathery structures as move inside the unit circle are even more
 beautiful! Here is what they look near the real axis --- this plot is
-centered at the point 4/5:\
-\
-\
+centered at the point 4/5:
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialroots08.png){width="500"}](http://math.ucr.edu/home/baez/roots/polynomialroots08.png)
 :::
 
-\
-\
-\
-They have a very different character near the point (4/5)i:\
-\
-\
+
+They have a very different character near the point (4/5)i:
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialroots08i.png){width="600"}](http://math.ucr.edu/home/baez/roots/polynomialroots08i.png)
 :::
 
-\
-\
-\
+
 But I think my favorite is the region near the point (1/2)exp(i/5). This
 image is almost a metaphor of how mathematical patterns emerge from
-confusion like sharply defined figures looming from the mist:\
-\
-\
+confusion like sharply defined figures looming from the mist:
+
 
 ::: {align="center"}
 [![](http://math.ucr.edu/home/baez/roots/polynomialroots05expi02.png){width="750"}](http://math.ucr.edu/home/baez/roots/polynomialroots05expi02.png)
 :::
 
-\
-\
-\
+
 Dan and Sam were not the first to explore these issues, but there's a
 lot left to do: conjectures to make, theorems to prove, and pictures to
 draw! If you come up with some pretty pictures, I'd love to include
-them on my webpage - and cite you. For previous research, see:
+them on my webpage --- and cite you. For previous research, see:
 
 3) Loki Joergenson, Zeros of polynomials with constrained coefficients,
 `http://www.cecm.sfu.ca/~loki/Projects/Roots/`
@@ -178,7 +130,7 @@ them on my webpage - and cite you. For previous research, see:
 4) Eric W. Weisstein, MathWorld, Polynomial roots,
 `http://mathworld.wolfram.com/PolynomialRoots.html`
 
-My colleague the knot theorist Xiao-Song Lin - sadly no longer with us -
+My colleague the knot theorist Xiao-Song Lin --- sadly no longer with us ---
 plotted the zeros of the Jones polynomial for prime alternating knots
 with up to 13 crossings, and you can see his pictures here:
 
@@ -221,7 +173,7 @@ talk titles below:
 AMS Western Section Meeting, November 7-8, 2009. Talks available as
 Quicktime videos at `http://math.ucr.edu/~jbergner/amsriverside09.htm`
 
-It's been good for me trying to discuss all these talks - it's forced
+It's been good for me trying to discuss all these talks --- it's forced
 me to think about them a lot harder. I'm not sure how good it is for
 you, though: lots of ideas are flashing past without adequate
 explanation. Each talk could be the basis for a whole This Week's
@@ -274,7 +226,7 @@ of the framed little 2-discs operad!
 This is just the beginning of a big story. Malm's talk surveys this
 story and adapts the ideas of string topology to the *based* loop space
 of a manifold, using its relations to Hochschild homology. For some
-useful background here, try this book - or at least the very informative
+useful background here, try this book --- or at least the very informative
 review:
 
 10) Ralph L. Cohen, Kathryn Hess, and Alexander A. Voronov, String
@@ -302,7 +254,7 @@ there's a nice *$2$-category* of orbifolds!
 The reason is that we shouldn't think of an orbifold as a set with
 extra structure. We should think of it as a *groupoid* with extra
 structure. The points of the orbifold are the objects of this groupoid.
-For a plain old manifold, we'd only have identity morphisms - so it's
+For a plain old manifold, we'd only have identity morphisms --- so it's
 basically just a set. But for a more interesting orbifold, the singular
 points have extra automorphisms.
 
@@ -386,7 +338,7 @@ where R(G), the so-called "representation ring" of G, is the
 Grothendieck group of Rep(G).
 
 The Atiyah-Segal theorem explains how this map from R(G) to K(BG) is
-almost - though not quite - an isomorphism. It's tempting to generalize
+almost --- though not quite --- an isomorphism. It's tempting to generalize
 this from K-theory to twisted K-theory... and that's what Anssi
 Lahtinen spoke about!
 
@@ -477,7 +429,7 @@ mentioned a while back.
 The Galatius-Madsen-Tillmann-Weiss paper determined the homotopy type of
 the classifying space of the topological category of $n$-dimensional
 oriented cobordisms! The new work constructs a topological monoid that
-has the same classifying space - a nice simplification.
+has the same classifying space --- a nice simplification.
 
 After lunch, Alissa Crans of Loyola Marymount University spoke on
 "[2-Quandles: categorified
@@ -631,7 +583,7 @@ while the equation
 g > g = g = g < g
 
 handles the first Reidemeister move. The first Reidemeister move is not
-really about about braids - it's about tangles:
+really about about braids --- it's about tangles:
 
     |      /\           |         |      /\
     |     /  \          |         |     /  \
@@ -706,19 +658,19 @@ and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501. Also available as
 [`arXiv:0810.1785`](http://arxiv.org/abs/0810.1785).
 
 Next, Chris Douglas of U.C. Berkeley gave talk charmingly entitled
-"3-categories for the working mathematician" - unfortunately no video
+"3-categories for the working mathematician" --- unfortunately no video
 for this one. It's great to see how weak $3$-categories are making their
 way into applications. Douglas is working with Arthur Bartels and Andre
-Henriques on their applications to "conformal nets" - that is,
+Henriques on their applications to "conformal nets" --- that is,
 algebras of local observables in conformal field theory. The bulk of
 Douglas' talk involved a kind of hieroglyphic notation for operations
 and equations in a definition of weak $3$-category. This definition is
 close to the existing definitions of "tricategory", but not exactly
-the same - at least, not superficially. It's probably equivalent.
+the same --- at least, not superficially. It's probably equivalent.
 
 Finally, [Scott Morrison](ams_2009/Morrison_AMS_UCR_2009.mov) and [Kevin
 Walker](ams_2009/KWalker_AMS_UCR_2009.mov) gave a 2-part talk on "blob
-homology" - a great introduction to their big paper in progress:
+homology" --- a great introduction to their big paper in progress:
 
 20) Scott Morrison and Kevin Walker, Blob homology slides:
 `http://tqft.net/UCR-blobs1` and `http://tqft.net/UCR-blobs2`
@@ -727,7 +679,7 @@ homology" - a great introduction to their big paper in progress:
 at `http://tqft.net/papers/blobs.pdf`
 
 The clever idea here is to use manifolds to provide a quick and
-practical definition of "$n$-categories with duals" - thus
+practical definition of "$n$-categories with duals" --- thus
 short-circuiting, at least temporarily, the need to prove some big
 conjectures linking this algebraic concept to topology. With this
 definition, they're able to define and study "blob homology": that
@@ -752,5 +704,7 @@ For more discussion visit the [$n$-Category Café](http://golem.ph.utexas.edu/ca
 
 ------------------------------------------------------------------------
 
-*The author feels that this technique of deliberately lying will
-actually make it easier for you to learn the ideas.* - Donald Knuth
+> *The author feels that this technique of deliberately lying will
+actually make it easier for you to learn the ideas.*
+> 
+> --- Donald Knuth
