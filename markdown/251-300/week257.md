@@ -59,7 +59,7 @@ Ciska Markwick-Kemper is an expert on dust. She's an astrophysicist at
 the University of Manchester. Together with some coauthors, she wrote a
 paper about the Red Rectangle:
 
-3) F. Markwick-Kemper, J. D. Green, E. Peeters, "Spitzer detections of new dust components in the outflow of the Red Rectangle", _Astrophys. J._ **628** (2005) L119--L122. Also available as [`arXiv:astro-ph/0506473`](https://arxiv.org/abs/astro-ph/0506473).
+3) F. Markwick-Kemper, J. D. Green, E. Peeters, "Spitzer detections of new dust components in the outflow of the Red Rectangle", _Astrophys. J._ **628** (2005) L119--L122. Also available as [`astro-ph/0506473`](https://arxiv.org/abs/astro-ph/0506473).
 
 They used the Spitzer Space Telescope --- an infrared telescope on a
 satellite in earth orbit --- to find evidence of magnesium and iron oxides

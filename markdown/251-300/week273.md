@@ -130,7 +130,7 @@ Here's a timeline loosely taken from this paper:
         $$
           \begin{gathered}
             \href{http://en.wikipedia.org/wiki/T_Tauri_star}{\includegraphics[max width=0.65\linewidth]{../images/TTauriStarDrawing.jpg}}
-          \\\text{Artist's image of the Sun as a T Tauri Star.}
+          \\\mbox{Artist's image of the Sun as a T Tauri Star.}
           \end{gathered}
         $$
     - Aqueous alteration, thermal alteration, and shocks form
@@ -216,7 +216,7 @@ Here's a timeline loosely taken from this paper:
         > $$
         >   \begin{gathered}
         >     \href{http://www.boulder.swri.edu/~robin}{\includegraphics[max width=0.65\linewidth]{../images/TTauriStarDrawing.jpg}}
-        >   \\\text{\href{Robin Canup}{http://www.boulder.swri.edu/~robin/}'s
+        >   \\\mbox{\href{Robin Canup}{http://www.boulder.swri.edu/~robin/}'s
         > simulation of Earth and Theia, 50 minutes after their initial
         > collision.}
         >   \end{gathered}

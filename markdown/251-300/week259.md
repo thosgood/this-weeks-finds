@@ -69,7 +69,7 @@ clump of dust reflecting light from the main star. Others advocate a
 more exciting theory: it's a white dwarf orbiting the main star, which
 exploded in a "thermonuclear burst" after accreting a bunch of dust.
 
-3) Joel H. Kastner and Noam Soker, "The Egg Nebula (AFGL 2688): deepening enigma", to appear in _Asymmetrical Planetary Nebulae III_, eds. M. Meixner, J. Kastner, N. Soker, and B. Balick, ASP Conference Series. Available as [`arXiv:astro-ph/0309677`](http://arXiv.org/abs/astro-ph/0309677).
+3) Joel H. Kastner and Noam Soker, "The Egg Nebula (AFGL 2688): deepening enigma", to appear in _Asymmetrical Planetary Nebulae III_, eds. M. Meixner, J. Kastner, N. Soker, and B. Balick, ASP Conference Series. Available as [`astro-ph/0309677`](http://arXiv.org/abs/astro-ph/0309677).
 
 I hope to say more about planetary nebulae in future Weeks, mainly
 because they're so beautiful.

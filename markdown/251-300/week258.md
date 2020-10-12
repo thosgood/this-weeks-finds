@@ -64,7 +64,7 @@ In 2004, a team of scientists discovered anthracene and pyrene in the
 Red Rectangle! This was first time such complex molecules had been found
 in space:
 
-3) Uma P. Vijh, Adolf N. Witt, and Karl D. Gordon, "Small polycyclic aromatic hydrocarbons in the Red Rectangle", _The Astrophysical Journal_ **619** (2005) 368--378. Also available as [`arXiv:astro-ph/0410130`](http://arXiv.org/abs/astro-ph/0410130).
+3) Uma P. Vijh, Adolf N. Witt, and Karl D. Gordon, "Small polycyclic aromatic hydrocarbons in the Red Rectangle", _The Astrophysical Journal_ **619** (2005) 368--378. Also available as [`astro-ph/0410130`](http://arXiv.org/abs/astro-ph/0410130).
 
 By now, lots of organic molecules have been found in interstellar or
 circumstellar space. There's a whole "ecology" of organic chemicals
@@ -99,7 +99,7 @@ lot of dust, and planets affect its motion.
 Mathematicians will be happy to know that *symplectic geometry* is
 required to simulate the motion of this dust:
 
-7) A. T. Deller and S. T. Maddison, "Numerical modelling of dusty debris disks", _Astrophys. J._ **625** (2005), 398--413. Also available as [`arXiv:astro-ph/0502135`](https://arxiv.org/abs/astro-ph/0502135)
+7) A. T. Deller and S. T. Maddison, "Numerical modelling of dusty debris disks", _Astrophys. J._ **625** (2005), 398--413. Also available as [`astro-ph/0502135`](https://arxiv.org/abs/astro-ph/0502135)
 
 Okay... now for a bit about Hochschild cohomology. I want to outline a
 conceptual proof of Deligne's conjecture that the cochain complex for
