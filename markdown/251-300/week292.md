@@ -1,7 +1,7 @@
 # January 29, 2010 {#week292}
 
 I've been telling a long tale about analogies between different
-physical systems. Now I finally want to tell you about "bond graphs" -
+physical systems. Now I finally want to tell you about "bond graphs" ---
 a technique engineers use to exploit these analogies. I'll just say a
 bit, but hopefully enough so you get the basic idea.
 
@@ -20,7 +20,7 @@ framework called Hamiltonian mechanics, which we have been studying for
 over a century. We know a lot about that. We all studied it in school.
 
 But the Hamiltonian mechanics we learn in school needs to be generalized
-a bit to nicely handle "dissipative systems", with friction - or more
+a bit to nicely handle "dissipative systems", with friction --- or more
 general "open systems", where energy can flow in and out of the
 boundary between the system and its environment.
 
@@ -28,7 +28,7 @@ boundary between the system and its environment.
 energy lost to friction is really energy that goes into the environment.
 But the study of dissipative systems has not been fully integrated into
 the study of open systems! So, people often treat them separately, and I
-may do that too, now and then - even though it's probably dumb.)
+may do that too, now and then --- even though it's probably dumb.)
 
 Anyway, while lovers of beauty have the freedom to neglect dissipative
 systems and open systems if they want, engineers don't! Every machine
@@ -46,8 +46,8 @@ component to another. The rate of energy flow is called "power", and
 bond graphs are designed to make this easy to keep track of.
 
 The idea behind bond graphs is very simple. I've been describing
-various "n-ports" lately, and I've drawn pictures of them. In my
-pictures, a 3-port looked like this:
+various "$n$-ports" lately, and I've drawn pictures of them. In my
+pictures, a $3$-port looked like this:
 
           |  |  |
           V  V  V
@@ -66,13 +66,13 @@ outputs, where the flow into each input equals the flow out of the
 corresponding output.
 
 The idea of bond graphs is to draw these pictures differently. Don't
-draw individual wires! Instead, draw each pair of wires - input and
-output - as a single edge!
+draw individual wires! Instead, draw each pair of wires --- input and
+output --- as a single edge!
 
 Such an edge is called a "bond". So, an $n$-port has n "bonds" coming
 out of it.
 
-Take an electrical resistor, for example. This is a kind of 1-port - an
+Take an electrical resistor, for example. This is a kind of $1$-port --- an
 example of what bond graph experts call a "resistance".
 Mathematically, a resistance is specified by a function relating effort
 to flow. In the example of an electrical resistor, effort is "voltage"
@@ -105,33 +105,33 @@ One "bond" for two "wires"!
 
 Actually, to be a bit more honest, they draw it a bit more like this:
 
-               p'        \
+               \dot{p}        
         ------------------ R
-               q'
+               \dot{q}
 
 Now the arrow is pointing across instead of down. There's a bond coming
-in at the left, but nothing coming out at right. The p' and q' let us
-know that the resistance is relating effort to flow. The R stands for
+in at the left, but nothing coming out at right. The $\dot{p}$ and $\dot{q}$ let us
+know that the resistance is relating effort to flow. The $R$ stands for
 resistance.
 
 To be even more honest, I should admit that most bond graph people use
-"e" for effort and "f" for flow. So, they really draw something like
+"$e$" for effort and "$f$" for flow. So, they really draw something like
 this:
 
-               e        \
+               e        
         ----------------- R
                f
 
-But I want to stick with p' and q'.
+But I want to stick with $\dot{p}$ and $\dot{q}$.
 
-Another famous 1-port is a capacitor. Bond graph people draw it like
+Another famous $1$-port is a capacitor. Bond graph people draw it like
 this:
 
-               e        \
+               e        
         ----------------- C
                f
 
-A nice example of a 2-port is a transformer. I explained this back in
+A nice example of a $2$-port is a transformer. I explained this back in
 ["Week 292"](#week292). Bond graph people draw it like this:
 
                e1     \           e2    \
@@ -139,13 +139,12 @@ A nice example of a 2-port is a transformer. I explained this back in
                f1                f2       
 
 There's a bond coming in at left and a bond coming out at right: 2
-bonds for a 2-port. Similarly, a 3-port has 3 bonds coming out of it,
-and so on. You'll see some 3-ports soon!
+bonds for a $2$-port. Similarly, a $3$-port has 3 bonds coming out of it,
+and so on. You'll see some $3$-ports soon!
 
 Bond graphs were invented by Henry Paynter. You can read his story here:
 
-1) Henry M. Paynter, The gestation and birth of bond graphs,
-`http://www.me.utexas.edu/~longoria/paynter/hmp/Bondgraphs.html`
+1) Henry M. Paynter, _The gestation and birth of bond graphs_, `http://www.me.utexas.edu/~longoria/paynter/hmp/Bondgraphs.html`
 
 It reminds me slightly of Hamilton's story about inventing quaternions
 while walking down the river with his wife to a meeting of the Royal
@@ -160,17 +159,14 @@ quote a bit, and comment on it. He begins:
 > Puget Power and my 8 years teaching in the Civil Engineering
 > Department at MIT. This involved all aspects of the typical power
 > plant indicated below.
-
-::: {align="center"}
-![](paynter_hydroelectric_plant.jpg){width="566" height="411"}
-:::
+> $$\includegraphics[max width=0.65\linewidth]{../images/paynter_hydroelectric_plant.jpg}$$
 
 Here he shows a picture of a hydroelectric power plant, and the bond
 graph that abstractly describes it. A reservoir full of water acts as an
 "effort source", since water pressure is a form of "effort". Water
 flows down a conduit and turns a turbine. Here hydraulic power gets
 converted to mechanical power. Then the turbine turns a generator, which
-produces electricity - so here, mechanical power is getting converted to
+produces electricity --- so here, mechanical power is getting converted to
 electrical power.
 
 There are also some feedback loops, shown with dotted arrows. Solid
@@ -185,17 +181,17 @@ information can be transmitted using negligible power. For example, you
 don't slow a turbine down much by attaching a little gadget that
 measures how fast it's turning. So, we can often get away with
 pretending that a signal carries *no* power. But this idealization
-breaks down in quantum mechanics - so if we ever get to talking about
+breaks down in quantum mechanics --- so if we ever get to talking about
 "quantum bond graphs", we'll have to rethink things. In fact, the
 idealization often breaks down long before quantum effects kick in! I
 think this aspect of bond graphs deserves more mathematical study.
 
-You can see in Paynter's picture that the reservoir is a 1-port. It's
-an example of an "effort source" - a kind of 1-port I explained back
-in ["Week 290"](#week290). The turbine and generator are 2-ports,
-since they have an input and output. These are both "transformers" - a
-kind of 2-port I explained last week. You'll also see that the feedback
-loops involve some 3-ports. I explained these too last week. The 0
+You can see in Paynter's picture that the reservoir is a $1$-port. It's
+an example of an "effort source" --- a kind of $1$-port I explained back
+in ["Week 290"](#week290). The turbine and generator are $2$-ports,
+since they have an input and output. These are both "transformers" --- a
+kind of $2$-port I explained last week. You'll also see that the feedback
+loops involve some $3$-ports. I explained these too last week. The 0
 stands for a "parallel junction", and the 1 stands for a "series
 junction".
 
@@ -221,7 +217,7 @@ Paynter continues:
 > vorticity corresponds precisely to the current density and the fluid
 > circulation to the magnetizing current, so that even the turbine
 > blades correspond to the generator pole pieces! In dynamic
-> consequence, both these highly efficient components become 2-port
+> consequence, both these highly efficient components become $2$-port
 > gyrators, with parasitic losses. Common sense dictated that such
 > compelling analogies implied some underlying common generalization
 > from which other beneficial specializations might ensue. My efforts
@@ -247,14 +243,13 @@ Hamilton wrote:
 > was walking with Lady Hamilton to Dublin, and came up to Brougham
 > Bridge, which my boys have since called the Quaternion Bridge. That is
 > to say, I then and there felt the galvanic circuit of thought *close*;
-> and the sparks which fell from it were the *fundamental equations
-> between i, j, k*; exactly such as I have used them ever since. I
+> and the sparks which fell from it were the *fundamental equations between $i$, $j$, $k$*; exactly such as I have used them ever since. I
 > pulled out on the spot a pocket-book, which still exists, and made an
 > entry, on which, *at the very moment*, I felt that it might be worth
 > my while to expend the labour of at least ten (or it might be fifteen)
 > years to come. But then it is fair to say that this was because I felt
-> a problem to have been at that moment solved - an intellectual want
-> relieved - which had haunted me for at least fifteen years before.
+> a problem to have been at that moment solved --- an intellectual want
+> relieved --- which had haunted me for at least fifteen years before.
 
 Paynter writes:
 
@@ -263,21 +258,18 @@ Paynter writes:
 > specific task which 5 years later produced bond graphs, drawing
 > naturally upon all the attitudes and experience indicated above. So it
 > was on April 24, 1959, when I was to deliver the lecture as posted
-> below, I awoke that morning with the idea of the 0,1-junctions somehow
-> planted in my head overnight! Moreover the very symbols (0,1) for
+> below, I awoke that morning with the idea of the $0,1$-junctions somehow
+> planted in my head overnight! Moreover the very symbols $(0,1)$ for
 > Kirchoff's current law and Kirchoff's voltage law, respectively,
 > made direct the correspondence between circuit duality and logical
-> duality. (The limited use of these 3-ports in the hydro plant bond
+> duality. (The limited use of these $3$-ports in the hydro plant bond
 > graph above hardly does justice to their role in rendering bond graphs
 > a complete and formal discipline.)
 
-::: {align="center"}
-![](paynter_talk.jpg){width="500"}
-:::
-
+$$\includegraphics[max width=0.65\linewidth]{../images/paynter_talk.jpg}$$
 The picture on the talk poster makes it clear that even without knowing
 it, Henry Paynter was helping invent a branch of applied *category
-theory* - a branch where physical systems that interact with their
+theory* --- a branch where physical systems that interact with their
 neighbors are treated as *morphisms*.
 
 (If you don't understand what Paynter means by Kirchoff's current law
@@ -287,26 +279,22 @@ Addenda.)
 
 Paynter's book on bond graphs came out in 1961:
 
-2) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
-Press, Cambridge, Massachusetts, 1961.
+2) Henry M. Paynter, _Analysis and Design of Engineering Systems_, MIT Press, Cambridge, Massachusetts, 1961.
 
 About a decade later, bond graphs were taken up by many others authors,
 notably Jean Thoma:
 
-3) Jean U. Thoma, Introduction to Bond Graphs and Their Applications,
-Pergamon Press, Oxford, 1975.
+3) Jean U. Thoma, _Introduction to Bond Graphs and Their Applications_, Pergamon Press, Oxford, 1975.
 
 By now there is a vast literature on bond graphs. This website is a bit
 broken, but you can use it to get a huge bibliography:
 
-4) Bondgraph.info, Journal articles,
-`http://www.bondgraph.info/journal.html`\
-Books, `http://www.bondgraph.info/books.html`
+4) `bondgraph.info`, Journal articles: `http://www.bondgraph.info/journal.html`, Books: `http://www.bondgraph.info/books.html`
 
 I've listed some of my favorite books in previous Weeks. But if you
 want an online introduction to bond graphs, start here:
 
-5) Wikipedia, Bond graph, `http://en.wikipedia.org/wiki/Bond_graph`
+5) Wikipedia, "Bond graph", `http://en.wikipedia.org/wiki/Bond_graph`
 
 It covers a topic I haven't even mentioned, the "causal stroke". And
 it gives some examples of how to convert bond graphs into differential
@@ -317,9 +305,7 @@ I'll probably work on it myself a bit.
 
 Then, watch some of these:
 
-6) Soumitro Banerjee, Dynamics of physical systems, lectures on
-YouTube. Lectures 13-19: The bond graph approach. Available at
-`http://www.youtube.com/view_play_list?p=D074EEC1EBEFAEA5`
+6) Soumitro Banerjee, _Dynamics of physical systems_, lectures on YouTube. Lectures 13--19: "The bond graph approach". Available at `http://www.youtube.com/view_play_list?p=D074EEC1EBEFAEA5`
 
 These lectures are very thoughtful and nice. I thank C. J. Fearnley for
 pointing them out.
@@ -329,26 +315,14 @@ the various $n$-ports we've seen, and how they fit into different
 branches of mathematical physics. My goal is to dig a bit deeper into
 the mathematics behind this big analogy chart:
 
-                    displacement    flow          momentum      effort
-                         q           q'              p            p'
-
-    Mechanics       position       velocity       momentum      force
-    (translation)
-
-    Mechanics       angle          angular        angular       torque
-    (rotation)                     velocity       momentum
-
-    Electronics     charge         current        flux          voltage
-                                                  linkage
-
-    Hydraulics      volume         flow           pressure      pressure
-                                                  momentum
-
-    Thermodynamics  entropy        entropy        temperature   temperature
-                                   flow           momentum
-
-    Chemistry       moles          molar          chemical      chemical
-                                   flow           momentum      potential
+|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+| :- | :--------------- | :-------- | :----------- | :---------- |
+| Mechanics (translation) | position | velocity | momentum | force |
+| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
+| Electronics | charge | current | flux linkage | voltage |
+| Hydraulics | volume | flow | pressure momentum | pressure |
+| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
+| Chemistry | moles | molar flow | chemical momentum | chemical potential |
 
 But I won't be using the language of bond graphs! The reason is that I
 want to talk about gizmos where the total number of inputs and outputs
@@ -415,78 +389,70 @@ We've seen different kinds of circuit elements. First there are
 which we cannot define a Hamiltonian that makes energy conserved. Then
 there are "passive" ones, which come in two kinds:
 
--   "conservative" circuit elements, which can absorb and emit energy,
+- "conservative" circuit elements, which can absorb and emit energy,
     but for which we can define a Hamiltonian that makes energy
     conserved.
--   "dissipative" circuit elements, which only absorb energy, and for
+- "dissipative" circuit elements, which only absorb energy, and for
     which we cannot define a Hamiltonian that makes energy conserved.
 
 Not surprisingly, circuits made of different kinds of circuit elements
 want to be studied in different ways! We get pulled into all sorts of
-nice mathematics this way - especially symplectic geometry, Hodge
+nice mathematics this way --- especially symplectic geometry, Hodge
 theory, and complex analysis. Here's a quick survey:
 
 1.  If we have a circuit made of conservative circuit elements, we can
-    study it using the PRINCIPLE OF LEAST ACTION. So, we can define a
-    Lagrangian for such a circuit, which is a function L(q,q') of the
-    displacements (q) and flows (q') of all its wires. This function is
+    study it using the **principle of least action**. So, we can define a
+    Lagrangian for such a circuit, which is a function $L(q,\dot{q})$ of the
+    displacements ($q$) and flows ($\dot{q}$) of all its wires. This function is
     a sum of terms, also called Lagrangians, one for each circuit
     element. The "action" for the circuit is the integral over time of
     the total Lagrangian. The circuit will roughly do whatever minimizes
     this action. It's lazy! (Experts will know I'm lying slightly
     here.)
 
-    By using a Legendre transform, we can compute p as a function of
-    q'. Then we can work out the "Hamiltonian" of our circuit, as
+    By using a Legendre transform, we can compute $p$ as a function of
+    $\dot{q}$. Then we can work out the "Hamiltonian" of our circuit, as
     follows:
-
-    H(p,q) = L(q,q') - p.q'
-
+    $$H(p,q) = L(q,\dot{q}) - p\cdot\dot{q}$$
     Like the Lagrangian, this Hamiltonian will be the sum of
-    Hamiltonians for each piece - and I've told you what those
+    Hamiltonians for each piece --- and I've told you what those
     Hamiltonians are for all the conservative circuit elements I've
     mentioned.
 
     If the overall circuit is closed, no wires coming in or going out,
     its Hamiltonian will be conserved in the strongest sense:
-
-    dH/dt = 0
-
+    $$\frac{dH}{dt} = 0$$
     There are elegant ways to study closed systems using Hamiltonian
-    mechanics - or in other words, symplectic geometry. This is
+    mechanics --- or in other words, symplectic geometry. This is
     something mathematical physicists know well.
 
     We can also examine the special case of a conservative closed system
-    in a static state, meaning that p and q don't depend on time. The
-    behavior of such systems is governed by the PRINCIPLE OF LEAST
-    ENERGY: it will choose p and q that minimize the Hamiltonian H(q,p).
+    in a static state, meaning that $p$ and $q$ don't depend on time. The
+    behavior of such systems is governed by the **principle of least energy**:
+    it will choose $p$ and $q$ that minimize the Hamiltonian $H(q,p)$.
 
     If the circuit is open, we need a slight generalization of
     Hamiltonian mechanics that can handle systems that interact with
     their environment. Open systems are less familiar in mathematical
-    physics - but as I explained in ["Week 290"](#week290),
+    physics --- but as I explained in ["Week 290"](#week290),
     they're studied in "control theory". Open systems obey a weaker
     form of energy conservation, called the "power balance equation".
 
 2.  If we have a circuit made of only dissipative circuit elements, we
-    can study it using the PRINCIPLE OF LEAST POWER. At least in a
-    stationary state, where the efforts p' and flows q' don't depend
+    can study it using the **principle of least power**. At least in a
+    stationary state, where the efforts $\dot{p}$ and flows $\dot{q}$ don't depend
     on time, the system will act to minimize the power
-
-    p'.q'
-
-    Using this we can often solve for q' as a function of p' or vice
+    $$\dot{p}\cdot\dot{q}$$
+    Using this we can often solve for $\dot{q}$ as a function of $\dot{p}$ or vice
     versa.
 
     The principal of least power is closely related to other minimum
     principles in physics. For example, if we build a network of
     resistors and fix the voltages on the wires coming in and out, the
     voltages on the network will obey a discretized version of the
-    Laplace equation. This is the equation a function f satisfies when
+    Laplace equation. This is the equation a function $f$ satisfies when
     it minimizes
-
-    \int (∇f)^2
-
+    $$\int (\nabla f)^2$$
     So, circuits of this second kind are closely related to the Laplace
     equation, differential forms, Hodge theory and the like. In fact
     this is why Raoul Bott switched from electrical engineering to
@@ -494,16 +460,12 @@ theory, and complex analysis. Here's a quick survey:
 
 3.  If we have a circuit made of only conservative and dissipative
     circuit elements, it's called "passive". In a linear passive
-    circuit we can multiply the vector of efforts p' by an operator
-    called the "admittance matrix" to get the vector of flows q':
-
-    q' = Ap'
-
+    circuit we can multiply the vector of efforts $\dot{p}$ by an operator
+    called the "admittance matrix" to get the vector of flows $\dot{q}$:
+    $$\dot{q} = A\dot{p}$$
     Or, we can take the inverse of this operator and get the "impedance
     matrix", which tells us the flows as a function of the efforts:
-
-    p' = Zq'
-
+    $$\dot{p} = Z\dot{q}$$
     Here both efforts and flows are functions of time. Taking a Fourier
     transform in the time variable we get a version of the impedance
     matrix that's a function of the dual variable: "frequency". And
@@ -517,31 +479,27 @@ theory, and complex analysis. Here's a quick survey:
     together with effort and flow sources, we can still use the ideas
     that worked in case 3, but now we get an *inhomogeneous* linear
     equation like
-
-    p' = Aq' + e
-
-    where e comes from the effort sources. This is called Norton's
+    $$\dot{p} = A\dot{q} + e$$
+    where $e$ comes from the effort sources. This is called Norton's
     theorem. Alternatively we can write
-
-    q' = Zp' + f
-
-    where f comes from the flow sources. This is called Thvenin's
+    $$\dot{q} = Z\dot{p} + f$$
+    where $f$ comes from the flow sources. This is called Thvenin's
     theorem. Again, these are standard results that electrical engineers
-    learn - but don't forget, they apply to *all* the systems in our
+    learn --- but don't forget, they apply to *all* the systems in our
     chart of analogies!
 
 5.  If we drop the linearity assumption and consider fully general
     circuits, things get more complicated.
 
 I hope in future Weeks to say more about this stuff. I hope you see
-there are some strange and interesting patterns here - like this trio:
+there are some strange and interesting patterns here --- like this trio:
 
-THE PRINCIPLE OF LEAST ACTION\
-THE PRINCIPLE OF LEAST ENERGY\
-THE PRINCIPLE OF LEAST POWER
+1. **the principle of least action**
+2. **the principle of least energy**
+3. **the principle of least power**
 
 We've seen the trio of action, energy and power before, back in
-["Week 289"](#week289). Action has units of energy \times time; power
+["Week 289"](#week289). Action has units of energy $\times$ time; power
 has units of energy/time. How do these three minimum principles fit
 together in a unified whole? I know how to derive the principal of least
 energy from the principle of least action by starting with a
@@ -551,15 +509,13 @@ how about the principle of least power? Where does this come from?
 I don't know. If you know, tell me!
 
 I'll tell you a bit about linear dissipative circuits and Hodge theory
-next week. But if you're impatient to learn circuit theory - or at
-least know what books are lying next to my bed - let me give some
+next week. But if you're impatient to learn circuit theory --- or at
+least know what books are lying next to my bed --- let me give some
 references!
 
 This book is quite good:
 
-7) Brian D. O. Anderson and Sumeth Vongpanitlerd, Network Analysis and
-Synthesis: A Modern Systems Theory Approach, Dover Publications,
-Mineola, New York, 2006.
+7) Brian D. O. Anderson and Sumeth Vongpanitlerd, _Network Analysis and Synthesis: A Modern Systems Theory Approach_, Dover Publications, Mineola, New York, 2006.
 
 There's a lot of complex analysis in here! Some is familiar, but
 there's also a lot we mathematicians don't usually learn: the Positive
@@ -568,11 +524,10 @@ Real Lemma, the Bounded Real Lemma, and more.
 Speaking of Norton's and Thvenin's theorems, these articles demystify
 those:
 
-8) Wikipedia, Norton's theorem,
+8) Wikipedia, "Norton's theorem",
 `http://en.wikipedia.org/wiki/Norton%27s_theorem`
 
-9) Wikipedia, Thvenin's theorem,
-`http://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem`
+9) Wikipedia, "Thvenin's theorem", `http://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem`
 
 These articles cover only circuits with one input and one output which
 are made from flow sources, effort sources and linear resistances. I
@@ -582,11 +537,9 @@ apply to circuits with as many inputs and outputs as you like.
 
 This book of classic papers is also good:
 
-10) M. E. van Valkenburg, ed., Circuit Theory: Foundations and
-Classical Contributions, Dowden, Hutchington and Ross, Stroudsburg,
-Pennsylvania, 1974.
+10) M. E. van Valkenburg, ed., _Circuit Theory: Foundations and Classical Contributions_, Dowden, Hutchington and Ross, Stroudsburg, Pennsylvania, 1974.
 
-I mentioned Raoul Bott - mathematicians will be pleased and perhaps
+I mentioned Raoul Bott --- mathematicians will be pleased and perhaps
 surprised to see a 1948 paper by him here! It's 5 paragraphs long, and
 it solved a basic problem.
 
@@ -602,14 +555,12 @@ it solved a basic problem.
 > principles you mentioned. I hope you don't mind me asking a direct
 > question like this...
 >
-> The HP principle consists of taking a Lagrangian L(q, v), and thinking
-> of v as an extra coordinate. We then add the condition that q' = v as
-> an extra constraint with a Lagrange multiplier p, to get a functional
+> The HP principle consists of taking a Lagrangian $L(q, v)$, and thinking
+> of $v$ as an extra coordinate. We then add the condition that $\dot{q} = v$ as
+> an extra constraint with a Lagrange multiplier $p$, to get a functional
 > of the form
->
-> S(q, v, p) = \int p (q' - v) + L(q, v) dt
->
-> where q, v, p are varied independently. The result is the
+> $$S(q, v, p) = \int p (\dot{q} - v) + L(q, v) dt$$
+> where $q, v, p$ are varied independently. The result is the
 > Euler-Lagrange equations in implicit form, together with Hamilton's
 > equations and the Legendre transformation.
 >
@@ -642,9 +593,9 @@ You'll note that in my quote of Paynter he was drawing a perhaps
 slightly obscure analogy between this sort of duality and what he called
 "logical" duality. This is usually called "De Morgan duality": it's
 a symmetry of classical logic, which consists of switching true and
-false, AND and OR, and so on. In binary notation it consists of
-switching 0 and 1. This is why Paynter called a parallel junction a
-"0-junction" and the series junction a "1-junction". I didn't
+false, $\textsc{and}$ and $\textsc{or}$, and so on. In binary notation it consists of
+switching $0$ and $1$. This is why Paynter called a parallel junction a
+"$0$-junction" and the series junction a "$1$-junction". I didn't
 really understand the connection until Chris Weed explained it:
 
 > John,
@@ -654,19 +605,19 @@ really understand the connection until Chris Weed explained it:
 > algebra.
 >
 > More precisely, a series connection of two switches can be considered
-> to implement the function AND(x,y) - defined by the usual truth table
-> - if one encodes 'True' as a closed connection and 'False' as an
+> to implement the function $\textsc{and}(x,y)$ --- defined by the usual truth table
+> --- if one encodes 'True' as a closed connection and 'False' as an
 > open connection. Of course, this can be considered a convention. If
 > 'True' is encoded by an open connection and 'False' is encoded by
 > a closed connection, then a series connection of the switches
-> implements OR(x,y).
+> implements $\textsc{or}(x,y)$.
 >
 > Of course, the "dual" of this little exposition applies to a
 > parallel connection.
 >
 > I have a continuing interest in these simple observations in
-> connection with an idea that I attempted to present in [a post on Math
-> Overflow](http://mathoverflow.net/questions/1078/boolean-network-as-a-gauge-field).
+> connection with an idea that I attempted to present in
+> [a post on Math Overflow](http://mathoverflow.net/questions/1078/boolean-network-as-a-gauge-field).
 > For understandable reasons, it didn't generate much of a response.
 > Perhaps a few people were motivated to chew on it for a while.
 >
@@ -727,5 +678,7 @@ For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/c
 
 ------------------------------------------------------------------------
 
-*I was born not knowing and have had only a little time to change that
-here and there* - Richard Feynman
+> *I was born not knowing and have had only a little time to change that
+here and there*
+> 
+> --- Richard Feynman
