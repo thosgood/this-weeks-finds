@@ -1,36 +1,26 @@
 # January 8, 2010 {#week289}
 
-This week I'll tell you some news about \mathrm{E}_8. Then I'll continue
+This week I'll tell you some news about $\mathrm{E}_8$. Then I'll continue
 expanding the grand analogy between different kinds of physics. We'll
-get into a bit of thermodynamics - and chemistry too! And then we'll
+get into a bit of thermodynamics --- and chemistry too! And then we'll
 continue our exploration of rational homotopy theory, this time entering
 the world of "differential graded Lie algebras".
 
 But first: what's going on here?
-
-::: {align="center"}
-![](cryptic_terrain.jpg)
-:::
-
+$$\includegraphics[max width=0.65\linewidth]{../images/cryptic_terrain.jpg}$$
 As usual, the answer is at the end.
 
 Now for the news:
 
-Hurrah! Yippee-yay! They've discovered the exceptional group \mathrm{E}_8 in
+Hurrah! Yippee-yay! They've discovered the exceptional group $\mathrm{E}_8$ in
 nature! And they've found the golden ratio lurking in a quantum system!
 At least, that's what the headlines are blaring:
 
-1) Joe Palca, Finding 'beautiful' symmetry near absolute zero, All
-Things Considered, National Public Radio,
-`http://www.npr.org/templates/story/story.php?storyId=122365883`
+1) Joe Palca, "Finding 'beautiful' symmetry near absolute zero", _All Things Considered_, National Public Radio, `http://www.npr.org/templates/story/story.php?storyId=122365883`
 
 Here's the paper that started all the fuss:
 
-2) R. Coldea, D. A. Tennant, E. M. Wheeler, E. Wawrzynska, D.
-Prabhakaran, M. Telling, K. Habicht, P. Smeibidl and K. Kiefer, Quantum
-criticality in an Ising chain: experimental evidence for emergent \mathrm{E}_8
-symmetry, Science (327), 177 - 180. Available at
-`http://www.sciencemag.org/cgi/content/abstract/327/5962/177`
+2) R. Coldea, D. A. Tennant, E. M. Wheeler, E. Wawrzynska, D. Prabhakaran, M. Telling, K. Habicht, P. Smeibidl and K. Kiefer, "Quantum criticality in an Ising chain: experimental evidence for emergent $\mathrm{E}_8$ symmetry", _Science_ **327**, 177--180. Available at `http://www.sciencemag.org/cgi/content/abstract/327/5962/177`
 
 Unfortunately you can only see the paper if you subscribe to Science or
 have magical superpowers. And I don't understand the details, which
@@ -38,9 +28,7 @@ apparently go back to a theoretical paper by the guy who invented the
 "Zamolodchikov tetrahedron equation", much beloved by people who study
 knotted surfaces in 4 dimensions:
 
-3) A. B. Zamolodchikov, Integrals of motion and S-matrix of the
-(scaled) T=T~c~ Ising model with magnetic field, Int. J. Mod. Phys. A 4
-(1989), 4235.
+3) A. B. Zamolodchikov, "Integrals of motion and S-matrix of the (scaled) $T=T_c$ Ising model with magnetic field", _Int. J. Mod. Phys. A_ **4** (1989), 4235.
 
 But the rough idea is this. You can simulate a $1$-dimensional magnet
 using a chemical called cobalt niobate. The molecules form a chain, and
@@ -93,7 +81,7 @@ left. When they collide, they annihilate!
 Kinks and antikinks can also be created in pairs.
 
 So far this is pretty simple. But next thing this experiment did is turn
-on a "transverse magnetic field" - in other words, a field at *right
+on a "transverse magnetic field" --- in other words, a field at *right
 angles* to the direction I'm drawing as vertical. If the field is
 strong enough, most of the spins will line up in this new direction:
 
@@ -151,14 +139,14 @@ Well, actually it's not quite that bad. What really matters in this
 game is not the group \mathrm{E}_8 but rather its "root lattice", which is
 just $8$-dimensional. This is the pattern you get when you pack
 equal-sized balls in 8 dimensions in the unique way such that each ball
-touches the maximum number of others - namely, 248. I sort of understand
+touches the maximum number of others --- namely, 248. I sort of understand
 this pattern, and I explained it in back in ["Week 193"](#week193).
 But I don't understand why it shows up when you're studying a chain of
 spins in a magnetic field!
 
 What did the experiment actually measure? Among other things, they
 measured the ratio of masses of two of the 8 "particles" formed as
-kink-antikink bound states - namely, the lightest two. According to
+kink-antikink bound states --- namely, the lightest two. According to
 Zamolodchikov's calculation, it should be the golden ratio! You know:
 
 \Phi = (1 + √5)/ 2
@@ -166,7 +154,7 @@ Zamolodchikov's calculation, it should be the golden ratio! You know:
 And that's what the experiment saw!
 
 Now, I know plenty of relationships between \mathrm{E}_8, and the golden ratio -
-see ["Week 270"](#week270) - so this
+see ["Week 270"](#week270) --- so this
 connection doesn't shock me. But I sure hope someone explains the
 details!
 
@@ -188,12 +176,12 @@ diagram:
 
 which encodes the structure of the \mathrm{E}_8 lattice. These $2$-dimensional
 magnets are related to the $1$-dimensional magnetic "spin chain" we've
-been discussing - but in a sneaky way. The $1$-dimensional spin chain is
+been discussing --- but in a sneaky way. The $1$-dimensional spin chain is
 2-dimensional if we think of time as an extra dimension! Indeed I've
 already been drawing some $2$-dimensional pictures, like the picture of a
 kink colliding with an antikink. So, that's part of the story.
 
-But the story is much deeper - and for this, I really must thank Will
+But the story is much deeper --- and for this, I really must thank Will
 Orrick, who also caught some mistakes in an earlier version of my story
 here! Orrick is a mathematician at Indiana University who works on
 statistical mechanics and combinatorics.
@@ -203,7 +191,7 @@ a kind of quantum field theory called a "conformal field theory". And
 the particular conformal theory this experiment is studying is a
 so-called "minimal model" by the name of M(3,4). This conformal field
 theory can be built from \mathrm{E}_8 using something called a "coset
-construction" - but it does not have 8 bound states. To see those, we
+construction" --- but it does not have 8 bound states. To see those, we
 really need to turn on that *extra* magnetic field I mentioned: the
 field pointing in the vertical direction. This gives an "integrable
 massive perturbation" of the conformal field theory. That's what we
@@ -252,7 +240,7 @@ Today I want to make this chart even bigger! There are more systems that
 fit into this collection of analogies.
 
 For a really good analogy, we want "effort" times "flow" to have
-dimensions of power - that is, energy per time. Indeed, we want it to be
+dimensions of power --- that is, energy per time. Indeed, we want it to be
 true that:
 
 pq has dimensions of action (= energy \times time)\
@@ -311,7 +299,7 @@ more subjects into our circle of analogies.
 
 The example of thermodynamics works like this. Say you have a physical
 system in thermal equilibrium and all you can do is heat it up or cool
-it down "reversibly" - that is, while keeping it in thermal
+it down "reversibly" --- that is, while keeping it in thermal
 equilibrium all along. For example, imagine a box of gas that you can
 heat up or cool down. If you put a tiny amount dE of energy into the
 system in the form of heat, then its
@@ -343,7 +331,7 @@ But when we have a more complicated physical system like a piston full
 of gas in thermal equilibrium, we can see the analogy working. Now we
 have
 
-dE = TdS - PdV
+dE = TdS --- PdV
 
 The change in energy dE of our gas now has two parts. There's the
 change in heat energy TdS, which we saw already. But now there's also
@@ -359,9 +347,9 @@ temperature is also a form of "effort", while entropy is a form of
 But what about the minus sign? That's no big deal: it's the result of
 some arbitrary conventions. P is defined to be the *outwards* pressure
 of the gas on our piston. If this is *positive*, *reducing* the volume
-of the gas takes a *positive* amount of energy - so we need to stick in
+of the gas takes a *positive* amount of energy --- so we need to stick in
 a minus sign. I could eliminate this minus sign by changing some
-conventions - but if I did, the chemistry professors at UCR would haul
+conventions --- but if I did, the chemistry professors at UCR would haul
 me away and increase my heat energy by burning me at the stake.
 
 Speaking of chemistry: here's how we can extend our table of analogies
@@ -369,7 +357,7 @@ to include chemistry! Suppose we have a piston full of gas made of
 different kinds of molecules, and there can be chemical reactions that
 change one kind into another. Now our equation gets fancier:
 
-dE = TdS - PdV + \sum_i \mu_i dN_i
+dE = TdS --- PdV + \sum_i \mu_i dN_i
 
 Here N_i is the number of molecules of the ith kind, while \mu_i is a
 quantity called a "chemical potential". The chemical potential simply
@@ -451,7 +439,7 @@ I'm suspicious of any attempt to make economics seem like physics.
 Unlike elementary particles or rocks, people don't seem to be very well
 modelled by simple differential equations. However, some economists have
 used the above analogy to model economic systems. And I can't help but
-find that interesting - even if intellectually dubious when taken too
+find that interesting --- even if intellectually dubious when taken too
 seriously.
 
 Now... what can we do with all these analogies? I'll explain that in
@@ -473,7 +461,7 @@ him the perfect guy to unify lots of different subjects.
 
 I want to explain bond graphs, how they differ from circuit diagrams,
 and how they're both examples of "string diagrams" in category
-theory. But it will take me a while to get there - since while abstract
+theory. But it will take me a while to get there --- since while abstract
 generalities are always fun, this is a great opportunity to talk about
 lots of basic physics.
 
@@ -539,7 +527,7 @@ of smooth real-valued functions on the cotangent bundle. So: how about
 in thermodynamics? Does anyone talk about the Poisson bracket of
 temperature and entropy, for example?
 
-And Poisson brackets are related to quantization - see
+And Poisson brackets are related to quantization --- see
 ["Week 282"](#week282) for more on that. So: does anyone try to
 quantize thermodynamics by taking seriously the analogies I've
 described? I'm not sure it makes physical sense, but it seems
@@ -597,7 +585,7 @@ algebra will know *everything* about X!
 
 Well, I shouldn't get carried away in my enthusiasm. The differential
 graded Lie algebra will only know everything about the "homotopy type"
-of X - a concept I defined last week. But that's still amazing. It
+of X --- a concept I defined last week. But that's still amazing. It
 means that at least for rational spaces, we can reduce homotopy theory
 to a souped-up version of the theory of Lie algebras.
 
@@ -738,7 +726,7 @@ enveloping](http://en.wikipedia.org/wiki/Universal_enveloping_algebra)"
 algebra UL. This is the free associative algebra on L mod relations
 saying that
 
-xy - yx = \[x,y\]
+xy --- yx = \[x,y\]
 
 for any x,y in L.
 
@@ -844,7 +832,7 @@ homotopy.
 
 The concept of a topological monoid "up to homotopy" can be made
 precise using Stasheff's theory of $A_\infty$ spaces. So, we can learn to
-love those - and we should. But we can also fight harder to get an
+love those --- and we should. But we can also fight harder to get an
 honest topological group!
 
 For starters, let's try to make the associative and unit laws hold as
@@ -862,12 +850,12 @@ based Moore loops on X, it's a topological monoid!
 
 Even better, the space of based Moore loops is homotopy equivalent to
 the space of ordinary based loops. They're even equivalent "as $A_\infty$
-spaces" - that is, topological spaces with a multiplication that's
+spaces" --- that is, topological spaces with a multiplication that's
 associative up to a homotopy that satisfies some equation up to
 homotopy... and so on to infinity.
 
 So, we're not really changing the subject by switching from ordinary
-loops to Moore loops - at least, not as far as homotopy theory goes.
+loops to Moore loops --- at least, not as far as homotopy theory goes.
 
 But what about inverses? Sadly, Moore loops still only have inverses
 "up to homotopy". But here we can play another trick.
@@ -980,7 +968,7 @@ AW\colon N(X \times Y) \to N(X) \otimes N(Y)
 But they're not inverses.
 
 These natural transformations are called the Eilenberg-Zilber and
-Alexander-Whitney maps - it took 4 great mathematicians to invent them.
+Alexander-Whitney maps --- it took 4 great mathematicians to invent them.
 Maybe too many cooks spoil the broth: it's really annoying that these
 maps aren't inverses! As I said last time, they come very close. EZ
 followed by AW is the identity. AW followed by EZ is not. But, it's
@@ -1111,7 +1099,7 @@ out!
 mistakes, and Kathryn Hess and Will Orrick for catching big ones.
 
 Forrest W. Doss reassured me somewhat about the thing I called
-"temperature momentum" - the thing whose time derivative is
+"temperature momentum" --- the thing whose time derivative is
 temperature. He wrote:
 
 > Hello, I am a grad student who reads your 'weekly' posts. I research
@@ -1135,18 +1123,22 @@ For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/c
 
 ------------------------------------------------------------------------
 
-*If to any homogeneous mass... we suppose an infinitesimal quantity of
+> *If to any homogeneous mass... we suppose an infinitesimal quantity of
 any substance to be added, the mass remaining homogeneous and its
 entropy and volume remaining unchanged, the increase of the energy of
 the mass divided by the quantity of the substance added is the potential
-for that substance in the mass considered.* - J. Willard Gibbs
+for that substance in the mass considered.*
+> 
+> --- J. Willard Gibbs
 
-*A vague discomfort at the thought of the chemical potential is still
+> *A vague discomfort at the thought of the chemical potential is still
 characteristic of a physics education. This intellectual gap is due to
 the obscurity of the writings of J. Willard Gibbs who discovered and
-understood the matter 100 years ago.* - Charles Kitell, *Introduction to
-Solid State Physics*
+understood the matter 100 years ago.*
+> 
+> --- Charles Kitell, *Introduction to Solid State Physics*
 
-*A nightmare... The prose is both laconic and imprecise - a combination
-that spells very poor readability.* - J. Zrake, review of Kitell's
-*Introduction to Solid State Physics*
+> *A nightmare... The prose is both laconic and imprecise --- a combination
+that spells very poor readability.*
+> 
+> --- J. Zrake, review of Kitell's *Introduction to Solid State Physics*
