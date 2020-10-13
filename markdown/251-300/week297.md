@@ -5,28 +5,18 @@ first: knot sculptures, special relativity in finance, lazulinos, some
 peculiar infinite sums, and a marvelous fact about the number 12.
 
 Here are some cool sculptures of knots by Karel Vreeburg:
+$$\href{http://www.karelvreeburg.nl/site/kunstwerk/13285086_Hidden-Split-Torus-2.html}{\includegraphics[max width=0.65\linewidth]{../images/vreeburg_sculpture-2.jpg}}$$
+$$\href{http://www.karelvreeburg.nl/site/kunstwerk/13285088_Verscholen-540-Twisted-Torus.html}{\includegraphics[max width=0.65\linewidth]{../images/vreeburg_sculpture-1.jpg}}$$
+$$\href{http://www.karelvreeburg.nl/site/kunstwerk/13610288_Verborgen-Oneindige-Trefoil-Knoop.html}{\includegraphics[max width=0.65\linewidth]{../images/vreeburg_sculpture-3.jpg}}$$
 
-::: {align="center"}
-[![](vreeburg/vreeburg_sculpture.2.jpg)](http://www.karelvreeburg.nl/site/kunstwerk/13285086_Hidden-Split-Torus-2.html)\
-\
-\
-[![](vreeburg/vreeburg_sculpture.1.jpg)](http://www.karelvreeburg.nl/site/kunstwerk/13285088_Verscholen-540-Twisted-Torus.html)\
-\
-\
-[![](vreeburg/vreeburg_sculpture.3.jpg)](http://www.karelvreeburg.nl/site/kunstwerk/13610288_Verborgen-Oneindige-Trefoil-Knoop.html)\
-\
-\
-:::
-
-1) Karel Vreeburg,
-`http://www.karelvreeburg.nl/site/kunstwerken/357933_Beelden.html`
+1) Karel Vreeburg, `http://www.karelvreeburg.nl/site/kunstwerken/357933_Beelden.html`
 
 The polished forms emerge from rough stone much as mathematical
 abstractions emerge from physical reality. And I'm reminded of what
 Michelangelo said. "Every block of stone has a statue inside it, and
 the task of the sculptor is to discover it."
 
-Next - remember that big glitch in the stock market last Thursday, when
+Next --- remember that big glitch in the stock market last Thursday, when
 the Dow Jones dropped 9.2% in less than an hour, and then bounced back?
 For a while, about a trillion dollars had evaporated!
 
@@ -44,23 +34,20 @@ different places" is no longer adequate:
 > A 1-millisecond advantage in trading applications can be worth \$100
 > million a year to a major brokerage firm, by one estimate. The fastest
 > systems, running from traders' desks to exchange data centers, can
-> execute transactions in a few milliseconds - so fast, in fact, that
+> execute transactions in a few milliseconds --- so fast, in fact, that
 > the physical distance between two computers processing a transaction
 > can slow down how fast it happens. This problem is called data latency
-> - delays measured in split seconds. To overcome it, many
+> --- delays measured in split seconds. To overcome it, many
 > high-frequency algorithmic traders are moving their systems as close
 > to the Wall Street exchanges as possible.
 
 This quote is from:
 
-2) Richard Martin, Wall Street's quest to process data at the speed of
-light, Information Week, April 23, 2007. Also available at
-`http://www.informationweek.com/news/infrastructure/showArticle.jhtml?articleID=199200297`
+2) Richard Martin, "Wall Street's quest to process data at the speed of light", _Information Week_, April 23, 2007. Also available at `http://www.informationweek.com/news/infrastructure/showArticle.jhtml?articleID=199200297`
 
 See also:
 
-3) Kid Dynamite's World, Market Speed Bumps,
-`http://fridayinvegas.blogspot.com/2010/05/market-speed-bumps.html`
+3) Kid Dynamite's World, "Market Speed Bumps", `http://fridayinvegas.blogspot.com/2010/05/market-speed-bumps.html`
 
 where someone comments:
 
@@ -68,13 +55,13 @@ where someone comments:
 > ends) is that some meaningful trigger point on stop loss orders was
 > exceeded. This could have been a small wave of selling from Bloomberg
 > running the video of the crowd getting agitated in Greece (which was
-> at about 2:40PM EST), but whatever the case - a wave of selling
+> at about 2:40PM EST), but whatever the case --- a wave of selling
 > started. That in turn brought the price down, which triggered some
 > stop loss orders, which in turn fueled more stop loss orders, along
 > with any humans and machines that just sold on the steep drop.
 >
-> However, given the heavy volume at the time, the [HFT
-> systems](http://www.wikinvest.com/wiki/High-Frequency_Trading_%28HFT%29)
+> However, given the heavy volume at the time, the
+> [HFT systems](http://www.wikinvest.com/wiki/High-Frequency_Trading_%28HFT%29)
 > that would normally jump in (albeit at much lower bids) didn't even
 > get to see accurate representations of the order books, because I was
 > seeing at least a 100ms delay in quotes from
@@ -97,7 +84,7 @@ where someone comments:
 > information (and 100ms is quite stale if you are seeing the markets
 > plunge the way they were), there is no way you are going to enter
 > orders, since you don't have any clue where to place them, and if you
-> do - you place them with much wider spreads than normal, which in
+> do --- you place them with much wider spreads than normal, which in
 > conjunction with market sell orders brings the trading price down
 > along with the bid/ask midpoint.
 
@@ -107,43 +94,36 @@ this issue to my attention.
 
 I also enjoyed this blog post by Mike:
 
-4) Mike Stay, Lazulinos,
-`http://reperiendi.wordpress.com/2010/04/27/lazulinos/`
+4) Mike Stay, "Lazulinos", `http://reperiendi.wordpress.com/2010/04/27/lazulinos/`
 
 It's about a newly discovered quasiparticle with astounding properties.
 If you want to really understand what's going on, read the paper by
-Alexander Craigie - there's a link at the end of Mike's post.
+Alexander Craigie --- there's a link at the end of Mike's post.
 
 Next, an observation from Robert Baillie. Take this series:
-
-\pi /√8 = 1 + 1/3 - 1/5 - 1/7 + 1/9 + 1/11 - ...
-
+$$\frac{\pi}{\sqrt8} = 1 + \frac13 - \frac15 - \frac17 + \frac19 + \frac{1}{11} - \ldots$$
 Square each term, add them up... and you get the square of the previous
 sum:
-
-\pi ^2/8 = 1 + 1/3^2 + 1/5^2 + 1/7^2 + 1/9^2 + 1/11^2 + ...
-
-Don't tell undergraduates about this - they are already confused
+$$\frac{\pi^2}{8} = 1 + \frac{1}{3^2} + \frac{1}{5^2} + \frac{1}{7^2} + \frac{1}{9^2} + \frac{1}{11^2} + \ldots$$
+Don't tell undergraduates about this --- they are already confused
 enough!
 
 And finally, a comment from Nora Ganter. If you look at the cohomology
 of the symmetric groups, you find an element of order 12 in
-H^3(S_n,Q/Z) for n greater or equal to 4. But the third cohomology of
+$H^3(S_n,\mathbb{Q}/\mathbb{Z})$ for $n$ greater or equal to $4$. But the third cohomology of
 a group classifies ways of extending it to a $2$-group. So whenever you
 realize a finite group as a group of permutations of 4 or more things,
 you automatically get a way of extending it to a $2$-group!
 
 I would like to understand this better. In particular, the number 12
 here should be related to the fact that
-
-\pi ~k+3~(S^k^) = Z/24
-
-for k \geqslant 5. After all, stable homotopy groups of spheres are related to
+$$\pi_{k+3}(S^k) = \mathbb{Z}/24$$
+for $k \geqslant 5$. After all, stable homotopy groups of spheres are related to
 the cohomology of symmetric groups, since the group completion of the
-classifying space of the groupoid of finite sets is \Omega^\inftyS^\infty - see
+classifying space of the groupoid of finite sets is $\Omega^\infty S^\infty$ --- see
 ["Week 199"](#week199) if you don't know what I'm talking about
 here. But I'm confused about the numbers 12 versus 24 here, and also
-the role of Q/Z coefficients.
+the role of $\mathbb{Q}/\mathbb{Z}$ coefficients.
 
 Does someone know a place where you can look up cohomology groups of the
 symmetric groups?
@@ -151,82 +131,60 @@ symmetric groups?
 Next: electrical circuits!
 
 Last week I discussed electrical circuits made of (linear) resistors and
-"grounds" - places where wires touch an object whose electrostatic
+"grounds" --- places where wires touch an object whose electrostatic
 potential is zero. I want to fill in some missing pieces today.
 
 Suppose we have such a circuit with n wires dangling out of it. I've
-been calling these "inputs" and "outputs" - but today I don't care
+been calling these "inputs" and "outputs" --- but today I don't care
 which ones are inputs and which ones are outputs, so let's call them
 all "terminals".
 
 We saw last time that our circuit gives a function
-
-Q\colon R^n \to R
-
+$$Q\colon \mathbb{R}^n \to \mathbb{R}$$
 This tells you how much power the circuit uses as a function of the
 electrostatic potential at each terminal.
 
-It's pretty easy to see that Q is a "quadratic form", meaning that
-
-Q(\varphi) = \sum~i,j~ Q~ij~ \varphi_i \varphi_j
-
-for some matrix Q~ij~, which we can assume is symmetric. And it's easy
-to see that Q is "nonnegative", meaning
-
-Q(\varphi) \geqslant 0
-
+It's pretty easy to see that $Q$ is a "quadratic form", meaning that
+$$Q(\varphi) = \sum_{i,j} Q_{ij} \varphi_i \varphi_j$$
+for some matrix $Q_{ij}$, which we can assume is symmetric. And it's easy
+to see that $Q$ is "nonnegative", meaning
+$$Q(\varphi) \geqslant 0$$
 I wildly guessed that every nonnegative quadratic form comes from a
 circuit made of resistors and grounds. Since then I've learned a few
 things, thanks to Ben Tilly and Tom Ellis.
 
 For starters, which nonnegative quadratic forms do we get from circuits
 built only from resistors? We certainly don't get all of them. For
-example, if n = 2, every circuit built from just resistors has
-
-Q(\varphi) = c (\varphi_1 - \varphi_2)^2
-
-for some nonnegative number c. So, we'll never get this quadratic form:
-
-Q(\varphi) = (\varphi_1 + \varphi_2)^2
-
-even though it's nonnegative. In general, for any n, we can get a lot
+example, if $n = 2$, every circuit built from just resistors has
+$$Q(\varphi) = c (\varphi_1 - \varphi_2)^2$$
+for some nonnegative number $c$. So, we'll never get this quadratic form:
+$$Q(\varphi) = (\varphi_1 + \varphi_2)^2$$
+even though it's nonnegative. In general, for any $n$, we can get a lot
 of quadratic forms just by connecting each terminal to each other with a
 resistor. Such circuits give precisely these quadratic forms:
-
-Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi_j)^2
-
-where the numbers c~ij~ are nonnegative. We can assume without loss of
-generality that c~ii~ = 0. The numbers c~ij~ are *reciprocals* of
+$$Q(\varphi) = \sum_{i,j} c_{ij} (\varphi_i - \varphi_j)^2$$
+where the numbers $c_{ij}$ are nonnegative. We can assume without loss of
+generality that $c_{ii} = 0$. The numbers $c_{ij}$ are *reciprocals* of
 resistances, so we're allowing resistors with infinite resistance, but
 not with zero resistance.
 
 It turns out that quadratic forms of the above type are famous: they're
 called "Dirichlet forms". People have characterized them in lots of
 ways. Here's one: they're the nonnegative quadratic forms that vanish
-when \varphi is constant:
-
-\varphi_i = \varphi_j for all i,j implies Q(\varphi) = 0
-
+when $\varphi$ is constant:
+$$\varphi_i = \varphi_j \mbox{for all $i,j$} \implies Q(\varphi) = 0$$
 and also satisfy the "Markov property":
-
-Q(\varphi) \geqslant Q(\psi)
-
-when \psi_i is the minimum of \varphi_i and 1. This characterization is
+$$Q(\varphi) \geqslant Q(\psi)$$
+when $\psi_i$ is the minimum of $\varphi_i$ and $1$. This characterization is
 Proposition 1.7 here:
 
-5) Christophe Sabot, Existence and uniqueness of diffusions on finitely
-ramified self-similar fractals, Section 1: Dirichlet forms on finite
-sets and electrical networks, Annales Scientifiques de l'cole Normale
-Suprieure, Sr. 4, 30 (1997), 605-673. Available at
-`http://www.numdam.org/numdam-bin/item?id=ASENS_1997_4_30_5_605_0`
+5) Christophe Sabot, "Existence and uniqueness of diffusions on finitely ramified self-similar fractals", Section 1: "Dirichlet forms on finite sets and electrical networks", _Annales Scientifiques de l'école Normale Suprieure, Sr. 4_, **30** (1997), 605--673. Available at `http://www.numdam.org/numdam-bin/item?id=ASENS_1997_4_30_5_605_0`
 
 Sabot doesn't prove this result, which he considers "well known".
 Instead, he points us to this book, which is not only fun to read, but
 also free:
 
-6) P. G. Doyle and J. L. Snell, Random Walks and Electrical Circuits,
-Mathematical Association of America, 1984. Also available at
-`http://www.math.dartmouth.edu/~doyle/`
+6) P. G. Doyle and J. L. Snell, _Random Walks and Electrical Circuits_, Mathematical Association of America, 1984. Also available at `http://www.math.dartmouth.edu/~doyle/`
 
 You may wonder what random walks and diffusions on fractals have to do
 with electrical circuits! The idea is that we can take a limit of
@@ -244,17 +202,15 @@ aimlessly on our fractal! And that's where "random walks" come in.
 
 It turns out that in situations like this, the heat equation is
 completely determined by a quadratic form called a "Dirichlet form".
-But it's not a quadratic form on R^n anymore: it's a quadratic form
+But it's not a quadratic form on $\mathbb{R}^n$ anymore: it's a quadratic form
 on a space of real-valued functions on our fractal.
 
 In fact Dirichlet forms were first studied, not for finite sets or
-fractals, but for nice regions in Euclidean space - the sort of regions
+fractals, but for nice regions in Euclidean space --- the sort of regions
 you'd normally consider when studying the heat equation. In this case
 the Dirichlet form arises from the Laplacian:
-
-Q(\varphi) = - \int \varphi∇^2\varphi
-
-where \varphi is a function on our region. The moral is that we should think
+$$Q(\varphi) = - \int \varphi\nabla^2\varphi$$
+where $\varphi$ is a function on our region. The moral is that we should think
 of any Dirichlet form as a generalized Laplacian!
 
 There's a huge literature on Dirichlet forms. Most of it focuses on
@@ -262,24 +218,16 @@ analytical subleties that don't matter for our pathetically simple
 examples. For a little taste, try this review of two books on Dirichlet
 forms:
 
-7) Review by Daniel Stroock, Bull. Amer. Math. Soc. 33 (1996) 87-92.
-Also available at
-`http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00617-9/`
+7) Review by Daniel Stroock, _Bull. Amer. Math. Soc._ **33** (1996) 87--92. Also available at `http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00617-9/`
 
 Among other things, he mentions a simpler characterization of Dirichlet
 forms. We're only considering quadratic forms
-
-Q\colon R^n \to R
-
+$$Q\colon \mathbb{R}^n \to \mathbb{R}$$
 and it turns out such a form is Dirichlet iff
-
-Q(\varphi) \geqslant Q(\psi)
-
+$$Q(\varphi) \geqslant Q(\psi)$$
 whenever
-
-|\varphi_i - \varphi_j| \geqslant |\psi_i - \psi_j|
-
-for all i,j. It's a fun exercise to see that this is equivalent to our
+$$|\varphi_i - \varphi_j| \geqslant |\psi_i - \psi_j|$$
+for all $i,j$. It's a fun exercise to see that this is equivalent to our
 previous characterization. And there's a simple physical idea behind
 this one: a circuit made of resistors will use more power when the
 potentials at different terminals differ by bigger amounts!
@@ -323,14 +271,10 @@ Dirichlet forms?
 This follows from Sabot's Proposition 1.8. Let me explain the idea.
 Suppose, for example, that we have a nonnegative quadratic form in 3
 variables
-
-Q\colon R^3 \to R
-
+$$Q\colon \mathbb{R}^3 \to \mathbb{R}$$
 Then we can get a quadratic form in 2 variables by taking the minimum of
-Q as the third variable ranges freely:
-
-P(\varphi_1, \varphi_2) = min~\varphi_3~ Q(\varphi_1, \varphi_2, \varphi_3)
-
+$Q$ as the third variable ranges freely:
+$$P(\varphi_1, \varphi_2) = \min_{\varphi_3}\{Q(\varphi_1, \varphi_2, \varphi_3)\}$$
 Physically this corresponds to taking a circuit with 3 terminals, like
 this:
 
@@ -354,14 +298,12 @@ terminal as an internal vertex:
 This means we let the potential at this vertex vary freely; by the
 principle of minimum power, it will do whatever it takes to minimize the
 power. So, we get a new circuit whose quadratic form is
-
-P(\varphi_1, \varphi_2) = min~\varphi_3~ Q(\varphi_1, \varphi_2, \varphi_3)
-
+$$P(\varphi_1, \varphi_2) = \min_{\varphi_3}\{Q(\varphi_1, \varphi_2, \varphi_3)\}$$
 More generally, we can take a nonnegative quadratic form in n variables,
 and take any subset of these variables, and get a new quadratic form by
 this minimization trick. And Sabot claims that if the original form was
 Dirichlet, so is the new one. He doesn't prove this, but I think it's
-easy - try it!
+easy --- try it!
 
 Sabot calls this trick for getting new Dirichlet forms from old ones the
 "trace map". He also describes another trick, the "gluing map". This
@@ -387,40 +329,31 @@ and glue the top two terminals together, getting this circuit:
 
 Both the trace map and the gluing map have interesting category-
 theoretic interpretations. For example, the gluing map lets us *compose*
-electrical circuits - or more precisely, their Dirichlet forms - by
+electrical circuits --- or more precisely, their Dirichlet forms --- by
 gluing the outputs of one onto the inputs of another.
 
 Finally, suppose we allow grounds as well as resistors. Sabot considers
 circuits of this sort in the following beautiful paper:
 
-8) Christophe Sabot, Electrical networks, symplectic reductions, and
-application to the renormalization map of self-similar lattices, Proc.
-Sympos. Pure Math. 72 (2004), 155-205. Also available as
-[`arXiv:math-ph/0304015`](http://arxiv.org/abs/math-ph/0304015).
+8) Christophe Sabot, "Electrical networks, symplectic reductions, and application to the renormalization map of self-similar lattices", _Proc. Sympos. Pure Math._ **72** (2004), 155--205. Also available as [`arXiv:math-ph/0304015`](http://arxiv.org/abs/math-ph/0304015).
 
 He only considers circuits of a special form. They have no internal
 vertices, just terminals. As before, each pair of terminals is connected
 with a resistor. But now, each terminal is also connected to the ground
 via a resistor! Such circuits give exactly these quadratic forms:
-
-Q(\varphi) = \sum~i,j~ c~ij~ (\varphi_i - \varphi_j)^2 + \sum_i c_i \varphi_i^2
-
-where c~ij~ and c_i are nonnegative numbers.
+$$Q(\varphi) = \sum_{i,j} c_{ij} (\varphi_i - \varphi_j)^2 + \sum_i c_i \varphi_i^2$$
+where $c_{ij}$ and $c_i$ are nonnegative numbers.
 
 Let's call these "generalized Dirichlet forms". I believe these
 generalized Dirichlet forms are characterized by the Markov property:
-
-Q(\varphi) \geqslant Q(\psi)
-
-when \psi_i is the minimum of \varphi_i and 1.
+$$Q(\varphi) \geqslant Q(\psi)$$
+when $\psi_i$ is the minimum of $\varphi_i$ and $1$.
 
 These generalized Dirichlet forms don't include *all* the nonnegative
 quadratic forms. Why? Because, as Ben Tilly pointed out, they don't
-include quadratic forms where the cross-terms \varphi_i \varphi_j have positive
+include quadratic forms where the cross-terms $\varphi_i \varphi_j$ have positive
 coefficients. So, for example, we don't get this:
-
-Q(\varphi_1, \varphi_2) = (\varphi_1 + \varphi_2)^2
-
+$$Q(\varphi_1, \varphi_2) = (\varphi_1 + \varphi_2)^2$$
 Sabot claims that generalized Dirichlet forms are closed under the trace
 map and gluing. Given this, the same argument I already sketched shows
 that *every* electrical circuit built from resistors and grounds has a
@@ -428,12 +361,12 @@ quadratic form that's a generalized Dirichlet form!
 
 So, it's all been worked out...
 
-Even better, Sabot explains how quadratic forms on a vector space V give
-Lagrangian subspaces of T*V. This is the trick I used last week to
+Even better, Sabot explains how quadratic forms on a vector space $V$ give
+Lagrangian subspaces of $T^*V$. This is the trick I used last week to
 introduce wires of zero resistance.
 
 A wire with zero resistance would use an infinite amount of power if you
-put a different electrostatic potential at each end. KABANG! - the
+put a different electrostatic potential at each end. KABANG! --- the
 ultimate "short circuit"! So, wires with zero resistance are not
 physical realistic, but they're useful idealizations: they serve as
 identity morphisms in the category-theoretic description of electrical
@@ -442,15 +375,13 @@ Lagrangian subspaces. These subspaces *don't* come from quadratic
 forms. But they are limits of subspaces that do.
 
 Now we can make this more precise. There's a manifold consisting of all
-Lagrangian subspaces of T*V - the "Lagrangian Grassmannian". Sitting
-in here is the set of generalized Dirichlet forms on V. We can take the
-closure of that set and get a space C(V). Points in C(V) correspond to
+Lagrangian subspaces of $T^*V$ --- the "Lagrangian Grassmannian". Sitting
+in here is the set of generalized Dirichlet forms on $V$. We can take the
+closure of that set and get a space $C(V)$. Points in $C(V)$ correspond to
 circuits built from resistors, grounds, and wires of zero resistance.
 Sabot says this space is discussed here:
 
-9) Y. Colin de Verdiere, Reseaux electriques planaires I, Comment.
-Math. Helv. 69 (1994), 351-374. Also available at
-`http://www-fourier.ujf-grenoble.fr/~ycolver/All-Articles/94a.pdf`.
+9) Y. Colin de Verdiere, "Reseaux electriques planaires I", _Comment. Math. Helv._ **69** (1994), 351--374. Also available at `http://www-fourier.ujf-grenoble.fr/~ycolver/All-Articles/94a.pdf`.
 
 So, Sabot, Verdiere and the rest of the Dirichlet form crowd have done
 almost everything I want... *except* phrase their results in the
@@ -463,29 +394,27 @@ said:
 
 > **Claim:** there is a dagger-compact category where:
 >
-> -   An object is a finite-dimensional real vector space.
-> -   A morphism S\colon V \to W is a Lagrangian subspace of T*V \times T*W.
-> -   We compose morphisms using composition of relations.
-> -   The tensor product is given by direct sum.
-> -   The symmetry is the obvious thing.
-> -   The dagger of a subspace of T*V \times T*W is the corresponding
->     subspace of T*W \times T*V.
+> - An object is a finite-dimensional real vector space.
+> - A morphism $S\colon V \to W$ is a Lagrangian subspace of $T^*V \times T^*W$.
+> - We compose morphisms using composition of relations.
+> - The tensor product is given by direct sum.
+> - The symmetry is the obvious thing.
+> - The dagger of a subspace of $T^*V \times T^*W$ is the corresponding subspace of $T^*W \times T^*V$.
 
 The problem was that this category has too many morphisms. If we only
-want physically realistic circuits - or *almost* realistic ones, since
-we're allowing wires of zero resistance - we should work not with all
-Lagrangian subspaces of T*R^m^ \times T*R^n, but only those lying in the
-subset C(R^m^ \times R^n). So, let's try:
+want physically realistic circuits --- or *almost* realistic ones, since
+we're allowing wires of zero resistance --- we should work not with all
+Lagrangian subspaces of $T^*\mathbb{R}^m \times T^*\mathbb{R}^n$, but only those lying in the
+subset $C(\mathbb{R}^m \times \mathbb{R}^n)$. So, let's try:
 
 > **Claim:** there is a dagger-compact category where:
 >
-> -   An object is a natural number.
-> -   A morphism S\colon m \to n is a point in C(R^m^ \times R^n).
-> -   We compose morphisms using composition of relations.
-> -   The tensor product is given by direct sum.
-> -   The symmetry is the obvious thing.
-> -   The dagger of a point in C(R^m^ \times R^n) is the corresponding point
->     in C(R^n \times R^m^).
+> - An object is a natural number.
+> - A morphism $S\colon m \to n$ is a point in $C(\mathbb{R}^m \times \mathbb{R}^n)$.
+> - We compose morphisms using composition of relations.
+> - The tensor product is given by direct sum.
+> - The symmetry is the obvious thing.
+> - The dagger of a point in $C(\mathbb{R}^m \times \mathbb{R}^n)$ is the corresponding point in $C(\mathbb{R}^n \times \mathbb{R}^m)$.
 
 There are a few things to check here. I haven't checked them all.
 
@@ -497,46 +426,44 @@ careful.
 
 Also, here's another worthwhile reference:
 
-10) Jun Kigami, Analysis on Fractals, Cambridge U. Press. First 60
-pages available at `http://www-an.acs.i.kyoto-u.ac.jp/~kigami/AOF.pdf`
+10) Jun Kigami, _Analysis on Fractals_, Cambridge U. Press. First 60 pages available at `http://www-an.acs.i.kyoto-u.ac.jp/~kigami/AOF.pdf`
 
 It's full of information on Dirichlet forms and electrical circuits.
 And it gives yet another characterization of Dirichlet forms! I don't
-love it - but I might as well tell you about it.
+love it --- but I might as well tell you about it.
 
-A Dirichlet form on R^n is a nonnegative quadratic form that vanishes
-when \varphi is constant:
-
-\varphi_i = \varphi_j for all i,j implies Q(\varphi) = 0
-
+A Dirichlet form on $\mathbb{R}^n$ is a nonnegative quadratic form that vanishes
+when $\varphi$ is constant:
+$$\varphi_i = \varphi_j \mbox{for all $i,j$} \implies Q(\varphi) = 0$$
 and satisfies
-
-Q(\varphi) \geqslant Q(\psi)
-
+$$Q(\varphi) \geqslant Q(\psi)$$
 whenever
-
-\psi_i = \varphi_i if 0 < \varphi_i < 1\
-       1 if \varphi_i > 1\
-       0 if \varphi_i < 0
-
+$$
+  \psi_i =
+  \begin{cases}
+    \varphi_i &\mbox{if $0<\varphi_i<1$}
+  \\1 &\mbox{if $\varphi_i>1$}
+  \\0 &\mbox{if $\varphi_i<1$}
+  \end{cases}
+$$
 This is yet another way to say that power decreases when the potentials
 at the terminals are closer together.
 
 Kigami also explains the relation between Dirichlet forms and Markov
-processes. His Theorem B.3.4. says that for a measure space X, there is
-a one-to-one correspondence between Dirichlet forms on L^2(X) and
-strongly continuous semigroups on L^2(X) that map functions in L^1(X)
+processes. His Theorem B.3.4. says that for a measure space $X$, there is
+a one-to-one correspondence between Dirichlet forms on $L^2(X)$ and
+strongly continuous semigroups on $L^2(X)$ that map functions in $L^1(X)$
 to functions of the same sort, and map nonnegative functions whose
-integral is 1 to functions of the same sort. Such semigroups are called
+integral is $1$ to functions of the same sort. Such semigroups are called
 "Markov". The classic example is provided by the heat equation! But in
 our electrical circuit example, we're considering the pathetically
-simple case where X is a finite set.
+simple case where $X$ is a finite set.
 
 One simple thing that deserves to be emphasized is that a Dirichlet form
 is not a kind of quadratic form on an abstract vector space. It's a
 kind of quadratic form on a space of functions! In particular, in my
-discussion above, R^n really means the algebra of functions on an
-n-element set - and in the second dagger-compact category mentioned
+discussion above, $\mathbb{R}^n$ really means the algebra of functions on an
+$n$-element set --- and in the second dagger-compact category mentioned
 above, the objects should really be finite sets. I was just working with
 a skeletal subcategory, to make things less intimidating.
 
@@ -552,11 +479,11 @@ capacitors into the game... and loop groups!
 > about them: there is a 1-1 correspondence between circuits that can
 > include grounds, and circuits that can't. To implement it, starting
 > with a circuit that can include grounds, just add an extra terminal,
-> call it "G" for "ground", and replace every internal ground with a
-> 0-resistance connection to that terminal G. Also, in your thinking
-> about potentials at terminals, replace "the potential at T_i" with
-> "the potential difference between T_i and G" (or equivalently but
-> differently, require that the potential at G is always 0).
+> call it "$G$" for "ground", and replace every internal ground with a
+> 0-resistance connection to that terminal $G$. Also, in your thinking
+> about potentials at terminals, replace "the potential at $T_i$" with
+> "the potential difference between $T_i$ and $G$" (or equivalently but
+> differently, require that the potential at $G$ is always 0).
 >
 > (I'm pretty sure you must be aware of this, but somehow it didn't
 > show up as a simplifier in your explanation as much as, or as
@@ -573,13 +500,15 @@ For more discussion, visit the [$n$-Category Café](http://golem.ph.utexas.edu/c
 
 ------------------------------------------------------------------------
 
-*Discussions about theoretical engineering research often feels like
+> *Discussions about theoretical engineering research often feels like
 visiting a graveyard in the company of Nietzsche. From the beginning of
 my career until now, I have always been hearing that 'the field is
 dead', 'circuit theory is dead', 'information theory is dead',
 'coding theory is dead', 'control theory is dead', 'system theory
-is dead', 'linear system theory is dead', 'H_\infty is dead'. Good
+is dead', 'linear system theory is dead', '$H_\infty$ is dead'. Good
 science, however, is always alive. The community may not appreciate the
 vibrancy of good ideas, but it is there. The absence of this impatience
 is one of the things that makes working in a mathematics department
-simply more pleasant.* - Jan C. Willems
+simply more pleasant.*
+> 
+> --- Jan C. Willems
