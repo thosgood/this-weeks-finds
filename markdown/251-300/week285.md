@@ -206,7 +206,7 @@ the *smooth structure* on our orbifold. To deal with these, it's nice
 to treat orbifolds as "Lie groupoids" or "stacks". I could say a lot
 more, but instead I'll just refer you to this very readable paper:
 
-11) Eugene Lerman, "Orbifolds as stacks?", Available as [`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
+11) Eugene Lerman, "Orbifolds as stacks?". Available as [`arXiv:0806.4160`](http://arxiv.org/abs/0806.4160).
 
 It begins by discussing easy approaches, then describes their flaws, and
 so on, leading up to the current state of the art. After this warmup,

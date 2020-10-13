@@ -340,7 +340,7 @@ wrote:
 > A few that I found that weren't immediately eliminated as cranks,
 > that might repay further investigation:
 >
-> 9) Michael Richmond, "Will a nearby supernova endanger life on Earth?", Available at `http://stupendous.rit.edu/richmond/answers/snrisks.txt`
+> 9) Michael Richmond, "Will a nearby supernova endanger life on Earth?". Available at `http://stupendous.rit.edu/richmond/answers/snrisks.txt`
 >
 > Perhaps the closest to the number-crunching you're looking for.
 >
