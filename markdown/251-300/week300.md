@@ -53,7 +53,7 @@ different.
 
 So, to count the objects in our groupoid, we go through it, take one
 representative of each isomorphism class, and add $1/n$ to our count when
-this representative has n symmetries.
+this representative has $n$ symmetries.
 
 Let's see how this works. Let's start by counting all the $n$-element
 sets.
@@ -433,185 +433,159 @@ number theory to string theory... some of which is explained here:
 Indeed, as you'll see in these books (or in
 ["Week 126"](#week126)), the function
 we saw earlier:
-
-1/(1-p^{-1})(1-p^{-2})(1-p^{-3}) ... = p(0)/p^0 + p(1)/p^1 + p(2)/p^2 +
-...
-
+$$\frac{1}{(1-p^{-1})(1-p^{-2})(1-p^{-3})\ldots} = \frac{p(0)}{p^0} + \frac{p(1)}{p^1} + \frac{p(2)}{p^2} + \ldots$$
 is *also* important in string theory: it shows up as a "partition
-function", in the physical sense, where the number p(n) counts the
-number of ways a string can have energy n if it has one extra dimension
+function", in the physical sense, where the number $p(n)$ counts the
+number of ways a string can have energy $n$ if it has one extra dimension
 to wiggle around in besides the 2 dimensions of its worldsheet.
 
 But it's the *24th power* of this function that really matters in
 string theory --- because bosonic string theory works best when our string
 has *24* extra dimensions to wiggle around in. For more details, try:
 
-11) John Baez, My favorite numbers: 24. Available at
-`http://math.ucr.edu/home/baez/numbers/24.pdf`
+11) John Baez, "My favorite numbers: 24". Available at `http://math.ucr.edu/home/baez/numbers/24.pdf`
 
 But suppose we don't want to mess with divergent sums: suppose we want
 a groupoid whose cardinality is, say,
-
-\zeta(2) = 1^{-2} + 2^{-2} + 3^{-2} + ... = \pi^2/6
-
+$$\zeta(2) = 1^{-2} + 2^{-2} + 3^{-2} + \ldots = \frac{\pi^2}{6}$$
 Then we need to categorify the evalution of Dirichlet series at
 *positive* integers. We can only do this for *certain* stuff types --- for
-example, our favorite one. So, let Z be the groupoid of finite
-semisimple commutative rings, and let S be a finite set. How can we make
+example, our favorite one. So, let $Z$ be the groupoid of finite
+semisimple commutative rings, and let $S$ be a finite set. How can we make
 sense of
-
-Z(S) = \sum_{n>0} Z(n) \times n^-S^ ?
-
-The hard part is n^-S^, because this has a minus sign in it. How can we
-raise an $n$-element set to the -Sth power? If we could figure out some
+$$Z(S) = \sum_{n>0} Z(n) \times n^{-S} ?$$
+The hard part is n^{-S}, because this has a minus sign in it. How can we
+raise an $n$-element set to the $-S$th power? If we could figure out some
 sort of groupoid that serves as the *reciprocal* of an $n$-element set,
-we'd be done, because then we could take that to the Sth power.
-Remember, S is a finite set, so to raise something (even a groupoid) to
-the Sth power, we just multiply a bunch of copies of that something -
-one copy for each element of S.
+we'd be done, because then we could take that to the $S$th power.
+Remember, $S$ is a finite set, so to raise something (even a groupoid) to
+the $S$th power, we just multiply a bunch of copies of that something ---
+one copy for each element of $S$.
 
 So: what's the reciprocal of an $n$-element set? There's no answer in
 general --- but there's a nice answer when that set is a *group*, because
 then that group gives a groupoid with one object, and the cardinality of
-this groupoid is just 1/n.
+this groupoid is just $1/n$.
 
-Here is where our particular stuff type Z comes to the rescue. Each
-object of Z(n) is a semisimple commutative ring with n elements, so it
-has an underlying additive group --- which is a group with n elements!
+Here is where our particular stuff type $Z$ comes to the rescue. Each
+object of $Z(n)$ is a semisimple commutative ring with $n$ elements, so it
+has an underlying additive group --- which is a group with $n$ elements!
 
-So, we don't interpret Z(n) \times n^-S^ as an ordinary product, but
-something a bit sneakier, a "twisted product". An object in Z(n) \times
-n^-S^ is just an object of Z(n), that is an $n$-element semisimple
+So, we don't interpret $Z(n) \times n^{-S}$ as an ordinary product, but
+something a bit sneakier, a "twisted product". An object in $Z(n) \times n^{-S}$ is just an object of $Z(n)$, that is an $n$-element semisimple
 commutative ring. But we define a symmetry of such an object to be a
-symmetry of this ring *together with* an S-tuple of elements of its
+symmetry of this ring *together with* an $S$-tuple of elements of its
 underlying additive group. We compose these symmetries with the help of
 addition in this group. This ensures that
-
-|Z(n) \times n^-S^| = |Z(n)| \times n^{-s}
-
-when |S| = s. And this in turn means that
-
-|Z(S)| = |\sum Z(n) \times n^-S^|
-
-= \sum |Z(n) \times n^-S^|
-
-= \sum |Z(n)| \times n^{-s}
-
-= \zeta(-s)
-
-So, in particular, if S is a 2-element set, we can write
-
-S = 2
-
+$$|Z(n) \times n^{-S}| = |Z(n)| \times n^{-s}$$
+when $|S| = s$. And this in turn means that
+$$
+  \begin{aligned}
+    |Z(S)| &= |\sum Z(n) \times n^{-S}|
+  \\&= \sum |Z(n) \times n^{-S}|
+  \\&= \sum |Z(n)| \times n^{-s}
+  \\&= \zeta(-s)
+  \end{aligned}
+$$
+So, in particular, if $S$ is a $2$-element set, we can write
+$$S = 2$$
 for short and get
-
-|Z(2)| = \zeta(2) = \pi^2/6
-
-Can we describe the groupoid Z(2) in simple English, suitable for a nice
+$$|Z(2)| = \zeta(2) = \frac{\pi^2}{6}$$
+Can we describe the groupoid $Z(2)$ in simple English, suitable for a nice
 bumper sticker? It's a bit tricky. One reason is that I haven't
-described the objects of Z(2) as mathematical gadgets of an appealing
-sort, as I did for Z(-1). Another closely related reason is that I only
-described the symmetries of any object in Z(2) --- or more technically,
+described the objects of $Z(2)$ as mathematical gadgets of an appealing
+sort, as I did for $Z(-1)$. Another closely related reason is that I only
+described the symmetries of any object in $Z(2)$ --- or more technically,
 morphisms from that object to itself. It's much better if we also
 describe morphisms from one object to another.
 
-For this, it's best to define Z(n) \times n^-S^ with the help of torsors.
+For this, it's best to define $Z(n) \times n^{-S}$ with the help of torsors.
 The idea of a torsor is that you can take the one-object groupoid
-associated to any group G and find a *different* groupoid, which is
+associated to any group $G$ and find a *different* groupoid, which is
 nonetheless *equivalent*, and which is a groupoid of appealing
-mathematical gadgets. These gadgets are called "G-torsors". A
-"G-torsor" is just a nonempty set on which G acts freely and
+mathematical gadgets. These gadgets are called "$G$-torsors". A
+"$G$-torsor" is just a nonempty set on which $G$ acts freely and
 transitively:
 
-12) John Baez, Torsors made easy,
-`http://math.ucr.edu/home/baez/torsors.html`
+12) John Baez, "Torsors made easy", `http://math.ucr.edu/home/baez/torsors.html`
 
-All G-torsors are isomorphic, and the group of symmetries of any
-G-torsor is G.
+All $G$-torsors are isomorphic, and the group of symmetries of any
+$G$-torsor is $G$.
 
-Now, any ring R has an underlying additive group, which I will simply
-call R. So, the concept of "R-torsor" makes sense. This lets us define
-an object of Z(n) \times n^-S^ to be an $n$-element semisimple commutative ring
-R together with an S-tuple of R-torsors.
+Now, any ring $R$ has an underlying additive group, which I will simply
+call $R$. So, the concept of "$R$-torsor" makes sense. This lets us define
+an object of $Z(n) \times n^{-S}$ to be an $n$-element semisimple commutative ring
+$R$ together with an $S$-tuple of $R$-torsors.
 
 But what about the morphisms between these? We define a morphism between
-these to be a ring isomorphism together with an S-tuple of torsor
-isomorphisms. There's a trick hiding here\colon a ring isomorphism f\colon R \to R' lets us take any R-torsor and turn it into an R'-torsor, or vice
-versa. So, it lets us talk about an isomorphism from an R-torsor to an
-R'-torsor --- a concept that at first might have seemed nonsensical.
+these to be a ring isomorphism together with an $S$-tuple of torsor
+isomorphisms. There's a trick hiding here: a ring isomorphism $f\colon R \to R'$
+lets us take any $R$-torsor and turn it into an $R'$-torsor, or vice
+versa. So, it lets us talk about an isomorphism from an $R$-torsor to an
+$R'$-torsor --- a concept that at first might have seemed nonsensical.
 
 Anyway, it's easy to check that this definition is compatible with our
 earlier one. So, we see:
 
-::: {align="center"}
-THE GROUPOID OF FINITE SEMISIMPLE COMMUTATIVE RINGS\
-EQUIPPED WITH AN $n$-TUPLE OF TORSORS\
-HAS CARDINALITY \zeta(n)
-:::
+> **the groupoid of finite semisimple commutative rings**\
+> **equipped with an $n$-tuple of torsors**\
+> **has cardinality $\zeta(n)$**
 
 I did a silly change of variables here: I thought this bumper sticker
-would sell better if I said "n-tuple" instead of "S-tuple". Here n
+would sell better if I said "$n$-tuple" instead of "$S$-tuple". Here $n$
 is any positive integer.
 
 While we're selling bumper stickers, we might as well include this one:
 
-::: {align="center"}
-THE GROUPOID OF FINITE SEMISIMPLE COMMUTATIVE RINGS\
-EQUIPPED WITH A PAIR OF TORSORS\
-HAS CARDINALITY \pi^2/6
-:::
+> **the groupoid of finite semisimple commutative rings**\
+> **equipped with a pair of torsors**\
+> **has cardinality $\pi^2/6$**
 
 Now, you might think this fact is just a curiosity. But I don't think
 so: it's actually a step towards categorifying the general theory of
 zeta functions. You see, the Riemann zeta function is just one of *many*
 zeta functions. As Hasse and Weil discovered, every sufficiently nice
 commutative ring R has a zeta function. The Riemann zeta function is
-just the simplest example: the one where R is the ring of integers. And
+just the simplest example: the one where $R$ is the ring of integers. And
 the cool part is that *all* these zeta functions come from stuff types
 using the recipe I described!
 
-How does this work? Well, from any commutative ring R, we can build a
-stuff type Z~R~ as follows: an object of Z~R~ is a finite semisimple
-commutative ring together with a homomorphism from R to that ring. Then
+How does this work? Well, from any commutative ring $R$, we can build a
+stuff type $Z_R$ as follows: an object of $Z_R$ is a finite semisimple
+commutative ring together with a homomorphism from $R$ to that ring. Then
 it turns out the Dirichlet series of this stuff type, say
-
-\zeta~R~(s) = \sum_{n>0} |Z~R~(n)| n^{-s}
-
-is the usual Hasse-Weil zeta function of the ring R!
+$$\zeta_R(s) = \sum_{n>0} |Z_R(n)| n^{-s}$$
+is the usual Hasse-Weil zeta function of the ring $R$!
 
 Of course, that fact is vastly more interesting if you already know and
 love Hasse-Weil zeta functions. You can find a definition of them either
 in my paper with Jim, or here:
 
-12) Jean-Pierre Serre, Zeta and L functions, Arithmetical Algebraic
-Geometry (Proc. Conf. Purdue Univ., 1963), Harper and Row, 1965, pp.
-82-92.
+12) Jean-Pierre Serre, "Zeta and L functions", _Arithmetical Algebraic Geometry_ (Proc. Conf. Purdue Univ., 1963), Harper and Row, 1965, pp. 82--92.
 
-But the basic idea is simple. You can think of any commutative ring R as
+But the basic idea is simple. You can think of any commutative ring $R$ as
 the functions on some space --- a funny sort of space called an "affine
 scheme". You're probably used to spaces where all the points look
 alike --- just little black dots. But the points of an affine scheme come
 in many different colors: for starters, one color for each prime power
-p^k^! The Hasse-Weil zeta function of R is a clever trick for encoding
+$p^k$! The Hasse-Weil zeta function of $R$ is a clever trick for encoding
 the information about the numbers of points of these different colors in
 a single function.
 
 Why do we get points of different colors? I explained this back in
 ["Week 205"](#week205). The idea is
-that for any commutative ring k, we can look at the homomorphisms
-
-f\colon R \to k
-
-and these are called the "k-points" of our affine scheme. In
-particular, we can take k to be a finite field, say $\mathbb{F}_{p^n}$. So, we get
-a set of points for each prime power p^n. The Hasse-Weil zeta function
+that for any commutative ring $k$, we can look at the homomorphisms
+$$f\colon R \to k$$
+and these are called the "$k$-points" of our affine scheme. In
+particular, we can take $k$ to be a finite field, say $\mathbb{F}_{p^n}$. So, we get
+a set of points for each prime power $p^n$. The Hasse-Weil zeta function
 is a trick for keeping track of many $\mathbb{F}_{p^n}$-points there are for each
-prime power p^n.
+prime power $p^n$.
 
 Given all this, you shouldn't be surprised that we can get the
-Hasse-Weil zeta function of R by taking the Dirichlet series of the
-stuff type Z~R~, where an object is a finite semisimple commutative ring
-k together with a homomorphism f\colon R \to k. Especially if you remember that
+Hasse-Weil zeta function of $R$ by taking the Dirichlet series of the
+stuff type $Z_R$, where an object is a finite semisimple commutative ring
+$k$ together with a homomorphism $f\colon R \to k$. Especially if you remember that
 finite semisimple commutative rings are built from finite fields!
 
 In fact, this whole theory of Hasse-Weil zeta functions works for
@@ -635,33 +609,24 @@ power series called its generating function. I told you about this back
 in ["Week 185"](#week185) and
 ["Week 190"](#week190). The recipe
 gets even simpler when we go up to stuff types: the generating function
-of a stuff type Z is just
-
-\sum~n\ \geqslant\ 0~ |Z(n)| z^n
-
+of a stuff type $Z$ is just
+$$\sum_{n\geqslant0} |Z(n)| z^n$$
 Since we can also describe states of the quantum harmonic oscillator as
-power series, with z^n corresponding to the $n$th energy level, this lets
+power series, with $z^n$ corresponding to the $n$th energy level, this lets
 us view stuff types as states of a categorified quantum harmonic
 oscillator! This explains the combinatorics of Feynman diagrams:
 
-14) Jeffrey Morton, Categorified algebra and quantum mechanics, TAC 16
-(2006), 785-854, available at
-`http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` Also
-available as [`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
+14) Jeffrey Morton, "Categorified algebra and quantum mechanics", _TAC_ **16** (2006), 785--854, available at `http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html` Also available as [`arXiv:math/0601458`](http://arxiv.org/abs/math/0601458).
 
 And, it's a nice test case of the groupoidification program, where we
 categorify lots of algebra by saying "wherever we see a number, let's
 try to think of it as the cardinality of a groupoid":
 
-15) John Baez, Alex Hoffnung and Christopher Walker, Higher-dimensional
-algebra VII: Groupoidification, available as
-[`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
+15) John Baez, Alex Hoffnung and Christopher Walker, "Higher-dimensional algebra VII: Groupoidification", available as [`arXiv:0908.4305`](http://arxiv.org/abs/0908.4305).
 
 But now I'm telling you something new! I'm saying that any stuff type
 also gives a Dirichlet series, namely
-
-\sum_{n>0} |Z(n)| n^{-s}
-
+$$\sum_{n>0} |Z(n)| n^{-s}$$
 This should make you wonder what's going on. My paper with Jim explains
 it --- at least for structure types. The point is that the groupoid of
 finite sets has two monoidal structures: + and \times. This gives the
@@ -679,7 +644,7 @@ There's a lot more to say about this, because actually the category of
 structure types has *five* monoidal structures, all fitting together in
 a nice way. You can read a bit about this here:
 
-16) nLab, Schur functors, `http://ncatlab.org/nlab/show/Schur+functor`
+16) nLab, "Schur functors", `http://ncatlab.org/nlab/show/Schur+functor`
 
 This is something Todd Trimble and I are writing, which will eventually
 evolve into an actual paper. We consider structure types for which there
@@ -699,17 +664,11 @@ categories!
 This sounds far-out, but it's all been worked out at a decategorified
 level: rings, corings, birings, and monoids in the category of birings:
 
-17) D. Tall and Gavin Wraith, Representable functors and operations on
-rings, Proc. London Math. Soc. (3), 1970, 619-643.
+17) D. Tall and Gavin Wraith, "Representable functors and operations on rings", _Proc. London Math. Soc._ **3**, 1970, 619--643.
 
-18) James Borger and B. Wieland, Plethystic algebra, Advances in
-Mathematics 194 (2005), 246-283. Also available at
-`http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html`
+18) James Borger and B. Wieland, "Plethystic algebra", _Advances in Mathematics_ **194** (2005), 246--283. Also available at `http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html`
 
-19) Andrew Stacey and S. Whitehouse, The hunting of the Hopf ring,
-Homology, Homotopy and Applications, 11 (2009), 75-132, available at
-`http://intlpress.com/HHA/v11/n2/a6/` Also available as
-[`arXiv:0711.3722`](http://arxiv.org/abs/0711.3722).
+19) Andrew Stacey and S. Whitehouse, "The hunting of the Hopf ring", _Homology, Homotopy and Applications_ **11** (2009), 75--132, available at `http://intlpress.com/HHA/v11/n2/a6/` Also available as [`arXiv:0711.3722`](http://arxiv.org/abs/0711.3722).
 
 Borger and Wieland call a monoid in the category of birings a
 "plethory". The star example is the algebra of symmetric functions.
@@ -721,11 +680,7 @@ treasure trove of rich structures. Indeed, these structures are *already
 staring us in the face* --- we just need to know how to open our eyes.
 They clarify and unify a lot of seemingly esoteric and disconnected
 things that mathematicians and physicists love.
-
-::: {align="center"}
-![](aurora_australis.jpg){width="600"}
-:::
-
+$$\includegraphics[max width=0.65\linewidth]{../images/aurora_australis.jpg}$$
 I think we are just beginning to glimpse the real beauty of math and
 physics. I bet it will be both simpler and more startling than most
 people expect.
