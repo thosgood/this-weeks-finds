@@ -467,7 +467,7 @@ with two conjugate solutions, one being
 $$z = \frac{\varphi + (\varphi^2 - 4)^{\frac12}}{2}$$
 I've sneakily chosen the solution that's my favorite 5th root of
 unity:
-$$z = \exp\left(\frac{2\pi i}{5}\right) = \cos\left(\frac{2\pi /}{)}\right + i \sin\left(\frac{2\pi /}{)}\right$$
+$$z = \exp\left(\frac{2\pi i}{5}\right) = \cos\left(\frac{2\pi}{5}\right) + i \sin\left(\frac{2\pi}{5}\right)$$
 So, we're getting
 $$\cos\left(\frac{2\pi}{5}\right) = \frac\varphi2$$
 A fact we should have learned in high school, but probably never did.

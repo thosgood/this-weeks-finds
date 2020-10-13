@@ -1117,7 +1117,7 @@ haven't tried:
 - If $\mathcal{I}$ is the ideal in $\mathrm{Assoc}$ for which $\mathrm{Assoc}/\mathcal{I} = \mathrm{Comm}$, what sort of algebras are described by the operad $\mathcal{I}^k$?
 - What about the operad $\mathcal{I}^k/\mathcal{I}^{k+1}$?
 - What about the operad $\mathcal{I}^k/\mathcal{I}^{k+2}$, and so on?
-- And what about the suboperads of \mathrm{Assoc} concocted as in the previous paragraph?
+- And what about the suboperads of $\mathrm{Assoc}$ concocted as in the previous paragraph?
 
 ------------------------------------------------------------------------
 

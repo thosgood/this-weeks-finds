@@ -195,7 +195,7 @@ to read my explanation below.
 But that gets a bit technical, so for now let me say: "it's just like
 the Palatini Lagrangian". Namely, the first term is the usual Palatini
 Lagrangian for gravity. The second term involves the Immirzi parameter,
-\gamma. The second term doesn't affect the classical equations of motion,
+$\gamma$. The second term doesn't affect the classical equations of motion,
 because its variation is a total derivative. But it does affect the
 quantum theory!
 

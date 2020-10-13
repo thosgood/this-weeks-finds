@@ -176,7 +176,7 @@ $$\includegraphics[max width=0.65\linewidth]{../images/copairing.jpg}$$
 The fact that "raising indices" is the inverse of "lowering indices"
 then follows from the fact that you can take a zig-zag in a piece of
 pipe and straighten it out!
-$$\includegraphics[max width=0.65\linewidth]{../images/zipzag.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/zigzag.jpg}$$
 
 So, any $n$-dimensional TQFT gives a Frobenius algebra, and in fact a
 commutative Frobenius algebra for $n > 1$.

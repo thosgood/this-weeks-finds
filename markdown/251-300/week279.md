@@ -107,7 +107,7 @@ distract you with that here. I'll say more about it later.
 
 Now, from what we've seen so far, there's an obvious way to take a
 vector and a spinor and get a new spinor. This is what matrices were
-born for! Just take your matrix in \mathrm{h}_2(\mathbb{K}), multiply your spinor in $\mathbb{K}^2$
+born for! Just take your matrix in $\mathrm{h}_2(\mathbb{K})$, multiply your spinor in $\mathbb{K}^2$
 by that matrix, and you get a new spinor in $\mathbb{K}^2$.
 
 In fact, we see this process at work whenever an electron absorbs a

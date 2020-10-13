@@ -62,6 +62,7 @@ printf '%s\n' '\date{May 5, 2007 to August 11, 2010}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
+printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{pgfplots}' >> $TEX

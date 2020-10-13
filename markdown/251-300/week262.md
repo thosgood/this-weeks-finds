@@ -110,7 +110,7 @@ fascinating.
 
 A diamond is made of carbon atoms arranged in tetrahedra, which then
 form a cubical structure, like this:
-$$\href{http://newton.ex.ac.uk/research/qsystems/people/sque/diamond/structure/}{\includegraphics[max width=0.65\linewidth]{../images/diamond-conventional-unit-cell.jpg}}$$
+$$\href{http://newton.ex.ac.uk/research/qsystems/people/sque/diamond/structure/}{\includegraphics[max width=0.65\linewidth]{../images/diamond-conventional-unit-cell.png}}$$
 
 9) Steve Sque, "Structure of diamond", `http://newton.ex.ac.uk/research/qsystems/people/sque/diamond/structure/`
 
