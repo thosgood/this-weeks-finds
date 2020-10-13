@@ -578,7 +578,7 @@ visiting a graveyard in the company of Nietzsche. From the beginning of
 my career until now, I have always been hearing that 'the field is
 dead', 'circuit theory is dead', 'information theory is dead',
 'coding theory is dead', 'control theory is dead', 'system theory
-is dead', 'linear system theory is dead', 'H~\infty~ is dead'. Good
+is dead', 'linear system theory is dead', 'H_\infty is dead'. Good
 science, however, is always alive. The community may not appreciate the
 vibrancy of good ideas, but it is there. The absence of this impatience
 is one of the things that makes working in a mathematics department
