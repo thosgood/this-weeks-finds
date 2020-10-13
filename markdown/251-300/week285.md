@@ -379,43 +379,59 @@ Given a quandle $Q$ there's a way to turn any $n$-strand braid into a
 function
 $$Q^n \to Q^n$$
 Here's how. In braids we can have two kinds of crossings:
-
-     \   /
-      \ /
-       /
-      / \
-     /   \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (1,1)
+        to [out=down,in=up] (0,0);
+      \strand[thick] (0,1)
+        to [out=down,in=up] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and
-
-     \   /
-      \ /
-       \
-      / \
-     /   \
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,1)
+        to [out=down,in=up] (1,0);
+      \strand[thick] (1,1)
+        to [out=down,in=up] (0,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 Let's think of each as giving a function from $Q^2$ to itself. To do
 this, we let the quandle element labelling one strand act on the quandle
 element labelling the other, using our two kinds of conjugation:
-
-    g     h
-     \   /
-      \ /
-       /
-      / \
-     /   \
-    h    g<h
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (1,1)
+        to [out=down,in=up] (0,0);
+      \strand[thick] (0,1)
+        to [out=down,in=up] (1,0);
+    \end{knot}
+    \node[label=above:$g$] at (0,1) {};
+    \node[label=above:$h$] at (1,1) {};
+    \node[label=below:$h$] at (0,0) {};
+    \node[label=below:$g<h$] at (1,0) {};
+  \end{tikzpicture}
+$$
 and
-
-    g     h
-     \   /
-      \ /
-       \
-      / \
-     /   \
-    g>h   g
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \begin{knot}
+      \strand[thick] (0,1)
+        to [out=down,in=up] (1,0);
+      \strand[thick] (1,1)
+        to [out=down,in=up] (0,0);
+    \end{knot}
+    \node[label=above:$g$] at (0,1) {};
+    \node[label=above:$h$] at (1,1) {};
+    \node[label=below:$g>h$] at (0,0) {};
+    \node[label=below:$g$] at (1,0) {};
+  \end{tikzpicture}
+$$
 The strand above acts on the strand below, following the general
 principle that the people higher up cause trouble for the people below
 them. Now, look at the third Reidemeister move, which says:
