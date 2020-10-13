@@ -1,9 +1,9 @@
 # TODO
 
 - something better than `" "` in the tables in e.g. week049
-- ask john to check wallpaper tilings in week267
 - sort out image sizes! e.g. `milky_way_axel_mellinger.jpg`
 - diagrams in week290
+- diagrams in week291
 
 ---
 
