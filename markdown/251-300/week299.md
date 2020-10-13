@@ -621,50 +621,87 @@ you'll get a linear combination of trees, say $ab$. And this how
 multiplication in the free pre-Lie algebra on one generator works!
 
 We can summarize this as follows:
-
-     ab   =     a  
-                |  
-                b  
-
+$$
+  \raisebox{1.9em}{$ab=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (0,0) {$b$};
+    \draw[thick] (a) to (b);
+  \end{tikzpicture}
+$$
 Here the picture stands for *any* way of attaching $a$ to $b$. We should
 really sum over all of them.
 
 When you form a product like $a(bc)$, different things can happen. We can
 summarize the possibilities like this:
-
-                a
-                |
-    a(bc) =     b  +  a   b
-                |      \ /
-                c       c 
-
+$$
+  \raisebox{3.1em}{$a(bc)=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,2) {$a$};
+    \node (b) at (0,1) {$b$};
+    \node (c) at (0,0) {$c$};
+    \draw[thick] (a) to (b) to (c);
+  \end{tikzpicture}
+  \quad\raisebox{3.1em}{$+$}\quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+$$
 The point is that we can either attach the root of $a$ to a vertex in $b$,
-or a vertex in $c$. There are fewer possibilities when we form $a(bc)$:
-
-                a
-                |
-    (ab)c =     b  
-                |
-                c  
-
+or a vertex in $c$. There are fewer possibilities when we form $(ab)c$:
+$$
+  \raisebox{3.1em}{$(ab)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,2) {$a$};
+    \node (b) at (0,1) {$b$};
+    \node (c) at (0,0) {$c$};
+    \draw[thick] (a) to (b) to (c);
+  \end{tikzpicture}
+$$
 so
-
-    a(bc) - (ab)c =   a   b
-                       \ /
-                        c 
-
+$$
+  \raisebox{1.75em}{$a(bc)-(ab)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+$$
 Now switch $a$ and $b$ in this equation! We get
-
-    b(ac) - (ba)c =   b   a
-                       \ /
-                        c 
-
+$$
+  \raisebox{1.75em}{$b(ac)-(ba)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$b$};
+    \node (b) at (1,1) {$a$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+$$
 Our rooted trees are not planar, so the answer is really the same:
-
-       a   b        b   a
-        \ /    =     \ /
-         c            c
-
+$$
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+  \quad\raisebox{1.75em}{$=$}\quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$b$};
+    \node (b) at (1,1) {$a$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+$$
 So, we have
 $$a(bc) - (ab)c = b(ac) - (ba)c$$
 and this is the definition of a pre-Lie algebra!
@@ -698,15 +735,16 @@ $\mathcal{O}$. More precisely, we have
 $$A = \bigoplus_n \mathcal{O}_n/S_n$$
 Here $\mathcal{O}_n$ is the space of $n$-ary operations in $\mathcal{O}$, which is acted on by
 the permutation group $S_n$. So, we can draw an element of $A$ like this:
-
-                       o   o   o
-                        \  |  /
-                         -----
-                        |  a  | 
-                         -----
-                           |
-                           o
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,2) to (-0.33,1);
+    \draw[thick] (0,2) to (0,1);
+    \draw[thick] (1,2) to (0.33,1);
+    \node at (0,0.75) {$a$};
+    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick] (0,0.5) to (0,-0.75);
+  \end{tikzpicture}
+$$
 where $a$ is an $n$-ary operation in $\mathcal{O}$, but we don't care how the branches
 of this little tree are permuted.
 
