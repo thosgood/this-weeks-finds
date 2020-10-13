@@ -378,40 +378,64 @@ independent of time.
 Mathematically, such a circuit is a graph equipped with some extra data.
 First, each edge has a number associated to it --- the "resistance". For
 example:
-
-                   o----1----o----3----o
-                   |         |         | 
-                   |         |         | 
-                   2         3         2 
-                   |         |         | 
-                   |         |         | 
-                   o----3----o----1----o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[fill=white]{$3$} (1,0)
+      to node[fill=white]{$1$} (2,0)
+      to node[fill=white]{$2$} (2,1);
+    \draw[thick] (0,0)
+      to node[fill=white]{$2$} (0,1)
+      to node[fill=white]{$1$} (1,1)
+      to node[fill=white]{$3$} (2,1);
+    \draw[thick] (1,0)
+      to node[fill=white]{$3$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 Second, we have current flowing through this circuit. To describe this,
 we first arbitrarily pick an orientation on each edge:
-
-                   o---->----o---->----o
-                   |         |         | 
-                   |         |         | 
-                   V         V         V 
-                   |         |         | 
-                   |         |         | 
-                   o----<----o---->----o
-     
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 Then we label each edge with a number saying how much "current" is
 flowing through that edge, in the direction of the arrow:
-
-                        2        3
-                   o---->----o---->----o
-                   |         |         | 
-                   |         |         | 
-                 3 V         V 1       V 3
-                   |         |         | 
-                   |         |         | 
-                   o----<----o---->----o
-                        2       -3
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[label=above:{$2$},rotate=180]{$\textgreater$} (1,0)
+      to node[label=below:{$-3$},rotate=0]{$\textgreater$} (2,0)
+      to node[label=above:{$3$},rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[label=below:{$3$},rotate=-90]{$\textgreater$} (0,1)
+      to node[label=above:{$2$},rotate=0]{$\textgreater$} (1,1)
+      to node[label=above:{$3$},rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[label=above:{$1$},rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 Electrical engineers call the current $I$. Mathematically it's good to
 think of $I$ as a "$1$-chain": a formal linear combination of oriented
 edges of our graph, with the coefficients of the linear combination
@@ -420,17 +444,26 @@ being the numbers shown above.
 If we know the current, we can work out a number for each vertex of our
 graph, saying how much current is flowing out of that vertex, minus how
 much is flowing in:
-
-                             2     
-                 5 o---->----o---->----o 0 
-                   |         |         | 
-                   |         |         | 
-                   V         V         V 
-                   |         |         | 
-                   |         |         | 
-                -5 o----<----o---->----o 0
-                           -2   
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \node[label=below:{$-5$}] at (0,0) {$\bullet$};
+    \node[label=below:{$-2$}] at (1,0) {$\bullet$};
+    \node[label=below:{$0$}] at (2,0) {$\bullet$};
+    \node[label=above:{$5$}] at (0,1) {$\bullet$};
+    \node[label=above:{$2$}] at (1,1) {$\bullet$};
+    \node[label=above:{$0$}] at (2,1) {$\bullet$};
+  \end{tikzpicture}
+$$
 Mathematically we can think of this as a "$0$-chain": a formal linear
 combination of the vertices of our graph, with the numbers shown above
 as coefficients. We call this $0$-chain the "boundary" of the $1$-chain we
@@ -447,25 +480,25 @@ closed circuit, we assume it's not.
 
 If a circuit is not closed, let's call it "open". These are
 interesting too. For example, we might have a circuit like this:
-
-                   x
-                   |    
-                   |    
-                   V    
-                   |    
-                   |    
-                   o---->----o
-                   |         |
-                   |         |
-                   V         V
-                   |         |
-                   |         |
-                   x         x         
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,2)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=-90]{$\textgreater$} (1,0);
+    \node at (0,1) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0,2) {$x$};
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$x$};
+  \end{tikzpicture}
+$$
 where we have current flowing in the wire on top and flowing out the two
-wires at bottom. We allow $\delta I$ to be nonzero at the ends of these wires ---
-the 3 vertices labelled $x$. This circuit is an "open system" in the
-sense of ["Week 290"](#week290), because it has these wires
+wires at bottom. We allow $\delta I$ to be nonzero at the ends of these
+wires --- the 3 vertices labelled $x$. This circuit is an "open system"
+in the sense of ["Week 290"](#week290), because it has these wires
 dangling out of it. It's not self-contained; we can use it as part of
 some bigger circuit. We should really formalize this more, but I won't
 now. Derek Wise did it more generally here:
@@ -483,15 +516,18 @@ and talk about $2$-chains! Let's suppose our graph is connected --- it is
 in our example --- and let's fill it in with enough $2$-dimensional
 "faces" to get something contractible. We can do this in a god-given
 way if our graph is drawn on the plane: just fill in all the holes!
-
-                   o---------o---------o
-                   |/////////|/////////| 
-                   |/////////|/////////| 
-                   |//FACE///|///FACE//| 
-                   |/////////|/////////| 
-                   |/////////|/////////| 
-                   o---------o---------o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick,pattern=north east lines] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+$$
 In electrical engineering these faces are often called "meshes".
 
 This give us a chain complex
