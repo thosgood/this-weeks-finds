@@ -216,7 +216,7 @@ Here's a timeline loosely taken from this paper:
         > $$
         >   \begin{gathered}
         >     \href{http://www.boulder.swri.edu/~robin}{\includegraphics[max width=0.65\linewidth]{../images/TTauriStarDrawing.jpg}}
-        >   \\\mbox{\href{Robin Canup}{http://www.boulder.swri.edu/~robin/}'s
+        >   \\\mbox{\href{http://www.boulder.swri.edu/~robin/}{Robin Canup}'s
         > simulation of Earth and Theia, 50 minutes after their initial
         > collision.}
         >   \end{gathered}

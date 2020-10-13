@@ -138,7 +138,7 @@ but certainly not scholars trying to understand Euclid.
 In 1808, [Francois Peyrard](http://www.sabix.org/bulletin/b3/peyrard.html) made a marvelous
 discovery. He found that the Vatican library had a copy of Euclid's
 Elements that hadn't descended through Theon!
-$$\href{http://www.loc.gov/exhibits/vatican/math.html}{\includegraphics[max width=0.65\linewidth]{../images/math22.jpg}}$$
+$$\href{http://www.loc.gov/exhibits/vatican/math.html}{\includegraphics[width=0.65\linewidth]{../images/math22.png}}$$
 This copy is now called "P". It dates back to about 850 AD. I would
 love to know how Peyrard got his hands on it. One imagines him rooting
 around in a dusty basement and opening a trunk... but it seems that

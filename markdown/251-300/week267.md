@@ -5,7 +5,7 @@ After the workshop on categorical groups in Barcelona, I went to Granada
 this subject, had kindly invited me to spend a week there and give some
 talks. Even more kindly, she put me in a hotel right next to the
 Alhambra.
-$$\includegraphics{../images/view_from_carmen_de_la_victoria.jpg}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/view_from_carmen_de_la_victoria.jpg}$$
 So, this week I'll tell you about some categorical groups I saw in the
 Alhambra.
 
@@ -37,10 +37,16 @@ could see:
 1) John Baez, Alhambra tiles, `http://math.ucr.edu/home/baez/alhambra`
 
 Here are a few of my favorites:
-$$\includegraphics[max width=0.65\linewidth]{../images/alhambra_9.jpg}$$
-$$\includegraphics[max width=0.65\linewidth]{../images/alhambra_5.jpg}$$
-$$\includegraphics[max width=0.65\linewidth]{../images/alhambra_14.jpg}$$
-$$\includegraphics[max width=0.65\linewidth]{../images/alhambra_22.jpg}$$
+$$
+  \begin{gathered}
+    \includegraphics[max width=0.4\linewidth]{../images/alhambra_9.jpg}
+    \quad
+    \includegraphics[max width=0.4\linewidth]{../images/alhambra_5.jpg}
+  \\\includegraphics[max width=0.4\linewidth]{../images/alhambra_14.jpg}
+    \quad
+    \includegraphics[max width=0.4\linewidth]{../images/alhambra_22.jpg}
+  \end{gathered}
+$$
 Some people say that tilings with all 17 possible "wallpaper groups"
 as symmetries can be found in the Alhambra. This article rebuts that
 claim with all the vehemence such an academic issue deserves, saying

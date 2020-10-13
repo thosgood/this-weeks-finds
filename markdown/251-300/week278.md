@@ -190,7 +190,7 @@ tame by comparison.
 $$
   \begin{gathered}
     \includegraphics[max width=0.65\linewidth]{../images/theia_earth_collision_canup.png}
-  \\\mbox{\href{Robin Canup}{http://www.boulder.swri.edu/~robin/}'s simulation of Earth and Theia, 50 minutes after their initial collision. Color indicates temperature.}
+  \\\mbox{\href{http://www.boulder.swri.edu/~robin/}{Robin Canup}'s simulation of Earth and Theia, 50 minutes after their initial collision. Color indicates temperature.}
   \end{gathered}
 $$
 By the way, you can read my tale of *that* collision, and some other

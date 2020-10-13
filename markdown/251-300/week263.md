@@ -270,9 +270,9 @@ unmotivated. You can read these and decide for yourself:
 
 11) Wikipedia, "Building (mathematics)", `http://en.wikipedia.org/wiki/Building_%28mathematics%29`
 
-12) Kenneth S. Brown, "What is a building?", Notices AMS **49** (2002), 1244--1245. Also available at `http://www.ams.org/notices/200210/what-is.pdf`
+12) Kenneth S. Brown, "What is a building?", _Notices AMS_ **49** (2002), 1244--1245. Also available at `http://www.ams.org/notices/200210/what-is.pdf`
 
-13) Paul Garrett, "Buildings and Classical Groups", CRC Press, 1997. Preliminary version available at `http://www.math.umn.edu/~garrett/m/buildings/`
+13) Paul Garrett, _Buildings and Classical Groups_, CRC Press, 1997. Preliminary version available at `http://www.math.umn.edu/~garrett/m/buildings/`
 
 14) Kenneth S. Brown, _Buildings_, Springer, 1989.
 

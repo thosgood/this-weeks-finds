@@ -53,9 +53,27 @@ Benzene has a single hexagonal ring, with 6 carbons and 6 hydrogens.
 You've probably heard about naphthalene, which is used for mothballs.
 This consists of two hexagonal rings stuck together. True PAHs have
 more. Anthracene and phenanthrene consist of three rings:
-**!!!**
+$$
+  \begin{array}{cc}
+    \includegraphics{../images/80px-Anthracene_acsv.svg.png}
+    & \includegraphics{../images/80px-Phenanthrenec1.png}
+  \\\mbox{\href{http://en.wikipedia.org/wiki/Anthracene}{Anthracene}}
+    & \mbox{\href{http://en.wikipedia.org/wiki/Phenanthrene}{Phenanthrene}}
+  \end{array}
+$$
 Napthacene, pyrene, triphenylene and chrysene consist of four:
-**!!!**
+$$
+  \begin{array}{cccc}
+    \includegraphics[width=0.2\linewidth]{../images/100px-Tetracene.png}
+    & \includegraphics[width=0.2\linewidth]{../images/100px-Pyrene.png}
+    & \includegraphics[width=0.2\linewidth]{../images/100px-Triphenylene_chemical_structure.png}
+    & \includegraphics[width=0.2\linewidth]{../images/100px-Chrysene.png}
+  \\\mbox{\href{http://en.wikipedia.org/wiki/Tetracene}{Napthacen} (aka Tetracene)}
+    & \mbox{\href{http://en.wikipedia.org/wiki/Pyrene}{Pyrene}}
+    & \mbox{\href{http://en.wikipedia.org/wiki/Triphenylene}{Triphenylene}}
+    & \mbox{\href{http://en.wikipedia.org/wiki/Chrysene}{Chrysene}}
+  \end{array}
+$$
 and so on:
 
 2) Wikipedia, "Polycyclic aromatic hydrocarbon", `http://en.wikipedia.org/wiki/Polycyclic_aromatic_hydrocarbon`
