@@ -199,12 +199,12 @@ various kinds of physical systems, based on general concepts of
 "displacement" and "momentum", and their time derivatives: "flow"
 and "effort":
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Mechanics (translation) | position | velocity | momentum | force |
-| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
-| Electronics | charge | current | flux linkage | voltage |
-| Hydraulics | volume | flow | pressure momentum | pressure |
+| \footnotesize Mechanics (translation) | \footnotesize position | \footnotesize velocity | \footnotesize momentum | \footnotesize force |
+| \footnotesize Mechanics (rotation) | \footnotesize angle | \footnotesize angular velocity | \footnotesize angular momentum | \footnotesize torque |
+| \footnotesize Electronics | \footnotesize charge | \footnotesize current | \footnotesize flux linkage | \footnotesize voltage |
+| \footnotesize Hydraulics | \footnotesize volume | \footnotesize flow | \footnotesize pressure momentum | \footnotesize pressure |
 
 Today I want to make this chart even bigger! There are more systems that
 fit into this collection of analogies.
@@ -251,10 +251,10 @@ flow equals power?
 
 Here are two:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
-| Chemistry | moles | molar flow | chemical momentum | chemical potential |
+| \footnotesize Thermodynamics | \footnotesize entropy | \footnotesize entropy flow | \footnotesize temperature momentum | \footnotesize temperature |
+| \footnotesize Chemistry | \footnotesize moles | \footnotesize molar flow | \footnotesize chemical momentum | \footnotesize chemical potential |
 
 I made up the phrases "temperature momentum" and "chemical momentum"
 since these quantities don't have standard names, as far as I know. But
@@ -348,10 +348,10 @@ and chemistry. But, we've seen that they're intimately interlinked.
 There are also weaker analogies to subjects where effort times flow
 doesn't have dimensions of power. The two most popular are these:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Heat Flow | heat | heat flow | temperature momentum | temperature |
-| Economics | inventory | flow of product | economic momentum | price of product |
+| \footnotesize Heat Flow | \footnotesize heat | \footnotesize heat flow | \footnotesize temperature momentum | \footnotesize temperature |
+| \footnotesize Economics | \footnotesize inventory | \footnotesize flow of product | \footnotesize economic momentum | \footnotesize price of product |
 
 The heat flow analogy comes up because people like to think of heat flow
 as analogous to electrical current, and temperature as analogous to

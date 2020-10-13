@@ -888,7 +888,7 @@ of it as an endomorphism of the unit object in a certain compact closed
 category!
 
 If you made it this far, you deserve a treat:
-$$\href{http://apod.nasa.gov/apod/ap100215.html}{\includegrahics[max width=0.65\linewidth]{../images/saturn_ring_cassini.jpg}}$$
+$$\href{http://apod.nasa.gov/apod/ap100215.html}{\includegraphics[max width=0.65\linewidth]{../images/saturn_ring_cassini.jpg}}$$
 
 21) Astronomy Picture of the Day, "Cassini spacecraft crosses Saturn's ring plane", `http://apod.nasa.gov/apod/ap100215.html`
 

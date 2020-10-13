@@ -6,7 +6,7 @@ mechanics that people have introduced for dissipative systems. But
 first....
 $$
   \begin{gathered}
-    \includegraphics[max width=0.65\linewidth]{../images/Eyjafjallajkull.jpg}
+    \includegraphics[max width=0.65\linewidth]{../images/Eyjafjallojokull_brynjar_gaudi.jpg}
   \\\mbox{photos by Brynjar Gaudi / AP}
   \end{gathered}
 $$

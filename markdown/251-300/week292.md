@@ -315,14 +315,14 @@ the various $n$-ports we've seen, and how they fit into different
 branches of mathematical physics. My goal is to dig a bit deeper into
 the mathematics behind this big analogy chart:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Mechanics (translation) | position | velocity | momentum | force |
-| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
-| Electronics | charge | current | flux linkage | voltage |
-| Hydraulics | volume | flow | pressure momentum | pressure |
-| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
-| Chemistry | moles | molar flow | chemical momentum | chemical potential |
+| \footnotesize Mechanics (translation) | \footnotesize position | \footnotesize velocity | \footnotesize momentum | \footnotesize force |
+| \footnotesize Mechanics (rotation) | \footnotesize angle | \footnotesize angular velocity | \footnotesize angular momentum | \footnotesize torque |
+| \footnotesize Electronics | \footnotesize charge | \footnotesize current | \footnotesize flux linkage | \footnotesize voltage |
+| \footnotesize Hydraulics | \footnotesize volume | \footnotesize flow | \footnotesize pressure momentum | \footnotesize pressure |
+| \footnotesize Thermodynamics | \footnotesize entropy | \footnotesize entropy flow | \footnotesize temperature momentum | \footnotesize temperature |
+| \footnotesize Chemistry | \footnotesize moles | \footnotesize molar flow | \footnotesize chemical momentum | \footnotesize chemical potential |
 
 But I won't be using the language of bond graphs! The reason is that I
 want to talk about gizmos where the total number of inputs and outputs

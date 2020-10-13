@@ -355,7 +355,7 @@ Then we can define a groupoid as follows:
 $$Z(-S) = \sum_{n>0} Z(n) \times n^S$$
 Here we are playing some notational tricks: $n^S$ means "the set of
 functions from $S$ to our favorite $n$-element set", the symbol $\times$ stands
-for the product of groupoids, and \sum stands for what I've been calling
+for the product of groupoids, and $\sum$ stands for what I've been calling
 the "disjoint union" of groupoids (known more technically as the
 "coproduct"). So, $Z(-S)$ is a groupoid. But this formula is supposed to
 remind us of a simpler one, namely
@@ -629,7 +629,7 @@ also gives a Dirichlet series, namely
 $$\sum_{n>0} |Z(n)| n^{-s}$$
 This should make you wonder what's going on. My paper with Jim explains
 it --- at least for structure types. The point is that the groupoid of
-finite sets has two monoidal structures: + and \times. This gives the
+finite sets has two monoidal structures: $+$ and $\times$. This gives the
 category of structure types two monoidal structures, using a trick
 called "Day convolution". The first of these categorifies the usual
 product of formal power series, while the second categorifies the usual

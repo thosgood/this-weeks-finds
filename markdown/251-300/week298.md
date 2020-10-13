@@ -42,7 +42,7 @@ for the complex numbers, the quaternions and octonions. The most famous
 are the "Gaussian integers", which are complex numbers like
 $$a + bi$$
 where $a$ and $b$ are integers. They form a square lattice like this:
-$$\includegraphics[max width=0.65\linewidth]{../images/guassian.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/gaussian.png}$$
 The second most famous are the "Eisenstein integers", which form a
 hexagonal lattice like this:
 $$\includegraphics[max width=0.65\linewidth]{../images/eisenstein.png}$$

@@ -26,14 +26,14 @@ components. As we've seen starting in ["Week 288"](#week288),
 there are many *types* of systems like this. But luckily, there's a big
 mathematically precise analogy relating a bunch of them:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Mechanics (translation) | position | velocity | momentum | force |
-| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
-| Electronics | charge | current | flux linkage | voltage |
-| Hydraulics | volume | flow | pressure momentum | pressure |
-| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
-| Chemistry | moles | molar flow | chemical momentum | chemical potential |
+| \footnotesize Mechanics (translation) | \footnotesize position | \footnotesize velocity | \footnotesize momentum | \footnotesize force |
+| \footnotesize Mechanics (rotation) | \footnotesize angle | \footnotesize angular velocity | \footnotesize angular momentum | \footnotesize torque |
+| \footnotesize Electronics | \footnotesize charge | \footnotesize current | \footnotesize flux linkage | \footnotesize voltage |
+| \footnotesize Hydraulics | \footnotesize volume | \footnotesize flow | \footnotesize pressure momentum | \footnotesize pressure |
+| \footnotesize Thermodynamics | \footnotesize entropy | \footnotesize entropy flow | \footnotesize temperature momentum | \footnotesize temperature |
+| \footnotesize Chemistry | \footnotesize moles | \footnotesize molar flow | \footnotesize chemical momentum | \footnotesize chemical potential |
 
 So, we can go quite far by picking one kind --- say, electrical circuits ---
 and focusing on that. The rest are isomorphic.

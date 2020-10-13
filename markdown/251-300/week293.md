@@ -247,7 +247,7 @@ increase in solar heat input due to the ice albedo effect.
 $$
   \begin{gathered}
     \href{http://www.arctic.noaa.gov/reportcard/seaice.html}{\includegraphics[max width=0.65\linewidth]{../images/arctic_sea_ice.jpg}}
-  \\\mbox{Time series of the percent difference in ice extent in March (the month of ice extent maximum) and September (the month of ice extent minimum) relative to the mean values for the period 1979--2000. Based on a least squares linear regression for the period 1979--2009, the rate of decrease for the March and September ice extents is $-2.5$\% and $-8.9$\% per decade, respectively. Figure from \href{http://www.arctic.noaa.gov/reportcard/seaice.html}{Perovich \emph{et al}.}}
+  \\\text{\parbox{10cm}{Time series of the percent difference in ice extent in March (the month of ice extent maximum) and September (the month of ice extent minimum) relative to the mean values for the period 1979--2000. Based on a least squares linear regression for the period 1979--2009, the rate of decrease for the March and September ice extents is $-2.5$\% and $-8.9$\% per decade, respectively. Figure from \href{http://www.arctic.noaa.gov/reportcard/seaice.html}{Perovich \emph{et al}.}}}
   \end{gathered}
 $$
 

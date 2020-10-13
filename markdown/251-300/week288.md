@@ -178,12 +178,12 @@ I've been talking about the mechanics of a rock on a spring, where the
 motion of the rock up and down is called *translation*. But we can also
 study *rotation* in mechanics. And then we get these analogies:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Mechanics (translation) | position | velocity | momentum | force |
-| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
-| Electronics | charge | current | flux linkage | voltage |
-| Hydraulics | volume | flow | pressure momentum | pressure |
+| \footnotesize Mechanics (translation) | \footnotesize position | \footnotesize velocity | \footnotesize momentum | \footnotesize force |
+| \footnotesize Mechanics (rotation) | \footnotesize angle | \footnotesize angular velocity | \footnotesize angular momentum | \footnotesize torque |
+| \footnotesize Electronics | \footnotesize charge | \footnotesize current | \footnotesize flux linkage | \footnotesize voltage |
+| \footnotesize Hydraulics | \footnotesize volume | \footnotesize flow | \footnotesize pressure momentum | \footnotesize pressure |
 
 The top row lists 4 concepts from the theory of general systems, and my
 favorite symbols for them, where the dot stands for time derivative.

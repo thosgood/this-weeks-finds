@@ -16,14 +16,14 @@ remain anonymous. Here are some numbers. Each one is the number of
 elements in some famous mathematical gadget. What are these numbers ---
 and more importantly, what are these gadgets?
 
-- How many minutes are in an hour?
-- How many hours are in a week?
-- How many hours are in 3 weeks?
-- How many feet are in 1.5 miles?
-- How many minutes are in 2 weeks?
-- How many inches are in 1.5 miles?
-- How many seconds are in a week?
-- How many seconds are in 3 weeks?
+- _How many minutes are in an hour?_
+- _How many hours are in a week?_
+- _How many hours are in 3 weeks?_
+- _How many feet are in 1.5 miles?_
+- _How many minutes are in 2 weeks?_
+- _How many inches are in 1.5 miles?_
+- _How many seconds are in a week?_
+- _How many seconds are in 3 weeks?_
 
 The answers are at the end.
 
@@ -60,14 +60,14 @@ So, lately I've been talking about a set of analogies relating various
 types of physical systems. I listed 6 cases where the analogies are
 quite precise:
 
-|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+|    | \footnotesize displacement $q$ | \footnotesize flow $\dot{q}$ | \footnotesize momentum $p$ | \footnotesize effort $\dot{p}$ |
 | :- | :--------------- | :-------- | :----------- | :---------- |
-| Mechanics (translation) | position | velocity | momentum | force |
-| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
-| Electronics | charge | current | flux linkage | voltage |
-| Hydraulics | volume | flow | pressure momentum | pressure |
-| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
-| Chemistry | moles | molar flow | chemical momentum | chemical potential |
+| \footnotesize Mechanics (translation) | \footnotesize position | \footnotesize velocity | \footnotesize momentum | \footnotesize force |
+| \footnotesize Mechanics (rotation) | \footnotesize angle | \footnotesize angular velocity | \footnotesize angular momentum | \footnotesize torque |
+| \footnotesize Electronics | \footnotesize charge | \footnotesize current | \footnotesize flux linkage | \footnotesize voltage |
+| \footnotesize Hydraulics | \footnotesize volume | \footnotesize flow | \footnotesize pressure momentum | \footnotesize pressure |
+| \footnotesize Thermodynamics | \footnotesize entropy | \footnotesize entropy flow | \footnotesize temperature momentum | \footnotesize temperature |
+| \footnotesize Chemistry | \footnotesize moles | \footnotesize molar flow | \footnotesize chemical momentum | \footnotesize chemical potential |
 
 This week I'd like to talk about five circuit elements that we can use
 to build more complicated electrical circuits: resistors, inductors,
@@ -88,7 +88,7 @@ visualized as a black box with 2 places where you can stick in a wire:
             |
             |
 
-More generally, an "n-port" has 2n places where you can attach a wire.
+More generally, an "$n$-port" has $2n$ places where you can attach a wire.
 This numbering system may seem peculiar. Indeed, it overlooks circuits
 that have an odd number of wires coming out, like this one made of just
 wires:
@@ -164,27 +164,19 @@ most popular types of $1$-ports:
     "resistor" in the case of electrical circuits, and "friction" in
     mechanics. In hydraulics, you can make a resistance using a narrowed
     pipe:
-
-    ::: {align="center"}
-    ![](electronics_analogy_reduced_pipe_resistor.png)
-    :::
-
+    $$\includegraphics[max width=0.65\linewidth]{../images/electronics_analogy_reduced_pipe_resistor.png}$$
     In all cases, the effort is some function of the flow:
-
-    \dot{p} = f(\dot{q})
-
+    $$\dot{p} = f(\dot{q})$$
     An easy special case is a linear resistance, for which the effort is
     proportional to the flow:
-
-    \dot{p} = R \dot{q}
-
-    Here R is some constant, also called the "resistance". In electric
+    $$\dot{p} = R \dot{q}$$
+    Here $R$ is some constant, also called the "resistance". In electric
     circuit theory this equation is called Ohm's law, and people write
     it using different symbols. Note we need to be careful about our
     sign conventions: in mechanics we usually think of friction as
-    giving force = R velocity with R *negative*, while in electric
+    giving $\mathrm{force} = R \mathrm{velocity}$ with $R$ *negative*, while in electric
     circuit theory we usually think of an ordinary resistor as giving
-    voltage = R current with R *positive*. The two cases are not
+    $\mathrm{voltage} = R \mathrm{current}$ with $R$ *positive*. The two cases are not
     fundamentally different: it's just an artifact of differing sign
     conventions!
 
@@ -193,27 +185,19 @@ most popular types of $1$-ports:
     mechanics. In hydraulics, you can make a capacitance out of a tank
     with pipes coming in from both ends and a rubber sheet dividing it
     in two:
-
-    ::: {align="center"}
-    ![](electronics_analogy_flexible_tank_capacitor.png)
-    :::
-
+    $$\includegraphics[max width=0.65\linewidth]{../images/electronics_analogy_flexible_tank_capacitor.png}$$
     In all cases, the displacement is some function of effort:
-
-    q = f(\dot{p})
-
+    $$q = f(\dot{p})$$
     An easy special case is a linear capacitance, for which the
     displacement is proportional to the effort:
-
-    q = C \dot{p}
-
-    Here C is some constant, also called the "capacitance". Again we
+    $$q = C \dot{p}$$
+    Here $C$ is some constant, also called the "capacitance". Again we
     need to be careful with our conventions: in mechanics we usually
-    think of a spring as being stretched by an amount equal to 1/k times
-    the force applied. Here k, the *reciprocal* of C, is called the
-    spring constant. But some engineers work with C and call it the
-    "compliance" of the spring. An easily stretched spring has big C,
-    small k.
+    think of a spring as being stretched by an amount equal to $1/k$ times
+    the force applied. Here $k$, the *reciprocal* of $C$, is called the
+    spring constant. But some engineers work with $C$ and call it the
+    "compliance" of the spring. An easily stretched spring has big $C$,
+    small $k$.
 
 3.  An "inertance". This is the general term for what we call an
     "inductor" in the case of electrical circuits, or a "mass" in
@@ -223,15 +207,11 @@ most popular types of $1$-ports:
     keep flowing at the same rate.
 
     In all cases, the momentum is some function of flow:
-
-    p = f(\dot{q})
-
+    $$p = f(\dot{q})$$
     An easy special case is a linear inertance, for which the momentum
     is proportional to the flow:
-
-    p = L \dot{q}
-
-    Here L is some constant, also called the "inertance". In the case
+    $$p = L \dot{q}$$
+    Here $L$ is some constant, also called the "inertance". In the case
     of mechanics, this would be the mass.
 
 4.  An "effort source". This is the general term for what we call a
@@ -239,24 +219,17 @@ most popular types of $1$-ports:
     "external force" in mechanics. In hydraulics, an effort source is
     a compressor set up to maintain a specified pressure difference
     between the input and output:
-
-    ::: {align="center"}
-    ![](electronics_analogy_compressor_effort_source.gif){width="250"}
-    :::
-
+    $$\includegraphics[max width=0.65\linewidth]{../images/electronics_analogy_compressor_effort_source.png}$$
     Here the equation is of different type than before! It can involve
-    the time variable t:
-
-    \dot{p} = f(t)
+    the time variable $t$:
+    $$\dot{p} = f(t)$$
 
 5.  A "flow source". This is the general term for what we call a
     "current source" in the case of electrical circuits. In
     hydraulics, an flow source is a pump set up to maintain a specified
     flow.
-
     Here the equation is
-
-    \dot{q} = f(t)
+    $$\dot{q} = f(t)$$
 
 It's interesting to ponder these five $1$-ports and how they form
 families.
@@ -275,23 +248,21 @@ I'm saying into the language of mechanics: a machine made out of masses
 and springs will conserve energy, but friction dissipates energy.
 
 Let's try to make this "energy conservation" idea a bit more precise.
-I've already said that \dot{p}\dot{q}, effort times flow, has dimensions of
+I've already said that $\dot{p}\dot{q}$, effort times flow, has dimensions of
 power --- that is, energy per time. Indeed, for any $1$-port, the physical
-meaning of \dot{p}\dot{q} is the rate at which energy is being put in. So, in
+meaning of $\dot{p}\dot{q}$ is the rate at which energy is being put in. So, in
 electrical circuit theory, people sometimes say energy is "conserved"
-if we can find some function H(p,q) with the property that
-
-dH(p,q)/dt = \dot{p}\dot{q}
-
-This function H, called the "Hamiltonian", describes the energy stored
+if we can find some function $H(p,q)$ with the property that
+$$\frac{dH(p,q)}{dt} = \dot{p}\dot{q}$$
+This function $H$, called the "Hamiltonian", describes the energy stored
 in the $1$-port. And this equation says that the energy stored in the
 system changes at a rate equal to the rate at which energy is put in! So
 energy doesn't get lost, or appear out of nowhere.
 
 Now, when I said "energy conservation", you may have been expecting
-something like dH/dt = 0. But we only get that kind of energy
+something like $dH/dt = 0$. But we only get that kind of energy
 conservation for "closed" systems --- systems that aren't interacting
-with the outside world. We'll indeed get dH/dt = 0 when we build a big
+with the outside world. We'll indeed get $dH/dt = 0$ when we build a big
 circuit with no inputs and no outputs out of circuit elements that
 conserve energy in the above sense. The energy of the overall system
 will be conserved, but of course it can flow in and out of the various
@@ -400,7 +371,7 @@ containing a resistor. I talked about another in
 general, a dissipative system is one that loses energy, or more
 precisely converts it to heat. We often don't want to model the
 molecular wiggling that describes heat. If we leave this out,
-dissipative systems are not covered by ordinary Hamiltonian mechanics -
+dissipative systems are not covered by ordinary Hamiltonian mechanics ---
 since that framework has energy conservation built in. But there are
 generalizations of Hamiltonian mechanics that include dissipation! And
 these are pretty important in practical subjects like control theory...
@@ -523,8 +494,7 @@ the sizes of various "finite simple groups". These are the building
 blocks from which all finite groups can be built. You can see a list of
 them here:
 
-6) Wikipedia, Finite simple groups,
-`http://en.wikipedia.org/wiki/List_of_finite_simple_groups`
+6) Wikipedia, "Finite simple groups", `http://en.wikipedia.org/wiki/List_of_finite_simple_groups`
 
 There are 16 infinite families and 26 exceptions, called "sporadic"
 finite simple groups. Anyway, here we go:
@@ -616,7 +586,7 @@ NASA's Mars Reconnaissance Orbiter team at the University of Arizona:
 > and in the spring as the sun warms the ice it evaporates. This is a
 > very active process, and sand dislodged from the crests of the dunes
 > cascades down, forming dark streaks.
-> $$\includegrahics[max width=0.65\linewidth]{../images/mars_dunes_subimage.jpg}$$
+> $$\includegraphics[max width=0.65\linewidth]{../images/mars_dunes_subimage.jpg}$$
 > In the subimage falling material has kicked up a small cloud of dust.
 > The color of the ice surrounding adjacent streaks of material suggests
 > that dust has settled on the ice at the bottom after similar events.
