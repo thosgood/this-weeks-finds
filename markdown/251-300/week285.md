@@ -435,109 +435,181 @@ $$
 The strand above acts on the strand below, following the general
 principle that the people higher up cause trouble for the people below
 them. Now, look at the third Reidemeister move, which says:
-
-    |   /    |      |    \   |
-     \ /     |      |     \ / 
-      \      |      |      \
-     / \     |      |     / \
-    |   \   /        \   /   |
-    |    \ /          \ /    |
-    |     \      =     \     |  
-    |    / \          / \    |
-    |   /   \        /   \   |
-     \ /     |      /     \ / 
-      \      |      |      \  
-     / \     |      |     / \ 
-    |   \    |      |    /   |
-    |    \   |      |   /    |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2)
+        to (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to (2,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+    \end{knot}
+  \end{tikzpicture}
+  \raisebox{4em}{\quad=\quad}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (2,-1)
+        to (2,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to (0,-3);
+    \end{knot}
+  \end{tikzpicture}
+$$
 If we feed in three quandle elements on top, look what happens:
-
-    g    h   k      g   h    k
-    |   /    |      |    \   |
-     \ /     |      |     \ / 
-      \      |      |      \
-     / \     |      |  h>k/ \
-    |   \   /        \   /   |
-    |    \ /          \ /    |
-    |g>h  \      =     \     |   
-    |    / \          / \    |
-    |   /   \        /   \   |
-     \ /g>k  |      /     \ / 
-      \      |      |      \  
-     / \     |      |     / \ 
-    |   \    |      |    /   |
-    |    \   |      |   /    |
-    *   g>h  g      *  g>h   g
-
+$$
+  \begin{tikzpicture}[scale=1.2]
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (2,-2)
+        to (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to (0,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to (2,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (0,-3);
+    \end{knot}
+    \node[label=above:{$g$}] at (0,0) {};
+    \node[label=above:{$h$}] at (1,0) {};
+    \node[label=above:{$k$}] at (2,0) {};
+    \node[fill=white] at (0,-1.25) {\scriptsize$g>h$};
+    \node[fill=white] at (1,-2) {\scriptsize$g>k$};
+    \node[label=below:{$*$}] at (0,-3) {};
+    \node[label=below:{$g>h$}] at (1,-3) {};
+    \node[label=below:{$g$}] at (2,-3) {};
+  \end{tikzpicture}
+  \raisebox{7em}{\quad=\quad}
+  \begin{tikzpicture}[scale=1.2]
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to (0,-1)
+        to [out=down,in=up] (1,-2)
+        to [out=down,in=up] (2,-3);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (2,-1)
+        to (2,-2)
+        to [out=down,in=up] (1,-3);
+      \strand[thick] (2,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2)
+        to (0,-3);
+    \end{knot}
+    \node[label=above:{$g$}] at (0,0) {};
+    \node[label=above:{$h$}] at (1,0) {};
+    \node[label=above:{$k$}] at (2,0) {};
+    \node[fill=white] at (1,-1) {\scriptsize$h>k$};
+    \node[label=below:{$*$}] at (0,-3) {};
+    \node[label=below:{$g>h$}] at (1,-3) {};
+    \node[label=below:{$g$}] at (2,-3) {};
+  \end{tikzpicture}
+$$
 Look at the strand marked with an asterisk! On the left it should be
 labelled by
-
-(g > h) > (g > k)
-
+$$(g > h) > (g > k)$$
 On the right it should be labelled by
-
-g > (h > k)
-
+$$g > (h > k)$$
 But thanks to the self-distributive law, these are equal! Similarly, the
 equation
-
-g > (h < g) = h = (g > h) < g
-
+$$g > (h < g) = h = (g > h) < g$$
 handles the second Reidemeister move:
-
-     \   /      |    |       \   / 
-      \ /       |    |        \ /
-       /        |    |         \  
-      / \       |    |        / \  
-     /   \   =  |    |   =   /   \  
-     \   /      |    |       \   /
-      \ /       |    |        \ /
-       \        |    |         / 
-      / \       |    |        / \ 
-     /   \      |    |       /   \ 
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2);
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2);
+    \end{knot}
+  \end{tikzpicture}
+  \quad\raisebox{3em}{$=$}\quad
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,-2);
+    \draw[thick] (1,0) to (1,-2);
+  \end{tikzpicture}
+  \quad\raisebox{3em}{$=$}\quad
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (1,0)
+        to [out=down,in=up] (0,-1)
+        to [out=down,in=up] (1,-2);
+      \strand[thick] (0,0)
+        to [out=down,in=up] (1,-1)
+        to [out=down,in=up] (0,-2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 while the equation
-
-g > g = g = g < g
-
+$$g > g = g = g < g$$
 handles the first Reidemeister move. The first Reidemeister move is not
 really about about braids --- it's about tangles:
-
-    |      /\           |         |      /\
-    |     /  \          |         |     /  \
-     \   /    \         |          \   /    \
-      \ /      |        |           \ /      |
-       \       |   =    |    =       /       |
-      / \      |        |           / \      |
-     /   \    /         |          /   \    /
-    |     \  /          |         |     \  / 
-    |      \/           |         |      \/
-    |                   |         |    
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,0)
+        to (0,-0.5)
+        to [out=down,in=left] (1,-1.5)
+        to [out=right,in=right] (1,-0.5);
+      \strand[thick] (1,-0.5)
+        to [out=left,in=up] (0,-1.5)
+        to (0,-2);
+    \end{knot}
+  \end{tikzpicture}
+  \quad\raisebox{3em}{$=$}\quad
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,-2);
+  \end{tikzpicture}
+  \quad\raisebox{3em}{$=$}\quad
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
+      \strand[thick] (1,-0.5)
+        to [out=left,in=up] (0,-1.5)
+        to (0,-2);
+      \strand[thick] (0,0)
+        to (0,-0.5)
+        to [out=down,in=left] (1,-1.5)
+        to [out=right,in=right] (1,-0.5);
+    \end{knot}
+  \end{tikzpicture}
+$$
 So, there's a deep relation between crossings in tangles and
 conjugation in groups, captured by the quandle axioms. And the quandle
 axioms also cover *Lie algebras*, with self-distributivity corresponding
 to the Jacobi identity:
 
-16) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico
-Saito, Cohomology of categorical self-distributivity, available as
-[`arXiv:math/0607417`](http://arXiv.org/abs/math/0607417).
+16) J. Scott Carter, Alissa Crans, Mohamed Elhamdadi and Masahico Saito, "Cohomology of categorical self-distributivity", available as [`arXiv:math/0607417`](http://arXiv.org/abs/math/0607417).
 
 It's possible to explain this relation a lot more deeply than I just
 did... but anyway, what Alissa did is start *categorifying* this
 relation. Together with the topologists Carter and Saito, she's
-studying "2-quandles", which should relate 2-tangles to conjugation in
+studying "$2$-quandles", which should relate $2$-tangles to conjugation in
 $2$-groups.
 
-Next, Chad Giusti of the University of Oregon spoke on "[Unstable
-Vassiliev theory](ams_2009/Giusti_AMS_UCR_2009.mov)":
+Next, Chad Giusti of the University of Oregon spoke on "[Unstable Vassiliev theory](http://math.ucr.edu/home/baez/ams_2009/Giusti_AMS_UCR_2009.mov)":
 
-17) Chad Giusti, Unstable Vassiliev theory,
-`http://math.ucr.edu/~jbergner/RiversideTalk.pdf`
+17) Chad Giusti, "Unstable Vassiliev theory", `http://math.ucr.edu/~jbergner/RiversideTalk.pdf`
 
 The goal here is to understand the space of "long knots". A long knot
-is a curve in R^3 that goes on forever and is a vertical straight line
+is a curve in $\mathbb{R}^3$ that goes on forever and is a vertical straight line
 outside some compact set. So, it can get knotted around in the middle.
 One nice thing about long knots is that there's a multiplication
 defined on them, by sticking them end-to-end.
@@ -549,35 +621,31 @@ the composition of tangles.
 
 (We can define even more operations if we work with "thickened" long
 knots. In fact, the space of these forms an algebra of the little
-2-cubes operad! This gives a mystical relation between thickened long
+$2$-cubes operad! This gives a mystical relation between thickened long
 knots and Gerstenhaber algebras. I explained this near the end of
 ["Week 220"](#week220).)
 
 Anyway, the part of Giusti's talk that I understood best, and therefore
 liked the most, was a neat combinatorial description of the space of
 long knots. He calls them "plumbers' knots", because they're like
-pipes that move only along the x, y, or z directions... for details,
+pipes that move only along the $x$, $y$, or $z$ directions... for details,
 see his slides!
 
 Then Robin Koytcheff of Stanford University gave a somewhat related talk
-on "[A homotopy-theoretic view of Bott-Taubes integrals and knot
-spaces](ams_2009/Koytcheff_AMS_UCR_2009.mov)":
+on "[A homotopy-theoretic view of Bott-Taubes integrals and knot spaces](http://math.ucr.edu/home/baez/ams_2009/Koytcheff_AMS_UCR_2009.mov)":
 
-18) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
-and knot spaces, `http://math.ucr.edu/~jbergner/RKslidesUCR.pdf`
+18) Robin Koytcheff, "A homotopy-theoretic view of Bott-Taubes integrals and knot spaces", `http://math.ucr.edu/~jbergner/RKslidesUCR.pdf`
 
 He began with a nice introduction to the Bott-Taubes approach to
 Vassiliev theory. Then he gave a great description of how the little
-2-cubes operad acts on the space of thickened long knots, and how one
+$2$-cubes operad acts on the space of thickened long knots, and how one
 can use this to underand the homology of this space. Then he discussed
 how to combine these ideas. For more details, see:
 
-19) Robin Koytcheff, A homotopy-theoretic view of Bott-Taubes integrals
-and knot spaces, Alg. Geom. Top. 9 (2009), 1467-1501. Also available as
-[`arXiv:0810.1785`](http://arxiv.org/abs/0810.1785).
+19) Robin Koytcheff, "A homotopy-theoretic view of Bott-Taubes integrals and knot spaces", _Alg. Geom. Top._ **9** (2009), 1467--1501. Also available as [`arXiv:0810.1785`](http://arxiv.org/abs/0810.1785).
 
 Next, Chris Douglas of U.C. Berkeley gave talk charmingly entitled
-"3-categories for the working mathematician" --- unfortunately no video
+"$3$-categories for the working mathematician" --- unfortunately no video
 for this one. It's great to see how weak $3$-categories are making their
 way into applications. Douglas is working with Arthur Bartels and Andre
 Henriques on their applications to "conformal nets" --- that is,
@@ -587,15 +655,14 @@ and equations in a definition of weak $3$-category. This definition is
 close to the existing definitions of "tricategory", but not exactly
 the same --- at least, not superficially. It's probably equivalent.
 
-Finally, [Scott Morrison](ams_2009/Morrison_AMS_UCR_2009.mov) and [Kevin
-Walker](ams_2009/KWalker_AMS_UCR_2009.mov) gave a 2-part talk on "blob
-homology" --- a great introduction to their big paper in progress:
+Finally, [Scott Morrison](ams_2009/Morrison_AMS_UCR_2009.mov) and
+[Kevin Walker](http://math.ucr.edu/home/baez/ams_2009/KWalker_AMS_UCR_2009.mov)
+gave a 2-part talk on "blob homology" --- a great introduction to their
+big paper in progress:
 
-20) Scott Morrison and Kevin Walker, Blob homology slides:
-`http://tqft.net/UCR-blobs1` and `http://tqft.net/UCR-blobs2`
+20) Scott Morrison and Kevin Walker, "Blob homology slides": `http://tqft.net/UCR-blobs1` and `http://tqft.net/UCR-blobs2`
 
-21) Scott Morrison and Kevin Walker, The blob complex. Draft available
-at `http://tqft.net/papers/blobs.pdf`
+21) Scott Morrison and Kevin Walker, "The blob complex". Draft available at `http://tqft.net/papers/blobs.pdf`
 
 The clever idea here is to use manifolds to provide a quick and
 practical definition of "$n$-categories with duals" --- thus
