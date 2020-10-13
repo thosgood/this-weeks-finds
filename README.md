@@ -7,6 +7,7 @@
 - **Antracene etc. images in week258**
 - check images (alhambra tiles) in week267
 - graph in week261
+- sort out image sizes! e.g. `milky_way_axel_mellinger.jpg`
 
 - HTML output?
     + https://pandoc.org/lua-filters.html#building-images-with-tikz

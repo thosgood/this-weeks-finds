@@ -58,7 +58,7 @@ always been fascinated by those.
 Back here on Earth, the Weaire-Phelan structure was in the news
 recently! If you watched the Olympics in Beijing, you may have seen the
 National Aquatics Center --- a building also called the "Water Cube":
-$$\includegraphics[max width=0.65\linewidth]{../images/water_cube.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/water_cube.jpg}$$
 
 3) "Spectacular mathematical bubble design at the Olympics", Math in the News, Mathematical Association of America, August 8, 2008, `http://mathdl.maa.org/mathDL?pa=mathNews&sa=view&newsId=392`
 

@@ -187,7 +187,7 @@ lot of Timurid designs:
 - a bow tie (non-convex hexagon) with interior angles of $2\pi/5$, $2\pi/5$, $6\pi/5$, $2\pi/5$, $2\pi/5$, $6\pi/5$.
 
 All the edges of all these tiles have the same length:
-$$\includegraphics[max width=0.65\linewidth]{../images/http://en.wikipedia.org/wiki/Girih_tiles}$$
+$$\href{http://en.wikipedia.org/wiki/Girih_tiles}{\includegraphics[max width=0.65\linewidth]{../images/girih_tiles.png}}$$
 There are lots of ways to fit them together. The rhombus can be
 subdivided into a kite and a dart, too!
 

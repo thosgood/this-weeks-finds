@@ -49,7 +49,7 @@ moons, with lots of cracks and ridges but few remaining craters. This
 suggests either an ocean beneath the surface, or at least ice warm
 enough to keep convection going. The region called Conamara Chaos looks
 like pack ice here on Earth, hinting at liquid water beneath:
-$$\href{http://photojournal.jpl.nasa.gov/jpeg/PIA01127.jpg}{\includegraphics[max width=0.65\linewidth]{../images/europa_models.jpg}}$$
+$$\href{http://photojournal.jpl.nasa.gov/jpeg/PIA01127.jpg}{\includegraphics[max width=0.65\linewidth]{../images/europa_models.png}}$$
 
 4) NASA Photojournal, "Europa: ice rafting view", `http://photojournal.jpl.nasa.gov/catalog/PIA01127`
 

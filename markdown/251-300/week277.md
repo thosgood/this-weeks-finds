@@ -225,7 +225,7 @@ lattice" and its dual is called the "reciprocal lattice".
 
 The big deal is that if you look carefully at certain points in the
 graph, it looks almost like a cone.
-$$\includegraphics[max width=0.65\linewidth]{../images/graphene_dispersion_relation_2.png}$$
+$$\includegraphics[max width=0.65\linewidth]{../images/graphene_dispersion_relation_2.jpg}$$
 If we move the tip of this cone to the origin, the formula for it is:
 $$E^2 = (p_x^2 + p_y^2) c^2$$
 or in other words:
