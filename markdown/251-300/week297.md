@@ -277,24 +277,24 @@ $Q$ as the third variable ranges freely:
 $$P(\varphi_1, \varphi_2) = \min_{\varphi_3}\{Q(\varphi_1, \varphi_2, \varphi_3)\}$$
 Physically this corresponds to taking a circuit with 3 terminals, like
 this:
-
-        x         x
-         \       /
-          \     /
-           \   /
-            \ /
-             x
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+$$
 and treating it as a circuit with 2 terminals by regarding the third
 terminal as an internal vertex:
-
-        x         x
-         \       /
-          \     /
-           \   /
-            \ /
-             o
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 This means we let the potential at this vertex vary freely; by the
 principle of minimum power, it will do whatever it takes to minimize the
 power. So, we get a new circuit whose quadratic form is
@@ -310,23 +310,22 @@ Sabot calls this trick for getting new Dirichlet forms from old ones the
 lets us take the Dirichlet form of a circuit and get a new Dirichlet
 form by gluing together some terminals. For example, we could start with
 this circuit:
-
-        x         x
-         \       /
-          \     /
-           \   /
-            \ /
-             x
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+$$
 and glue the top two terminals together, getting this circuit:
-
-             x
-            / \
-           /   \
-           \   /
-            \ /
-             x
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1) to (0,2) to (-0.5,1);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+$$
 Both the trace map and the gluing map have interesting category-
 theoretic interpretations. For example, the gluing map lets us *compose*
 electrical circuits --- or more precisely, their Dirichlet forms --- by
