@@ -47,61 +47,45 @@ ever-lengthening frontier that takes a lot of energy to maintain!
 
 But at temperatures close to zero, we'll see big stretches of spins
 pointing the same way, like this:
-
-::: {align="center"}
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-:::
-
+$$\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow$$
 The points at which the spin flips can move around like particles. There
 are two kinds of particles like this, which we could call "kinks":
-
-::: {align="center"}
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-:::
-
+$$\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow$$
 and "antikinks":
-
-::: {align="center"}
-↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-:::
-
+$$\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow$$
 When a kink meets an antikink, they can annihilate each other. In the
 following picture, each line is a moment of time; as time proceeds we
 march down the page. We see a kink moving right and an antikink moving
 left. When they collide, they annihilate!
-
-::: {align="center"}
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↑↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↑↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↑↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\
-:::
-
+$$
+  \begin{gathered}
+    \downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow
+  \\\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\uparrow\uparrow\uparrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow
+  \\\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\uparrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow
+  \\\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\uparrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow
+  \\\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow\downarrow
+  \end{gathered}
+$$
 Kinks and antikinks can also be created in pairs.
 
 So far this is pretty simple. But next thing this experiment did is turn
 on a "transverse magnetic field" --- in other words, a field at *right
 angles* to the direction I'm drawing as vertical. If the field is
 strong enough, most of the spins will line up in this new direction:
-
-::: {align="center"}
-\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\
-:::
-
+$$\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow$$
 But at nonzero temperature, random thermal fluctuations will make a few
 spins flip and point the wrong way. And these wrongheaded spins can
 again move around like particles:
-
-::: {align="center"}
-\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\to\to\to\to\to\
-\to\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\to\to\to\to\
-\to\to\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\to\to\to\
-\to\to\to\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\to\to\
-\to\to\to\to\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\to\
-\to\to\to\to\to\to\to\to\to\to←\to\to\to\to\to\to\to\to\to\to\
-:::
-
+$$
+  \begin{gathered}
+    \rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \\\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \\\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \\\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \\\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \\\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\leftarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow\rightarrow
+  \end{gathered}
+$$
 So, this is what we see if the transverse magnetic field is strong
 enough. On the other hand, if the field is small, it won't have much
 effect. But right in between, at some critical value, some very
@@ -115,8 +99,8 @@ Namely: a kink and an antikink should be able to stick together in 8
 different ways!
 
 When two or more particles stick together and form a new one, we call
-the result a "[bound
-state](http://en.wikipedia.org/wiki/Bound_state)". So, we should get 8
+the result a "[bound state](http://en.wikipedia.org/wiki/Bound_state)".
+So, we should get 8
 different kinds of bound states, which can zip along our spin chain like
 particles! I wish I could draw them, but I don't know how.
 
@@ -126,17 +110,16 @@ state made of a [quark](http://en.wikipedia.org/wiki/Quark) and an
 [antiquark](http://en.wikipedia.org/wiki/Antiquark). In fact there are
 even 8 kinds of mesons made from up, down and strange quarks and their
 corresponding antiquarks. That's why Gell-Mann called his theory of
-quarks the "[Eightfold
-Way](http://en.wikipedia.org/wiki/Eightfold_Way_%28physics%29)" when he
+quarks the "[Eightfold Way](http://en.wikipedia.org/wiki/Eightfold_Way_%28physics%29)" when he
 came up with it back around 1961. In this theory, the number 8 shows up
-because the relevant symmetry group, called \mathrm{SU}(3), is $8$-dimensional.
+because the relevant symmetry group, called $\mathrm{SU}(3)$, is $8$-dimensional.
 
 However, the math surrounding these 8 kink-antikink bound states is a
-lot more sophisticated. It's related to the exceptional Lie group \mathrm{E}_8,
-which is 248-dimensional!
+lot more sophisticated. It's related to the exceptional Lie group $\mathrm{E}_8$,
+which is $248$-dimensional!
 
 Well, actually it's not quite that bad. What really matters in this
-game is not the group \mathrm{E}_8 but rather its "root lattice", which is
+game is not the group $\mathrm{E}_8$ but rather its "root lattice", which is
 just $8$-dimensional. This is the pattern you get when you pack
 equal-sized balls in 8 dimensions in the unique way such that each ball
 touches the maximum number of others --- namely, 248. I sort of understand
@@ -148,12 +131,10 @@ What did the experiment actually measure? Among other things, they
 measured the ratio of masses of two of the 8 "particles" formed as
 kink-antikink bound states --- namely, the lightest two. According to
 Zamolodchikov's calculation, it should be the golden ratio! You know:
-
-\Phi = (1 + √5)/ 2
-
+$$\Phi = \frac{1 + \sqrt5}{2}$$
 And that's what the experiment saw!
 
-Now, I know plenty of relationships between \mathrm{E}_8, and the golden ratio -
+Now, I know plenty of relationships between $\mathrm{E}_8$, and the golden ratio ---
 see ["Week 270"](#week270) --- so this
 connection doesn't shock me. But I sure hope someone explains the
 details!
@@ -161,23 +142,24 @@ details!
 If you're an amateur looking for a few clues, I suggest starting with
 this very readable expository paper:
 
-4) Paul A. Pearce, Phase transitions, critical phenomena and exactly
-solvable lattice models. Also available at
-`http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1997Pearce_VicRoyalSociety.pdf`.
+4) Paul A. Pearce, "Phase transitions, critical phenomena and exactly solvable lattice models". Also available at `http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1997Pearce_VicRoyalSociety.pdf`.
 
 You'll notice he talks about various models of *2-dimensional* magnets,
-leading up to a model that involves something called the \mathrm{E}_8 Dynkin
+leading up to a model that involves something called the $\mathrm{E}_8$ Dynkin
 diagram:
-
-       o----o---o----o----o----o----o
-                          |
-                          |
-                          o
-
-which encodes the structure of the \mathrm{E}_8 lattice. These $2$-dimensional
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,1,...,6}
+      \node at (\x,0) {$\bullet$};
+    \node at (4,-1) {$\bullet$};
+    \draw[thick] (0,0) to (6,0);
+    \draw[thick] (4,0) to (4,-1);
+  \end{tikzpicture}
+$$
+which encodes the structure of the $\mathrm{E}_8$ lattice. These $2$-dimensional
 magnets are related to the $1$-dimensional magnetic "spin chain" we've
 been discussing --- but in a sneaky way. The $1$-dimensional spin chain is
-2-dimensional if we think of time as an extra dimension! Indeed I've
+$2$-dimensional if we think of time as an extra dimension! Indeed I've
 already been drawing some $2$-dimensional pictures, like the picture of a
 kink colliding with an antikink. So, that's part of the story.
 
@@ -189,8 +171,8 @@ statistical mechanics and combinatorics.
 For starters, at a critical point, a $2$-dimensional magnet is related to
 a kind of quantum field theory called a "conformal field theory". And
 the particular conformal theory this experiment is studying is a
-so-called "minimal model" by the name of M(3,4). This conformal field
-theory can be built from \mathrm{E}_8 using something called a "coset
+so-called "minimal model" by the name of $M(3,4)$. This conformal field
+theory can be built from $\mathrm{E}_8$ using something called a "coset
 construction" --- but it does not have 8 bound states. To see those, we
 really need to turn on that *extra* magnetic field I mentioned: the
 field pointing in the vertical direction. This gives an "integrable
@@ -203,38 +185,26 @@ coset construction, it can't hurt to look at my outline of Di
 Francesco, Mathieu, and Senechal's book in ["Week 124"](#week124).
 To dig a bit deeper, try:
 
-5) Scholarpedia, A-D-E classification of conformal field theories,
-`http://www.scholarpedia.org/article/Cappelli-Itzykson-Zuber_A-D-E_Classification`
+5) Scholarpedia, "A-D-E classification of conformal field theories", `http://www.scholarpedia.org/article/Cappelli-Itzykson-Zuber_A-D-E_Classification`
 
 And for more details on how the extra magnetic field creates those 8
 bound states, try these:
 
-6) Giuseppe Mussardo, Off-critical statistical models: factorized
-scattering theories and bootstrap program, Physics Reports 218 (1992),
-215-379.
+6) Giuseppe Mussardo, "Off-critical statistical models: factorized scattering theories and bootstrap program", _Physics Reports_ **218** (1992), 215--379.
 
-7) Giuseppe Mussardo, Statistical Field Theory, Oxford, 2010.
+7) Giuseppe Mussardo, _Statistical Field Theory_, Oxford, 2010.
 
 Okay, back down to earth. Last week I began to sketch an analogy between
 various kinds of physical systems, based on general concepts of
 "displacement" and "momentum", and their time derivatives: "flow"
 and "effort":
 
-
-                    displacement    flow          momentum      effort
-                         q           q'              p            p'
-
-    Mechanics       position       velocity       momentum      force
-    (translation)
-
-    Mechanics       angle          angular        angular       torque
-    (rotation)                     velocity       momentum
-
-    Electronics     charge         current        flux          voltage
-                                                  linkage
-
-    Hydraulics      volume         flow           pressure      pressure
-                                                  momentum
+|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+| :- | :--------------- | :-------- | :----------- | :---------- |
+| Mechanics (translation) | position | velocity | momentum | force |
+| Mechanics (rotation) | angle | angular velocity | angular momentum | torque |
+| Electronics | charge | current | flux linkage | voltage |
+| Hydraulics | volume | flow | pressure momentum | pressure |
 
 Today I want to make this chart even bigger! There are more systems that
 fit into this collection of analogies.
@@ -243,10 +213,10 @@ For a really good analogy, we want "effort" times "flow" to have
 dimensions of power --- that is, energy per time. Indeed, we want it to be
 true that:
 
-pq has dimensions of action (= energy \times time)\
-p'q has dimensions of energy\
-pq' has dimensions of energy\
-p'q' has dimensions of power (= energy / time)\
+- $pq$ has dimensions of action (= energy $\times$ time)
+- $\dot{p}q$ has dimensions of energy
+- $p\dot{q}$ has dimensions of energy
+- $\dot{p}\dot{q}$ has dimensions of power (= energy $/$ time)
 
 If any one of these is true, they're all true. And they're true in the
 four examples I've listed so far.
@@ -271,8 +241,7 @@ coming out.
 To be a bit less crude, it's important to note that only *differences*
 between voltages are measurable:
 
-4) John Baez, Torsors made easy,
-`http://math.ucr.edu/home/baez/torsors.html`
+4) John Baez, "Torsors made easy", `http://math.ucr.edu/home/baez/torsors.html`
 
 But the voltage across a circuit is precisely such a difference.
 
@@ -282,15 +251,10 @@ flow equals power?
 
 Here are two:
 
-
-                    displacement    flow         momentum      effort
-                         q           q'              p           p'
-
-    Thermodynamics  entropy        entropy       temperature   temperature
-                                   flow          momentum
-
-    Chemistry       moles          molar         chemical      chemical
-                                   flow          momentum      potential
+|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+| :- | :--------------- | :-------- | :----------- | :---------- |
+| Thermodynamics | entropy | entropy flow | temperature momentum | temperature |
+| Chemistry | moles | molar flow | chemical momentum | chemical potential |
 
 I made up the phrases "temperature momentum" and "chemical momentum"
 since these quantities don't have standard names, as far as I know. But
@@ -301,23 +265,19 @@ The example of thermodynamics works like this. Say you have a physical
 system in thermal equilibrium and all you can do is heat it up or cool
 it down "reversibly" --- that is, while keeping it in thermal
 equilibrium all along. For example, imagine a box of gas that you can
-heat up or cool down. If you put a tiny amount dE of energy into the
+heat up or cool down. If you put a tiny amount $dE$ of energy into the
 system in the form of heat, then its
 [entropy](http://en.wikipedia.org/wiki/Entropy) increases by a tiny
-amount dS. And it works like this:
-
-dE = TdS
-
-where T is the temperature.
+amount $dS$. And it works like this:
+$$dE = TdS$$
+where $T$ is the temperature.
 
 Another way to say this is
-
-dE/dt = T dS/dt
-
-where t is time. On the left we have the power put into the system in
+$$\frac{dE}{dt} = T\frac{dS}{dt}$$
+where $t$ is time. On the left we have the power put into the system in
 the form of heat. But since power should be "effort" times "flow",
 on the right we should have "effort" times "flow". It makes some
-sense to call dS/dt the "entropy flow". So temperature, T, must play
+sense to call $dS/dt$ the "entropy flow". So temperature, $T$, must play
 the role of "effort".
 
 This is a bit weird. I don't usually think of temperature as a form of
@@ -330,13 +290,11 @@ about this concept, so it makes me nervous.
 But when we have a more complicated physical system like a piston full
 of gas in thermal equilibrium, we can see the analogy working. Now we
 have
-
-dE = TdS --- PdV
-
-The change in energy dE of our gas now has two parts. There's the
-change in heat energy TdS, which we saw already. But now there's also
+$$dE = TdS - PdV$$
+The change in energy $dE$ of our gas now has two parts. There's the
+change in heat energy $TdS$, which we saw already. But now there's also
 the change in energy due to compressing the piston! When we change the
-volume of the gas by a tiny amount dV, we put in energy -PdV.
+volume of the gas by a tiny amount $dV$, we put in energy $-PdV$.
 
 Now look back at the first chart I drew! It says that pressure is a form
 of "effort", while volume is a form of "displacement". If you
@@ -345,7 +303,7 @@ temperature is also a form of "effort", while entropy is a form of
 "displacement".
 
 But what about the minus sign? That's no big deal: it's the result of
-some arbitrary conventions. P is defined to be the *outwards* pressure
+some arbitrary conventions. $P$ is defined to be the *outwards* pressure
 of the gas on our piston. If this is *positive*, *reducing* the volume
 of the gas takes a *positive* amount of energy --- so we need to stick in
 a minus sign. I could eliminate this minus sign by changing some
@@ -356,16 +314,13 @@ Speaking of chemistry: here's how we can extend our table of analogies
 to include chemistry! Suppose we have a piston full of gas made of
 different kinds of molecules, and there can be chemical reactions that
 change one kind into another. Now our equation gets fancier:
-
-dE = TdS --- PdV + \sum_i \mu_i dN_i
-
-Here N_i is the number of molecules of the ith kind, while \mu_i is a
+$$dE = TdS - PdV + \sum_i \mu_i dN_i$$
+Here $N_i$ is the number of molecules of the $i$th kind, while $\mu_i$ is a
 quantity called a "chemical potential". The chemical potential simply
 says how much energy it takes to increase the number of molecules of a
 given kind:
 
-8) Wikipedia, Chemical potential,
-`http://en.wikipedia.org/wiki/Chemical_potential`
+8) Wikipedia, "Chemical potential", `http://en.wikipedia.org/wiki/Chemical_potential`
 
 So, we see that "chemical potential" is another form of "effort",
 while "number of molecules" is another form of "displacement".
@@ -374,13 +329,8 @@ Chemists are too busy to count molecules one at a time, so they count
 them in big bunches called "moles". A
 [mole](http://en.wikipedia.org/wiki/Mole_%28unit%29) is the number of
 atoms in 12 grams of carbon-12. That's roughly
-
-::: {align="center"}
-602,214,150,000,000,000,000,000
-:::
-
-atoms. This is called [Avogadro's
-number](http://en.wikipedia.org/wiki/Avogadro_constant).
+$$602,214,150,000,000,000,000,000$$
+atoms. This is called [Avogadro's number](http://en.wikipedia.org/wiki/Avogadro_constant).
 
 So, instead of saying that the displacement in chemistry is called
 "number of molecules", you'll sound more like an expert if you say
@@ -390,8 +340,7 @@ so let's call it "chemical momentum".
 
 For more on this, try the following book on network theory:
 
-9) Francois E. Cellier, Continuous System Modelling, Chap. 9: Modeling
-chemical reaction kinetics, Springer, Berlin, 1991.
+9) Francois E. Cellier, _Continuous System Modelling_, Chap. 9: "Modeling chemical reaction kinetics", Springer, Berlin, 1991.
 
 So, we've added two more items to our list of analogies: thermodynamics
 and chemistry. But, we've seen that they're intimately interlinked.
@@ -399,15 +348,10 @@ and chemistry. But, we've seen that they're intimately interlinked.
 There are also weaker analogies to subjects where effort times flow
 doesn't have dimensions of power. The two most popular are these:
 
-        
-                     displacement    flow          momentum      effort
-                          q           q'              p            p'
-
-    Heat Flow        heat            heat          temperature   temperature 
-                                     flow          momentum
-
-    Economics        inventory       flow of       economic      price of
-                                     product       momentum      product
+|    | displacement $q$ | flow $\dot{q}$ | momentum $p$ | effort $\dot{p}$ |
+| :- | :--------------- | :-------- | :----------- | :---------- |
+| Heat Flow | heat | heat flow | temperature momentum | temperature |
+| Economics | inventory | flow of product | economic momentum | price of product |
 
 The heat flow analogy comes up because people like to think of heat flow
 as analogous to electrical current, and temperature as analogous to
@@ -449,8 +393,7 @@ First of all, engineers use these analogies to systematically model all
 sorts of gadgets using "bond graphs". Bond graphs were invented by an
 engineer named Henry Paynter. His original book goes way back to 1961:
 
-10) Henry M. Paynter, Analysis and Design of Engineering Systems, MIT
-Press, Cambridge, Massachusetts, 1961.
+10) Henry M. Paynter, _Analysis and Design of Engineering Systems_, MIT Press, Cambridge, Massachusetts, 1961.
 
 I haven't gotten ahold of this book yet, but I've learned a bit about
 Paynter. He got a bachelor's degree in civil engineering, a master's
@@ -466,49 +409,40 @@ generalities are always fun, this is a great opportunity to talk about
 lots of basic physics.
 
 In particular, you'll note how all these analogies rely on a pair of
-variables q and p: displacement and momentum. In classical mechanics we
-call these "[conjugate
-variables](http://en.wikipedia.org/wiki/Conjugate_variables)". The
+variables $q$ and $p$: displacement and momentum. In classical mechanics we
+call these "[conjugate variables](http://en.wikipedia.org/wiki/Conjugate_variables)". The
 importance of such pairs is explained in the
 "[Hamiltonian](http://en.wikipedia.org/wiki/Hamiltonian_mechanics)"
 approach to classical mechanics, which in turn leads to a branch of math
-called "[symplectic
-geometry](http://en.wikipedia.org/wiki/Symplectic_geometry)". So, I
+called "[symplectic geometry](http://en.wikipedia.org/wiki/Symplectic_geometry)". So, I
 should try to explain a bit of that, though probably just the basics.
 
 One more thing. If you've studied your physics, you've seen how
-"[Legendre
-transforms](http://en.wikipedia.org/wiki/Legendre_transform)" show up
+"[Legendre transforms](http://en.wikipedia.org/wiki/Legendre_transform)" show up
 in both classical mechanics and thermodynamics. The Legendre transform
-lets you start with a function of q and q' and turn it into a function
-of q and p. Mathematically, the idea is that given a function on the
+lets you start with a function of $q$ and $\dot{q}$ and turn it into a function
+of $q$ and $p$. Mathematically, the idea is that given a function on the
 tangent bundle of a manifold:
-
-f\colon TM \to R
-
+$$f\colon TM \to \mathbb{R}$$
 you get a map from the tangent bundle to the cotangent bundle:
-
-λ\colon TM \to T*M
-
-which records the derivative of f in the "vertical directions". In
-nice cases, this map λ is one-to-one and onto.
+$$\lambda\colon TM \to T^*M$$
+which records the derivative of $f$ in the "vertical directions". In
+nice cases, this map $\lambda$ is one-to-one and onto.
 
 In classical mechanics, this lets us pass from the "Lagrangian"
 formalism, where everything is a function of position and velocity, to
 the "Hamiltonian" formalism, where everything is a function of
-position and momentum. The idea is that position and velocity (q,q')
-are represented by a point in TM, while position and momentum (q,p) are
-represented by a point in T*M. In our discussion of analogies so far,
-we considering the simplest case, where M is the real line. That's why
-I've been treating q, p, q' and p' as mere *numbers* that depend on
-time. But it's good to generalize to an arbitrary manifold M.
+position and momentum. The idea is that position and velocity $(q,\dot{q})$
+are represented by a point in $TM$, while position and momentum $(q,p)$ are
+represented by a point in $T^*M$. In our discussion of analogies so far,
+we considering the simplest case, where $M$ is the real line. That's why
+I've been treating $q$, $p$, $\dot{q}$ and $\dot{p}$ as mere *numbers* that depend on
+time. But it's good to generalize to an arbitrary manifold $M$.
 
 For an elementary yet insightful introduction to the physics of Legendre
 transforms, try this:
 
-11) R. K. P. Zia, Edward F. Redish and Susan R. McKay, Making sense of
-the Legendre transform, available as
-[`arXiv:0806.1147`](http://arxiv.org/abs/0806.1147).
+11) R. K. P. Zia, Edward F. Redish and Susan R. McKay, "Making sense of the Legendre transform", available as [`arXiv:0806.1147`](http://arxiv.org/abs/0806.1147).
 
 I've spent decades thinking about the Legendre transform in the context
 of classical mechanics, but not so much in thermodynamics. I think its
@@ -538,16 +472,14 @@ analogies I've listed.
 
 Anyway, stay tuned for more on this. But for now, let me turn to a
 different story: rational homotopy theory!
-
-                          RATIONAL SPACES
-                             /      \  
-                            /        \  
-                           /          \  
-                          /            \
-                         /              \
-          DIFFERENTIAL GRADED ------- DIFFERENTIAL GRADED
-          COMMUTATIVE ALGEBRAS           LIE ALGEBRAS
-
+$$
+  \begin{tikzpicture}[xscale=1.75]
+    \node[align=center] (0) at (0,0) {\footnotesize differential graded\\\footnotesize commutative algebras};
+    \node[align=center] (1) at (1,2) {\footnotesize rational spaces};
+    \node[align=center] (2) at (2,0) {\footnotesize differential graded\\\footnotesize lie algebras};
+    \draw[thick] (0) to (1) to (2) to (0);
+  \end{tikzpicture}
+$$
 Last time I explained how we can turn a rational space into a
 differential graded commutative algebra, or DGCA. Now I want to tell you
 how to turn a rational space into a differential graded Lie algebra, or
@@ -565,9 +497,9 @@ This should seem odd at first. It's easy to imagine generalizing Lie
 theory from Lie groups to other groups, like "infinite-dimensional Lie
 groups". But how can we generalize it to *spaces*?
 
-The answer is this: there's a way to turn any pointed space X into a
-topological group called \Omega(X). Roughly, this is the group of "based
-loops" in X: maps from an interval into X that start and end at the
+The answer is this: there's a way to turn any pointed space $X$ into a
+topological group called $\Omega(X)$. Roughly, this is the group of "based
+loops" in $X$: maps from an interval into $X$ that start and end at the
 basepoint. There are some technicalities involved in getting an honest
 group this way. We'll talk about them later. But *roughly*, the idea is
 that we multiply two loops by forming a new loop that runs first along
@@ -577,15 +509,15 @@ loop run backwards.
 So here's the plan. We're going to generalize Lie theory from Lie
 groups to topological groups. Just as a Lie group has a Lie algebra, any
 topological group will have a "differential graded Lie algebra".
-Whenever we have a pointed space X, we can turn it into a topological
-group \Omega(X), and then apply this construction.
+Whenever we have a pointed space $X$, we can turn it into a topological
+group $\Omega(X)$, and then apply this construction.
 
-And when X is a *rational* space, the resulting differential graded
+And when $X$ is a *rational* space, the resulting differential graded
 algebra will know *everything* about X!
 
 Well, I shouldn't get carried away in my enthusiasm. The differential
 graded Lie algebra will only know everything about the "homotopy type"
-of X --- a concept I defined last week. But that's still amazing. It
+of $X$ --- a concept I defined last week. But that's still amazing. It
 means that at least for rational spaces, we can reduce homotopy theory
 to a souped-up version of the theory of Lie algebras.
 
@@ -597,31 +529,24 @@ But now let's see how it works.
 First of all, what's a differential graded Lie algebra? It's a Lie
 algebra in the world of chain complexes. A "chain complex", for us,
 will be a list of vector spaces and linear maps
-
-         d       d      d
-    C0 <--- C1 <--- C2 <---
-
-with d^2 = 0. And a vector space, for us, will be vector space over the
+$$C_0 \xleftarrow{d} C_1 \xleftarrow{d} C_2 \xleftarrow{d} \ldots$$
+with $d^2 = 0$. And a vector space, for us, will be vector space over the
 rationals.
 
 Just as you can tensor vector spaces, you can tensor chain complexes.
-And just as you can define a Lie algebra to be a vector space V with a
+And just as you can define a Lie algebra to be a vector space $V$ with a
 bracket operation
-
-\[.,.\] \colon V \otimes V \to V
-
+$$[-,-] \colon V \otimes V \to V$$
 satisfying antisymmetry and the Jacobi identity, so you can define a
-"differential graded Lie algebra" to be a chain complex C with a
+"differential graded Lie algebra" to be a chain complex $C$ with a
 bracket operation
-
-\[.,.\]\colon C \otimes C \to C
-
+$$[-,-]\colon C \otimes C \to C$$
 satisfying graded antisymmetry and the graded Jacobi identity. By
-"graded", I mean you need to remember to put in a sign (-1)^jk^
-whenever you switch a guy in C_j and a guy in C_k.
+"graded", I mean you need to remember to put in a sign $(-1)^{jk}$
+whenever you switch a guy in $C_j$ and a guy in $C_k$.
 
 Differential graded Lie algebras are often called DGLAs for short. A
-DGLA where only C_0 is nonzero is just a plain old Lie algebra. So,
+DGLA where only $C_0$ is nonzero is just a plain old Lie algebra. So,
 DGLAs really are a generalization of Lie algebras. Whenever anyone tells
 you something about DGLAs, you should check to see what it says about
 Lie algebras.
@@ -631,31 +556,29 @@ DGLA. I'll quickly sketch this process, which consists of 3 steps, and
 then go over the steps more slowly. Don't get scared if none of them
 make sense yet:
 
--   Let \Omega(X) the space of based loops in X. You should think of this as
+- Let $\Omega(X)$ the space of based loops in $X$. You should think of this as
     a topological group, with the group operation being concatenation of
     loops.
--   Let C~~*~~(\Omega(X)) be the chain complex of singular chains on \Omega(X)
+- Let $C_*(\Omega(X))$ be the chain complex of singular chains on $\Omega(X)$
     taking values in the rational numbers. This is a differential graded
     cocommutative Hopf algebra, or "DGCHA" for short.
--   Let P(C~~*~~(\Omega(X))) consist of the "primitive" elements of our
+- Let $P(C_*(\Omega(X)))$ consist of the "primitive" elements of our
     DGCHA. This is a differential graded Lie algebra, or DGLA!
 
 Each step is interesting in itself. And each step is actually a functor.
 So I need to explain 3 different functors:
-
-\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
-
-C~~*~~\colon \[topological groups\] \to \[DGCHAs\]
-
-P\colon \[DGCHAs\] \to \[DGLAs\]
-
+$$
+  \begin{aligned}
+    \Omega\colon [\mbox{path-connected pointed spaces}] &\to [\mbox{topological groups}]
+  \\C_*\colon [\mbox{topological groups}] &\to [\mbox{DGCHAs}]
+  \\P\colon [\mbox{DGCHAs}] &\to [\mbox{DGLAs}]
+  \end{aligned}
+$$
 One thing that excites me about this subject is getting to know the last
 two functors. I've been in love with the first one for years, and also
 the functor going back:
-
-B\colon \[topological groups\] \to \[path-connected pointed spaces\]
-
-which sends any topological group G to its "classifying space" BG.
+$$B\colon [\mbox{topological groups}] \to [\mbox{path-connected pointed spaces}]$$
+which sends any topological group $G$ to its "classifying space" $BG$.
 
 Indeed, it was a life-changing experience to realize that as far as
 homotopy theory goes, pointed path-connected spaces are just the same as
@@ -666,132 +589,92 @@ groups! To realize they were "the same" was mindblowing.
 It's the next two steps that are exciting me now. Let me try to explain
 what simpler, perhaps more familiar constructions they generalize.
 
-If you have a plain old group G, it has a "[group
-algebra](http://en.wikipedia.org/wiki/Group_ring)" Q\[G\] consisting of
-formal rational linear combinations of elements of G. Its multiplication
-comes from the multiplication in G. But it's better than an algebra:
-it's a "cocommutative [Hopf
-algebra](http://en.wikipedia.org/wiki/Hopf_algebra)". This means it has
+If you have a plain old group $G$, it has a "[group algebra](http://en.wikipedia.org/wiki/Group_ring)" $\mathbb{Q}[G]$ consisting of
+formal rational linear combinations of elements of $G$. Its multiplication
+comes from the multiplication in $G$. But it's better than an algebra:
+it's a "cocommutative [Hopf algebra](http://en.wikipedia.org/wiki/Hopf_algebra)". This means it has
 a bunch of extra operations that completely encode the group structure
-on G.
+on $G$.
 
 For example, in a Hopf algebra you can "comultiply" as well as
-multiply. In the group algebra Q\[G\], the comultiplication map
-
-\Delta\colon Q\[G\] \to Q\[G\] \otimes Q\[G\]
-
-is defined on elements g of G by the equation
-
-\Delta(g) = g \otimes g
-
+multiply. In the group algebra $\mathbb{Q}[G]$, the comultiplication map
+$$\Delta\colon \mathbb{Q}[G] \to \mathbb{Q}[G] \otimes \mathbb{Q}[G]$$
+is defined on elements $g$ of $G$ by the equation
+$$\Delta(g) = g \otimes g$$
 We say a Hopf algebra is "cocommutative" if comultiplying is the same
 as comultiplying and then switching the two outputs. You can see that's
 true here.
 
 A Hopf algebra also has a "counit" as well as a unit, and the counit
 in a group algebra is a map
-
-ε \colon Q\[G\] \to Q
-
+$$\varepsilon \colon \mathbb{Q}[G] \to \mathbb{Q}$$
 defined by
-
-ε(g) = 1
-
+$$\varepsilon(g) = 1$$
 In fact, given any cocommutative Hopf algebra, the elements satisfying
 both of the above two equations form a group! These elements are called
-"[grouplike
-elements](http://planetmath.org/encyclopedia/GrouplikeElementsInHopfAlgebras.html)".
-If we take the grouplike elements of Q\[G\], we get the group G back.
+"[grouplike elements](http://planetmath.org/encyclopedia/GrouplikeElementsInHopfAlgebras.html)".
+If we take the grouplike elements of $\mathbb{Q}[G]$, we get the group $G$ back.
 
 The functor
-
-C\colon \[topological groups\] \to \[DGCHAs\]
-
+$$C\colon [\mbox{topological groups}] \to [\mbox{DGCHAs}]$$
 generalizes this idea from groups to topological groups. Instead of just
-taking formal linear combinations of *elements* of G, we now take formal
-linear combinations of *simplices* in G. The 0-simplices in G are just
-elements of G. But the higher-dimensional simplices keep track of the
-topology of G.
+taking formal linear combinations of *elements* of $G$, we now take formal
+linear combinations of *simplices* in $G$. The $0$-simplices in $G$ are just
+elements of $G$. But the higher-dimensional simplices keep track of the
+topology of $G$.
 
 Now let's turn to the next functor:
-
-P\colon \[DGCHAs\] \to \[DGLAs\]
-
+$$P\colon [\mbox{DGCHAs}] \to [\mbox{DGLAs}]$$
 This generalizes a simpler procedure that takes cocommutative Hopf
 algebras and gives Lie algebras.
 
 To understand this, it's best to think about the reverse procedure
-first. If you have a plain old Lie algebra L, it has a "[universal
-enveloping](http://en.wikipedia.org/wiki/Universal_enveloping_algebra)"
-algebra UL. This is the free associative algebra on L mod relations
+first. If you have a plain old Lie algebra $L$, it has a "[universal enveloping](http://en.wikipedia.org/wiki/Universal_enveloping_algebra)"
+algebra $UL$. This is the free associative algebra on $L$ mod relations
 saying that
+$$xy - yx = [x,y]$$
+for any $x,y$ in $L$.
 
-xy --- yx = \[x,y\]
-
-for any x,y in L.
-
-But UL is better than an algebra: it's a cocommutative Hopf algebra!
+But $UL$ is better than an algebra: it's a cocommutative Hopf algebra!
 The point is that Lie algebras are a lot like groups, and *both* can be
 encoded in cocommutative Hopf algebras.
 
-In the universal enveloping algebra UL, comultiplication is a map
-
-\Delta\colon UL \to UL \otimes UL
-
-defined on elements x of L by the equation
-
-\Delta(x) = x \otimes 1 + 1 \otimes x
-
+In the universal enveloping algebra $UL$, comultiplication is a map
+$$\Delta\colon UL \to UL \otimes UL$$
+defined on elements $x$ of $L$ by the equation
+$$\Delta(x) = x \otimes 1 + 1 \otimes x$$
 The counit is a map
-
-ε\colon UL \to Q
-
+$$\varepsilon\colon UL \to \mathbb{Q}$$
 defined by the equation
-
-ε(x) = 0
-
+$$\varepsilon(x) = 0$$
 And conversely, given any cocommutative Hopf algebra, the elements
 satisfying both these equations form a Lie algebra! These elements are
-called "primitive elements". If we take the primitive elements of UL,
-we get the Lie algebra L back.
+called "primitive elements". If we take the primitive elements of $UL$,
+we get the Lie algebra $L$ back.
 
 Let's summarize this using a bit more jargon. There's a "universal
 enveloping algebra" functor:
-
-U\colon \[Lie algebras\] \to \[cocommutative Hopf algebras\]
-
+$$U\colon [\mbox{Lie algebras}] \to [\mbox{cocommutative Hopf algebras}]$$
 and this has a right adjoint, the "primitive elements" functor:
-
-P\colon \[cocommutative Hopf algebras\] \to \[Lie algebras\]
-
-Even better, if L is any Lie algebra, P(UL) is isomorphic to L.
+$$P\colon [\mbox{cocommutative Hopf algebras}] \to [\mbox{Lie algebras}]$$
+Even better, if $L$ is any Lie algebra, $P(UL)$ is isomorphic to $L$.
 
 Today we're generalizing all this to the world of chain complexes!
 There's a universal enveloping algebra for differential graded Lie
 algebras:
-
-U\colon \[DGLAs\] \to \[DGCHAs\]
-
+$$U\colon [\mbox{DGLAs}] \to [\mbox{DGCHAs}]$$
 and it has a right adjoint, the "primitive elements" functor:
-
-P\colon \[DGCHAs\] \to \[DGLAs\]
-
-Even better, if L is any DGLA, P(UL) is isomorphic to L.
+$$P\colon [\mbox{DGCHAs}] \to [\mbox{DGLAs}]$$
+Even better, if $L$ is any DGLA, $P(UL)$ is isomorphic to $L$.
 
 So now I hope you understand the strategy for generalizing Lie theory to
-rational spaces. We can take any path-connected pointed space X and form
+rational spaces. We can take any path-connected pointed space $X$ and form
 its group of loops:
-
-\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
-
+$$\Omega\colon [\mbox{path-connected pointed spaces}] \to [\mbox{topological groups}]$$
 Then we can form a differential graded analogue of its group algebra:
-
-C\colon \[topological groups\] \to \[DGCHAs\]
-
+$$C\colon [\mbox{topological groups}] \to [\mbox{DGCHAs}]$$
 Finally, we can turn that into a differential graded Lie algebra:
-
-P\colon \[DGCHAs\] \to \[DGLAs\]
-
+$$P\colon [\mbox{DGCHAs}] \to [\mbox{DGLAs}]$$
 So, just as we could study a Lie group "infinitesimally" by looking at
 its Lie algebra, we can now study any path-connected pointed space
 "infinitesimally" by looking at the differential graded algebra Lie
@@ -813,16 +696,12 @@ break. Now I'll continue...
 
 ------------------------------------------------------------------------
 
-Q. The "based loop space" functor:
-
-\Omega\colon \[path-connected pointed spaces\] \to \[topological groups\]
-
-Suppose X is a path-connected pointed space. Often people define \Omega(X) to
+**Q.** _The "based loop space" functor:_
+$$\Omega\colon [\mbox{path-connected pointed spaces}] \to [\mbox{topological groups}]$$
+Suppose $X$ is a path-connected pointed space. Often people define $\Omega(X)$ to
 be the space of all based loops
-
-f\colon \[0,1\] \to X
-
-where f(0) = f(1) is the basepoint of X. There's an obvious way to
+$$f\colon [0,1] \to X$$
+where $f(0) = f(1)$ is the basepoint of $X$. There's an obvious way to
 compose these loops, spending half your time on the first loop and half
 your time on the second, but it's not associative! It's just
 associative up to homotopy. So, we don't get a topological monoid, just
@@ -838,15 +717,13 @@ honest topological group!
 For starters, let's try to make the associative and unit laws hold as
 equations, instead of just up to homotopy. For this, we can just use
 "Moore loops", which are maps
-
-f\colon \[0,T\] \to X
-
-where f(0) = f(T) is the basepoint of X, and T is any nonnegative real
-number. Composing a Moore loop of length T and one of length T'
-naturally gives one of length T+T'. This way of composing loops
+$$f\colon [0,T] \to X$$
+where $f(0) = f(T)$ is the basepoint of $X$, and $T$ is any nonnegative real
+number. Composing a Moore loop of length $T$ and one of length $T'$
+naturally gives one of length $T+T'$. This way of composing loops
 satisfies the associative and unit laws "on the nose", since we don't
-need to do any reparametrization. So, if we let \Omega(X) be the space of
-based Moore loops on X, it's a topological monoid!
+need to do any reparametrization. So, if we let $\Omega(X)$ be the space of
+based Moore loops on $X$, it's a topological monoid!
 
 Even better, the space of based Moore loops is homotopy equivalent to
 the space of ordinary based loops. They're even equivalent "as $A_\infty$
@@ -863,57 +740,49 @@ But what about inverses? Sadly, Moore loops still only have inverses
 Namely: we can always take a topological monoid, throw in formal
 inverses, and put on a suitable topology to get a topological group.
 This process is called "group completion". It's a functor:
-
-G\colon \[topological monoids\] \to \[topological groups\]
-
+$$G\colon [\mbox{topological monoids}] \to [\mbox{topological groups}]$$
 and it's the left adjoint of the forgetful functor
-
-F\colon \[topological groups\] \to \[topological monoids\]
-
+$$F\colon [\mbox{topological groups}] \to [\mbox{topological monoids}]$$
 I described group completion in item P of ["Week 119"](#week119),
 and gave the classic reference.
 
-Now, if we start with a *path-connected* topological monoid M, its group
-completion GM is homotopy equivalent to M. They're even equivalent as
-$A_\infty$ spaces, I think. So in this case we're just improving M slightly
-to make it into a group. But if M has lots of connected components, GM
+Now, if we start with a *path-connected* topological monoid $M$, its group
+completion $GM$ is homotopy equivalent to $M$. They're even equivalent as
+$A_\infty$ spaces, I think. So in this case we're just improving $M$ slightly
+to make it into a group. But if $M$ has lots of connected components, $GM$
 can be drastically different. For example, if we start with the natural
 numbers, its group completion is the integers!
 
-So, to improve our topological monoid \Omega(X) into a topological group, I
+So, to improve our topological monoid $\Omega(X)$ into a topological group, I
 think this is what we should do. Take the path component of the identity
-and group complete that, getting a group G. Then build a topological
-group with the same group of path components as \Omega(X), but with each
-component replaced by the group G.
+and group complete that, getting a group $G$. Then build a topological
+group with the same group of path components as $\Omega(X)$, but with each
+component replaced by the group $G$.
 
 I'm pretty sure this trick lets us turn the monoid of based Moore loops
-in X into a topological group that's equivalent as an A_infinity
+in $X$ into a topological group that's equivalent as an $A_\infty$
 space. I'd love to be corrected if I'm wrong here, or doing something
 suboptimal.
 
-Henceforth, let's use \Omega(X) to stand for the group completion of the
+Henceforth, let's use $\Omega(X)$ to stand for the group completion of the
 monoid of based Moore loops. These are what we naively *want* from our
-based loops in X: an honest topological group!
+based loops in $X$: an honest topological group!
 
 ------------------------------------------------------------------------
 
-R. The "singular chains" functor from topological groups to
-differential graded cocommutative Hopf algebras:
-
-C~~*~~\colon \[topological groups\] \to \[DGCHAs\]
-
+**R.** _The "singular chains" functor from topological groups to
+differential graded cocommutative Hopf algebras:_
+$$C_*\colon [\mbox{topological groups}] \to [\mbox{DGCHAs}]$$
 To get this, let's line up some functors I mentioned last week:
-
-Sing\colon \[topological spaces\] \to \[simplicial sets\]
-
-F\colon \[simplicial sets\] \to \[simplicial vector spaces\]
-
-N\colon \[simplicial vector spaces\] \to \[chain complexes\]
-
+$$
+  \begin{aligned}
+    Sing\colon [\mbox{topological spaces}] &\to [\mbox{simplicial sets}]
+  \\F\colon [\mbox{simplicial sets}] &\to [\mbox{simplicial vector spaces}]
+  \\N\colon [\mbox{simplicial vector spaces}] &\to [\mbox{chain complexes}]
+  \end{aligned}
+$$
 Composing these is how we take any space and get a chain complex!
-
-C~~*~~\colon \[topological spaces\] \to \[chain complexes\]
-
+$$C_*\colon [\mbox{topological spaces}] \to [\mbox{chain complexes}]$$
 Namely, the chain complex whose homology is the rational homology of
 that space. This is often called the "singular chain complex" of our
 space.
@@ -931,47 +800,39 @@ chain complexes it's the tensor product I already mentioned.
 
 And, *almost* all the functors listed above are symmetric monoidal
 functors. The first two actually are. The third one:
-
-N\colon \[simplicial vector spaces\] \to \[chain complexes\]
-
+$$N\colon [\mbox{simplicial vector spaces}] \to [\mbox{chain complexes}]$$
 is not quite. I talked about this problem last week.
 
 If all three functors *were* symmetric monoidal, they would send
 cocommutative Hopf monoids to cocommutative Hopf monoids. And every
-topological group G is a cocommutative Hopf monoid. So, if we didn't
-have this slight problem, we would instantly know that C~~*~~(G) is a
-cocommutative Hopf monoid in \[chain complexes\]. And that's precisely
+topological group $G$ is a cocommutative Hopf monoid. So, if we didn't
+have this slight problem, we would instantly know that $C_*(G)$ is a
+cocommutative Hopf monoid in [\mbox{chain complexes}]. And that's precisely
 a DGCHA!
 
 But alas, it's not quite so easy. We get stuck at the second stage: our
-group G becomes a cocommutative Hopf monoid in \[simplicial abelian
-groups\], and then we get stuck.
+group $G$ becomes a cocommutative Hopf monoid in simplicial abelian
+groups, and then we get stuck.
 
 Let me remind you a bit about the annoying properties of the third
 functor on my list:
-
-N\colon \[simplicial vector spaces\] \to \[chain complexes\]
-
+$$N\colon [\mbox{simplicial vector spaces}] \to [\mbox{chain complexes}]$$
 It's called the "normalized chain complex" or "normalized Moore
 complex" functor.
 
 As I said last time, this functor is not monoidal. But it's "lax
 monoidal". So, there's a natural transformation
-
-EZ\colon N(X) \otimes N(Y) \to N(X \times Y)
-
+$$EZ\colon N(X) \otimes N(Y) \to N(X \times Y)$$
 And it's also "oplax monoidal". So, there's also a natural
 transformation going back:
-
-AW\colon N(X \times Y) \to N(X) \otimes N(Y)
-
+$$AW\colon N(X \times Y) \to N(X) \otimes N(Y)$$
 But they're not inverses.
 
 These natural transformations are called the Eilenberg-Zilber and
 Alexander-Whitney maps --- it took 4 great mathematicians to invent them.
 Maybe too many cooks spoil the broth: it's really annoying that these
-maps aren't inverses! As I said last time, they come very close. EZ
-followed by AW is the identity. AW followed by EZ is not. But, it's
+maps aren't inverses! As I said last time, they come very close. $EZ$
+followed by $AW$ is the identity. $AW$ followed by $EZ$ is not. But, it's
 chain homotopic to the identity!
 
 Let's see how far we can get with just this.
@@ -982,10 +843,10 @@ great thing about a lax monoidal functor is that it sends monoids to
 monoids.
 
 A monoid object in topological spaces is called a "topological monoid"
-- an example is a topological group. On the other hand, a monoid object
-in chain complexes is called a "differential graded algebra". Since C
+--- an example is a topological group. On the other hand, a monoid object
+in chain complexes is called a "differential graded algebra". Since $C$
 is a composite of functors that are either monoidal or (ahem) just lax
-monoidal, pure abstract nonsense tells us that C sends topological
+monoidal, pure abstract nonsense tells us that $C$ sends topological
 groups to differential graded algebras!
 
 In any monoidal category, we can also define "comonoids". The great
@@ -994,13 +855,9 @@ comonoids.
 
 As I mentioned last week, in a category with finite products, every
 object is a comonoid in exactly one way! The comultiplication
-
-\Delta\colon X \to X \times X
-
+$$\Delta\colon X \to X \times X$$
 is the diagonal map, and the counit
-
-ε\colon X \to 1
-
+$$\varepsilon\colon X \to 1$$
 is the unique map to the terminal object. This, by the way, is why
 people don't talk about comonoids in the category of sets: every set is
 a comonoid in exactly one way.
@@ -1010,25 +867,23 @@ topological space is a comonoid in just one way. On the other hand, a
 comonoid object is chain complexes is called a "differential graded
 coalgebra".
 
-Since C is a composite of functors that are either monoidal or (ahem)
-just oplax monoidal, pure abstract nonsense tells us that C sends
+Since $C$ is a composite of functors that are either monoidal or (ahem)
+just oplax monoidal, pure abstract nonsense tells us that $C$ sends
 topological spaces to differential graded coalgebras!
 
 So, without breaking a sweat, we have seen that for a topological group
-G, the chain complex C~~*~~(G) is both a differential graded algebra
+$G$, the chain complex $C_*(G)$ is both a differential graded algebra
 and a differential graded coalgebra. But why do these fit together
 neatly to make a differential graded Hopf algebra? I don't know.
 Somehow we just luck out.
 
-I also don't know why C~~*~~(G) gets to be *cocommutative*. It would
+I also don't know why $C_*(G)$ gets to be *cocommutative*. It would
 be automatic all 3 functors on my list were symmetric monoidal. But
 again, the third one is not. Somehow we just luck out.
 
 So, there are some formal properties of the normalized chain complex
 functor
-
-N\colon \[simplicial vector spaces\] \to \[chain complexes\]
-
+$$N\colon [\mbox{simplicial vector spaces}] \to [\mbox{chain complexes}]$$
 that I still need to understand!
 
 I'll conclude with some wisdom from Kathryn Hess, just so you can get
@@ -1038,7 +893,7 @@ comonoidal" instead of "oplax monoidal":
 > The normalized chains functor from simplicial sets to chain complexes
 > (with any coefficients) is both lax monoidal and lax comonoidal. The
 > Eilenberg-Zilber equivalence, from the tensor product of the chains on
-> X and on Y to the chains on the cartesian product of X and Y, provides
+> $X$ and on $Y$ to the chains on the cartesian product of $X$ and $Y$, provides
 > the natural transformation that shows that the chain functor is lax
 > monoidal. The Alexander-Whitney equivalence goes in the opposite
 > direction and shows that the chain functor is lax comonoidal.
@@ -1055,9 +910,9 @@ comonoidal" instead of "oplax monoidal":
 > The A-W/E-Z equivalences for the normalized chains functor are a
 > special case of the strong deformation retract of chain complexes that
 > was constructed by Eilenberg and MacLane in their 1954 Annals paper
-> "On the groups H(\pi ,n). II". For any commutative ring R, they defined
+> "On the groups $H(\pi,n)$. II". For any commutative ring $R$, they defined
 > chain equivalences between the tensor product of the normalized chains
-> on two simplicial R-modules and the normalized chains on their
+> on two simplicial $R$-modules and the normalized chains on their
 > levelwise tensor product.
 >
 > Steve Lack and I observed recently that the normalized chains functor
@@ -1070,8 +925,7 @@ comonoidal" instead of "oplax monoidal":
 Finally: what about the picture at the top of the page? It was taken in
 spring, near the south pole of Mars:
 
-6) HiRISE (High Resolution Imaging Science Experiments), Cryptic
-terrain on Mars, `http://hirise.lpl.arizona.edu/PSP_003179_0945`
+6) HiRISE (High Resolution Imaging Science Experiments), "Cryptic terrain on Mars", `http://hirise.lpl.arizona.edu/PSP_003179_0945`
 
 Candy Hansen writes:
 
