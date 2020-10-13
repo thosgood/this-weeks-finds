@@ -233,22 +233,22 @@ available: concepts like operads, $n$-categories and the like give very
 general ways of describing how to build big things by gluing together
 little pieces. For example, a trained mathematician will take one look
 at this:
-
-            |           |
-            |           |
-          -----         |
-         |     |        |
-          -----         |
-          /   \         |
-         /     \        |
-      ------------      |
-     |            |     |
-      ------------      |
-        |  |  |         |
-        |  |   \_______/
-        |  |
-        |  |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and say "that's a morphism in a compact closed category". So, we just
 need to focus these concepts on the problems of engineering, and explain
 them in ways that engineers --- as opposed to, say, topologists or quantum
@@ -502,38 +502,53 @@ let's talk about completely general electrical circuits.
 
 Last time I said an electrical circuit has "vertices", "edges" and
 "faces":
-
-                   o---------o---------o
-                   |/////////|/////////| 
-                   |/////////|/////////| 
-                   |//FACE///|///FACE//| 
-                   |/////////|/////////| 
-                   |/////////|/////////| 
-                   o---------o---------o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick,pattern=north east lines] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+$$
 The faces come in handy: electrical engineers call them "meshes". But
 they're really just mathematical fictions. When you look at a circuit
 you don't see faces, just vertices and edges:
-
-                   o---------o---------o
-                   |         |         | 
-                   |         |         | 
-                   |         |         | 
-                   |         |         | 
-                   |         |         | 
-                   o---------o---------o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+$$
 So, just for fun, let's leave out the faces today. Let's start with a
 graph, and orient its edges:
-
-                   o---->----o---->----o
-                   |         |         | 
-                   |         |         | 
-                   V         V         V 
-                   |         |         | 
-                   |         |         | 
-                   o----<----o---->----o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 This gives a vector space $C_0$ consisting of "$0$-chains": formal linear
 combinations of vertices. We also get a space $C_1$ of "$1$-chains":
 formal linear combinations of edges, and a linear map
@@ -788,7 +803,7 @@ vertices like this:
         |  |  |
         V  ^  ^
         |  |  |
-        +  ---  -
+        +  -  -
 
 
            o
@@ -797,7 +812,7 @@ vertices like this:
         |  |  |
         ^  ^  ^
         |  |  |
-        ---  ---  -
+        -  -  -
 
 We then get other trivalent vertices by permuting the outputs or turning
 outputs into inputs.
