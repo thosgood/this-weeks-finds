@@ -4,12 +4,12 @@ This week I'll talk about the principle of least power, and Poincaré
 duality for electrical circuits, and a generalization of Hamiltonian
 mechanics that people have introduced for dissipative systems. But
 first....
-
-::: {align="center"}
-![](Eyjafjallojokull_brynjar_gaudi.jpg)\
-photo by Brynjar Gaudi / AP
-:::
-
+$$
+  \begin{gathered}
+    \includegraphics[max width=0.65\linewidth]{../images/Eyjafjallajkull.jpg}
+  \\\mbox{photos by Brynjar Gaudi / AP}
+  \end{gathered}
+$$
 Now and then the world does something that forcefully reminds us of its
 power. As you probably know, the Eyjafjallajkull volcano in Iceland is
 emitting a plume of glass dust which has brought air traffic to a halt
@@ -26,6 +26,7 @@ engines could be restarted.
 
 Here's a picture of the Eyjafjallajkull plume, taken yesterday by
 NASA's "Aqua" satellite:
+$$\includegraphics[max width=0.65\linewidth]{../images/Eyjafjallajokull_ash_plume.jpg}$$
 
 ::: {align="center"}
 [![](Eyjafjallajokull_ash_plume.jpg){width="600"}](http://rapidfire.sci.gsfc.nasa.gov/gallery/?2010105-0415/NorthAtlantic.A2010105.1135.2km.jpg)
