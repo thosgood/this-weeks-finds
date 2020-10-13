@@ -78,46 +78,31 @@ have analogues in the other rows.
 
 Engineers call these five circuit elements "$1$-ports". A $1$-port can be
 visualized as a black box with 2 places where you can stick in a wire:
-
-            |
-            |
-          -----
-         |     |
-         |     |
-          -----
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 More generally, an "$n$-port" has $2n$ places where you can attach a wire.
 This numbering system may seem peculiar. Indeed, it overlooks circuits
 that have an odd number of wires coming out, like this one made of just
 wires:
-
-         \     /
-          \   /
-           \ /
-            |
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+  \end{tikzpicture}
+$$
 You can use gizmos like this to stick together $1$-ports "in parallel":
-
-            |
-            |
-            |
-           / \
-          /   \
-         /     \
-       ---     ---
-      |   |   |   |
-       ---     ---
-         \     /
-          \   /
-           \ /
-            |
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (0.5,1) to (1,0) to (0.5,-1);
+    \draw[thick,fill=white,rounded corners] (-0.15,-0.25) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0.65,-0.25) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 However, if you've ever looked at the back of a TV or stereo, you'll
 see that place where you can plug in cables tend to come in pairs! Each
 pair is called a "port". So, electrical engineers often --- though not
@@ -130,18 +115,12 @@ Later I'll tell you about some famous $2$-ports and $3$-ports, but today
 let's do $1$-ports. If we have a $1$-port with wires coming out of it, we
 can arbitrarily choose one wire and call it the the "input", with the
 other being the "output":
-
-            |
-            V
-            |
-          -----
-         |     |
-         |     |
-          -----
-            |
-            V
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 If you know a little category theory, this should seem suspiciously
 similar to a "morphism". And if you know a bit more, this should
 remind you of other situations where it takes an arbitrary choice to

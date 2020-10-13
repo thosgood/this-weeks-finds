@@ -155,18 +155,12 @@ it's the key to all deep work on the Mandelbrot set.
 Last week I explained five kinds of circuit elements: resistances,
 capacitances, inertances, effort sources and flow sources. All these are
 "$1$-ports", meaning they have one wire coming in and one going out:
-
-          |
-          V
-          |
-        -----
-       |     |
-       |     |
-        -----
-          |
-          V
-          |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 Today I want to talk about $2$-ports and $3$-ports. From these, we can build
 all the more complicated circuits we'll be wanting to study. But first,
 just for fun, here's some very basic stuff about one of the $1$-ports I
@@ -181,21 +175,18 @@ $$V(t) = 9$$
 Why do I say "tries"? Because this is an idealization. If you take a
 perfect constant voltage source and connect its input and output with a
 perfectly conductive wire:
-
-            ________
-           /        \
-          |          |
-          V          |
-          |          |
-        -----        |
-       |     |       |
-       |     |       |
-        -----        |
-          |          |
-          V          |
-          |          |
-           \________/
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.5] (1.5,0)
+        to (1.5,2)
+        to [out=up,in=up,looseness=1.5] (0,2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 you'll get an infinite current! In reality, if you connect the two
 terminals of battery with a highly conductive copper wire, you'll get a
 short circuit: a large amount of current which winds up destroying the
@@ -250,85 +241,47 @@ different countries!
 
 Okay, now let's talk about $2$-ports and $3$-ports. Remember, a $1$-port
 looks like this:
-
-          |
-          V
-          |
-        -----
-       |     |
-       |     |
-        -----
-          |
-          V
-          |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 If all we have is $1$-ports, we can only build circuits by stringing them
 together in series:
-
-          |
-          V
-          |
-        -----
-       |     |
-       |     |
-        -----
-          |
-          V
-          |
-        -----
-       |     |
-       |     |
-        -----
-          |
-          V
-          |
-        -----
-       |     |
-       |     |
-        -----
-          |
-          V
-          |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3) to node[rotate=-90]{\scriptsize$\textgreater$} (0,4);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,2.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 or perhaps forming a closed loop:
-
-            ___________
-           /           \
-          |             |
-          V             |
-          |             |
-        -----           |
-       |     |          |
-       |     |          |
-        -----           |
-          |             |
-          V             |
-          |             |
-        -----           |
-       |     |          |
-       |     |          |
-        -----           |
-          |             |
-          V             |
-          |             |
-           \___________/
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.5] (1.5,0)
+        to (1.5,3)
+        to [out=up,in=up,looseness=1.5] (0,3);
+    \end{knot}
+  \end{tikzpicture}
+$$
 This is sort of dull, though still worth understanding. To have more
 fun, we need some $2$-ports or $3$-ports!
 
 A $2$-port looks like this:
-
-          |  |
-          V  V
-          |  |
-        --------
-       |        |
-       |        |
-        --------
-          |  |
-          V  V
-          |  |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+$$
 The current flowing in the left wire on top must equal the current
 flowing out the left wire on bottom --- that's just a rule in this game.
 And similarly for the wires on the right. So, a $2$-port has just two
@@ -382,33 +335,23 @@ exterminate them all by a better choice of conventions, but I haven't
 figured out the best way. Luckily the signs don't really matter much.
 Here they seem to arise from treating the first port as an "input" and
 the second as an "output". In other words, instead of this:
-
-          |  |
-          V  V
-          |  |
-        --------
-       |        |
-       |        |
-        --------
-          |  |
-          V  V
-          |  |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+$$
 people sometimes think of the $2$-port this way:
-
-      |           |
-      |           |
-      V           ^
-      |   -----   |
-      |  |     |  |
-       --|     |--
-       --|     |--
-      |  |     |  |
-      |   -----   |
-      V           ^
-      |           |
-      |           |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,0.75) to (-0.25,0.75);
+    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,0.75) to (0.25,0.75);
+    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,1.25) to (-0.25,1.25);
+    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,1.25) to (0.25,1.25);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.5) rectangle ++(0.5,1);
+  \end{tikzpicture}
+$$
 Anyway, if we use vectors and write
 $$
   \begin{aligned}
@@ -428,32 +371,21 @@ gyrator conserve energy according to this definition.
 
 Next: $3$-ports! To build interesting circuits, we need the ability to
 hook up two $1$-ports in parallel, like this:
-
-            |
-            |
-            |
-           / \
-          /   \
-         /     \
-       ---     ---
-      |   |   |   |
-       ---     ---
-         \     /
-          \   /
-           \ /
-            |
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (0.5,1) to (1,0) to (0.5,-1);
+    \draw[thick,fill=white,rounded corners] (-0.15,-0.25) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0.65,-0.25) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 But this gizmo, made of just wire:
-
-            |
-            |
-            |
-           / \
-          /   \
-         /     \
-
+$$
+  \begin{tikzpicture}[yscale=-1]
+    \draw[thick] (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+  \end{tikzpicture}
+$$
 is not an $n$-port of any kind, since it has an odd number of wires coming
 out.
 

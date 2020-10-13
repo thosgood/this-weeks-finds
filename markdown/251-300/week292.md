@@ -48,18 +48,14 @@ bond graphs are designed to make this easy to keep track of.
 The idea behind bond graphs is very simple. I've been describing
 various "$n$-ports" lately, and I've drawn pictures of them. In my
 pictures, a $3$-port looked like this:
-
-          |  |  |
-          V  V  V
-          |  |  |
-        -----------
-       |           |
-       |           |
-        -----------
-          |  |  |
-          V  V  V
-          |  |  |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+$$
 In the case of an electrical system, this means 3 wires coming in and 3
 going out. More generally, an $n$-port is a gadget with n inputs and n
 outputs, where the flow into each input equals the flow out of the
@@ -79,36 +75,27 @@ to flow. In the example of an electrical resistor, effort is "voltage"
 and "flow" is current.
 
 It's pretty natural to draw a resistor like this:
-
-            |
-            V
-            |
-          -----
-         |     |
-         |     |
-          -----
-            |
-            V
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 But in the world of bond graphs, people draw it more like this:
-
-            |
-            V
-            |
-          -----
-         |     |
-         |     |
-          -----
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 One "bond" for two "wires"!
 
 Actually, to be a bit more honest, they draw it a bit more like this:
-
-               \dot{p}        
-        ------------------ R
-               \dot{q}
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$\dot{p}$},label=below:{$\dot{q}$}]{} (2,0) node[label=right:{$R$}]{};
+  \end{tikzpicture}
+$$
 Now the arrow is pointing across instead of down. There's a bond coming
 in at the left, but nothing coming out at right. The $\dot{p}$ and $\dot{q}$ let us
 know that the resistance is relating effort to flow. The $R$ stands for
@@ -117,27 +104,30 @@ resistance.
 To be even more honest, I should admit that most bond graph people use
 "$e$" for effort and "$f$" for flow. So, they really draw something like
 this:
-
-               e        
-        ----------------- R
-               f
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$e$},label=below:{$f$}]{} (2,0) node[label=right:{$R$}]{};
+  \end{tikzpicture}
+$$
 But I want to stick with $\dot{p}$ and $\dot{q}$.
 
 Another famous $1$-port is a capacitor. Bond graph people draw it like
 this:
-
-               e        
-        ----------------- C
-               f
+$$
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$e$},label=below:{$f$}]{} (2,0) node[label=right:{$C$}]{};
+  \end{tikzpicture}
+$$
 
 A nice example of a $2$-port is a transformer. I explained this back in
 ["Week 292"](#week292). Bond graph people draw it like this:
-
-               e1     \           e2    \
-        --------------- TF -------------- 
-               f1                f2       
-
+$$
+  \begin{tikzpicture}
+    \node (TF) at (2,0) {$TF$};
+    \draw[thick,-left to] (0,0) to node[label=above:{$e_1$},label=below:{$f_1$}]{} (TF);
+    \draw[thick,-left to] (TF) to node[label=above:{$e_2$},label=below:{$f_2$}]{} (4,0);
+  \end{tikzpicture}
+$$
 There's a bond coming in at left and a bond coming out at right: 2
 bonds for a $2$-port. Similarly, a $3$-port has 3 bonds coming out of it,
 and so on. You'll see some $3$-ports soon!
@@ -327,59 +317,55 @@ the mathematics behind this big analogy chart:
 But I won't be using the language of bond graphs! The reason is that I
 want to talk about gizmos where the total number of inputs and outputs
 can be either even or odd, like this:
-
-            |
-            |
-          -----
-         |     |
-          -----
-          /   \
-         /     \
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0);
+    \draw[thick] (0.5,1) to (1,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+$$
 Even though I'm talking about all sorts of physical systems, I'll use
 the language of electronics, and call these gizmos "circuit elements".
 We can stick these together to form "circuits", like this:
-
-            |           |
-            |           |
-          -----         |
-         |     |        |
-          -----         |
-          /   \         |
-         /     \        |
-      ------------      |
-     |            |     |
-      ------------      |
-        |  |  |         |
-        |  |   \_______/
-        |  |
-        |  |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2);
+    \end{knot}
+  \end{tikzpicture}
+$$
 Category theorists will instantly see that circuits are morphisms in
 something like a compact closed symmetric monoidal category! But the
 rest of you shouldn't worry your pretty heads about that yet. The main
 thing to note is that we have "open" circuits that have wires coming
 in and out, as above, but also "closed" ones that don't, like this:
-
-              _________
-             /         \
-            |           |
-            |           |
-          -----         |
-         |     |        |
-          -----         |
-          /   \         |
-         /     \        |
-      ------------      |
-     |            |     |
-      ------------      |
-        |  |  |         |
-        |  |   \_______/
-        |  |
-       ------
-      |      |
-       ------
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,fill=white,rounded corners] (0,-1.75) rectangle ++(0.75,0.5);
+  \end{tikzpicture}
+$$
 I will also call circuits "systems", since that's what physicists
 call them. And indeed, they often speak of "closed" systems, which
 don't interact with their environment, or "open" ones, which do.
