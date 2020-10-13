@@ -6,6 +6,7 @@
 - diagrams in week291
 - diagrams in week292
 - diagrams in week293
+- diagrams in week294
 - check image caption in week293
 
 ---
