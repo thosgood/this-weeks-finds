@@ -503,26 +503,73 @@ to consider a simpler problem, where you start with a vector space whose
 basis consists of rooted forests.
 
 A "rooted tree" looks like this:
-
-                       o o o   o
-                        |/   /
-                         o   o
-                          \ /       
-                           o
-                           |       
-                           o 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-1,3)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (-0.5,3) to (-0.5,2);
+    \draw[thick] (0,3) to (-0.5,2);
+    \draw[thick] (1,3) to (0,1);
+    \node at (-1,3) {$\bullet$};
+    \node at (-0.5,3) {$\bullet$};
+    \node at (0,3) {$\bullet$};
+    \node at (1,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 The vertex at the bottom is called the "root". A finite collection of
 rooted trees is called a "rooted forest":
-
-                       o o     o             o
-                        |    /              |
-                         o   o    o   o      o
-                          \ /      \ /       | 
-                           o        o    o o o 
-                           |        |     |/
-                  o        o        o      o
-
+$$
+  \begin{tikzpicture}
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-1,3)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (-0.5,3) to (-0.5,2);
+    \draw[thick] (0,3) to (-0.5,2);
+    \draw[thick] (1,3) to (0,1);
+    \node at (-1,3) {$\bullet$};
+    \node at (-0.5,3) {$\bullet$};
+    \node at (0,3) {$\bullet$};
+    \node at (1,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2) to (0,1);
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,1) to (0,0);
+    \draw[thick] (0,1) to (0,0);
+    \draw[thick] (0.5,3)
+      to (0.5,1)
+      to (0,0);
+    \node at (0.5,3) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (-0.5,1) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 Let me show you how to take the vector space whose basis consists of all
 rooted forests, and make that into a commutative Hopf algebra. To do
 this, we need to give our vector space a multiplication and a
@@ -602,13 +649,13 @@ or a vertex in $c$. There are fewer possibilities when we form $a(bc)$:
 
 so
 
-    a(bc) --- (ab)c =   a   b
+    a(bc) - (ab)c =   a   b
                        \ /
                         c 
 
 Now switch $a$ and $b$ in this equation! We get
 
-    b(ac) --- (ba)c =   b   a
+    b(ac) - (ba)c =   b   a
                        \ /
                         c 
 
