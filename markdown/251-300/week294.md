@@ -686,27 +686,38 @@ For a quick discussion of Tellegen's theorem, this is also good:
 By the way: if you've been paying careful attention and reading between
 the lines, you'll note that I've been advocating the study of the
 category where an object is a bunch of points:
-
-         x        x        x
-
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,1,2}
+      \node at (\x,0) {$\times$};
+  \end{tikzpicture}
+$$
 and a morphisms from one bunch of dots to another is graphs with loose
 ends at the top and bottom:
-
-            x           x
-            |           |
-            |           |
-            |           |
-            o           |
-           / \          |
-          /   \         |
-         /     o        |
-        |     / \       | 
-        |    /   \_____/
-        |   |
-        |   |
-        x   x
-
-Here the circles are vertices of the graph, while the the $x$'s are the
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,3)
+      to (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to (0.75,0.5)
+      to (0.75,0);
+    \draw[thick] (1,1)
+      to (1.25,0.5)
+      to (1.75,0.5)
+      to (2,1)
+      to (2,3);
+    \node at (0.5,2) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0.5,3) {$\times$};
+    \node[fill=white] at (2,3) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.75,0) {$\times$};
+  \end{tikzpicture}
+$$
+Here the $\bullet$'s are vertices of the graph, while the the $\times$'s are the
 "loose ends". We compose these morphisms in the visually evident way,
 by gluing the loose ends at the top of one to the loose ends at the
 bottom of the other.
@@ -718,46 +729,54 @@ are electrical circuits, or Feynman diagrams, or other things.
 For one thing, this category is "compact closed". In other words,
 it's a symmetric monoidal category where every object has a dual.
 Duality lets us take an input and turn it into an output, like this:
-
-            x      
-            |      
-            |      
-            |      
-            o      
-           / \     
-          /   \    
-         /     o   
-        |     / \  
-        |    /   \
-        |   |    |
-        |   |    |
-        x   x    x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,3)
+      to (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to (0.75,0.5)
+      to (0.75,0);
+    \draw[thick] (1,1)
+      to (1.25,0.5)
+      to (1.25,0);
+    \node at (0.5,2) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0.5,3) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.75,0) {$\times$};
+    \node[fill=white] at (1.25,0) {$\times$};
+  \end{tikzpicture}
+$$
 or vice versa.
 
 And in fact, this category is the free compact closed category on one
 self-dual object, namely $x$, and one morphism from the unit object to
 each tensor power of $x$. The unit object is drawn as the empty set, while
-the $n$th tensor power of $x$ is drawn as a list of $n$ $x$'s. So, for example,
+the $n$th tensor power of $x$ is drawn as a list of $n$ $\times$'s. So, for example,
 when $n = 3$, we have a morphism that looks like a "trivalent vertex":
-
-           o
-          /|\ 
-         / | \
-        /  |  \
-       x   x   x
-
+$$
+  \begin{tikzpicture}
+    \node at (0.5,0.95) {$\bullet$};
+    \foreach \x in {0,0.5,1}{
+      \draw[thick] (0.5,1) to (\x,0);
+      \node[fill=white] at (\x,0) {$\times$};
+    }
+  \end{tikzpicture}
+$$
 Using duality we get other trivalent vertices, like this:
-
-           x
-           |
-           |
-           o
-          / \ 
-         /   \
-        /     \
-       x       x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0);
+    \draw[thick] (0.5,1) to (1,0);
+    \node at (0.5,0.95) {$\bullet$};
+    \node[fill=white] at (0.5,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (1,0) {$\times$};
+  \end{tikzpicture}
+$$
 and the upside-down versions of the two I've shown so far.
 
 In this category, a morphism from the unit object to itself is just a
@@ -777,43 +796,64 @@ any tensor product built by tensoring a bunch of copies of this object $+$
 and then a bunch of copies of its dual, $-$. So, among the generating
 morphisms in this compact closed category, we'll have four trivalent
 vertices like this:
-
-      
-           o
-          /|\ 
-         / | \
-        |  |  |
-        V  V  V
-        |  |  |
-        +  +  +
-
-
-           o
-          /|\ 
-         / | \
-        |  |  |
-        V  V  ^
-        |  |  |
-        +  +  -
-
-
-           o
-          /|\ 
-         / | \
-        |  |  |
-        V  ^  ^
-        |  |  |
-        +  -  -
-
-
-           o
-          /|\ 
-         / | \
-        |  |  |
-        ^  ^  ^
-        |  |  |
-        -  -  -
-
+$$
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \foreach \x in {0,0.5,1}{
+      \draw[thick] (0.5,2)
+        to (\x,1)
+        to node[rotate=-90]{$\textgreater$} (\x,0) node[label=below:{$+$}]{};
+    }
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=-90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$+$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$-$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$-$}] at (0,0) {};
+    \node[label=below:{$-$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 We then get other trivalent vertices by permuting the outputs or turning
 outputs into inputs.
 
@@ -864,15 +904,24 @@ be a category important in the theory of electrical circuits.
 
 There's a closely related result that's also interesting. Suppose we
 have a directed graph:
-
-                   x---->----x---->----x
-                   |         |         | 
-                   |         |         | 
-                   V         V         V 
-                   |         |         | 
-                   |         |         | 
-                   x----<----x---->----x
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 This looks a bit like a category! In fact we can take the free category
 on a directed graph: this is called a "quiver". And if we wave the
 magic wand of linearity over a category (in the correct way, since there
@@ -888,15 +937,24 @@ kind of categorified vector space. See Section 3 here:
 This idea was known to Grothendieck quite a while ago --- read the paper
 for the history. But anyway, I think it's neat that we can take the
 bare bones of an electrical circuit:
-
-                   o---->----o---->----o
-                   |         |         | 
-                   |         |         | 
-                   V         V         V 
-                   |         |         | 
-                   |         |         | 
-                   o----<----o---->----o
-
+$$
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+$$
 and think of it either as a graph, or a category, or a graph or category
 object in $\mathsf{Vect}$, namely a chain complex --- but moreover, we can also think
 of it as an endomorphism of the unit object in a certain compact closed
