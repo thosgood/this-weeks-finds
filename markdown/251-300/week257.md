@@ -745,19 +745,6 @@ $$
     \end{scope}
   \end{tikzpicture}
 $$
-
-             F\    G\   /G             F\    G/    /G
-               \     \ /                 \   /    /
-                \     |n                  \ /    /
-                 \   /                     /    /
-                  \ /             =       / \  /
-                   /                     /    /
-                  / \                   /    /  
-                 /   \                  \   /  \
-                /     \                  \ /    \
-              G/       \F                 |n     \F
-              /         \                G|       \
-
 In words:
 
 > "multiply two $G$'s and slide the result over an $F$" =\
