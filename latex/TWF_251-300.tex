@@ -35513,41 +35513,39 @@ But if we treat it as ``lumped'', we treat it as a black box with some
 wires hanging out. We're not allowed to peek inside the box. All we know
 is what it does, viewed externally.
 
-For example, we could have a fancy circuit like this:
-
-\begin{verbatim}
-    x
-    |
-    o
-   / \
-  /   \
- o-----o
-  \   /
-   \ /
-    o
-    |
-    x
-\end{verbatim}
-
-Each edge has some resistance, as explained in
+For example, we could have a fancy circuit like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,4)
+      to (0,3)
+      to (-0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0,3)
+      to (0.5,2)
+      to (0,1);
+    \draw[thick] (-0.5,2) to (0.5,2);
+    \node[fill=white] at (0,4) {$\times$};
+    \node at (0,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] Each edge has some resistance, as explained in
 \protect\hyperlink{week294}{``Week 294''}, and the \(x\)'s mark the
-input and output. Here's another, simpler, circuit of the same sort:
-
-\begin{verbatim}
-    x
-    |
-    |
-    |
-    x
-\end{verbatim}
-
-When we treat these circuits as ``distributed'', they're different. Why?
-Because they look different. But when we treat them as ``lumped'', they
-might be the same! Why? Because no matter what resistances we choose for
-the edges of the fancy circuit, the current through it is proportional
-to the voltage across it\ldots{} just like the simple one. So if this
-constant of proportionality is the same, they count as the same
-``lumped'' circuit.
+input and output. Here's another, simpler, circuit of the same sort: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] When we treat these circuits as ``distributed'', they're different.
+Why? Because they look different. But when we treat them as ``lumped'',
+they might be the same! Why? Because no matter what resistances we
+choose for the edges of the fancy circuit, the current through it is
+proportional to the voltage across it\ldots{} just like the simple one.
+So if this constant of proportionality is the same, they count as the
+same ``lumped'' circuit.
 
 (In case you're about to object: we're only treating these circuits
 \emph{statically}. If you feed a rapidly changing voltage across the two
@@ -35595,30 +35593,24 @@ place where a wire is connected to the earth, which --- by convention
 --- has potential zero.
 
 For example, suppose we have this circuit, with one input connected to a
-ground, and no outputs:
-
-\begin{verbatim}
-    x
-    |
-    |
-    =
-\end{verbatim}
-
-The funny little ``\(=\)'' thing is the ground. For this circuit the
+ground, and no outputs: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$=$};
+  \end{tikzpicture}
+\] The funny little ``\(=\)'' thing is the ground. For this circuit the
 power is described by a quadratic form \(Q\) in one real variable \(v\).
 If the wire has resistance \(R > 0\), we have \[Q(v) = \frac{v^2}{R}\]
 What if we want \(Q = 0\)? Well, then we should use a circuit like this,
-instead:
-
-\begin{verbatim}
-    x
-    |
-    |
-    o
-\end{verbatim}
-
-In other words: one input, no outputs, and a wire that just dangles in
-mid-air instead of being connected to a ground.
+instead: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+\] In other words: one input, no outputs, and a wire that just dangles
+in mid-air instead of being connected to a ground.
 
 Using resistors and grounds, I hope we can build circuits corresponding
 to arbitrary nonnegative quadratic forms. So, let's try to describe a
@@ -35663,17 +35655,13 @@ There's just one slight glitch. Our would-be category doesn't have
 identity morphisms! This is easy to check mathematically. Physically,
 the reason is clear. The identity morphism
 \(1\colon \mathbb{R} \to \mathbb{R}\) should correspond to a perfectly
-conductive wire, like this:
-
-\begin{verbatim}
-  x  
-  |  
-  |  
-  |  
-  x  
-\end{verbatim}
-
-This is also called a ``short circuit'' --- see
+conductive wire, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] This is also called a ``short circuit'' --- see
 \protect\hyperlink{week294}{``Week 294''}. But what's the corresponding
 quadratic form? Well, it doesn't exist. But the idea is that the power
 used by this circuit would be \emph{infinite} if the potentials at the
@@ -35711,47 +35699,51 @@ roughly a category with tensor products:
   \texttt{http://ncatlab.org/nlab/show/monoidal+category}
 \end{enumerate}
 
-The tensor product corresponds to setting two circuits side by side:
-
-\begin{verbatim}
-        |               |  |  |
-    --------         ------------   
-   |        |       |            |
-   |        |       |            |
-    --------         ------------
-      |  |            |  |  |  |
-\end{verbatim}
-
-Mathematically, the tensor product of objects \(V\) and \(W\) is their
-direct sum \(V\oplus W\), while the tensor product of morphisms
+The tensor product corresponds to setting two circuits side by side: \[
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.3,1) to (0.3,0.5);
+    \draw[thick] (0.5,1) to (0.5,0.5);
+    \draw[thick] (0.7,1) to (0.7,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.4,0) to (0.4,-0.5);
+    \draw[thick] (0.6,0) to (0.6,-0.5);
+    \draw[thick] (0.8,0) to (0.8,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(1,0.5);
+  \end{tikzpicture}
+\] Mathematically, the tensor product of objects \(V\) and \(W\) is
+their direct sum \(V\oplus W\), while the tensor product of morphisms
 \(Q\colon V \to W\) and \(Q'\colon V' \to W'\) is the quadratic form
 \(Q+Q'\) given by: \[(Q+Q')(v,v',w,w') = Q(v,w) + Q'(v',w')\] Our
 category also has ``duals for morphisms''. Intuitively, this means that
-we can take any circuit \(Q\colon V \to W\) built from resistors:
-
-\begin{verbatim}
-        |             
-    --------        
-   |    Q   |       
-    --------        
-      |  |          
-\end{verbatim}
-
-and reflect it across a horizontal line, switching inputs and outputs
-like this:
-
-\begin{verbatim}
-      |  |          
-    --------        
-   |   Q$\dagger$   |       
-    --------        
-        |             
-\end{verbatim}
-
-to obtain a new circuit \(Q^\dagger\colon W \to V\). Mathematically this
-operation is defined as follows: \[Q^\dagger(v,w) = Q(w,v)\] A category
-with duals for morphisms is usually called a ``dagger-category''. It's
-easy to check that our category is one of those:
+we can take any circuit \(Q\colon V \to W\) built from resistors: \[
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+    \node at (0.375,0.25) {$Q$};
+  \end{tikzpicture}
+\] and reflect it across a horizontal line, switching inputs and outputs
+like this: \[
+  \begin{tikzpicture}[xscale=1.3,yscale=-1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+    \node at (0.375,0.25) {$Q^\dagger$};
+  \end{tikzpicture}
+\] to obtain a new circuit \(Q^\dagger\colon W \to V\). Mathematically
+this operation is defined as follows: \[Q^\dagger(v,w) = Q(w,v)\] A
+category with duals for morphisms is usually called a
+``dagger-category''. It's easy to check that our category is one of
+those:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -35764,17 +35756,14 @@ easy to check that our category is one of those:
 
 However, our category has some defects. First of all, there's no
 morphism corresponding to two perfectly conductive wires that cross like
-this:
-
-\begin{verbatim}
-  \   /
-   \ /
-    /
-   / \
-  /   \
-\end{verbatim}
-
-If we had that, we'd get a ``symmetric monoidal category'':
+this: \[
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] If we had that, we'd get a ``symmetric monoidal category'':
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -35786,34 +35775,46 @@ If we had that, we'd get a ``symmetric monoidal category'':
 \end{enumerate}
 
 Our category so far also lacks a morphism corresponding to a perfectly
-conductive bent wire like this:
-
-\begin{verbatim}
-  |   |
-  |   |
-   \_/
-\end{verbatim}
-
-or like this:
-
-\begin{verbatim}
-    _
-   / \
-  |   |
-  |   |
-\end{verbatim}
-
-If we had these morphisms, obeying the obvious ``zig-zag identities'':
-
-\begin{verbatim}
-  |     _       |       _     |
-  |    / \      |      / \    |
-  |   /   |  =  |  =  |   \   |
-   \_/    |     |     |    \_/
-          |     |     |
-\end{verbatim}
-
-then our monoidal category would have ``duals for objects'', in the
+conductive bent wire like this: \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] or like this: \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] If we had these morphisms, obeying the obvious ``zig-zag
+identities'': \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,2)
+        to (0,1)
+        to [out=down,in=down,looseness=1.5] (1,1)
+        to [out=up,in=up,looseness=1.5] (2,1)
+        to (2,0);
+    \end{knot}
+  \end{tikzpicture}
+  \qquad\raisebox{2.5em}{$=$}\qquad
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+  \end{tikzpicture}
+  \qquad\raisebox{2.5em}{$=$}\qquad
+  \begin{tikzpicture}[xscale=-1]
+    \begin{knot}
+      \strand[thick] (0,2)
+        to (0,1)
+        to [out=down,in=down,looseness=1.5] (1,1)
+        to [out=up,in=up,looseness=1.5] (2,1)
+        to (2,0);
+    \end{knot}
+  \end{tikzpicture}
+\] then our monoidal category would have ``duals for objects'', in the
 sense explained back in \protect\hyperlink{week89}{``Week 89''}.
 
 It seems reasonable to allow all these circuits made of perfectly
@@ -35906,34 +35907,28 @@ can serve as a general language for studying systems made of parts, and
 we should take full advantage of it!
 
 Let's try. Let's take the category described so far and supplement it
-with a ``cup'':
-
-\begin{verbatim}
-  |   |
-  |   |
-   \_/
-\end{verbatim}
-
-a ``cap'':
-
-\begin{verbatim}
-    _
-   / \
-  |   |
-  |   |
-\end{verbatim}
-
-and a ``symmetry'':
-
-\begin{verbatim}
-  \   /
-   \ /
-    /
-   / \
-  /   \
-\end{verbatim}
-
-We could formally throw in these morphisms, just like we threw in
+with a ``cup'': \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] a ``cap'': \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] and a ``symmetry'': \[
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] We could formally throw in these morphisms, just like we threw in
 identities. But there is a less artificial solution which solves all
 these problems in one blow. We can take a lesson from symplectic
 geometry, and notice that nonnegative quadratic forms are a special case
@@ -36108,34 +36103,28 @@ respect to this well-known topology! Weinstein gives a counterexample.
 So, there's something nontrivial to check.
 
 If we do get a subcategory, will it still be a compact dagger-category?
-Yes, I think so, because it contains the cup
-
-\begin{verbatim}
-  |   |
-  |   |
-   \_/
-\end{verbatim}
-
-and cap:
-
-\begin{verbatim}
-    _
-   / \
-  |   |
-  |   |
-\end{verbatim}
-
-and symmetry:
-
-\begin{verbatim}
-  \   /
-   \ /
-    /
-   / \
-  /   \
-\end{verbatim}
-
-So, this would be a very nice thing.
+Yes, I think so, because it contains the cup \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] and cap: \[
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] and symmetry: \[
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+\] So, this would be a very nice thing.
 
 I thank James Dolan, Peter Selinger, Alan Weinstein and Simon Willerton
 for helping me figure out these ideas.

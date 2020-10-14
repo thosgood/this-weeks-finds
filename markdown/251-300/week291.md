@@ -396,77 +396,73 @@ connect $1$-ports in parallel, we need *two* gizmos of the above sort! And
 taken together, they can be viewed as a $3$-port!
 
 In other words, there's a $3$-port like this:
-
-        |   |   |
-      ooooooooooooo
-     o             o
-     o             o
-     o             o
-     o             o
-     o             o
-     o             o
-     o             o
-     o             o
-     o             o
-      ooooooooooooo
-       |   |   |
-
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+  \end{tikzpicture}
+$$
 which you can use to connect two $1$-ports in parallel. You just attach
 them like this:
-
-               _____________________
-              /   ___________       \
-             /   /           \       \
-        |   |   |             |       |
-      ooooooooooooo           |       |
-     o             o          |       |
-     o             o          |       |
-     o             o         ---     ---
-     o             o        |   |   |   |
-     o             o         ---     ---
-     o             o          |       |
-     o             o          |       |
-      ooooooooooooo           |       |
-        |   |   |             |       |
-             \   \___________/       /  
-              \_____________________/    
-
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+$$
 What's in this $3$-port? Nothing but wires:
-
-        |   |   |
-      oo|ooo|ooo|oo
-     o  |   |   |  o
-     o  |   |   |  o
-     o  |___|___|  o
-     o             o
-     o   ___ ___   o
-     o  |   |   |  o
-     o  |   |   |  o
-      oo|ooo|ooo|oo
-        |   |   |
-
-The little circles don't actually do anything here --- they're just the
+$$
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+  \end{tikzpicture}
+$$
+The border around the wires doesn't actually do anything here --- it's just the
 "packaging" that makes our $3$-port seem impressive. Inside, it's just
 two three-pronged gizmos made of wire. But if the customer can't see
 inside, we can sell it for a lot of money! See how it works?
-
-               _____________________
-              /   ___________       \
-             /   /           \       \
-        |   |   |             |       |
-      ooooooooooooo           |       |
-     o  |   |   |  o          |       |
-     o  |   |   |  o          |       |
-     o  |___|___|  o         ---     ---
-     o             o        |   |   |   |
-     o   ___ ___   o         ---     ---
-     o  |   |   |  o          |       |
-     o  |   |   |  o          |       |
-      ooooooooooooo           |       |
-        |   |   |             |       |
-             \   \___________/       /  
-              \_____________________/    
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+$$
 Current flows in at the upper left. It gets split, goes through our two
 $1$-ports at right, gets rejoined, and exits at the lower left!
 
@@ -490,21 +486,23 @@ obvious from the design: current can't flow from the top to the bottom.
 The other equations say that the voltage difference between points $1$ and
 $1'$ equals the voltage difference between points $2$ and $2'$, and also
 that between points $3$ and $3'$:
-
-        1   2   3
-        |   |   |
-      oo|ooo|ooo|oo
-     o  |   |   |  o
-     o  |   |   |  o
-     o  |___|___|  o
-     o             o
-     o   ___ ___   o
-     o  |   |   |  o
-     o  |   |   |  o
-      oo|ooo|ooo|oo
-        |   |   |
-        1'  2'  3'
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+    \node[label=above:{$1$}] at (0,2) {};
+    \node[label=above:{$2$}] at (0.5,2) {};
+    \node[label=above:{$3$}] at (1,2) {};
+    \node[label=below:{$1'$}] at (0,0) {};
+    \node[label=below:{$2'$}] at (0.5,0) {};
+    \node[label=below:{$3'$}] at (1,0) {};
+  \end{tikzpicture}
+$$
 This is clear if you know a tiny bit about electrical circuits: the
 voltage on each connected component of wire is constant, at least in the
 idealization we're using. That's because our wires have zero
@@ -515,57 +513,77 @@ times the resistance.
 Our second kind of $3$-port is called a "series junction". It's a
 different sort of black box, which you can use to connect two $1$-ports in
 series. You just attach them like this:
-
-               _____________________
-              /   ___________       \
-             /   /           \       \
-        |   |   |             |       |
-      ooooooooooooo           |       |
-     o             o          |       |
-     o             o          |       |
-     o             o         ---     ---
-     o             o        |   |   |   |
-     o             o         ---     ---
-     o             o          |       |
-     o             o          |       |
-      ooooooooooooo           |       |
-        |   |   |             |       |
-             \   \___________/       /  
-              \_____________________/    
-
+$$
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+$$
 What's in this $3$-port? Just wires, but now arranged a different way:
-
-        |   |   |
-      oo|ooo|ooo|oo
-     o  |   |   |  o
-     o  |   |   |  o
-     o   \   \ /   o
-     o    ---\    o
-     o   / \   \   o
-     o  |   |   |  o
-     o  |   |   |  o
-      oo|ooo|ooo|oo
-        |   |   |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,2)
+        to (0,1.2)
+        to (0.5,0.8)
+        to (0.5,0);
+      \strand[thick] (0.5,2)
+        to (0.5,1.2)
+        to (1,0.8)
+        to (1,0);
+      \strand[thick] (1,2)
+        to (1,1.2)
+        to (0,0.8)
+        to (0,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 See how it works?
-
-               _____________________
-              /   ___________       \
-             /   /           \       \
-        |   |   |             |       |
-      oo|ooo|ooo|oo           |       |
-     o  |   |   |  o          |       |
-     o  |   |   |  o          |       |
-     o   \   \  /  o         ---     ---
-     o    ---\    o        |   |   |   |
-     o   / \   \   o         ---     ---
-     o  |   |   |  o          |       |
-     o  |   |   |  o          |       |
-      oo|ooo|ooo|oo           |       |
-        |   |   |             |       |
-             \   \___________/       /  
-              \_____________________/    
-
+$$
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,2)
+        to (0,1.2)
+        to (0.5,0.8)
+        to (0.5,0);
+      \strand[thick] (0.5,2)
+        to (0.5,1.2)
+        to (1,0.8)
+        to (1,0);
+      \strand[thick] (1,2)
+        to (1,1.2)
+        to (0,0.8)
+        to (0,0);
+    \end{knot}
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+$$
 The series junction is also called a "$1$-junction" or "effort
 junction". This makes sense, since the equations defining this $3$-port
 are exactly like the equations for the previous one, but with effort and

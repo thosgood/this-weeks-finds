@@ -2,8 +2,6 @@
 
 - something better than `" "` in the tables in e.g. week049
 - sort out image sizes! e.g. `milky_way_axel_mellinger.jpg`
-- diagrams in week291
-- diagrams in week296
 
 ---
 
