@@ -62,58 +62,39 @@ like you understand what I'm doing.
 
 First, suppose we have two resistors "in series". This means they're
 stuck together end to end, like this:
-
-            |
-            |
-          -----
-         | R1  |
-          -----
-            |
-            |
-          -----
-         | R2  |
-          -----
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white] at (0,1) {$R_2$};
+  \end{tikzpicture}
+$$
 What happens when we put a voltage across this circuit? How much current
 will flow through?
 
 To answer this, fix the voltage across the whole circuit, say $V$. By
 Kirchoff's voltage law, this is the sum of the voltages across the
 individual resistors, say $V_1$ and $V_2$:
-
-            | 
-            |
-          -----
-         | R1  | V1
-          -----
-            |                        V = V1 + V2
-            |        
-          -----
-         | R2  | V2
-          -----
-            |
-            | 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white,label=right:{$V_1$}] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=right:{$V_2$}] at (0,1) {$R_2$};
+    \node[draw] at (2.5,1.5) {$V=V_1+V_2$};
+  \end{tikzpicture}
+$$
 Next let's think about the current flowing through each resistor. By
 Kirchhoff's current law, the current through the first resistor must
 equal the current through the second one. So, let's call this current $I$
 in each case:
-
-            | 
-            |
-          -----
-       I | R1  | V1
-          -----
-            |                     V = V1 + V2
-            | 
-          -----
-       I | R2  | V2
-          -----
-            |
-            |
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I$},label=right:{$V_1$}] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I$},label=right:{$V_2$}] at (0,1) {$R_2$};
+    \node[draw] at (2.5,1.5) {$V=V_1+V_2$};
+  \end{tikzpicture}
+$$
 Now, Ohm's law says that the voltage across a linear resistor equals
 the current through it times its resistance. Let's say our resistors
 are linear. So, we get:
@@ -129,73 +110,39 @@ resistance is the sum of theirs!
 
 Next, suppose we have two resistors "in parallel". This means they're
 stuck together side by side, like this:
-
-                 /\
-                /  \
-               /    \
-              /      \
-             /        \
-            /          \
-           /            \
-         ----          ----
-        | R1 |        | R2 |            
-         ----          ----
-           \            /
-            \          /
-             \        /
-              \      /
-               \    /
-                \  /
-                 \/ 
-
+$$
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+  \end{tikzpicture}
+$$
 What happens when we make some current flow through this circuit? What
 will the voltage across it be?
 
 To answer this, fix the current through the whole circuit, say $I$. By
 Kirchoff's current law, this is the sum of the currents through the
 individual resistors, say $I_1$ and $I_2$:
-
-                 /\
-                /  \
-               /    \
-              /      \
-             /        \
-            /          \
-           /            \
-         ----          ----
-     I1 | R1 |     I2 | R2 |            I = I1 + I2
-         ----          ----
-           \            /
-            \          /
-             \        /
-              \      /
-               \    /
-                \  /
-                 \/ 
-
+$$
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_1$}] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_2$}] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+    \node[draw] at (1.5,1) {$I=I_1+I_2$};
+  \end{tikzpicture}
+$$
 Next let's think about the voltage across each resistor. By
 Kirchhoff's voltage law, the voltage across the first resistor must
 equal the voltage across the second one. So, let's call this voltage $V$
 in each case:
-
-                 /\
-                /  \
-               /    \
-              /      \
-             /        \
-            /          \
-           /            \
-         ----          ----
-     I1 | R1 | V   I2 | R2 | V          I = I1 + I2
-         ----          ----
-           \            /
-            \          /
-             \        /
-              \      /
-               \    /
-                \  /
-                 \/ 
-
+$$
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_1$},label=right:{$V$}] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_2$},label=right:{$V$}] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+    \node[draw] at (1.5,1) {$I=I_1+I_2$};
+  \end{tikzpicture}
+$$
 Now, Ohm's law says that the current through a linear resistor equals
 the voltage across it divided by its resistance. So, if our resistors
 are linear, we get
@@ -328,19 +275,42 @@ $$
 $$
 The inputs and outputs are marked as $x$'s here. I've drawn a planar
 graph, but we could also have a nonplanar one, like this:
-
-       x     x   x   x 
-        \     \ /    |      
-         \     \     | 
-          \   / \    |
-           \ /   \   | 
-            o--------o 
-           /       \ |
-          /         |
-         o-----o-----o
-         |     |     |
-         x     x     x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,3.5)
+      to (-0.5,3)
+      to (0.5,2);
+    \draw[thick] (2,3.5) to (2,0);
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0,1) to (2,1);
+    \draw[thick] (1,1) to (1,0);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0.5,2) to (2,2);
+      \strand[thick] (0.5,3.5)
+        to (0.5,3)
+        to (1.5,2)
+        to (1.5,1.5)
+        to (2,1);
+      \strand[thick] (1.5,3.5)
+        to (1.5,3)
+        to (0.5,2);
+    \end{knot}
+    \node[fill=white] at (-0.5,3.5) {$\times$};
+    \node[fill=white] at (0.5,3.5) {$\times$};
+    \node[fill=white] at (1.5,3.5) {$\times$};
+    \node[fill=white] at (2,3.5) {$\times$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node at (2,1) {$\bullet$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (2,0) {$\times$};
+  \end{tikzpicture}
+$$
 (Poincaré duality works best for planar circuits, but I'm still
 struggling to find its place in the grand scheme of things --- for
 example, how it permeates the big set of analogies between different

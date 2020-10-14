@@ -23444,7 +23444,7 @@ coming out: \[
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] We're allowed to compose these operations in a tree-like fashion: \[
@@ -23453,25 +23453,25 @@ coming out: \[
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$g_1$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$g_2$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$g_3$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$f$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] Here we are feeding the outputs of \(n\) operations
@@ -23487,43 +23487,43 @@ composites like this well-defined: \[
       \begin{scope}[shift={(-2.5,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-1,2) to (-0.33,1);
         \draw[thick] (0,2) to (0,1);
         \draw[thick] (1,2) to (0.33,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(2.5,3)}]
         \draw[thick] (0,2) to (0,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(2.5,3)},xscale=0.45,yscale=0.67]
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(-2.5,3)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] (This picture has a \(0\)-ary operation in it, just to emphasize that
@@ -23540,7 +23540,7 @@ operation and get a new operation: \[
       \flipcrossings{1,2};
     \end{knot}
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] We demand that this give an action of the permutation group on the
@@ -23558,25 +23558,25 @@ The first way is easy to draw: \[
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \node at (0,0.5) {$d$};
     \draw[thick] (0,0) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (0.5,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \node at (1.5,1) {$=$};
@@ -23584,19 +23584,19 @@ The first way is easy to draw: \[
       \draw[thick] (-0.6,1.6) to (-0.33,1);
       \draw[thick] (0,1.6) to (0,1);
       \draw[thick] (0.6,1.6) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$d$};
       \draw[thick] (0,0) to (0,-1);
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$a$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$b$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$c$};
       \end{scope}
       \begin{scope}[shift={(0,2)}]
@@ -23627,19 +23627,19 @@ look exactly the same! For example: \[
     \draw[thick] (-0.6,1.6) to (-0.33,1);
     \draw[thick] (0,1.6) to (0,1);
     \draw[thick] (0.6,1.6) to (0.33,1);
-    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.75);
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.75);
     \node at (0,0.625) {$d$};
     \draw[thick] (0,0.25) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \begin{scope}[shift={(-0.6,2)},xscale=0.18]
@@ -23781,25 +23781,25 @@ the ideal. For example, in a composite like this: \[
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$a$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$b$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$c$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$d$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] if any one of the operations \(a,b,c,d\) is in the ideal, the whole
@@ -24237,10 +24237,10 @@ built up from ways like this: \[
     \node at (0,2.25) {};
     \draw[thick] (-0.5,3.5) to (-0.25,2.5);
     \draw[thick] (0.5,3.5) to (0.25,2.5);
-    \draw[rounded corners=1mm] (-0.5,2.5) rectangle ++(1,-0.5);
+    \draw[thick,rounded corners=1mm] (-0.5,2.5) rectangle ++(1,-0.5);
     \draw[thick] (0,2) to (0,1);
     \node at (0,0.75) {};
-    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
     \draw[thick] (0,0.5) to (0,-0.5);
   \end{tikzpicture}
 \] where we compose an \(m\)-ary operation and an \(n\)-ary operation
@@ -30517,57 +30517,30 @@ have analogues in the other rows.
 
 Engineers call these five circuit elements ``\(1\)-ports''. A \(1\)-port
 can be visualized as a black box with 2 places where you can stick in a
-wire:
-
-\begin{verbatim}
-        |
-        |
-      -----
-     |     |
-     |     |
-      -----
-        |
-        |
-\end{verbatim}
-
-More generally, an ``\(n\)-port'' has \(2n\) places where you can attach
-a wire. This numbering system may seem peculiar. Indeed, it overlooks
-circuits that have an odd number of wires coming out, like this one made
-of just wires:
-
-\begin{verbatim}
-     \     /
-      \   /
-       \ /
-        |
-        |
-        |
-\end{verbatim}
-
-You can use gizmos like this to stick together \(1\)-ports ``in
-parallel'':
-
-\begin{verbatim}
-        |
-        |
-        |
-       / \
-      /   \
-     /     \
-   ---     ---
-  |   |   |   |
-   ---     ---
-     \     /
-      \   /
-       \ /
-        |
-        |
-        |
-\end{verbatim}
-
-However, if you've ever looked at the back of a TV or stereo, you'll see
-that place where you can plug in cables tend to come in pairs! Each pair
-is called a ``port''. So, electrical engineers often --- though not
+wire: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] More generally, an ``\(n\)-port'' has \(2n\) places where you can
+attach a wire. This numbering system may seem peculiar. Indeed, it
+overlooks circuits that have an odd number of wires coming out, like
+this one made of just wires: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+  \end{tikzpicture}
+\] You can use gizmos like this to stick together \(1\)-ports ``in
+parallel'': \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (0.5,1) to (1,0) to (0.5,-1);
+    \draw[thick,fill=white,rounded corners] (-0.15,-0.25) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0.65,-0.25) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] However, if you've ever looked at the back of a TV or stereo, you'll
+see that place where you can plug in cables tend to come in pairs! Each
+pair is called a ``port''. So, electrical engineers often --- though not
 always --- focus on \(n\)-ports, where the wires coming out are grouped
 in pairs. And there's probably even a good \emph{mathematical} reason
 for paying special attention to these --- something related to
@@ -30577,22 +30550,12 @@ better.
 Later I'll tell you about some famous \(2\)-ports and \(3\)-ports, but
 today let's do \(1\)-ports. If we have a \(1\)-port with wires coming
 out of it, we can arbitrarily choose one wire and call it the the
-``input'', with the other being the ``output'':
-
-\begin{verbatim}
-        |
-        V
-        |
-      -----
-     |     |
-     |     |
-      -----
-        |
-        V
-        |
-\end{verbatim}
-
-If you know a little category theory, this should seem suspiciously
+``input'', with the other being the ``output'': \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] If you know a little category theory, this should seem suspiciously
 similar to a ``morphism''. And if you know a bit more, this should
 remind you of other situations where it takes an arbitrary choice to
 distinguish between the ``input'' and the ``output'' of a morphism.
@@ -31373,24 +31336,15 @@ the key to all deep work on the Mandelbrot set.
 Last week I explained five kinds of circuit elements: resistances,
 capacitances, inertances, effort sources and flow sources. All these are
 ``\(1\)-ports'', meaning they have one wire coming in and one going out:
-
-\begin{verbatim}
-      |
-      V
-      |
-    -----
-   |     |
-   |     |
-    -----
-      |
-      V
-      |
-\end{verbatim}
-
-Today I want to talk about \(2\)-ports and \(3\)-ports. From these, we
-can build all the more complicated circuits we'll be wanting to study.
-But first, just for fun, here's some very basic stuff about one of the
-\(1\)-ports I just listed. Namely: effort sources.
+\[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] Today I want to talk about \(2\)-ports and \(3\)-ports. From these,
+we can build all the more complicated circuits we'll be wanting to
+study. But first, just for fun, here's some very basic stuff about one
+of the \(1\)-ports I just listed. Namely: effort sources.
 
 We see plenty of effort sources in everyday life. Indeed, all the
 technology in a modern home relies on them!
@@ -31399,25 +31353,18 @@ For starters, batteries try to act like constant voltage sources. For
 example, a 9-volt battery tries to provide \[V(t) = 9\] Why do I say
 ``tries''? Because this is an idealization. If you take a perfect
 constant voltage source and connect its input and output with a
-perfectly conductive wire:
-
-\begin{verbatim}
-        ________
-       /        \
-      |          |
-      V          |
-      |          |
-    -----        |
-   |     |       |
-   |     |       |
-    -----        |
-      |          |
-      V          |
-      |          |
-       \________/
-\end{verbatim}
-
-you'll get an infinite current! In reality, if you connect the two
+perfectly conductive wire: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.5] (1.5,0)
+        to (1.5,2)
+        to [out=up,in=up,looseness=1.5] (0,2);
+    \end{knot}
+  \end{tikzpicture}
+\] you'll get an infinite current! In reality, if you connect the two
 terminals of battery with a highly conductive copper wire, you'll get a
 short circuit: a large amount of current which winds up destroying the
 battery.
@@ -31483,95 +31430,41 @@ in different countries!
 \end{enumerate}
 
 Okay, now let's talk about \(2\)-ports and \(3\)-ports. Remember, a
-\(1\)-port looks like this:
-
-\begin{verbatim}
-      |
-      V
-      |
-    -----
-   |     |
-   |     |
-    -----
-      |
-      V
-      |
-\end{verbatim}
-
-If all we have is \(1\)-ports, we can only build circuits by stringing
-them together in series:
-
-\begin{verbatim}
-      |
-      V
-      |
-    -----
-   |     |
-   |     |
-    -----
-      |
-      V
-      |
-    -----
-   |     |
-   |     |
-    -----
-      |
-      V
-      |
-    -----
-   |     |
-   |     |
-    -----
-      |
-      V
-      |
-\end{verbatim}
-
-or perhaps forming a closed loop:
-
-\begin{verbatim}
-        ___________
-       /           \
-      |             |
-      V             |
-      |             |
-    -----           |
-   |     |          |
-   |     |          |
-    -----           |
-      |             |
-      V             |
-      |             |
-    -----           |
-   |     |          |
-   |     |          |
-    -----           |
-      |             |
-      V             |
-      |             |
-       \___________/
-\end{verbatim}
-
-This is sort of dull, though still worth understanding. To have more
+\(1\)-port looks like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] If all we have is \(1\)-ports, we can only build circuits by
+stringing them together in series: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3) to node[rotate=-90]{\scriptsize$\textgreater$} (0,4);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,2.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] or perhaps forming a closed loop: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
+    \begin{knot}
+      \strand[thick] (0,0)
+        to [out=down,in=down,looseness=1.5] (1.5,0)
+        to (1.5,3)
+        to [out=up,in=up,looseness=1.5] (0,3);
+    \end{knot}
+  \end{tikzpicture}
+\] This is sort of dull, though still worth understanding. To have more
 fun, we need some \(2\)-ports or \(3\)-ports!
 
-A \(2\)-port looks like this:
-
-\begin{verbatim}
-      |  |
-      V  V
-      |  |
-    --------
-   |        |
-   |        |
-    --------
-      |  |
-      V  V
-      |  |
-\end{verbatim}
-
-The current flowing in the left wire on top must equal the current
+A \(2\)-port looks like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+\] The current flowing in the left wire on top must equal the current
 flowing out the left wire on bottom --- that's just a rule in this game.
 And similarly for the wires on the right. So, a \(2\)-port has just two
 flows, say \(\dot{q}_1\) and \(\dot{q}_2\). Similarly, it has two
@@ -31624,39 +31517,21 @@ unsanitary tropical village. I would like to exterminate them all by a
 better choice of conventions, but I haven't figured out the best way.
 Luckily the signs don't really matter much. Here they seem to arise from
 treating the first port as an ``input'' and the second as an ``output''.
-In other words, instead of this:
-
-\begin{verbatim}
-      |  |
-      V  V
-      |  |
-    --------
-   |        |
-   |        |
-    --------
-      |  |
-      V  V
-      |  |
-\end{verbatim}
-
-people sometimes think of the \(2\)-port this way:
-
-\begin{verbatim}
-  |           |
-  |           |
-  V           ^
-  |   -----   |
-  |  |     |  |
-   --|     |--
-   --|     |--
-  |  |     |  |
-  |   -----   |
-  V           ^
-  |           |
-  |           |
-\end{verbatim}
-
-Anyway, if we use vectors and write \[
+In other words, instead of this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+\] people sometimes think of the \(2\)-port this way: \[
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,0.75) to (-0.25,0.75);
+    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,0.75) to (0.25,0.75);
+    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,1.25) to (-0.25,1.25);
+    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,1.25) to (0.25,1.25);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.5) rectangle ++(0.5,1);
+  \end{tikzpicture}
+\] Anyway, if we use vectors and write \[
   \begin{aligned}
     p &= (p_1,p_2)
   \\q &= (q_1,q_2)
@@ -31671,38 +31546,19 @@ exactly the rate you'd expect. And, you can check that both the
 transformer and gyrator conserve energy according to this definition.
 
 Next: \(3\)-ports! To build interesting circuits, we need the ability to
-hook up two \(1\)-ports in parallel, like this:
-
-\begin{verbatim}
-        |
-        |
-        |
-       / \
-      /   \
-     /     \
-   ---     ---
-  |   |   |   |
-   ---     ---
-     \     /
-      \   /
-       \ /
-        |
-        |
-        |
-\end{verbatim}
-
-But this gizmo, made of just wire:
-
-\begin{verbatim}
-        |
-        |
-        |
-       / \
-      /   \
-     /     \
-\end{verbatim}
-
-is not an \(n\)-port of any kind, since it has an odd number of wires
+hook up two \(1\)-ports in parallel, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (0.5,1) to (1,0) to (0.5,-1);
+    \draw[thick,fill=white,rounded corners] (-0.15,-0.25) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0.65,-0.25) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] But this gizmo, made of just wire: \[
+  \begin{tikzpicture}[yscale=-1]
+    \draw[thick] (0,0) to (0.5,-1) to (0.5,-2);
+    \draw[thick] (1,0) to (0.5,-1);
+  \end{tikzpicture}
+\] is not an \(n\)-port of any kind, since it has an odd number of wires
 coming out.
 
 So, how can we connect \(1\)-ports in parallel using just \(n\)-ports?
@@ -32091,24 +31947,16 @@ of.
 
 The idea behind bond graphs is very simple. I've been describing various
 ``\(n\)-ports'' lately, and I've drawn pictures of them. In my pictures,
-a \(3\)-port looked like this:
-
-\begin{verbatim}
-      |  |  |
-      V  V  V
-      |  |  |
-    -----------
-   |           |
-   |           |
-    -----------
-      |  |  |
-      V  V  V
-      |  |  |
-\end{verbatim}
-
-In the case of an electrical system, this means 3 wires coming in and 3
-going out. More generally, an \(n\)-port is a gadget with n inputs and n
-outputs, where the flow into each input equals the flow out of the
+a \(3\)-port looked like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
+  \end{tikzpicture}
+\] In the case of an electrical system, this means 3 wires coming in and
+3 going out. More generally, an \(n\)-port is a gadget with n inputs and
+n outputs, where the flow into each input equals the flow out of the
 corresponding output.
 
 The idea of bond graphs is to draw these pictures differently. Don't
@@ -32124,82 +31972,53 @@ Mathematically, a resistance is specified by a function relating effort
 to flow. In the example of an electrical resistor, effort is ``voltage''
 and ``flow'' is current.
 
-It's pretty natural to draw a resistor like this:
+It's pretty natural to draw a resistor like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] But in the world of bond graphs, people draw it more like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1);
+    \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] One ``bond'' for two ``wires''!
 
-\begin{verbatim}
-        |
-        V
-        |
-      -----
-     |     |
-     |     |
-      -----
-        |
-        V
-        |
-\end{verbatim}
-
-But in the world of bond graphs, people draw it more like this:
-
-\begin{verbatim}
-        |
-        V
-        |
-      -----
-     |     |
-     |     |
-      -----
-\end{verbatim}
-
-One ``bond'' for two ``wires''!
-
-Actually, to be a bit more honest, they draw it a bit more like this:
-
-\begin{verbatim}
-           \dot{p}        
-    ------------------ R
-           \dot{q}
-\end{verbatim}
-
-Now the arrow is pointing across instead of down. There's a bond coming
-in at the left, but nothing coming out at right. The \(\dot{p}\) and
-\(\dot{q}\) let us know that the resistance is relating effort to flow.
-The \(R\) stands for resistance.
+Actually, to be a bit more honest, they draw it a bit more like this: \[
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$\dot{p}$},label=below:{$\dot{q}$}]{} (2,0) node[label=right:{$R$}]{};
+  \end{tikzpicture}
+\] Now the arrow is pointing across instead of down. There's a bond
+coming in at the left, but nothing coming out at right. The \(\dot{p}\)
+and \(\dot{q}\) let us know that the resistance is relating effort to
+flow. The \(R\) stands for resistance.
 
 To be even more honest, I should admit that most bond graph people use
 ``\(e\)'' for effort and ``\(f\)'' for flow. So, they really draw
-something like this:
-
-\begin{verbatim}
-           e        
-    ----------------- R
-           f
-\end{verbatim}
-
-But I want to stick with \(\dot{p}\) and \(\dot{q}\).
+something like this: \[
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$e$},label=below:{$f$}]{} (2,0) node[label=right:{$R$}]{};
+  \end{tikzpicture}
+\] But I want to stick with \(\dot{p}\) and \(\dot{q}\).
 
 Another famous \(1\)-port is a capacitor. Bond graph people draw it like
-this:
-
-\begin{verbatim}
-           e        
-    ----------------- C
-           f
-\end{verbatim}
+this: \[
+  \begin{tikzpicture}
+    \draw[thick,-left to] (0,0) to node[label=above:{$e$},label=below:{$f$}]{} (2,0) node[label=right:{$C$}]{};
+  \end{tikzpicture}
+\]
 
 A nice example of a \(2\)-port is a transformer. I explained this back
 in \protect\hyperlink{week292}{``Week 292''}. Bond graph people draw it
-like this:
-
-\begin{verbatim}
-           e1     \           e2    \
-    --------------- TF -------------- 
-           f1                f2       
-\end{verbatim}
-
-There's a bond coming in at left and a bond coming out at right: 2 bonds
-for a \(2\)-port. Similarly, a \(3\)-port has 3 bonds coming out of it,
-and so on. You'll see some \(3\)-ports soon!
+like this: \[
+  \begin{tikzpicture}
+    \node (TF) at (2,0) {$TF$};
+    \draw[thick,-left to] (0,0) to node[label=above:{$e_1$},label=below:{$f_1$}]{} (TF);
+    \draw[thick,-left to] (TF) to node[label=above:{$e_2$},label=below:{$f_2$}]{} (4,0);
+  \end{tikzpicture}
+\] There's a bond coming in at left and a bond coming out at right: 2
+bonds for a \(2\)-port. Similarly, a \(3\)-port has 3 bonds coming out
+of it, and so on. You'll see some \(3\)-ports soon!
 
 Bond graphs were invented by Henry Paynter. You can read his story here:
 
@@ -32455,69 +32274,53 @@ potential\tabularnewline
 
 But I won't be using the language of bond graphs! The reason is that I
 want to talk about gizmos where the total number of inputs and outputs
-can be either even or odd, like this:
-
-\begin{verbatim}
-        |
-        |
-      -----
-     |     |
-      -----
-      /   \
-     /     \
-\end{verbatim}
-
-Even though I'm talking about all sorts of physical systems, I'll use
+can be either even or odd, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0);
+    \draw[thick] (0.5,1) to (1,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+  \end{tikzpicture}
+\] Even though I'm talking about all sorts of physical systems, I'll use
 the language of electronics, and call these gizmos ``circuit elements''.
-We can stick these together to form ``circuits'', like this:
-
-\begin{verbatim}
-        |           |
-        |           |
-      -----         |
-     |     |        |
-      -----         |
-      /   \         |
-     /     \        |
-  ------------      |
- |            |     |
-  ------------      |
-    |  |  |         |
-    |  |   \_______/
-    |  |
-    |  |
-\end{verbatim}
-
-Category theorists will instantly see that circuits are morphisms in
+We can stick these together to form ``circuits'', like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2);
+    \end{knot}
+  \end{tikzpicture}
+\] Category theorists will instantly see that circuits are morphisms in
 something like a compact closed symmetric monoidal category! But the
 rest of you shouldn't worry your pretty heads about that yet. The main
 thing to note is that we have ``open'' circuits that have wires coming
-in and out, as above, but also ``closed'' ones that don't, like this:
-
-\begin{verbatim}
-          _________
-         /         \
-        |           |
-        |           |
-      -----         |
-     |     |        |
-      -----         |
-      /   \         |
-     /     \        |
-  ------------      |
- |            |     |
-  ------------      |
-    |  |  |         |
-    |  |   \_______/
-    |  |
-   ------
-  |      |
-   ------
-\end{verbatim}
-
-I will also call circuits ``systems'', since that's what physicists call
-them. And indeed, they often speak of ``closed'' systems, which don't
-interact with their environment, or ``open'' ones, which do.
+in and out, as above, but also ``closed'' ones that don't, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,fill=white,rounded corners] (0,-1.75) rectangle ++(0.75,0.5);
+  \end{tikzpicture}
+\] I will also call circuits ``systems'', since that's what physicists
+call them. And indeed, they often speak of ``closed'' systems, which
+don't interact with their environment, or ``open'' ones, which do.
 
 We've seen different kinds of circuit elements. First there are
 ``active'' circuit elements, which can absorb and emit energy, and for
@@ -33413,69 +33216,86 @@ are independent of time.
 
 Mathematically, such a circuit is a graph equipped with some extra data.
 First, each edge has a number associated to it --- the ``resistance''.
-For example:
-
-\begin{verbatim}
-               o----1----o----3----o
-               |         |         | 
-               |         |         | 
-               2         3         2 
-               |         |         | 
-               |         |         | 
-               o----3----o----1----o
-\end{verbatim}
-
-Second, we have current flowing through this circuit. To describe this,
-we first arbitrarily pick an orientation on each edge:
-
-\begin{verbatim}
-               o---->----o---->----o
-               |         |         | 
-               |         |         | 
-               V         V         V 
-               |         |         | 
-               |         |         | 
-               o----<----o---->----o
- 
-\end{verbatim}
-
-Then we label each edge with a number saying how much ``current'' is
-flowing through that edge, in the direction of the arrow:
-
-\begin{verbatim}
-                    2        3
-               o---->----o---->----o
-               |         |         | 
-               |         |         | 
-             3 V         V 1       V 3
-               |         |         | 
-               |         |         | 
-               o----<----o---->----o
-                    2       -3
-\end{verbatim}
-
-Electrical engineers call the current \(I\). Mathematically it's good to
-think of \(I\) as a ``\(1\)-chain'': a formal linear combination of
+For example: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[fill=white]{$3$} (1,0)
+      to node[fill=white]{$1$} (2,0)
+      to node[fill=white]{$2$} (2,1);
+    \draw[thick] (0,0)
+      to node[fill=white]{$2$} (0,1)
+      to node[fill=white]{$1$} (1,1)
+      to node[fill=white]{$3$} (2,1);
+    \draw[thick] (1,0)
+      to node[fill=white]{$3$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] Second, we have current flowing through this circuit. To describe
+this, we first arbitrarily pick an orientation on each edge: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] Then we label each edge with a number saying how much ``current'' is
+flowing through that edge, in the direction of the arrow: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[label=above:{$2$},rotate=180]{$\textgreater$} (1,0)
+      to node[label=below:{$-3$},rotate=0]{$\textgreater$} (2,0)
+      to node[label=above:{$3$},rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[label=below:{$3$},rotate=-90]{$\textgreater$} (0,1)
+      to node[label=above:{$2$},rotate=0]{$\textgreater$} (1,1)
+      to node[label=above:{$3$},rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[label=above:{$1$},rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] Electrical engineers call the current \(I\). Mathematically it's good
+to think of \(I\) as a ``\(1\)-chain'': a formal linear combination of
 oriented edges of our graph, with the coefficients of the linear
 combination being the numbers shown above.
 
 If we know the current, we can work out a number for each vertex of our
 graph, saying how much current is flowing out of that vertex, minus how
-much is flowing in:
-
-\begin{verbatim}
-                         2     
-             5 o---->----o---->----o 0 
-               |         |         | 
-               |         |         | 
-               V         V         V 
-               |         |         | 
-               |         |         | 
-            -5 o----<----o---->----o 0
-                       -2   
-\end{verbatim}
-
-Mathematically we can think of this as a ``\(0\)-chain'': a formal
+much is flowing in: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \node[label=below:{$-5$}] at (0,0) {$\bullet$};
+    \node[label=below:{$-2$}] at (1,0) {$\bullet$};
+    \node[label=below:{$0$}] at (2,0) {$\bullet$};
+    \node[label=above:{$5$}] at (0,1) {$\bullet$};
+    \node[label=above:{$2$}] at (1,1) {$\bullet$};
+    \node[label=above:{$0$}] at (2,1) {$\bullet$};
+  \end{tikzpicture}
+\] Mathematically we can think of this as a ``\(0\)-chain'': a formal
 linear combination of the vertices of our graph, with the numbers shown
 above as coefficients. We call this \(0\)-chain the ``boundary'' of the
 \(1\)-chain we started with. Since our current was called I, we call its
@@ -33490,26 +33310,22 @@ positive or negative --- would be building up there. But for a closed
 circuit, we assume it's not.
 
 If a circuit is not closed, let's call it ``open''. These are
-interesting too. For example, we might have a circuit like this:
-
-\begin{verbatim}
-               x
-               |    
-               |    
-               V    
-               |    
-               |    
-               o---->----o
-               |         |
-               |         |
-               V         V
-               |         |
-               |         |
-               x         x         
-\end{verbatim}
-
-where we have current flowing in the wire on top and flowing out the two
-wires at bottom. We allow \(\delta I\) to be nonzero at the ends of
+interesting too. For example, we might have a circuit like this: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (0,2)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=-90]{$\textgreater$} (1,0);
+    \node at (0,1) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0,2) {$x$};
+    \node[fill=white] at (0,0) {$x$};
+    \node[fill=white] at (1,0) {$x$};
+  \end{tikzpicture}
+\] where we have current flowing in the wire on top and flowing out the
+two wires at bottom. We allow \(\delta I\) to be nonzero at the ends of
 these wires --- the 3 vertices labelled \(x\). This circuit is an ``open
 system'' in the sense of \protect\hyperlink{week290}{``Week 290''},
 because it has these wires dangling out of it. It's not self-contained;
@@ -33537,19 +33353,18 @@ back up and talk about \(2\)-chains! Let's suppose our graph is
 connected --- it is in our example --- and let's fill it in with enough
 \(2\)-dimensional ``faces'' to get something contractible. We can do
 this in a god-given way if our graph is drawn on the plane: just fill in
-all the holes!
-
-\begin{verbatim}
-               o---------o---------o
-               |/////////|/////////| 
-               |/////////|/////////| 
-               |//FACE///|///FACE//| 
-               |/////////|/////////| 
-               |/////////|/////////| 
-               o---------o---------o
-\end{verbatim}
-
-In electrical engineering these faces are often called ``meshes''.
+all the holes! \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick,pattern=north east lines] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+\] In electrical engineering these faces are often called ``meshes''.
 
 This give us a chain complex
 \[C_0 \xleftarrow{\delta} C_1 \xleftarrow{\delta} C_2\] Remember, a
@@ -33967,29 +33782,25 @@ framework for open systems. Luckily, a lot of this framework is already
 available: concepts like operads, \(n\)-categories and the like give
 very general ways of describing how to build big things by gluing
 together little pieces. For example, a trained mathematician will take
-one look at this:
-
-\begin{verbatim}
-        |           |
-        |           |
-      -----         |
-     |     |        |
-      -----         |
-      /   \         |
-     /     \        |
-  ------------      |
- |            |     |
-  ------------      |
-    |  |  |         |
-    |  |   \_______/
-    |  |
-    |  |
-\end{verbatim}
-
-and say ``that's a morphism in a compact closed category''. So, we just
-need to focus these concepts on the problems of engineering, and explain
-them in ways that engineers --- as opposed to, say, topologists or
-quantum field theorists --- can enjoy.
+one look at this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0.25,0);
+    \draw[thick] (0.5,1) to (0.75,0);
+    \draw[thick,fill=white,rounded corners] (0.25,0.75) rectangle ++(0.5,0.5);
+    \draw[thick,fill=white,rounded corners] (0,-0.5) rectangle ++(1,0.5);
+    \draw[thick] (0.25,-0.5) to (0.25,-1.5);
+    \draw[thick] (0.5,-0.5) to (0.5,-1.5);
+    \begin{knot}
+      \strand[thick] (0.75,-0.5)
+        to (0.75,-1)
+        to [out=down,in=down,looseness=1.5] (1.25,-1)
+        to (1.25,2);
+    \end{knot}
+  \end{tikzpicture}
+\] and say ``that's a morphism in a compact closed category''. So, we
+just need to focus these concepts on the problems of engineering, and
+explain them in ways that engineers --- as opposed to, say, topologists
+or quantum field theorists --- can enjoy.
 
 For a deeper look at Willems' ideas on open systems, try this:
 
@@ -34307,47 +34118,50 @@ complexes. I considered circuits built from linear resistors. But now
 let's talk about completely general electrical circuits.
 
 Last time I said an electrical circuit has ``vertices'', ``edges'' and
-``faces'':
-
-\begin{verbatim}
-               o---------o---------o
-               |/////////|/////////| 
-               |/////////|/////////| 
-               |//FACE///|///FACE//| 
-               |/////////|/////////| 
-               |/////////|/////////| 
-               o---------o---------o
-\end{verbatim}
-
-The faces come in handy: electrical engineers call them ``meshes''. But
-they're really just mathematical fictions. When you look at a circuit
-you don't see faces, just vertices and edges:
-
-\begin{verbatim}
-               o---------o---------o
-               |         |         | 
-               |         |         | 
-               |         |         | 
-               |         |         | 
-               |         |         | 
-               o---------o---------o
-\end{verbatim}
-
-So, just for fun, let's leave out the faces today. Let's start with a
-graph, and orient its edges:
-
-\begin{verbatim}
-               o---->----o---->----o
-               |         |         | 
-               |         |         | 
-               V         V         V 
-               |         |         | 
-               |         |         | 
-               o----<----o---->----o
-\end{verbatim}
-
-This gives a vector space \(C_0\) consisting of ``\(0\)-chains'': formal
-linear combinations of vertices. We also get a space \(C_1\) of
+``faces'': \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick,pattern=north east lines] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+\] The faces come in handy: electrical engineers call them ``meshes''.
+But they're really just mathematical fictions. When you look at a
+circuit you don't see faces, just vertices and edges: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0) to (2,0) to (2,1) to (0,1) to (0,0);
+    \draw[thick] (1,0) to (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+    \node[fill=white] at (0.5,0.5) {face};
+    \node[fill=white] at (1.5,0.5) {face};
+  \end{tikzpicture}
+\] So, just for fun, let's leave out the faces today. Let's start with a
+graph, and orient its edges: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] This gives a vector space \(C_0\) consisting of ``\(0\)-chains'':
+formal linear combinations of vertices. We also get a space \(C_1\) of
 ``\(1\)-chains'': formal linear combinations of edges, and a linear map
 \[C_0 \xleftarrow{\delta} C_1\] defined as follows: for any edge
 \[x \xrightarrow{e} y\] we have \(\delta e = y - x\).
@@ -34520,35 +34334,38 @@ For a quick discussion of Tellegen's theorem, this is also good:
 
 By the way: if you've been paying careful attention and reading between
 the lines, you'll note that I've been advocating the study of the
-category where an object is a bunch of points:
-
-\begin{verbatim}
-     x        x        x
-\end{verbatim}
-
-and a morphisms from one bunch of dots to another is graphs with loose
-ends at the top and bottom:
-
-\begin{verbatim}
-        x           x
-        |           |
-        |           |
-        |           |
-        o           |
-       / \          |
-      /   \         |
-     /     o        |
-    |     / \       | 
-    |    /   \_____/
-    |   |
-    |   |
-    x   x
-\end{verbatim}
-
-Here the circles are vertices of the graph, while the the \(x\)'s are
-the ``loose ends''. We compose these morphisms in the visually evident
-way, by gluing the loose ends at the top of one to the loose ends at the
-bottom of the other.
+category where an object is a bunch of points: \[
+  \begin{tikzpicture}
+    \foreach \x in {0,1,2}
+      \node at (\x,0) {$\times$};
+  \end{tikzpicture}
+\] and a morphisms from one bunch of dots to another is graphs with
+loose ends at the top and bottom: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,3)
+      to (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to (0.75,0.5)
+      to (0.75,0);
+    \draw[thick] (1,1)
+      to (1.25,0.5)
+      to (1.75,0.5)
+      to (2,1)
+      to (2,3);
+    \node at (0.5,2) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0.5,3) {$\times$};
+    \node[fill=white] at (2,3) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.75,0) {$\times$};
+  \end{tikzpicture}
+\] Here the \(\bullet\)'s are vertices of the graph, while the the
+\(\times\)'s are the ``loose ends''. We compose these morphisms in the
+visually evident way, by gluing the loose ends at the top of one to the
+loose ends at the bottom of the other.
 
 I would like to know all possible slick ways of understanding this
 category, because it underlies fancier categories where the morphisms
@@ -34556,55 +34373,51 @@ are electrical circuits, or Feynman diagrams, or other things.
 
 For one thing, this category is ``compact closed''. In other words, it's
 a symmetric monoidal category where every object has a dual. Duality
-lets us take an input and turn it into an output, like this:
-
-\begin{verbatim}
-        x      
-        |      
-        |      
-        |      
-        o      
-       / \     
-      /   \    
-     /     o   
-    |     / \  
-    |    /   \
-    |   |    |
-    |   |    |
-    x   x    x
-\end{verbatim}
-
-or vice versa.
+lets us take an input and turn it into an output, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,3)
+      to (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to (0.75,0.5)
+      to (0.75,0);
+    \draw[thick] (1,1)
+      to (1.25,0.5)
+      to (1.25,0);
+    \node at (0.5,2) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (0.5,3) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.75,0) {$\times$};
+    \node[fill=white] at (1.25,0) {$\times$};
+  \end{tikzpicture}
+\] or vice versa.
 
 And in fact, this category is the free compact closed category on one
 self-dual object, namely \(x\), and one morphism from the unit object to
 each tensor power of \(x\). The unit object is drawn as the empty set,
 while the \(n\)th tensor power of \(x\) is drawn as a list of \(n\)
-\(x\)'s. So, for example, when \(n = 3\), we have a morphism that looks
-like a ``trivalent vertex'':
-
-\begin{verbatim}
-       o
-      /|\ 
-     / | \
-    /  |  \
-   x   x   x
-\end{verbatim}
-
-Using duality we get other trivalent vertices, like this:
-
-\begin{verbatim}
-       x
-       |
-       |
-       o
-      / \ 
-     /   \
-    /     \
-   x       x
-\end{verbatim}
-
-and the upside-down versions of the two I've shown so far.
+\(\times\)'s. So, for example, when \(n = 3\), we have a morphism that
+looks like a ``trivalent vertex'': \[
+  \begin{tikzpicture}
+    \node at (0.5,0.95) {$\bullet$};
+    \foreach \x in {0,0.5,1}{
+      \draw[thick] (0.5,1) to (\x,0);
+      \node[fill=white] at (\x,0) {$\times$};
+    }
+  \end{tikzpicture}
+\] Using duality we get other trivalent vertices, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,2) to (0.5,1) to (0,0);
+    \draw[thick] (0.5,1) to (1,0);
+    \node at (0.5,0.95) {$\bullet$};
+    \node[fill=white] at (0.5,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (1,0) {$\times$};
+  \end{tikzpicture}
+\] and the upside-down versions of the two I've shown so far.
 
 In this category, a morphism from the unit object to itself is just a
 finite undirected graph. Or, strictly speaking, it's an isomorphism
@@ -34622,47 +34435,65 @@ I think this is the free compact category on one object \(+\), the
 any tensor product built by tensoring a bunch of copies of this object
 \(+\) and then a bunch of copies of its dual, \(-\). So, among the
 generating morphisms in this compact closed category, we'll have four
-trivalent vertices like this:
-
-\begin{verbatim}
-       o
-      /|\ 
-     / | \
-    |  |  |
-    V  V  V
-    |  |  |
-    +  +  +
-
-
-       o
-      /|\ 
-     / | \
-    |  |  |
-    V  V  ^
-    |  |  |
-    +  +  -
-
-
-       o
-      /|\ 
-     / | \
-    |  |  |
-    V  ^  ^
-    |  |  |
-    +  ---  -
-
-
-       o
-      /|\ 
-     / | \
-    |  |  |
-    ^  ^  ^
-    |  |  |
-    ---  ---  -
-\end{verbatim}
-
-We then get other trivalent vertices by permuting the outputs or turning
-outputs into inputs.
+trivalent vertices like this: \[
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \foreach \x in {0,0.5,1}{
+      \draw[thick] (0.5,2)
+        to (\x,1)
+        to node[rotate=-90]{$\textgreater$} (\x,0) node[label=below:{$+$}]{};
+    }
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=-90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$+$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=-90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$+$}] at (0,0) {};
+    \node[label=below:{$-$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+  \qquad
+  \begin{tikzpicture}
+    \node at (0.5,2) {$\bullet$};
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to node[rotate=90]{$\textgreater$} (0,0);
+    \draw[thick] (0.5,2)
+      to (0.5,1)
+      to node[rotate=90]{$\textgreater$} (0.5,0);
+    \draw[thick] (0.5,2)
+      to (1,1)
+      to node[rotate=90]{$\textgreater$} (1,0);
+    \node[label=below:{$-$}] at (0,0) {};
+    \node[label=below:{$-$}] at (0.5,0) {};
+    \node[label=below:{$-$}] at (1,0) {};
+  \end{tikzpicture}
+\] We then get other trivalent vertices by permuting the outputs or
+turning outputs into inputs.
 
 I can't help but hope there's a slicker desciption of this category.
 Anybody know one?
@@ -34706,22 +34537,28 @@ wave the magic wand of linearity over that, too. And the result should
 be a category important in the theory of electrical circuits.
 
 There's a closely related result that's also interesting. Suppose we
-have a directed graph:
-
-\begin{verbatim}
-               x---->----x---->----x
-               |         |         | 
-               |         |         | 
-               V         V         V 
-               |         |         | 
-               |         |         | 
-               x----<----x---->----x
-\end{verbatim}
-
-This looks a bit like a category! In fact we can take the free category
-on a directed graph: this is called a ``quiver''. And if we wave the
-magic wand of linearity over a category (in the correct way, since there
-are different ways), we get a category object in \(\mathsf{Vect}\).
+have a directed graph: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] This looks a bit like a category! In fact we can take the free
+category on a directed graph: this is called a ``quiver''. And if we
+wave the magic wand of linearity over a category (in the correct way,
+since there are different ways), we get a category object in
+\(\mathsf{Vect}\).
 
 But the category of category objects in \(\mathsf{Vect}\) is \emph{also}
 equivalent to the category of \(2\)-term chain complexes! Alissa Crans
@@ -34744,22 +34581,27 @@ space. See Section 3 here:
 
 This idea was known to Grothendieck quite a while ago --- read the paper
 for the history. But anyway, I think it's neat that we can take the bare
-bones of an electrical circuit:
-
-\begin{verbatim}
-               o---->----o---->----o
-               |         |         | 
-               |         |         | 
-               V         V         V 
-               |         |         | 
-               |         |         | 
-               o----<----o---->----o
-\end{verbatim}
-
-and think of it either as a graph, or a category, or a graph or category
-object in \(\mathsf{Vect}\), namely a chain complex --- but moreover, we
-can also think of it as an endomorphism of the unit object in a certain
-compact closed category!
+bones of an electrical circuit: \[
+  \begin{tikzpicture}[scale=2]
+    \draw[thick] (0,0)
+      to node[rotate=180]{$\textgreater$} (1,0)
+      to node[rotate=0]{$\textgreater$} (2,0)
+      to node[rotate=-90]{$\textgreater$} (2,1);
+    \draw[thick] (0,0)
+      to node[rotate=-90]{$\textgreater$} (0,1)
+      to node[rotate=0]{$\textgreater$} (1,1)
+      to node[rotate=0]{$\textgreater$} (2,1);
+    \draw[thick] (1,0)
+      to node[rotate=-90]{$\textgreater$} (1,1);
+    \foreach \x in {0,1,2}{
+      \foreach \y in {0,1}
+        \node at (\x,\y) {$\bullet$};
+    }
+  \end{tikzpicture}
+\] and think of it either as a graph, or a category, or a graph or
+category object in \(\mathsf{Vect}\), namely a chain complex --- but
+moreover, we can also think of it as an endomorphism of the unit object
+in a certain compact closed category!
 
 If you made it this far, you deserve a treat:
 \[\href{http://apod.nasa.gov/apod/ap100215.html}{\includegraphics[max width=0.65\linewidth]{../images/saturn_ring_cassini.jpg}}\]
@@ -35279,24 +35121,38 @@ minimize the amount of power it uses --- that is, turns into heat.
 What do I mean by ``boundary conditions''? Well, first of all, I'm
 thinking of an electrical circuit as a graph with resistors on its
 edges, and with some special vertices that we think of as inputs and
-outputs:
-
-\begin{verbatim}
-        x           x
-        |           |
-        o-----------o
-       / \          |
-      /   \         |
-     /     o--------o
-    |     / \       | 
-    |    /   \      |
-    o---o-----o-----o
-    |   |           |
-    x   x           x
-\end{verbatim}
-
-The inputs and outputs are marked as \(x\)'s here. I've drawn a planar
-graph, but we could also have a nonplanar one, like this:
+outputs: \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (0,2)
+      to (0,0);
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (1,2)
+      to (0.5,1)
+      to (0.5,0);
+    \draw[thick] (1,2) to (1.5,1);
+    \draw[thick] (2.5,4) to (2.5,0);
+    \draw[thick] (0.5,3) to (2.5,3);
+    \draw[thick] (1,2) to (2.5,2);
+    \draw[thick] (0,1) to (2.5,1);
+    \node at (0.5,3) {$\bullet$};
+    \node at (2.5,3) {$\bullet$};
+    \node at (1,2) {$\bullet$};
+    \node at (2.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (1.5,1) {$\bullet$};
+    \node at (2.5,1) {$\bullet$};
+    \node[fill=white] at (0.5,4) {$\times$};
+    \node[fill=white] at (2.5,4) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.5,0) {$\times$};
+    \node[fill=white] at (2.5,0) {$\times$};
+  \end{tikzpicture}
+\] The inputs and outputs are marked as \(x\)'s here. I've drawn a
+planar graph, but we could also have a nonplanar one, like this:
 
 \begin{verbatim}
    x     x   x   x 
@@ -36695,26 +36551,40 @@ We've seen that the quadratic form of a circuit made from resistors is
 Dirichlet whenever the circuit is of a special form: namely, when it has
 one resistor connecting each pair of terminals.
 
-But what about other circuits made from resistors, like this?
-
-\begin{verbatim}
-        x           x
-        |           |
-        o-----------o
-       / \          |
-      /   \         |
-     /     o--------o
-    |     / \       | 
-    |    /   \      |
-    o---o-----o-----o
-    |   |           |
-    x   x           x
-\end{verbatim}
-
-Here the x's are the terminals, but there are also other vertices, which
-I'll call ``internal vertices''. Also, not every vertex is connected to
-every other vertex. Do we get a larger class of quadratic forms if we
-allow more general circuits like this?
+But what about other circuits made from resistors, like this? \[
+  \begin{tikzpicture}
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (0,2)
+      to (0,0);
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (1,2)
+      to (0.5,1)
+      to (0.5,0);
+    \draw[thick] (1,2) to (1.5,1);
+    \draw[thick] (2.5,4) to (2.5,0);
+    \draw[thick] (0.5,3) to (2.5,3);
+    \draw[thick] (1,2) to (2.5,2);
+    \draw[thick] (0,1) to (2.5,1);
+    \node at (0.5,3) {$\bullet$};
+    \node at (2.5,3) {$\bullet$};
+    \node at (1,2) {$\bullet$};
+    \node at (2.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (1.5,1) {$\bullet$};
+    \node at (2.5,1) {$\bullet$};
+    \node[fill=white] at (0.5,4) {$\times$};
+    \node[fill=white] at (2.5,4) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.5,0) {$\times$};
+    \node[fill=white] at (2.5,0) {$\times$};
+  \end{tikzpicture}
+\] Here the \(\times\)'s are the terminals, but there are also other
+vertices, which I'll call ``internal vertices''. Also, not every vertex
+is connected to every other vertex. Do we get a larger class of
+quadratic forms if we allow more general circuits like this?
 
 No! All we get are Dirichlet forms!
 
@@ -36734,30 +36604,22 @@ quadratic form in 2 variables by taking the minimum of \(Q\) as the
 third variable ranges freely:
 \[P(\varphi_1, \varphi_2) = \min_{\varphi_3}\{Q(\varphi_1, \varphi_2, \varphi_3)\}\]
 Physically this corresponds to taking a circuit with 3 terminals, like
-this:
-
-\begin{verbatim}
-    x         x
-     \       /
-      \     /
-       \   /
-        \ /
-         x
-\end{verbatim}
-
-and treating it as a circuit with 2 terminals by regarding the third
-terminal as an internal vertex:
-
-\begin{verbatim}
-    x         x
-     \       /
-      \     /
-       \   /
-        \ /
-         o
-\end{verbatim}
-
-This means we let the potential at this vertex vary freely; by the
+this: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] and treating it as a circuit with 2 terminals by regarding the third
+terminal as an internal vertex: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+\] This means we let the potential at this vertex vary freely; by the
 principle of minimum power, it will do whatever it takes to minimize the
 power. So, we get a new circuit whose quadratic form is
 \[P(\varphi_1, \varphi_2) = \min_{\varphi_3}\{Q(\varphi_1, \varphi_2, \varphi_3)\}\]
@@ -36771,29 +36633,20 @@ Sabot calls this trick for getting new Dirichlet forms from old ones the
 ``trace map''. He also describes another trick, the ``gluing map''. This
 lets us take the Dirichlet form of a circuit and get a new Dirichlet
 form by gluing together some terminals. For example, we could start with
-this circuit:
-
-\begin{verbatim}
-    x         x
-     \       /
-      \     /
-       \   /
-        \ /
-         x
-\end{verbatim}
-
-and glue the top two terminals together, getting this circuit:
-
-\begin{verbatim}
-         x
-        / \
-       /   \
-       \   /
-        \ /
-         x
-\end{verbatim}
-
-Both the trace map and the gluing map have interesting category-
+this circuit: \[
+  \begin{tikzpicture}[scale=1.5]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
+    \node[fill=white] at (-0.5,1) {$\times$};
+    \node[fill=white] at (0.5,1) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] and glue the top two terminals together, getting this circuit: \[
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (-0.5,1) to (0,0) to (0.5,1) to (0,2) to (-0.5,1);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+\] Both the trace map and the gluing map have interesting category-
 theoretic interpretations. For example, the gluing map lets us
 \emph{compose} electrical circuits --- or more precisely, their
 Dirichlet forms --- by gluing the outputs of one onto the inputs of
@@ -38397,33 +38250,72 @@ whose basis consists of Feynman diagrams. But they also found it helpful
 to consider a simpler problem, where you start with a vector space whose
 basis consists of rooted forests.
 
-A ``rooted tree'' looks like this:
-
-\begin{verbatim}
-                   o o o   o
-                    |/   /
-                     o   o
-                      \ /       
-                       o
-                       |       
-                       o 
-\end{verbatim}
-
-The vertex at the bottom is called the ``root''. A finite collection of
-rooted trees is called a ``rooted forest'':
-
-\begin{verbatim}
-                   o o     o             o
-                    |    /              |
-                     o   o    o   o      o
-                      \ /      \ /       | 
-                       o        o    o o o 
-                       |        |     |/
-              o        o        o      o
-\end{verbatim}
-
-Let me show you how to take the vector space whose basis consists of all
-rooted forests, and make that into a commutative Hopf algebra. To do
+A ``rooted tree'' looks like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-1,3)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (-0.5,3) to (-0.5,2);
+    \draw[thick] (0,3) to (-0.5,2);
+    \draw[thick] (1,3) to (0,1);
+    \node at (-1,3) {$\bullet$};
+    \node at (-0.5,3) {$\bullet$};
+    \node at (0,3) {$\bullet$};
+    \node at (1,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+\] The vertex at the bottom is called the ``root''. A finite collection
+of rooted trees is called a ``rooted forest'': \[
+  \begin{tikzpicture}
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-1,3)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (-0.5,3) to (-0.5,2);
+    \draw[thick] (0,3) to (-0.5,2);
+    \draw[thick] (1,3) to (0,1);
+    \node at (-1,3) {$\bullet$};
+    \node at (-0.5,3) {$\bullet$};
+    \node at (0,3) {$\bullet$};
+    \node at (1,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0.5,2) to (0,1);
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,1) to (0,0);
+    \draw[thick] (0,1) to (0,0);
+    \draw[thick] (0.5,3)
+      to (0.5,1)
+      to (0,0);
+    \node at (0.5,3) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (-0.5,1) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+\] Let me show you how to take the vector space whose basis consists of
+all rooted forests, and make that into a commutative Hopf algebra. To do
 this, we need to give our vector space a multiplication and a
 comultiplication. And it's enough to say how these work on basis
 vectors, which are rooted forests.
@@ -38474,66 +38366,79 @@ this in lots of ways, so you'll get a linear combination of trees, say
 \(ab\). And this how multiplication in the free pre-Lie algebra on one
 generator works!
 
-We can summarize this as follows:
-
-\begin{verbatim}
- ab   =     a  
-            |  
-            b  
-\end{verbatim}
-
-Here the picture stands for \emph{any} way of attaching \(a\) to \(b\).
-We should really sum over all of them.
+We can summarize this as follows: \[
+  \raisebox{1.9em}{$ab=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (0,0) {$b$};
+    \draw[thick] (a) to (b);
+  \end{tikzpicture}
+\] Here the picture stands for \emph{any} way of attaching \(a\) to
+\(b\). We should really sum over all of them.
 
 When you form a product like \(a(bc)\), different things can happen. We
-can summarize the possibilities like this:
-
-\begin{verbatim}
-            a
-            |
-a(bc) =     b  +  a   b
-            |      \ /
-            c       c 
-\end{verbatim}
-
-The point is that we can either attach the root of \(a\) to a vertex in
-\(b\), or a vertex in \(c\). There are fewer possibilities when we form
-\(a(bc)\):
-
-\begin{verbatim}
-            a
-            |
-(ab)c =     b  
-            |
-            c  
-\end{verbatim}
-
-so
-
-\begin{verbatim}
-a(bc) --- (ab)c =   a   b
-                   \ /
-                    c 
-\end{verbatim}
-
-Now switch \(a\) and \(b\) in this equation! We get
-
-\begin{verbatim}
-b(ac) --- (ba)c =   b   a
-                   \ /
-                    c 
-\end{verbatim}
-
-Our rooted trees are not planar, so the answer is really the same:
-
-\begin{verbatim}
-   a   b        b   a
-    \ /    =     \ /
-     c            c
-\end{verbatim}
-
-So, we have \[a(bc) - (ab)c = b(ac) - (ba)c\] and this is the definition
-of a pre-Lie algebra!
+can summarize the possibilities like this: \[
+  \raisebox{3.1em}{$a(bc)=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,2) {$a$};
+    \node (b) at (0,1) {$b$};
+    \node (c) at (0,0) {$c$};
+    \draw[thick] (a) to (b) to (c);
+  \end{tikzpicture}
+  \quad\raisebox{3.1em}{$+$}\quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+\] The point is that we can either attach the root of \(a\) to a vertex
+in \(b\), or a vertex in \(c\). There are fewer possibilities when we
+form \((ab)c\): \[
+  \raisebox{3.1em}{$(ab)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,2) {$a$};
+    \node (b) at (0,1) {$b$};
+    \node (c) at (0,0) {$c$};
+    \draw[thick] (a) to (b) to (c);
+  \end{tikzpicture}
+\] so \[
+  \raisebox{1.75em}{$a(bc)-(ab)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+\] Now switch \(a\) and \(b\) in this equation! We get \[
+  \raisebox{1.75em}{$b(ac)-(ba)c=$}
+  \quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$b$};
+    \node (b) at (1,1) {$a$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+\] Our rooted trees are not planar, so the answer is really the same: \[
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$a$};
+    \node (b) at (1,1) {$b$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+  \quad\raisebox{1.75em}{$=$}\quad
+  \begin{tikzpicture}
+    \node (a) at (0,1) {$b$};
+    \node (b) at (1,1) {$a$};
+    \node (c) at (0.5,0) {$c$};
+    \draw[thick] (a) to (c) to (b);
+  \end{tikzpicture}
+\] So, we have \[a(bc) - (ab)c = b(ac) - (ba)c\] and this is the
+definition of a pre-Lie algebra!
 
 This calculation reveals the secret meaning of pre-Lie algebras. The
 secret is that pre-Lie algebras are all about attaching two things by
@@ -38573,20 +38478,17 @@ that generator with operations in \(\mathcal{O}\). More precisely, we
 have \[A = \bigoplus_n \mathcal{O}_n/S_n\] Here \(\mathcal{O}_n\) is the
 space of \(n\)-ary operations in \(\mathcal{O}\), which is acted on by
 the permutation group \(S_n\). So, we can draw an element of \(A\) like
-this:
-
-\begin{verbatim}
-                   o   o   o
-                    \  |  /
-                     -----
-                    |  a  | 
-                     -----
-                       |
-                       o
-\end{verbatim}
-
-where \(a\) is an \(n\)-ary operation in \(\mathcal{O}\), but we don't
-care how the branches of this little tree are permuted.
+this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-1,2) to (-0.33,1);
+    \draw[thick] (0,2) to (0,1);
+    \draw[thick] (1,2) to (0.33,1);
+    \node at (0,0.75) {$a$};
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick] (0,0.5) to (0,-0.75);
+  \end{tikzpicture}
+\] where \(a\) is an \(n\)-ary operation in \(\mathcal{O}\), but we
+don't care how the branches of this little tree are permuted.
 
 We can multiply two guys like this by summing over all ways of attaching
 the output of one to an input of the other and composing them using our
