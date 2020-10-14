@@ -83,37 +83,33 @@ know is what it does, viewed externally.
 For example, we could have a fancy circuit like this:
 $$
   \begin{tikzpicture}
-    \node[fill=white] at (0,4) {$\times$}
+    \draw[thick] (0,4)
+      to (0,3)
+      to (-0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0,3)
+      to (0.5,2)
+      to (0,1);
+    \draw[thick] (-0.5,2) to (0.5,2);
+    \node[fill=white] at (0,4) {$\times$};
     \node at (0,3) {$\bullet$};
     \node at (-0.5,2) {$\bullet$};
     \node at (0.5,2) {$\bullet$};
     \node at (0,1) {$\bullet$};
-    \node[fill=white] at (0,0) {$\times$}
+    \node[fill=white] at (0,0) {$\times$};
   \end{tikzpicture}
 $$
-
-        x
-        |
-        o
-       / \
-      /   \
-     o-----o
-      \   /
-       \ /
-        o
-        |
-        x
-
 Each edge has some resistance, as explained in
 ["Week 294"](#week294), and the $x$'s mark the input and output.
 Here's another, simpler, circuit of the same sort:
-
-        x
-        |
-        |
-        |
-        x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+$$
 When we treat these circuits as "distributed", they're different.
 Why? Because they look different. But when we treat them as "lumped",
 they might be the same! Why? Because no matter what resistances we
@@ -163,24 +159,26 @@ potential zero.
 
 For example, suppose we have this circuit, with one input connected to a
 ground, and no outputs:
-
-        x
-        |
-        |
-        =
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$=$};
+  \end{tikzpicture}
+$$
 The funny little "$=$" thing is the ground. For this circuit the power
 is described by a quadratic form $Q$ in one real variable $v$. If the wire
 has resistance $R > 0$, we have
 $$Q(v) = \frac{v^2}{R}$$
 What if we want $Q = 0$? Well, then we should use a circuit like this,
 instead:
-
-        x
-        |
-        |
-        o
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node at (0,0) {$\bullet$};
+  \end{tikzpicture}
+$$
 In other words: one input, no outputs, and a wire that just dangles in
 mid-air instead of being connected to a ground.
 
@@ -213,13 +211,13 @@ There's just one slight glitch. Our would-be category doesn't have
 identity morphisms! This is easy to check mathematically. Physically,
 the reason is clear. The identity morphism $1\colon \mathbb{R} \to \mathbb{R}$ should correspond to
 a perfectly conductive wire, like this:
-
-      x  
-      |  
-      |  
-      |  
-      x  
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+    \node[fill=white] at (0,2) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+  \end{tikzpicture}
+$$
 This is also called a "short circuit" --- see
 ["Week 294"](#week294). But what's the corresponding quadratic
 form? Well, it doesn't exist. But the idea is that the power used by
@@ -253,36 +251,51 @@ roughly a category with tensor products:
 4) nLab, "Monoidal category", `http://ncatlab.org/nlab/show/monoidal+category`
 
 The tensor product corresponds to setting two circuits side by side:
-
-            |               |  |  |
-        --------         ------------   
-       |        |       |            |
-       |        |       |            |
-        --------         ------------
-          |  |            |  |  |  |
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+  \end{tikzpicture}
+  \quad
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.3,1) to (0.3,0.5);
+    \draw[thick] (0.5,1) to (0.5,0.5);
+    \draw[thick] (0.7,1) to (0.7,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.4,0) to (0.4,-0.5);
+    \draw[thick] (0.6,0) to (0.6,-0.5);
+    \draw[thick] (0.8,0) to (0.8,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(1,0.5);
+  \end{tikzpicture}
+$$
 Mathematically, the tensor product of objects $V$ and $W$ is their direct
 sum $V\oplus W$, while the tensor product of morphisms $Q\colon V \to W$ and $Q'\colon V' \to W'$
 is the quadratic form $Q+Q'$ given by:
 $$(Q+Q')(v,v',w,w') = Q(v,w) + Q'(v',w')$$
 Our category also has "duals for morphisms". Intuitively, this means
 that we can take any circuit $Q\colon V \to W$ built from resistors:
-
-            |             
-        --------        
-       |    Q   |       
-        --------        
-          |  |          
-
+$$
+  \begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+    \node at (0.375,0.25) {$Q$};
+  \end{tikzpicture}
+$$
 and reflect it across a horizontal line, switching inputs and outputs
 like this:
-
-          |  |          
-        --------        
-       |   Q$\dagger$   |       
-        --------        
-            |             
-
+$$
+  \begin{tikzpicture}[xscale=1.3,yscale=-1.3]
+    \draw[thick] (0.375,1) to (0.375,0.5);
+    \draw[thick] (0.2,0) to (0.2,-0.5);
+    \draw[thick] (0.55,0) to (0.55,-0.5);
+    \draw[thick,rounded corners,fill=white] (0,0) rectangle ++(0.75,0.5);
+    \node at (0.375,0.25) {$Q^\dagger$};
+  \end{tikzpicture}
+$$
 to obtain a new circuit $Q^\dagger\colon W \to V$. Mathematically this operation is
 defined as follows:
 $$Q^\dagger(v,w) = Q(w,v)$$
@@ -295,39 +308,63 @@ those:
 However, our category has some defects. First of all, there's no
 morphism corresponding to two perfectly conductive wires that cross like
 this:
-
-      \   /
-       \ /
-        /
-       / \
-      /   \
-
+$$
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 If we had that, we'd get a "symmetric monoidal category":
 
 6) nLab, "Symmetric monoidal category", `http://ncatlab.org/nlab/show/symmetric+monoidal+category`
 
 Our category so far also lacks a morphism corresponding to a perfectly
 conductive bent wire like this:
-
-      |   |
-      |   |
-       \_/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 or like this:
-
-        _
-       / \
-      |   |
-      |   |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 If we had these morphisms, obeying the obvious "zig-zag identities":
-
-      |     _       |       _     |
-      |    / \      |      / \    |
-      |   /   |  =  |  =  |   \   |
-       \_/    |     |     |    \_/
-              |     |     |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,2)
+        to (0,1)
+        to [out=down,in=down,looseness=1.5] (1,1)
+        to [out=up,in=up,looseness=1.5] (2,1)
+        to (2,0);
+    \end{knot}
+  \end{tikzpicture}
+  \qquad\raisebox{2.5em}{$=$}\qquad
+  \begin{tikzpicture}
+    \draw[thick] (0,2) to (0,0);
+  \end{tikzpicture}
+  \qquad\raisebox{2.5em}{$=$}\qquad
+  \begin{tikzpicture}[xscale=-1]
+    \begin{knot}
+      \strand[thick] (0,2)
+        to (0,1)
+        to [out=down,in=down,looseness=1.5] (1,1)
+        to [out=up,in=up,looseness=1.5] (2,1)
+        to (2,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 then our monoidal category would have "duals for objects", in the
 sense explained back in ["Week 89"](#week89).
 
@@ -379,26 +416,32 @@ we should take full advantage of it!
 
 Let's try. Let's take the category described so far and supplement it
 with a "cup":
-
-      |   |
-      |   |
-       \_/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 a "cap":
-
-        _
-       / \
-      |   |
-      |   |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and a "symmetry":
-
-      \   /
-       \ /
-        /
-       / \
-      /   \
-
+$$
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 We could formally throw in these morphisms, just like we threw in
 identities. But there is a less artificial solution which solves all
 these problems in one blow. We can take a lesson from symplectic
@@ -517,26 +560,32 @@ there's something nontrivial to check.
 
 If we do get a subcategory, will it still be a compact dagger-category?
 Yes, I think so, because it contains the cup
-
-      |   |
-      |   |
-       \_/
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=down,in=down,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and cap:
-
-        _
-       / \
-      |   |
-      |   |
-
+$$
+  \begin{tikzpicture}
+    \begin{knot}
+      \strand[thick] (0,0)
+       to [out=up,in=up,looseness=1.5] (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 and symmetry:
-
-      \   /
-       \ /
-        /
-       / \
-      /   \
-
+$$
+  \begin{tikzpicture}[clip width=7]
+    \begin{knot}
+      \strand[thick] (1,2) to (0,0);
+      \strand[thick] (0,2) to (1,0);
+    \end{knot}
+  \end{tikzpicture}
+$$
 So, this would be a very nice thing.
 
 I thank James Dolan, Peter Selinger, Alan Weinstein and Simon Willerton
