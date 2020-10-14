@@ -36,7 +36,7 @@ $$
     \draw[thick] (0,0) to (0,-1.5);
     \draw[thick] (1,0) to (1,-1.5);
     \draw[thick] (2,0) to (2,-1.5);
-    \draw[rounded corners] (-0.2,-1.5) rectangle ++(2.4,-1);
+    \draw[thick,rounded corners] (-0.2,-1.5) rectangle ++(2.4,-1);
     \node at (1,-2) {$f$};
     \draw[thick] (0.5,-2.5) to (0.5,-4);
     \draw[thick] (1.5,-2.5) to (1.5,-4);
@@ -76,11 +76,11 @@ $$
     \draw[thick] (0,0) to (0,-1);
     \draw[thick] (1,0) to (1,-1);
     \draw[thick] (2,0) to (2,-1);
-    \draw[rounded corners] (-0.2,-1) rectangle ++(2.4,-1);
+    \draw[thick,rounded corners] (-0.2,-1) rectangle ++(2.4,-1);
     \node at (1,-1.5) {$f$};
     \draw[thick] (0.5,-2) to (0.5,-3);
     \draw[thick] (1.5,-2) to (1.5,-3);
-    \draw[rounded corners] (-0.2,-3) rectangle ++(2.4,-1);
+    \draw[thick,rounded corners] (-0.2,-3) rectangle ++(2.4,-1);
     \node at (1,-3.5) {$g$};
     \draw[thick] (0,-4) to (0,-5);
     \draw[thick] (0.66,-4) to (0.66,-5);

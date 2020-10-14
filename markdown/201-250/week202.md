@@ -123,8 +123,8 @@ $$X$$
 or a pair of binary trees stuck together at the root:
 $$
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
-    \draw[rounded corners] (0.75,1) rectangle (0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (0.75,1) rectangle (0.25,1.5);
     \node at (-0.5,1.25) {$T$};
     \node at (0.5,1.25) {$T$};
     \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
@@ -182,7 +182,7 @@ and replace it with an "$X + T^2$", you're really taking a little
 binary tree:
 $$
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
     \node at (-0.5,1.25) {$T$};
   \end{tikzpicture}
 $$
@@ -191,8 +191,8 @@ $$X$$
 or a pair of binary trees:
 $$
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
-    \draw[rounded corners] (0.75,1) rectangle (0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (0.75,1) rectangle (0.25,1.5);
     \node at (-0.5,1.25) {$T$};
     \node at (0.5,1.25) {$T$};
     \draw[thick] (-0.5,1) to (0,0) to (0.5,1);

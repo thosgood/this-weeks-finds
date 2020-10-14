@@ -295,19 +295,37 @@ What do I mean by "boundary conditions"? Well, first of all, I'm
 thinking of an electrical circuit as a graph with resistors on its
 edges, and with some special vertices that we think of as inputs and
 outputs:
-
-            x           x
-            |           |
-            o-----------o
-           / \          |
-          /   \         |
-         /     o--------o
-        |     / \       | 
-        |    /   \      |
-        o---o-----o-----o
-        |   |           |
-        x   x           x
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (0,2)
+      to (0,0);
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (1,2)
+      to (0.5,1)
+      to (0.5,0);
+    \draw[thick] (1,2) to (1.5,1);
+    \draw[thick] (2.5,4) to (2.5,0);
+    \draw[thick] (0.5,3) to (2.5,3);
+    \draw[thick] (1,2) to (2.5,2);
+    \draw[thick] (0,1) to (2.5,1);
+    \node at (0.5,3) {$\bullet$};
+    \node at (2.5,3) {$\bullet$};
+    \node at (1,2) {$\bullet$};
+    \node at (2.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (1.5,1) {$\bullet$};
+    \node at (2.5,1) {$\bullet$};
+    \node[fill=white] at (0.5,4) {$\times$};
+    \node[fill=white] at (2.5,4) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.5,0) {$\times$};
+    \node[fill=white] at (2.5,0) {$\times$};
+  \end{tikzpicture}
+$$
 The inputs and outputs are marked as $x$'s here. I've drawn a planar
 graph, but we could also have a nonplanar one, like this:
 

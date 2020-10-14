@@ -445,7 +445,7 @@ $$
     \draw[thick] (-1,2) to (-0.33,1);
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -455,22 +455,22 @@ $$
     \begin{scope}[shift={(-2.5,3)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$

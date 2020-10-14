@@ -741,7 +741,7 @@ $$
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
     \node at (0,0.75) {$a$};
-    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
     \draw[thick] (0,0.5) to (0,-0.75);
   \end{tikzpicture}
 $$

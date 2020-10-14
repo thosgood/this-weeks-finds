@@ -300,7 +300,7 @@ $$
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -311,25 +311,25 @@ $$
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$g_1$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$g_2$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$g_3$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$f$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -347,43 +347,43 @@ $$
       \begin{scope}[shift={(-2.5,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-1,2) to (-0.33,1);
         \draw[thick] (0,2) to (0,1);
         \draw[thick] (1,2) to (0.33,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(2.5,3)}]
         \draw[thick] (0,2) to (0,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(2.5,3)},xscale=0.45,yscale=0.67]
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(-2.5,3)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -402,7 +402,7 @@ $$
       \flipcrossings{1,2};
     \end{knot}
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -422,25 +422,25 @@ $$
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \node at (0,0.5) {$d$};
     \draw[thick] (0,0) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (0.5,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \node at (1.5,1) {$=$};
@@ -448,19 +448,19 @@ $$
       \draw[thick] (-0.6,1.6) to (-0.33,1);
       \draw[thick] (0,1.6) to (0,1);
       \draw[thick] (0.6,1.6) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$d$};
       \draw[thick] (0,0) to (0,-1);
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$a$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$b$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$c$};
       \end{scope}
       \begin{scope}[shift={(0,2)}]
@@ -493,19 +493,19 @@ $$
     \draw[thick] (-0.6,1.6) to (-0.33,1);
     \draw[thick] (0,1.6) to (0,1);
     \draw[thick] (0.6,1.6) to (0.33,1);
-    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.75);
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.75);
     \node at (0,0.625) {$d$};
     \draw[thick] (0,0.25) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \begin{scope}[shift={(-0.6,2)},xscale=0.18]
@@ -664,25 +664,25 @@ $$
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$a$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$b$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$c$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$d$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 $$
@@ -1090,10 +1090,10 @@ $$
     \node at (0,2.25) {};
     \draw[thick] (-0.5,3.5) to (-0.25,2.5);
     \draw[thick] (0.5,3.5) to (0.25,2.5);
-    \draw[rounded corners=1mm] (-0.5,2.5) rectangle ++(1,-0.5);
+    \draw[thick,rounded corners=1mm] (-0.5,2.5) rectangle ++(1,-0.5);
     \draw[thick] (0,2) to (0,1);
     \node at (0,0.75) {};
-    \draw[rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
+    \draw[thick,rounded corners=1mm] (-0.5,1) rectangle ++(1,-0.5);
     \draw[thick] (0,0.5) to (0,-0.5);
   \end{tikzpicture}
 $$
