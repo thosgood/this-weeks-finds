@@ -12,7 +12,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
-\usepackage{color}
+\usepackage{xcolor}
 \definecolor{myurlcolor}{rgb}{0.6,0,0}
 \definecolor{mycitecolor}{rgb}{0,0,0.8}
 \definecolor{myrefcolor}{rgb}{0,0,0.8}
@@ -3995,11 +3995,11 @@ always be a supervector space.
 
 Supervector spaces work a lot like ordinary vector spaces, so we can
 redo all of math replacing vector spaces by supervector spaces. To do
-this, we just copy all the usual stuff, EXCEPT that whenever we switch
-two vectors past each other in our formulas, we stick in an extra minus
-sign when they're both odd! This reflects the way fermions actually work
-in nature: when you exchange two of them, their wavefunction picks up a
-phase of \(-1\).
+this, we just copy all the usual stuff, \textbf{except} that whenever we
+switch two vectors past each other in our formulas, we stick in an extra
+minus sign when they're both odd! This reflects the way fermions
+actually work in nature: when you exchange two of them, their
+wavefunction picks up a phase of \(-1\).
 
 Supervector spaces are also an obvious idea if you've studied enough
 math. For example, differential forms of odd degree anticommute with
@@ -4211,9 +4211,9 @@ And the answer is: yes, at least for \(\mathrm{E}_6\) and
 \(\mathrm{E}_7\).
 
 If \(n = 10\), the spinor space \(S\) is naturally a complex vector
-space, so \(\mathrm{u}(1)\) acts on it. Using this and the above maps,
+space, so \(\mathfrak{u}(1)\) acts on it. Using this and the above maps,
 we can make the direct sum of \(\mathfrak{so}(10)\), \(S\) and
-\(\mathrm{u}(1)\) into a Lie algebra, which turns out to be
+\(\mathfrak{u}(1)\) into a Lie algebra, which turns out to be
 \(\mathrm{E}_6\).
 
 If \(n = 12\), the right-handed spinor space \(S_+\) is naturally a
@@ -10128,10 +10128,10 @@ But this madness is \emph{tripled} in dimension 24. In this dimension,
 spinors are pairs of octooctooctonions: the octonions tensored with
 themselves thrice! But more importantly, this is the dimension where
 Monstrous Moonshine lives. While bosonic string theory works best in
-26-dimensional spacetime, two of those dimensions really come from the
-fact that a string worldsheet is a 2d surface, so the real magic comes
-from secret relations between \(2\)-dimensional stuff (complex analysis)
-and the number 24.
+\(26\)-dimensional spacetime, two of those dimensions really come from
+the fact that a string worldsheet is a 2d surface, so the real magic
+comes from secret relations between \(2\)-dimensional stuff (complex
+analysis) and the number 24.
 
 Some of this boils down to the fact that the only specially symmetric
 lattices in 2 dimensions are the square lattice and the hexagonal one,
@@ -10465,14 +10465,14 @@ is basically just the life support system for the eyebrows! Similarly,
 in \(\mathsf{Equiv}\) we have a \(2\)-category which is just the life
 support system for an adjunction: no more and no less.
 
-Anyway, the walking equivalence is a weak 2-groupoid: a \(2\)-category
-where every \(2\)-morphism is invertible and every morphism is
-invertible up to 2-isomorphism. Weak 2-groupoids are secretly the same
-thing as homotopy 2-types: roughly speaking, topological spaces whose
-homotopy groups vanish above dimension 2. And there's a pretty easy way
-to turn a weak 2-groupoid into a homotopy 2-type. First you turn it into
-a simplicial set, called its ``nerve'', and then you take the geometric
-realization of that.
+Anyway, the walking equivalence is a weak \(2\)-groupoid: a
+\(2\)-category where every \(2\)-morphism is invertible and every
+morphism is invertible up to 2-isomorphism. Weak \(2\)-groupoids are
+secretly the same thing as homotopy 2-types: roughly speaking,
+topological spaces whose homotopy groups vanish above dimension 2. And
+there's a pretty easy way to turn a weak \(2\)-groupoid into a homotopy
+2-type. First you turn it into a simplicial set, called its ``nerve'',
+and then you take the geometric realization of that.
 
 Eh? Well, I talked about geometric realization in part E of
 \protect\hyperlink{week116}{``Week 116''}, and I talked about the nerve
@@ -20069,7 +20069,7 @@ think we need a more up-to-date version of Pascal's triangle for the
 21st century.
 
 So: let's suppose the little ball we drop into the machine is an
-ELECTRON, and let's turn on a MAGNETIC FIELD!
+\textbf{electron}, and let's turn on a \textbf{magnetic field}!
 
 In quantum mechanics, if you have a charged particle in a static
 magnetic field, its wavefunction gets multiplied by a phase when you
@@ -22143,7 +22143,7 @@ coming in and one wire coming out: \[
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] We're allowed to compose these operations like this: \[
@@ -22152,25 +22152,25 @@ coming in and one wire coming out: \[
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$g_1$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$g_2$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$g_3$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$f$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] feeding the outputs of \(n\) operations \(g_1,\ldots,g_n\) into the
@@ -22184,43 +22184,43 @@ well-defined: \[
       \begin{scope}[shift={(-2.5,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-1,2) to (-0.33,1);
         \draw[thick] (0,2) to (0,1);
         \draw[thick] (1,2) to (0.33,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(2.5,3)}]
         \draw[thick] (0,2) to (0,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(2.5,3)},xscale=0.45,yscale=0.67]
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(-2.5,3)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] (This picture has a \(0\)-ary operation in it, just to emphasize that
@@ -22237,7 +22237,7 @@ and get a new operation: \[
       \flipcrossings{1,2};
     \end{knot}
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] We demand that this give an action of each permutation group \(S_n\)
@@ -22254,25 +22254,25 @@ the pictures. For example: \[
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \node at (0,0.5) {$d$};
     \draw[thick] (0,0) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (0.5,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \node at (1.5,1) {$=$};
@@ -22280,19 +22280,19 @@ the pictures. For example: \[
       \draw[thick] (-0.6,1.6) to (-0.33,1);
       \draw[thick] (0,1.6) to (0,1);
       \draw[thick] (0.6,1.6) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$d$};
       \draw[thick] (0,0) to (0,-1);
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$a$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$b$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$c$};
       \end{scope}
       \begin{scope}[shift={(0,2)}]
@@ -22542,7 +22542,7 @@ categorify it, instead\ldots{}
 
 What's the free symmetric \(2\)-rig on one generator?
 
-It's the category of STRUCTURE TYPES!
+It's the category of \textbf{structure types}!
 
 I'll leave the proof of this as a puzzle for the budding category
 theorists out there. This is supposed to explain very precisely the
@@ -22590,7 +22590,7 @@ puzzle:
 What's a monoid object in the category of structure types with
 composition as the monoidal structure?
 
-And the answer is: AN OPERAD!
+And the answer is: \textbf{an operad}!
 
 Now, this took me quite a while to deeply understand, but when I did it
 was great. So, if you have enough category theory under your belt to
@@ -22616,19 +22616,19 @@ definition of operad, namely that operations like this are well-defined:
     \draw[thick] (-0.6,1.6) to (-0.33,1);
     \draw[thick] (0,1.6) to (0,1);
     \draw[thick] (0.6,1.6) to (0.33,1);
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \node at (0,0.5) {$d$};
     \draw[thick] (0,0) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \begin{scope}[shift={(0,2)}]
@@ -23220,7 +23220,7 @@ operations: \[
     \draw[thick] (-1,2) to (-0.33,1);
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] together with ways to compose them, like this: \[
@@ -23228,22 +23228,22 @@ operations: \[
     \begin{scope}[shift={(-2.5,3)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] Given an operad \(\mathcal{O}\), an ``\(\mathcal{O}\)-algebra'' is,
@@ -23828,14 +23828,14 @@ this case --- and in fact it often works like this --- the roots in the
 less than the one we started with. Since the Cartan of this smaller Lie
 algebra is one dimension smaller, it turns out that \(L(0)\) equals this
 smaller Lie algebra plus a one-dimensional abelian subalgebra --- namely
-\(\mathrm{u}(1)\).
+\(\mathfrak{u}(1)\).
 
 In this example this smaller Lie algebra is \(\mathfrak{so}(14)\), which
 has dimension 91. \(L(1)\) is a \(64\)-dimensional chiral spinor rep of
 \(\mathfrak{so}(14)\), and \(L(2)\) is the \(14\)-dimensional vector
 rep\ldots{} and similarly for \(L(-1)\) and \(L(-2)\). So we get a very
 ``14-dimensional'' picture of \(\mathrm{E}_8\):
-\[\mathrm{E}_8 = [\mbox{vectors}] \oplus [\mbox{spinors}] \oplus [\mathfrak{so}(14) \oplus \mathrm{u}(1)] \oplus [\mbox{spinors}] \oplus [\mbox{vectors}]\]
+\[\mathrm{E}_8 = [\mbox{vectors}] \oplus [\mbox{spinors}] \oplus [\mathfrak{so}(14) \oplus \mathfrak{u}(1)] \oplus [\mbox{spinors}] \oplus [\mbox{vectors}]\]
 But we get a more exciting way of slicing the diamond if we use the
 picture of \(\mathrm{E}_8\) as the Cayley integral octonions! Let's do
 this, and let each slice go through those roots where the ``real part''
@@ -23885,13 +23885,13 @@ each root in \(L(1)\) and \(L(2)\), so I can write a paper entitled ``57
 Varieties'' and get sued for trademark infringement by Heinz.
 
 In the above grading of \(\mathrm{E}_8\), the Lie algebra \(L(0)\) is
-the direct sum of \(\mathrm{E}_7\) and \(\mathrm{u}(1)\). This is no
+the direct sum of \(\mathrm{E}_7\) and \(\mathfrak{u}(1)\). This is no
 surprise if you know that the dimension of \(\mathrm{E}_7\) is
 133\ldots{} but the reason it's \emph{true} is that if you take the
 roots of \(\mathrm{E}_8\) that are orthogonal to any one root, you get
 the roots of \(\mathrm{E}_7\). So, we get a very \(\mathrm{E}_7\)-ish
 description of \(\mathrm{E}_8\):
-\[E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathrm{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]\]
+\[E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathfrak{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]\]
 
 Here the ``Freudenthal algebra'' is the \(56\)-dimensional irrep of
 \(\mathrm{E}_7\), which has an invariant symplectic structure and
@@ -23914,7 +23914,7 @@ trick on a smaller scale to get gradings of the Lie algebra
   \end{array}
 \] Since \(\mathrm{E}_7\)'s baby brother \(\mathrm{E}_6\) is
 \(78\)-dimensional, it's no surprise that the Lie algebra \(L(0)\) is
-\(\mathrm{E}_6\oplus\mathrm{u}(1)\). Since \(3\)-gradings tend to give
+\(\mathrm{E}_6\oplus\mathfrak{u}(1)\). Since \(3\)-gradings tend to give
 us Jordan algebras, it's no suprise that \(L(1)\) is the exceptional
 Jordan algebra \(\mathrm{h}_3(\mathbb{O})\) consisting of all
 \(3\times3\) hermitian octonionic matrices. \(\mathrm{E}_6\) acts as the
@@ -23922,12 +23922,12 @@ group of all transformations of \(\mathrm{h}_3(\mathbb{O})\) preserving
 the determinant, and in fact \(\mathrm{h}_3(\mathbb{O})\) is an irrep of
 \(\mathrm{E}_6\). \(L(-1)\) is just the dual of this rep. So, we get a
 very octonionic description of \(\mathrm{E}_7\):
-\[E7 = \mathrm{h}_3(\mathbb{O})^* \oplus [\mathrm{E}_6 \oplus \mathrm{u}(1)] \oplus \mathrm{h}_3(\mathbb{O}).\]
+\[E7 = \mathrm{h}_3(\mathbb{O})^* \oplus [\mathrm{E}_6 \oplus \mathfrak{u}(1)] \oplus \mathrm{h}_3(\mathbb{O}).\]
 
 Now, since \(\mathrm{E}_6\) sits in \(\mathrm{E}_7\) which sits in
 \(\mathrm{E}_8\), just like nested Russian dolls, we can take our
 previous description of \(\mathrm{E}_8\):
-\[E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathrm{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]\]
+\[E8 = [\mbox{trivial}] \oplus [\mbox{Freudenthal}] \oplus [\mathrm{E}_7 \oplus \mathfrak{u}(1)] \oplus [\mbox{Freudenthal}] \oplus [\mbox{trivial}]\]
 and decompose everything in sight as irreps of \(\mathrm{E}_6\). If we
 do this, the only new exciting thing that happens is that the
 Freudenthal algebra decomposes into a copy of the exceptional Jordan
@@ -24108,8 +24108,8 @@ Jordan algebra \(L(1)\)\strut
 \bottomrule
 \end{longtable}
 
-Since \(L(0)\) always contains a \(\mathrm{u}(1)\) summand in these
-cases, we write \[L(0) = L'(0) + \mathrm{u}(1)\] so that \(L'(0)\) is
+Since \(L(0)\) always contains a \(\mathfrak{u}(1)\) summand in these
+cases, we write \[L(0) = L'(0) + \mathfrak{u}(1)\] so that \(L'(0)\) is
 the interesting part of \(L(0)\). The formally real simple Jordan
 algebras appearing here are all those listed in
 \protect\hyperlink{week162}{``Week 162''} --- we get all of them! In
@@ -25109,7 +25109,7 @@ space equipped with various amounts of extra structure --- i.e.~the
 structure of a \(4\)-dimensional complex vector space, or a
 \(2\)-dimensional quaternionic vector space. And you'll probably be more
 bored than shocked when I tell you that this \(8\)-dimensional real
-vector space is yearning to become the OCTONIONS.
+vector space is yearning to become the \textbf{octonions}.
 
 Let's see how we can use this to study specially nice manifolds in 8, 7,
 6 and 5 dimensions. We'll start in dimension 8 and climb our way down by
@@ -25140,8 +25140,8 @@ More precisely, suppose we pick a unit vector \(1_+\) in \(S_+\) and a
 unit vector \(1_-\) in \(S_-\). It turns out that multiplying by \(1_+\)
 defines an isomorphism from \(S_-\) to \(V\). Similarly, multiplying by
 \(1_-\) gives an isomorphism from \(S_+\) to \(V\). This lets us think
-of all three spaces as the same: THE OCTONIONS, with \(m\) as the
-octonion product and \(1_+\) (or \(1_-\) if you prefer) as its unit.
+of all three spaces as the same: \textbf{the octonions}, with \(m\) as
+the octonion product and \(1_+\) (or \(1_-\) if you prefer) as its unit.
 
 In fact, there's nothing special about writing our operator as
 \[S_+ \otimes S_- \to V\] since all three of these reps are their own
@@ -26594,7 +26594,7 @@ strings! But I'd like to make this connection considerably more precise.
 To do this, I'll reveal that the spectrum for topological modular form
 theory is a ring spectrum, and the abelian groups
 \[\mathrm{tmf}^n(\mbox{point})\] fit together in a very famous graded
-ring: it's the ring of MODULAR FORMS!
+ring: it's the ring of \textbf{modular forms}!
 
 Well, at least after we tensor it with the complex numbers, it
 is\ldots{} but before we worry about that, I should say what modular
@@ -26790,7 +26790,7 @@ is sometimes afflicted with ambiguities!
 
 So, restricting attention to the case where our Riemann surface is an
 elliptic curve, you should not be surprised that the partition function
-of any conformal field theory is a MODULAR FORM!
+of any conformal field theory is a \textbf{modular form}!
 
 If this modular form has weight \(0\), the partition function is an
 honest-to-goodness function on the moduli space of elliptic curves: for
@@ -26972,7 +26972,7 @@ this:
 \item
   Nils A. Baas, Bjorn Ian Dundas and John Rognes, Two-vector bundles and
   forms of elliptic cohomology, available as
-  \href{http://www.arXiv.org/abs/math.AT/0306027}{math.AT/0306027}.
+  \href{http://www.arXiv.org/abs/math.AT/0306027}{\texttt{math.AT/0306027}}.
 \end{enumerate}
 
 I'll quote the abstract because it will be enlightening to a few of you:
@@ -28864,7 +28864,7 @@ In short, we have this kind of setup:
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
-ABSTRACT GENERAL & CONCRETE GENERAL\tabularnewline
+\textbf{Abstract general} & \textbf{Concrete general}\tabularnewline
 \midrule
 \endhead
 theory & models\tabularnewline

@@ -12,7 +12,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
-\usepackage{color}
+\usepackage{xcolor}
 \definecolor{myurlcolor}{rgb}{0.6,0,0}
 \definecolor{mycitecolor}{rgb}{0,0,0.8}
 \definecolor{myrefcolor}{rgb}{0,0,0.8}
@@ -94,8 +94,8 @@ is that they're easy to state but hard to solve. For example: are any
 odd numbers the sum of all their divisors? Are there infinitely many
 pairs of primes that differ by 2? Is every even number bigger than 2 a
 sum of two primes? Are there any positive integer solutions to
-\[x^n + y^n = z^n\] for \(n > 2\)? My response to all these was: WHO
-CARES?!
+\[x^n + y^n = z^n\] for \(n > 2\)? My response to all these was:
+\textbf{who cares}?!
 
 Sure, it's noble to seek knowledge for its own sake. But working on a
 math problem just because it's \emph{hard} is like trying to drill a
@@ -511,9 +511,9 @@ So far, we've looked at examples of a field \(k\) contained in some
 bigger field \(K\), and worked out the group \(\mathrm{Gal}(K/k)\)
 consisting of all automorphisms of \(K\) that fix everything in \(k\).
 
-But here's the big secret: this has NOTHING TO DO WITH FIELDS! It works
-for ANY sort of mathematical gadget! If you've got a little gadget \(k\)
-sitting in a big gadget \(K\), you get a ``Galois group''
+But here's the big secret: this has \textbf{nothing to do with fields}!
+It works for ANY sort of mathematical gadget! If you've got a little
+gadget \(k\) sitting in a big gadget \(K\), you get a ``Galois group''
 \(\mathrm{Gal}(K/k)\) consisting of symmetries of the big gadget that
 fix everything in the little one.
 
@@ -526,10 +526,10 @@ And conversely, any gadget containing \(k\) and contained in \(K\) gives
 a subgroup of \(\mathrm{Gal}(K/k)\): namely, the group consisting of all
 the symmetries of \(K\) that fix every element of this gadget.
 
-This was Galois' biggest idea: we call this a GALOIS CORRESPONDENCE. It
-lets us use \emph{group theory} to classify gadgets contained in one and
-containing another. He applied it to fields, but it turns out to be
-useful much more generally.
+This was Galois' biggest idea: we call this a \textbf{galois
+correspondence}. It lets us use \emph{group theory} to classify gadgets
+contained in one and containing another. He applied it to fields, but it
+turns out to be useful much more generally.
 
 Now, it would be great if the Galois corresondence were always a perfect
 1-1 correspondence between subgroups of \(\mathrm{Gal}(K/k)\) and
@@ -983,8 +983,8 @@ it into two subsets and put a \(T\)-structure on each one.''
 In other words, any binary tree is either a degenerate tree, with just
 one leaf: \[X\] or a pair of binary trees stuck together at the root: \[
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
-    \draw[rounded corners] (0.75,1) rectangle (0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (0.75,1) rectangle (0.25,1.5);
     \node at (-0.5,1.25) {$T$};
     \node at (0.5,1.25) {$T$};
     \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
@@ -1034,14 +1034,14 @@ binary tree from lots of smaller binary trees. Each time you see a
 ``\(T\)'' and replace it with an ``\(X + T^2\)'', you're really taking a
 little binary tree: \[
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
     \node at (-0.5,1.25) {$T$};
   \end{tikzpicture}
 \] and replacing it with either a degenerate tree with just a single
 leaf: \[X\] or a pair of binary trees: \[
   \begin{tikzpicture}
-    \draw[rounded corners] (-0.75,1) rectangle (-0.25,1.5);
-    \draw[rounded corners] (0.75,1) rectangle (0.25,1.5);
+    \draw[thick,rounded corners] (-0.75,1) rectangle (-0.25,1.5);
+    \draw[thick,rounded corners] (0.75,1) rectangle (0.25,1.5);
     \node at (-0.5,1.25) {$T$};
     \node at (0.5,1.25) {$T$};
     \draw[thick] (-0.5,1) to (0,0) to (0.5,1);
@@ -1270,7 +1270,7 @@ Most importantly, Tom Leinster has come out with a big book on
 \item
   Tom Leinster, \emph{Higher Operads, Higher Categories}, Cambridge U.
   Press, Cambridge, 2003. Also available as
-  \href{http://arxiv.org/abs/math.CT/0305049}{\texttt{arXiv:math.CT/0305049}}.
+  \href{http://arxiv.org/abs/math.CT/0305049}{\texttt{math.CT/0305049}}.
 \end{enumerate}
 
 As you'll note, he managed to talk the press into letting him keep his
@@ -1322,11 +1322,11 @@ homotopy theory:
 \item
   Michael A. Batanin, ``The Eckmann-Hilton argument, higher operads and
   \(E_n\) spaces'', available as
-  \href{http://arxiv.org/abs/math.CT/0207281}{\texttt{arXiv:math.CT/0207281}}.
+  \href{http://arxiv.org/abs/math.CT/0207281}{\texttt{math.CT/0207281}}.
 
   Michael A. Batanin, ``The combinatorics of iterated loop spaces'',
   available as
-  \href{http://arxiv.org/abs/math.CT/0301221}{\texttt{arXiv:math.CT/0301221}}.
+  \href{http://arxiv.org/abs/math.CT/0301221}{\texttt{math.CT/0301221}}.
 \end{enumerate}
 
 Getting a manageable combinatorial understanding of the space of loops
@@ -3684,13 +3684,13 @@ factorize the ideal generated by \(3\) in \(\mathbb{Z}[i]\) we just get
 just sits there! So, we say this prime is ``inert''.
 
 This may seem boring, but it's actually mysterious --- and downright
-MADDENING if we take the analogy between geometry and algebra seriously.
-It's weird enough to have a ``branched'' cover where sheets merge at
-certain points, but at least in that case we can \emph{see} they've
-merged: a prime ideal in our subring generates an ideal in the extension
-that's not prime, but is a product of several prime factors, some of
-which happen to be the same. But when a prime ideal in our subring
-generates a \emph{prime} ideal in the extension, it's as if our
+\textbf{maddening} if we take the analogy between geometry and algebra
+seriously. It's weird enough to have a ``branched'' cover where sheets
+merge at certain points, but at least in that case we can \emph{see}
+they've merged: a prime ideal in our subring generates an ideal in the
+extension that's not prime, but is a product of several prime factors,
+some of which happen to be the same. But when a prime ideal in our
+subring generates a \emph{prime} ideal in the extension, it's as if our
 ``cover'' has just \emph{one} sheet over this point in the base space!
 And if this happens for a quadratic extension --- as it just did ---
 something seems to have gone horribly wrong with the nice idea that
@@ -4144,7 +4144,7 @@ histories of the system in question, with each history weighted by a
 complex number called its ``amplitude''. For a particle, a history is
 just a path in space; to average over all histories is to integrate over
 all paths --- hence the term ``path integral''. But in quantum gravity,
-a history is nothing other than a SPACETIME.
+a history is nothing other than a \textbf{spacetime}.
 
 Mathematically, a ``spacetime'' is something like a \(4\)-dimensional
 manifold equipped with a Lorentzian metric. But it's hard to integrate
@@ -6631,15 +6631,15 @@ this:
 \tightlist
 \item
   The 1st homotopy group consists of Morita equivalence classes of
-  Azumaya algebras over \(R\). This is also called the BRAUER GROUP of
-  \(R\).
+  Azumaya algebras over \(R\). This is also called the \textbf{Brauer
+  group} of \(R\).
 \item
   The 2nd homotopy group consists of isomorphism classes of Morita
-  equivalences from \(R\) to \(R\). This is also called the PICARD GROUP
-  of \(R\).
+  equivalences from \(R\) to \(R\). This is also called the
+  \textbf{Picard group} of \(R\).
 \item
   The 3rd homotopy group consists of invertible elements of \(R\). This
-  is also called the UNIT GROUP of \(R\).
+  is also called the \textbf{unit group} of \(R\).
 \end{itemize}
 
 People had been quite happily studying these groups for a long time
@@ -11997,8 +11997,8 @@ number theory what it is today!
 We can summarize everything so far in this slogan:
 
 \begin{quote}
-THE FUNCTIONAL EQUATION FOR THE RIEMANN ZETA FUNCTION SAYS:\\
-``THE THETA FUNCTION IS AN AUTOMORPHIC FORM''
+\textbf{the functional equation for the riemann zeta function says:}\\
+\textbf{``the theta function is an automorphic form''}
 \end{quote}
 
 But before you start printing out bumper stickers, I should
@@ -12924,15 +12924,15 @@ Summarizing this, we have the following motto, suitable for making into
 a bumper sticker:
 
 \begin{quote}
-THE SET OF NATURAL NUMBERS IS THE DECATEGORIFICATION OF\\
-THE CATEGORY OF FINITE SETS
+\textbf{the set of natural numbers is the decategorification of}\\
+\textbf{the category of finite sets}
 \end{quote}
 
 Similarly, this is what we're seeing now:
 
 \begin{quote}
-THE SET OF ZETA FUNCTIONS IS THE DECATEGORIFICATION OF\\
-THE CATEGORY OF FINITE \(\mathbb{Z}\)-SETS
+\textbf{the set of zeta functions is the decategorification of}\\
+\textbf{the category of finite \(\mathbb{z}\)-sets}
 \end{quote}
 
 Beware: here I'm only talking about zeta functions of the above form.
@@ -12960,8 +12960,8 @@ Now, there's another motto along the lines of the above two, which I've
 talked about before:
 
 \begin{quote}
-THE SET OF GENERATING FUNCTIONS IS A DECATEGORIFICATION OF\\
-THE CATEGORY OF FINITE STRUCTURE TYPES
+\textbf{the set of generating functions is a decategorification of}\\
+\textbf{the category of finite structure types}
 \end{quote}
 
 I explained this in \protect\hyperlink{week185}{``Week 185''},
@@ -13046,9 +13046,9 @@ Or, in category theory jargon, ``being a \(\mathbb{Z}\)-set over
 So:
 
 \begin{quote}
-THE ZETA FUNCTION OF THE \(\mathbb{Z}-SET\) \(X\) IS THE GENERATING
-FUNCTION OF\\
-``BEING A \(\mathbb{Z}-SET\) OVER \(X\)''
+\textbf{the zeta function of the \(\mathbb{z}-set\) \(x\) is the
+generating function of}\\
+\textbf{``being a \(\mathbb{z}-set\) over \(x\)''}
 \end{quote}
 
 By the way, this is the kind of thing you could do with \emph{any}
@@ -14584,7 +14584,7 @@ output: \[
     \draw[thick] (0,2) to (0,1);
     \draw[thick] (1,2) to (0.33,1);
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] For starters these operations are purely abstract things that don't
@@ -14599,25 +14599,25 @@ operad tells us how to compose its operations, like this: \[
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
       \node at (0,0.5) {$g_1$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
       \node at (0,0.5) {$g_2$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
       \node at (0,0.5) {$g_3$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
       \node at (0,0.5) {$f$};
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] Here we are composing \(f\) with \(g_1\), \(g_2\), and \(g_3\) to get
@@ -14631,43 +14631,43 @@ a composite of composites like this well-defined: \[
       \begin{scope}[shift={(-2.5,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-1,2) to (-0.33,1);
         \draw[thick] (0,2) to (0,1);
         \draw[thick] (1,2) to (0.33,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
       \begin{scope}[shift={(2.5,3)}]
         \draw[thick] (0,2) to (0,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(2.5,3)},xscale=0.45,yscale=0.67]
       \begin{scope}[shift={(0,3)}]
         \draw[thick] (-0.5,2) to (-0.25,1);
         \draw[thick] (0.5,2) to (0.25,1);
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \end{scope}
     \end{scope}
     \begin{scope}[shift={(-2.5,3)}]
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(0,3)}]
       \draw[thick] (-1,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (1,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
     \begin{scope}[shift={(2.5,3)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \end{scope}
       \draw[thick] (-2.5,3) to (-0.33,1);
       \draw[thick] (0,3) to (0,1);
       \draw[thick] (2.5,3) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] (This picture has a \(0\)-ary operation in it, just to emphasize that
@@ -14687,7 +14687,7 @@ get a new operation: \[
       \flipcrossings{1,2};
     \end{knot}
     \node at (0,0.5) {$f$};
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \draw[thick] (0,0) to (0,-1);
   \end{tikzpicture}
 \] This gives actions of the permutation groups on the sets
@@ -14704,25 +14704,25 @@ For example: \[
         to [out=down,in=up,looseness=1.5] (0,1);
       \flipcrossings{1,2};
     \end{knot}
-    \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+    \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
     \node at (0,0.5) {$d$};
     \draw[thick] (0,0) to (0,-1);
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.33,1);
       \draw[thick] (0,2) to (0,1);
       \draw[thick] (0.5,2) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$a$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,6.25)}]
       \draw[thick] (0,2) to (0,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$b$};
     \end{scope}
     \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,6.25)}]
       \draw[thick] (-0.5,2) to (-0.25,1);
       \draw[thick] (0.5,2) to (0.25,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$c$};
     \end{scope}
     \node at (1.5,1) {$=$};
@@ -14730,19 +14730,19 @@ For example: \[
       \draw[thick] (-0.6,1.6) to (-0.33,1);
       \draw[thick] (0,1.6) to (0,1);
       \draw[thick] (0.6,1.6) to (0.33,1);
-      \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+      \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
       \node at (0,0.5) {$d$};
       \draw[thick] (0,0) to (0,-1);
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(-2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$a$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(0,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$b$};
       \end{scope}
       \begin{scope}[xscale=0.3,yscale=0.4,shift={(2,4)}]
-        \draw[rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
+        \draw[thick,rounded corners=1mm] (-0.75,1) rectangle ++(1.5,-1);
         \node at (0,0.5) {$c$};
       \end{scope}
       \begin{scope}[shift={(0,2)}]
@@ -14822,16 +14822,16 @@ So, given \(n\) such such maps, we can glom them together using an
 map from the \(k\)-cube to \(S\) sending the boundary to \(*\). So:
 
 \begin{quote}
-ANY \(k\)-FOLD LOOP SPACE HAS AN ACTION OF\\
-THE LITTLE \(k\)-CUBES OPERAD
+\textbf{any \(k\)-fold loop space has an action of}\\
+\textbf{the little \(k\)-cubes operad}
 \end{quote}
 
 But the really cool part is the converse:
 
 \begin{quote}
-ANY CONNECTED POINTED SPACE WITH AN ACTION OF\\
-THE LITTLE \(k\)-CUBES OPERAD IS\\
-HOMOTOPY EQUIVALENT TO A \(k\)-FOLD LOOP SPACE
+\textbf{any connected pointed space with an action of}\\
+\textbf{the little \(k\)-cubes operad is}\\
+\textbf{homotopy equivalent to a \(k\)-fold loop space}
 \end{quote}
 
 This is too technical to make a good bumper sticker, so if you want
@@ -14839,8 +14839,8 @@ people in your neighborhood to get interested in operads, I suggest
 combining both the above slogans into one:
 
 \begin{quote}
-A \(k\)-FOLD LOOP SPACE IS THE SAME AS\\
-AN ACTION OF THE LITTLE \(k\)-CUBES OPERAD
+\textbf{a \(k\)-fold loop space is the same as}\\
+\textbf{an action of the little \(k\)-cubes operad}
 \end{quote}
 
 Like any good slogan, this leaves out some important fine print, but it
@@ -17375,9 +17375,9 @@ easily survive a dose of vagueness that would kill a lesser idea.
 Namely, if \(B\) is a connected space with a chosen basepoint,
 
 \begin{quote}
-FIBRATIONS OVER THE BASE SPACE \(B\) WITH FIBER \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS SENDING LOOPS IN \(B\) TO AUTOMORPHISMS OF \(F\).
+\textbf{fibrations over the base space \(B\) with fiber \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{homomorphisms sending loops in \(B\) to automorphisms of \(F\).}
 \end{quote}
 
 This could be called ``the basic principle of Galois theory'', for
@@ -17387,10 +17387,10 @@ fibration called a ``covering space'', and the basic principle of Galois
 theory boils down to this:
 
 \begin{quote}
-COVERING SPACES OVER \(B\) WITH FIBER \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF \(B\) TO AUTOMORPHISMS OF
-\(F\).
+\textbf{covering spaces over \(B\) with fiber \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{homomorphisms from the fundamental group of \(B\) to
+automorphisms of \(F\).}
 \end{quote}
 
 Okay. Now let's use the same principle to classify extensions of a group
@@ -17436,9 +17436,9 @@ one automorphism and yield another. And, extensions
 only identity morphisms. More precisely:
 
 \begin{quote}
-EXTENSIONS OF THE GROUP \(B\) BY THE GROUP \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS FROM \(B\) TO THE \(2\)-GROUP \(\mathrm{AUT}(F)\)
+\textbf{extensions of the group \(B\) by the group \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{homomorphisms from \(B\) to the \(2\)-group \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 It's fun to work out the details, but it's probably not a good use of
@@ -17486,9 +17486,9 @@ groupoids in the obvious way, they're equivalent. And that's what this
 slogan really means:
 
 \begin{quote}
-EXTENSIONS OF THE GROUP \(B\) BY THE GROUP \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS FROM \(B\) TO THE \(2\)-GROUP \(\mathrm{AUT}(F)\)
+\textbf{extensions of the group \(B\) by the group \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{homomorphisms from \(B\) to the \(2\)-group \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 Next, let me say how Schreier theory reduces to more familiar ideas in
@@ -17581,10 +17581,10 @@ marching ``upwards''. I don't know how much work has been done on this,
 but the slogan should be something like this:
 
 \begin{quote}
-\(n\)-GROUPOIDS FIBERED OVER AN \(n\)-GROUPOID \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \((n+1)\)-FUNCTORS FROM \(B\) TO THE \((n+1)\)-GROUPOID
-\(n\mathsf{Gpd}\)
+\textbf{\(n\)-groupoids fibered over an \(n\)-groupoid \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \((n+1)\)-functors from \(B\) to the \((n+1)\)-groupoid
+\(n\mathsf{Gpd}\)}
 \end{quote}
 
 Grothendieck also studied this kind of thing with categories replacing
@@ -17598,9 +17598,9 @@ However, I'm not scared to go from \(n\)-groupoids to
 of spaces, the slogan goes like this:
 
 \begin{quote}
-SPACES FIBERED OVER THE SPACE \(B\)\\
-ARE ``THE SAME'' AS\\
-MAPS FROM \(B\) TO THE SPACE OF ALL SPACES
+\textbf{spaces fibered over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the space of all spaces}
 \end{quote}
 
 This is how James Dolan taught it to me. Most mortals are scared of
@@ -17610,9 +17610,9 @@ of them. To avoid these terrors, you can water down Jim's slogan by
 choosing a specific space \(F\) to be the fiber:
 
 \begin{quote}
-FIBRATIONS WITH FIBER \(F\) OVER THE SPACE \(B\)\\
-ARE ``THE SAME'' AS\\
-MAPS FROM \(B\) TO THE CLASSIFYING SPACE OF \(\mathrm{AUT}(F)\)
+\textbf{fibrations with fiber \(F\) over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the classifying space of \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 where \(\mathrm{AUT}(F)\) is the topological group of homotopy
@@ -17830,8 +17830,9 @@ Did you see
 creationist sign by the dinosaurs?}
 
 \begin{quote}
-SPACES FIBERED OVER THE SPACE \(B\) ARE ``THE SAME'' AS MAPS FROM \(B\)
-TO THE SPACE OF ALL SPACES
+\textbf{spaces fibered over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the space of all spaces}
 \end{quote}
 
 \begin{quote}
@@ -17844,21 +17845,22 @@ sets, but otherwise it's perfectly fine.
 So if you want your slogan to treat size issues carefully:
 
 \begin{quote}
-SPACES FIBERED OVER THE SPACE \(B\)\\
-ARE ``THE SAME'' AS\\
-MAPS FROM \(B\) TO THE SPACE OF ALL SMALL SPACES
+\textbf{spaces fibered over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the space of all small spaces}
 \end{quote}
 
 But you were secretly doing this all along! After all, when you wrote:
 
 \begin{quote}
-\(n\)-GROUPOIDS FIBERED OVER AN \(n\)-GROUPOID \(B\) ARE ``THE SAME'' AS
-WEAK \((n+1)\)-FUNCTORS FROM \(B\) TO THE \((n+1)\)-GROUPOID
-\(n\mathsf{Gpd}\)
+\textbf{\(n\)-groupoids fibered over an \(n\)-groupoid \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \((n+1)\)-functors from \(B\) to the \((n+1)\)-groupoid
+\(n\mathsf{Gpd}\)}
 \end{quote}
 
-you simply used ``\(n\mathsf{Gpd}\)'' to abbreviate ``OF ALL SMALL
-\(n\)-GROUPOIDS''. So there are really no new size issues at the
+you simply used ``\(n\mathsf{Gpd}\)'' to abbreviate ``\textbf{of all
+small \(n\)-groupoids}''. So there are really no new size issues at the
 \(\omega\) level.
 
 (Exercise for those that like this sort of thing: Do we need to state
@@ -17899,16 +17901,18 @@ You wrote:
 Hi,
 
 \begin{quote}
-SPACES FIBERED OVER THE SPACE \(B\) ARE ``THE SAME'' AS MAPS FROM \(B\)
-TO THE SPACE OF ALL SMALL SPACES
+\textbf{spaces fibered over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the space of all small spaces}
 \end{quote}
 
 Is there another handle on this, other than
 
 \begin{quote}
-OMEGA-GROUPOIDS FIBERED OVER THE OMEGA-GROUPOID \(B\) ARE ``THE SAME''
-AS WEAK OMEGA-FUNCTORS FROM \(B\) TO THE OMEGA-GROUPOID OF ALL SMALL
-OMEGA-GROUPOIDS ?
+\textbf{omega-groupoids fibered over the omega-groupoid \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak omega-functors from \(B\) to the omega-groupoid of all}\\
+\textbf{small omega-groupoids} ?
 \end{quote}
 
 Presumably \(B\) must be small, and the spaces fibered over it.
@@ -17918,15 +17922,17 @@ It suffices for the fibers to be small, so if you want a really nitpicky
 motto:
 
 \begin{quote}
-SMALL \(\omega\)-GROUPOIDS FIBERED OVER THE \(\omega\)-GROUPOID \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \(\omega\)-FUNCTORS FROM \(B\) TO THE \(\omega\)-GROUPOID OF ALL\\
-SMALL \(\omega\)-GROUPOIDS\\
+\textbf{small \(\omega\)-groupoids fibered over the \(\omega\)-groupoid
+\(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \(\omega\)-functors from \(B\) to the \(\omega\)-groupoid
+of all}\\
+\textbf{small \(\omega\)-groupoids}
 \end{quote}
 
 \begin{quote}
-Do you and Jim have other intuitions about THE SPACE OF ALL SMALL
-SPACES?
+Do you and Jim have other intuitions about \textbf{the space of all
+small spaces}?
 \end{quote}
 
 One can describe it in a completely precise and rigorous way. It's the
@@ -17944,7 +17950,7 @@ And, if we map a connected small space \(X\) to it, we get a map
 to get an \(F\)-bundle over \(X\).
 
 \begin{quote}
-Like, is it one of your FREE SUCH-AND-SUCHES?
+Like, is it one of your \textbf{free such-and-suches}?
 \end{quote}
 
 I don't know a description like that offhand, since ``free'' suggests a
@@ -17964,9 +17970,9 @@ Next, Peter May wrote:
 In his posting today, John Baez advertised the slogan:
 
 \begin{quote}
-FIBRATIONS OVER THE BASE SPACE \(B\) WITH FIBER \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS SENDING LOOPS IN \(B\) TO AUTOMORPHISMS OF \(F\).
+\textbf{fibrations over the base space \(B\) with fiber \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{homomorphisms sending loops in \(B\) to automorphisms of \(F\)}.
 \end{quote}
 
 He hedged it with a ``dose of vagueness'', but in fact I proved a
@@ -18228,8 +18234,9 @@ last slogan is the oldest:
 \end{quote}
 
 \begin{quote}
-FIBRATIONS WITH FIBER \(F\) OVER THE SPACE \(B\) ARE ``THE SAME'' AS
-MAPS FROM \(B\) TO THE CLASSIFYING SPACE OF \(\mathrm{AUT}(F)\)
+\textbf{fibrations with fiber \(F\) over the space \(B\)}\\
+\textbf{are ``the same'' as} \textbf{maps from \(B\) to the classifying
+space of \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 \begin{quote}
@@ -18239,27 +18246,27 @@ MAPS FROM \(B\) TO THE CLASSIFYING SPACE OF \(\mathrm{AUT}(F)\)
 It's certainly old, but I mentioned another that may be older:
 
 \begin{quote}
-COVERING SPACES OF \(B\) WITH FIBER \(F\)\\
-ARE ``THE SAME'' AS\\
-HOMOMORPHISMS FROM THE FUNDAMENTAL GROUP OF \(B\) TO AUTOMORPHISMS OF
-\(F\)
+\textbf{covering spaces of \(B\) with fiber \(F\)}\\
+\textbf{ARE ``THE SAME'' AS}\\
+\textbf{homomorphisms from the fundamental group of \(B\) to
+automorphisms of \(F\)}
 \end{quote}
 
 although one usually sees this special case (which I didn't bother to
 mention):
 
 \begin{quote}
-CONNECTED COVERING SPACES OF \(B\) WITH FIBER \(F\)\\
-ARE ``THE SAME'' AS\\
-TRANSITIVE ACTIONS OF THE FUNDAMENTAL GROUP OF \(B\) ON \(F\)
+\textbf{connected covering spaces of \(B\) with fiber \(F\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{transitive actions of the fundamental group of \(B\) on \(F\)}
 \end{quote}
 
 which is usually disguised as follows:
 
 \begin{quote}
-CONNECTED COVERING SPACES OF \(B\)\\
-ARE ``THE SAME'' AS\\
-SUBGROUPS OF THE FUNDAMENTAL GROUP OF \(B\)
+\textbf{connected covering spaces of \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{subgroups of the fundamental group of \(B\)}
 \end{quote}
 
 Anyway, I wasn't trying to present things in historical order. I was
@@ -18290,36 +18297,37 @@ tired.
 In the case at hand, the \(\omega\)-groupoidal slogan:
 
 \begin{quote}
-FIBRATIONS OF \(\omega\)-GROUPOIDS WITH FIBER \(F\) AND BASE \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \(\omega\)-FUNCTORS FROM \(B\) TO \(\mathrm{AUT}(F)\)
+\textbf{fibrations of \(\omega\)-groupoids with fiber \(F\) and base
+\(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \(\omega\)-functors from \(B\) to \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 is just a reformulation of:
 
 \begin{quote}
-FIBRATIONS WITH FIBER \(F\) OVER THE SPACE \(B\)\\
-ARE ``THE SAME'' AS\\
-MAPS FROM \(B\) TO THE CLASSIFYING SPACE OF \(\mathrm{AUT}(F)\)
+\textbf{fibrations with fiber \(F\) over the space \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{maps from \(B\) to the classifying space of \(\mathrm{AUT}(F)\)}
 \end{quote}
 
 but it suggests a grandiose generalization:
 
 \begin{quote}
-FIBRATIONS OF \(\omega\)-CATEGORIES WITH BASE \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \(\omega\)-FUNCTORS FROM \(B^{\mathrm{op}}\) TO THE
-\(\omega\)-CATEGORY OF \(\omega\)-CATEGORIES!
+\textbf{fibrations of \(\omega\)-categories with base \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \(\omega\)-functors from \(B^{\mathrm{op}}\) to the
+\(\omega\)-category of \(\omega\)-categories!}
 \end{quote}
 
 I guess we can thank Grothendieck for making precise and proving a
 version of this with \(\omega\) replaced by \(n = 1\):
 
 \begin{quote}
-FIBRATIONS OF CATEGORIES WITH BASE \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \(2\)-FUNCTORS FROM \(B^{\mathrm{op}}\) TO THE \(2\)-CATEGORY OF
-CATEGORIES.
+\textbf{fibrations of categories with base \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \(2\)-functors from \(B^{\mathrm{op}}\) to the
+\(2\)-category of categories.}
 \end{quote}
 
 More recently people have been thinking about the \(n = 2\) case,
@@ -18339,10 +18347,10 @@ especially Claudio Hermida:
 He states something that hints at this:
 
 \begin{quote}
-FIBRATIONS OF \(2\)-CATEGORIES WITH BASE \(B\)\\
-ARE ``THE SAME'' AS\\
-WEAK \(3\)-FUNCTORS FROM \(B^{\mathrm{op}}\) TO THE WEAK \(3\)-CATEGORY
-OF \(2\)-CATEGORIES.
+\textbf{fibrations of \(2\)-categories with base \(B\)}\\
+\textbf{are ``the same'' as}\\
+\textbf{weak \(3\)-functors from \(B^{\mathrm{op}}\) to the weak
+\(3\)-category of \(2\)-categories.}
 \end{quote}
 
 Here I'm using \(B^{\mathrm{op}}\) to mean \(B\) with the directions of
@@ -19887,8 +19895,8 @@ that ``seem'' random, but can be computed using deterministic algorithms
 
 To see the relation, recall that a good cryptographic hash code
 shouldn't let you guess a message from its digest. So, for example, if
-my message is the EMPTY STRING --- no message at all! --- its digest
-should be a pseudorandom sequence.
+my message is the \textbf{empty string} --- no message at all! --- its
+digest should be a pseudorandom sequence.
 
 For example, if we apply SHA-1 to the empty string we get the following
 160 bits, written as 40 hexadecimal digits: \textgreater{}
@@ -21133,9 +21141,9 @@ about physics than logic, maybe that's good. In fact, I'll use this as
 an excuse to simplify everything tremendously, leaving out all sorts of
 details that a real logician would want.
 
-Logic can be divided into two parts: SYNTAX and SEMANTICS. Roughly
-speaking, syntax concerns the symbols you scribble on the page, while
-semantics concerns what these symbols mean.
+Logic can be divided into two parts: \textbf{syntax} and
+\textbf{semantics}. Roughly speaking, syntax concerns the symbols you
+scribble on the page, while semantics concerns what these symbols mean.
 
 A bit more precisely, imagine some kind of logical system where you
 write down some theory --- like the axioms for a group, say --- and use
@@ -21143,13 +21151,13 @@ it to prove theorems.
 
 In the realm of syntax, we focus on the form our theory is allowed to
 have, and how we can deduce new sentences from old ones. So, one of the
-key concepts is that of a PROOF. The details will vary depending on the
-kind of logical system we're studying.
+key concepts is that of a \textbf{proof}. The details will vary
+depending on the kind of logical system we're studying.
 
 In the realm of semantics, we are interested in gadgets that actually
 satisfy the axioms in our theory --- for example, actual groups, if
 we're thinking about the theory of groups. Such a gadget is called a
-MODEL of the theory. Again, the details vary immensely.
+\textbf{model} of the theory. Again, the details vary immensely.
 
 In the realm of syntax, we say a list of axioms \(X\) ``implies'' a
 sentence \(P\) if we can prove \(P\) from \(X\) using some deduction
@@ -23230,9 +23238,9 @@ Now, this particular combination of topics is classic crackpot fodder.
 People think ``Gee, uncertainty sounds like incompleteness, they're both
 limitations on knowledge --- they must be related!'' and go off the deep
 end. So I got pretty suspicious until I read his paper and saw it was
-CORRECT\ldots{} at which point I \emph{definitely} wanted him around!
-The connection they establish is not as precise as I'd like, but it's
-solid math.
+\textbf{correct}\ldots{} at which point I \emph{definitely} wanted him
+around! The connection they establish is not as precise as I'd like, but
+it's solid math.
 
 So, now Mike is here at UCR working with me on quantum logic and quantum
 computation using ideas from category theory. In his spare time, he
@@ -26472,9 +26480,9 @@ in principle. For example: \[
 \]
 
 The tranformation ``\(L\)'' turns the middle and top note into the
-bottom and middle note when you start with a MAJOR triad. It turns the
-bottom and middle note into the middle and top note when you start with
-a MINOR triad. For example: \[
+bottom and middle note when you start with a \textbf{major} triad. It
+turns the bottom and middle note into the middle and top note when you
+start with a \textbf{minor} triad. For example: \[
   \begin{aligned}
     L\colon \{0,4,7\} &\mapsto \{4,7,11\}
   \\\mbox{C major triad} &\mapsto \mbox{E minor triad}
@@ -26483,8 +26491,8 @@ a MINOR triad. For example: \[
   \end{aligned}
 \] The transformation ``\(R\)'' works the other way around. It turns the
 middle and top note into the bottom and middle note when you start with
-a MINOR triad. And it turns the bottom and middle note into the middle
-and top note when you start with a MAJOR triad: \[
+a \textbf{minor} triad. And it turns the bottom and middle note into the
+middle and top note when you start with a \textbf{major} triad: \[
   \begin{aligned}
     R\colon \{0,4,7\} &\mapsto \{9,0,4\}
   \\\mbox{C major triad} &\mapsto \mbox{A minor triad}
@@ -26896,7 +26904,7 @@ We might go further and look for a quadruply transitive group of
 permutations of our \(12\)-element set of notes --- in other words, one
 that maps any ordered \(4\)-tuple of distinct notes to any other.
 
-But if we do, we'll run smack dab into MATHIEU GROUPS!
+But if we do, we'll run smack dab into \textbf{Mathieu groups}!
 
 Here's an utterly staggering fact about reality. Apart from the group of
 \emph{all} permutations of an \(n\)-element set and the group of
@@ -29689,7 +29697,7 @@ Morton introduces here:
   785--854. Available at
   \texttt{http://www.emis.de/journals/TAC/volumes/16/29/16-29abs.html};
   also available as
-  \href{http://arxiv.org/abs/math.QA/0601458}{math.QA/0601458}.
+  \href{http://arxiv.org/abs/math.QA/0601458}{\texttt{math.QA/0601458}}.
 \end{enumerate}
 
 He starts from the beginning, explains how and why one would try to
@@ -30537,7 +30545,7 @@ gerbe:
 \item
   Alan L. Carey, Stuart Johnson and Michael K. Murray, ``Holonomy on
   D-branes'', available as
-  \href{http://arxiv.org/abs/hep-th/0204199}{\texttt{arXiv:hep-th/0204199}}.
+  \href{http://arxiv.org/abs/hep-th/0204199}{\texttt{hep-th/0204199}}.
 \end{enumerate}
 
 Unfortunately there are some problems with naively pushing this idea up
@@ -30555,11 +30563,11 @@ Chern-Simons form of an \(\mathrm{E}_8\) bundle over spacetime:
   ``\(\mathrm{E}_8\) gauge theory, and a derivation of K-theory from
   M-theory'', \emph{Adv. Theor. Math. Phys.} \textbf{6} (2003)
   1031--1134. Also available as
-  \href{http://arxiv.org/abs/hep-th/0005090}{\texttt{arXiv:hep-th/0005090}}.
+  \href{http://arxiv.org/abs/hep-th/0005090}{\texttt{hep-th/0005090}}.
 \item
   Emanuel Diaconescu, Daniel S. Freed and Gregory Moore, ``The M-theory
   \(3\)-form and \(\mathrm{E}_8\) gauge theory'', available as
-  \href{http://arxiv.org/abs/hep-th/0312069}{\texttt{arXiv:hep-th/0312069}}.
+  \href{http://arxiv.org/abs/hep-th/0312069}{\texttt{hep-th/0312069}}.
 \end{enumerate}
 
 This idea explains that factor of \(1/6\). And, it might move towards an
@@ -30583,7 +30591,7 @@ theory --- fit together in some way:
   Paolo Aschieri and Branislav Jurco, Gerbes, ``M5-brane anomalies and
   \(\mathrm{E}_8\) gauge theory'', \emph{JHEP} \textbf{0410} (2004),
   068. Also available as
-  \href{http://arxiv.org/abs/hep-th/0409200}{\texttt{arXiv:hep-th/0409200}}.
+  \href{http://arxiv.org/abs/hep-th/0409200}{\texttt{hep-th/0409200}}.
 \end{enumerate}
 
 It all became a lot clearer to me when Urs Schreiber read these papers
@@ -30595,11 +30603,11 @@ and translated them into a language I like:
 \item
   Leonardo Castellani, ``Lie derivatives along antisymmetric tensors,
   and the M-theory superalgebra'', available as
-  \href{http://arxiv.org/abs/hep-th/0508213}{\texttt{arXiv:hep-th/0508213}}.
+  \href{http://arxiv.org/abs/hep-th/0508213}{\texttt{hep-th/0508213}}.
 \item
   Pietro Fré and Pietro Antonio Grassi, ``Pure spinors, free
   differential algebras, and the supermembrane'', available as
-  \href{http://arxiv.org/abs/hep-th/0606171}{\texttt{arXiv:hep-th/0606171}}.
+  \href{http://arxiv.org/abs/hep-th/0606171}{\texttt{hep-th/0606171}}.
 \end{enumerate}
 
 The idea is to think of 11d supergravity as a twice categorifed gauge
@@ -30907,8 +30915,8 @@ Horava-Witten \(\mathrm{E}_8\)?
 \end{quote}
 
 A similar observation was made by Horava way back in
-\href{http://arxiv.org/abs/hep-th/9712130}{\texttt{arXiv:hep-th/9712130}}
-(in the final section).
+\href{http://arxiv.org/abs/hep-th/9712130}{\texttt{hep-th/9712130}} (in
+the final section).
 
 Aaron
 \end{quote}
@@ -31202,7 +31210,7 @@ we must get some identity involving the bracket in our Lie algebra,
 since \(\omega\wedge\omega\) is just the bracket in disguise. What
 identity could this be?
 
-THE JACOBI IDENTITY!
+\textbf{The Jacobi identity}!
 
 It has to be, since the Jacobi identity says there's a way to take 3 Lie
 algebra elements, bracket them in a clever way, and get zero:
@@ -31233,7 +31241,7 @@ to work out the details now.
 Instead, let me say how to translate this fact:
 
 \begin{quote}
-\(d^2\omega = 0\) IS SECRETLY THE JACOBI IDENTITY
+\(d^2\omega = 0\) \textbf{is secretly the Jacobi identity}
 \end{quote}
 
 into pure algebra. We'll get something called ``Kozsul duality''. I
@@ -34096,9 +34104,11 @@ So, we get a relation like this:
 \begin{longtable}[]{@{}ll@{}}
 \toprule
 \endhead
-\((n-2)\)-dimensional manifolds & MATTER\tabularnewline
-\((n-1)\)-dimensional manifolds with boundary & SPACE\tabularnewline
-\(n\)-dimensional manifolds with corners & SPACETIME\tabularnewline
+\((n-2)\)-dimensional manifolds & \textbf{matter}\tabularnewline
+\((n-1)\)-dimensional manifolds with boundary &
+\textbf{space}\tabularnewline
+\(n\)-dimensional manifolds with corners &
+\textbf{spacetime}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -35790,7 +35800,7 @@ Lack has recently noted:
 \item
   Steve Lack, ``\(\mathsf{Bicat}\) is not triequivalent to
   \(\mathsf{Gray}\)'', available as
-  \href{https://arxiv.org/abs/math.CT/0612299}{math.CT/0612299}.
+  \href{https://arxiv.org/abs/math.CT/0612299}{\texttt{math.CT/0612299}}.
 \end{enumerate}
 
 To understand this, you may need a little warmup. Given strict
@@ -37826,22 +37836,18 @@ Last week in the Tale of Groupoidification I tried to explain two
 slogans:
 
 \begin{quote}
-GROUPOIDS ARE LIKE `SETS WITH SYMMETRIES'
-\end{quote}
-
-\begin{quote}
-SPANS OF GROUPOIDS ARE LIKE `INVARIANT WITNESSED RELATIONS'
+\textbf{groupoids are like `sets with symmetries'}\\
+and\\
+\textbf{spans of groupoids are like `invariant witnessed relations'}
 \end{quote}
 
 They're a bit vague; they're mainly designed to give you enough
 intuition to follow the next phase of the Tale, which is all about how:
 
 \begin{quote}
-GROUPOIDS GIVE VECTOR SPACES
-\end{quote}
-
-\begin{quote}
-SPANS OF GROUPOIDS GIVE LINEAR OPERATORS
+\textbf{groupoids give vector spaces}\\
+and\\
+\textbf{spans of groupoids give linear operators}
 \end{quote}
 
 But before the next phase, I need to say a bit about how groupoids and
@@ -37969,8 +37975,8 @@ So, to bridge the gap between the traditional and the new, I should
 explain how group actions give groupoids. I'll show you that:
 
 \begin{quote}
-A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\\
-THE SAME AS A GROUP ACTION
+\textbf{a groupoid equipped with certain extra stuff is}\\
+\textbf{the same as a group action}
 \end{quote}
 
 It's not very hard to get a groupoid from a group action. Say we have a
@@ -38008,8 +38014,8 @@ some set \(X\). This takes a bit of proving\ldots{} let's not do it now.
 So: in my slogan
 
 \begin{quote}
-A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\\
-THE SAME AS A GROUP ACTION
+\textbf{a groupoid equipped with certain extra stuff is}\\
+\textbf{the same as a group action}
 \end{quote}
 
 the ``certain extra stuff'' was precisely a faithful functor to \(G\).
@@ -38563,15 +38569,15 @@ So, double cosets are cool. But, it's good to fit them into the ``spans
 of groupoids'' perspective. When we do this, we'll see:
 
 \begin{quote}
-A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\\
-THE SAME AS A DOUBLE COSET.
+\textbf{a span of groupoids equipped with certain extra stuff is}\\
+\textbf{the same as a double coset.}
 \end{quote}
 
 This relies on the simpler slogan I mentioned last time:
 
 \begin{quote}
-A GROUPOID EQUIPPED WITH CERTAIN EXTRA STUFF IS\\
-THE SAME AS A GROUP ACTION.
+\textbf{a groupoid equipped with certain extra stuff is}\\
+\textbf{the same as a group action.}
 \end{quote}
 
 Let's see how it goes. Suppose we have two sets on which \(G\) acts
@@ -38670,15 +38676,15 @@ connected groupoids is equivalent to an inclusion of groups precisely
 when it's ``faithful'': one-to-one on each homset. So, when I said that:
 
 \begin{quote}
-A SPAN OF GROUPOIDS EQUIPPED WITH CERTAIN EXTRA STUFF IS\\
-THE SAME AS A DOUBLE COSET.
+\textbf{a span of groupoids equipped with certain extra stuff is}\\
+\textbf{the same as a double coset.}
 \end{quote}
 
 what I really meant was:
 
 \begin{quote}
-A SPAN OF CONNECTED GROUPOIDS FAITHFULLY OVER \(G\)\\
-IS THE SAME AS A DOUBLE COSET.
+\textbf{a span of connected groupoids faithfully over \(G\)}\\
+\textbf{is the same as a double coset.}
 \end{quote}
 
 If that's too terse, let me elaborate for you: a ``span of connected
@@ -38696,8 +38702,8 @@ extra conditions to make our concepts match the old-fashioned ``double
 coset'' notion. Here's a simpler, more general fact:
 
 \begin{quote}
-A SPAN OF GROUPOIDS FAITHFULLY OVER \(G\)\\
-IS THE SAME AS A SPAN OF \(G\)-SETS.
+\textbf{a span of groupoids faithfully over \(g\)}\\
+\textbf{is the same as a span of \(g\)-sets.}
 \end{quote}
 
 where a ``\(G\)-set'' is a set on which \(G\) acts. This is the natural
@@ -38705,8 +38711,8 @@ partner of the slogan I explained last Week, though not in this
 language:
 
 \begin{quote}
-A GROUPOID FAITHFULLY OVER \(G\)\\
-IS THE SAME AS A \(G\)-SET.
+\textbf{a groupoid faithfully over \(g\)}\\
+\textbf{is the same as a \(g\)-set.}
 \end{quote}
 
 Things get even simpler if we drop the ``faithfulness'' assumption, and

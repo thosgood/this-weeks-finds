@@ -12,7 +12,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true]{hyperref}
-\usepackage{color}
+\usepackage{xcolor}
 \definecolor{myurlcolor}{rgb}{0.6,0,0}
 \definecolor{mycitecolor}{rgb}{0,0,0.8}
 \definecolor{myrefcolor}{rgb}{0,0,0.8}
@@ -30553,7 +30553,7 @@ today let's do \(1\)-ports. If we have a \(1\)-port with wires coming
 out of it, we can arbitrarily choose one wire and call it the the
 ``input'', with the other being the ``output'': \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] If you know a little category theory, this should seem suspiciously
@@ -31339,7 +31339,7 @@ capacitances, inertances, effort sources and flow sources. All these are
 ``\(1\)-ports'', meaning they have one wire coming in and one going out:
 \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] Today I want to talk about \(2\)-ports and \(3\)-ports. From these,
@@ -31356,7 +31356,7 @@ example, a 9-volt battery tries to provide \[V(t) = 9\] Why do I say
 constant voltage source and connect its input and output with a
 perfectly conductive wire: \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \begin{knot}
       \strand[thick] (0,0)
@@ -31433,20 +31433,20 @@ in different countries!
 Okay, now let's talk about \(2\)-ports and \(3\)-ports. Remember, a
 \(1\)-port looks like this: \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] If all we have is \(1\)-ports, we can only build circuits by
 stringing them together in series: \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3) to node[rotate=-90]{\scriptsize$\textgreater$} (0,4);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,3) to node[rotate=-90]{\scriptsize\textgreater} (0,4);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,2.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] or perhaps forming a closed loop: \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,3);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
     \begin{knot}
@@ -31461,8 +31461,8 @@ fun, we need some \(2\)-ports or \(3\)-ports!
 
 A \(2\)-port looks like this: \[
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 \] The current flowing in the left wire on top must equal the current
@@ -31520,16 +31520,16 @@ Luckily the signs don't really matter much. Here they seem to arise from
 treating the first port as an ``input'' and the second as an ``output''.
 In other words, instead of this: \[
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 \] people sometimes think of the \(2\)-port this way: \[
   \begin{tikzpicture}
-    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,0.75) to (-0.25,0.75);
-    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,0.75) to (0.25,0.75);
-    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,1.25) to (-0.25,1.25);
-    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,1.25) to (0.25,1.25);
+    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.5,0.75) to (-0.25,0.75);
+    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize\textgreater} (0.5,0.75) to (0.25,0.75);
+    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize\textgreater} (-0.5,1.25) to (-0.25,1.25);
+    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize\textgreater} (0.5,1.25) to (0.25,1.25);
     \draw[thick,fill=white,rounded corners] (-0.25,0.5) rectangle ++(0.5,1);
   \end{tikzpicture}
 \] Anyway, if we use vectors and write \[
@@ -31568,88 +31568,69 @@ This puzzle had me stumped for a while. But the answer is simple. To
 connect \(1\)-ports in parallel, we need \emph{two} gizmos of the above
 sort! And taken together, they can be viewed as a \(3\)-port!
 
-In other words, there's a \(3\)-port like this:
-
-\begin{verbatim}
-    |   |   |
-  ooooooooooooo
- o             o
- o             o
- o             o
- o             o
- o             o
- o             o
- o             o
- o             o
- o             o
-  ooooooooooooo
-   |   |   |
-\end{verbatim}
-
-which you can use to connect two \(1\)-ports in parallel. You just
-attach them like this:
-
-\begin{verbatim}
-           _____________________
-          /   ___________       \
-         /   /           \       \
-    |   |   |             |       |
-  ooooooooooooo           |       |
- o             o          |       |
- o             o          |       |
- o             o         ---     ---
- o             o        |   |   |   |
- o             o         ---     ---
- o             o          |       |
- o             o          |       |
-  ooooooooooooo           |       |
-    |   |   |             |       |
-         \   \___________/       /  
-          \_____________________/    
-\end{verbatim}
-
-What's in this \(3\)-port? Nothing but wires:
-
-\begin{verbatim}
-    |   |   |
-  oo|ooo|ooo|oo
- o  |   |   |  o
- o  |   |   |  o
- o  |___|___|  o
- o             o
- o   ___ ___   o
- o  |   |   |  o
- o  |   |   |  o
-  oo|ooo|ooo|oo
-    |   |   |
-\end{verbatim}
-
-The little circles don't actually do anything here --- they're just the
-``packaging'' that makes our \(3\)-port seem impressive. Inside, it's
-just two three-pronged gizmos made of wire. But if the customer can't
-see inside, we can sell it for a lot of money! See how it works?
-
-\begin{verbatim}
-           _____________________
-          /   ___________       \
-         /   /           \       \
-    |   |   |             |       |
-  ooooooooooooo           |       |
- o  |   |   |  o          |       |
- o  |   |   |  o          |       |
- o  |___|___|  o         ---     ---
- o             o        |   |   |   |
- o   ___ ___   o         ---     ---
- o  |   |   |  o          |       |
- o  |   |   |  o          |       |
-  ooooooooooooo           |       |
-    |   |   |             |       |
-         \   \___________/       /  
-          \_____________________/    
-\end{verbatim}
-
-Current flows in at the upper left. It gets split, goes through our two
-\(1\)-ports at right, gets rejoined, and exits at the lower left!
+In other words, there's a \(3\)-port like this: \[
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+  \end{tikzpicture}
+\] which you can use to connect two \(1\)-ports in parallel. You just
+attach them like this: \[
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+\] What's in this \(3\)-port? Nothing but wires: \[
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+  \end{tikzpicture}
+\] The border around the wires doesn't actually do anything here ---
+it's just the ``packaging'' that makes our \(3\)-port seem impressive.
+Inside, it's just two three-pronged gizmos made of wire. But if the
+customer can't see inside, we can sell it for a lot of money! See how it
+works? \[
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+\] Current flows in at the upper left. It gets split, goes through our
+two \(1\)-ports at right, gets rejoined, and exits at the lower left!
 
 This \(3\)-port is called a ``parallel junction''. Henry Paynter, who
 invented bond graphs --- which we're gradually getting ready to discuss
@@ -31668,25 +31649,23 @@ requires 3. For the parallel junction they are: \[
 obvious from the design: current can't flow from the top to the bottom.
 The other equations say that the voltage difference between points \(1\)
 and \(1'\) equals the voltage difference between points \(2\) and
-\(2'\), and also that between points \(3\) and \(3'\):
-
-\begin{verbatim}
-    1   2   3
-    |   |   |
-  oo|ooo|ooo|oo
- o  |   |   |  o
- o  |   |   |  o
- o  |___|___|  o
- o             o
- o   ___ ___   o
- o  |   |   |  o
- o  |   |   |  o
-  oo|ooo|ooo|oo
-    |   |   |
-    1'  2'  3'
-\end{verbatim}
-
-This is clear if you know a tiny bit about electrical circuits: the
+\(2'\), and also that between points \(3\) and \(3'\): \[
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,1.2);
+    \draw[thick] (0,1.2) to (1,1.2);
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,0.8) to (\x,0);
+    \draw[thick] (0,0.8) to (1,0.8);
+    \node[label=above:{$1$}] at (0,2) {};
+    \node[label=above:{$2$}] at (0.5,2) {};
+    \node[label=above:{$3$}] at (1,2) {};
+    \node[label=below:{$1'$}] at (0,0) {};
+    \node[label=below:{$2'$}] at (0.5,0) {};
+    \node[label=below:{$3'$}] at (1,0) {};
+  \end{tikzpicture}
+\] This is clear if you know a tiny bit about electrical circuits: the
 voltage on each connected component of wire is constant, at least in the
 idealization we're using. That's because our wires have zero electrical
 resistance. They're like resistors with resistance 0, and we've seen
@@ -31695,65 +31674,74 @@ resistance.
 
 Our second kind of \(3\)-port is called a ``series junction''. It's a
 different sort of black box, which you can use to connect two
-\(1\)-ports in series. You just attach them like this:
-
-\begin{verbatim}
-           _____________________
-          /   ___________       \
-         /   /           \       \
-    |   |   |             |       |
-  ooooooooooooo           |       |
- o             o          |       |
- o             o          |       |
- o             o         ---     ---
- o             o        |   |   |   |
- o             o         ---     ---
- o             o          |       |
- o             o          |       |
-  ooooooooooooo           |       |
-    |   |   |             |       |
-         \   \___________/       /  
-          \_____________________/    
-\end{verbatim}
-
-What's in this \(3\)-port? Just wires, but now arranged a different way:
-
-\begin{verbatim}
-    |   |   |
-  oo|ooo|ooo|oo
- o  |   |   |  o
- o  |   |   |  o
- o   \   \ /   o
- o    ---\    o
- o   / \   \   o
- o  |   |   |  o
- o  |   |   |  o
-  oo|ooo|ooo|oo
-    |   |   |
-\end{verbatim}
-
-See how it works?
-
-\begin{verbatim}
-           _____________________
-          /   ___________       \
-         /   /           \       \
-    |   |   |             |       |
-  oo|ooo|ooo|oo           |       |
- o  |   |   |  o          |       |
- o  |   |   |  o          |       |
- o   \   \  /  o         ---     ---
- o    ---\    o        |   |   |   |
- o   / \   \   o         ---     ---
- o  |   |   |  o          |       |
- o  |   |   |  o          |       |
-  oo|ooo|ooo|oo           |       |
-    |   |   |             |       |
-         \   \___________/       /  
-          \_____________________/    
-\end{verbatim}
-
-The series junction is also called a ``\(1\)-junction'' or ``effort
+\(1\)-ports in series. You just attach them like this: \[
+  \begin{tikzpicture}
+    \foreach \x in {0,0.5,1}
+      \draw[thick] (\x,2) to (\x,0);
+    \draw[thick,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+\] What's in this \(3\)-port? Just wires, but now arranged a different
+way: \[
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,2)
+        to (0,1.2)
+        to (0.5,0.8)
+        to (0.5,0);
+      \strand[thick] (0.5,2)
+        to (0.5,1.2)
+        to (1,0.8)
+        to (1,0);
+      \strand[thick] (1,2)
+        to (1,1.2)
+        to (0,0.8)
+        to (0,0);
+    \end{knot}
+  \end{tikzpicture}
+\] See how it works? \[
+  \begin{tikzpicture}
+    \draw[thick,dashed,rounded corners,fill=white] (-0.25,0.5) rectangle ++(1.5,1);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0,2)
+        to (0,1.2)
+        to (0.5,0.8)
+        to (0.5,0);
+      \strand[thick] (0.5,2)
+        to (0.5,1.2)
+        to (1,0.8)
+        to (1,0);
+      \strand[thick] (1,2)
+        to (1,1.2)
+        to (0,0.8)
+        to (0,0);
+    \end{knot}
+    \begin{knot}
+      \strand[thick] (1,0)
+        to [out=down,in=down,looseness=1.5] (2,0)
+        to (2,2)
+        to [out=up,in=up,looseness=1.5] (1,2);
+      \strand[thick] (0.5,0)
+        to [out=down,in=down,looseness=1.5] (2.5,0)
+        to (2.5,2)
+        to [out=up,in=up,looseness=1.5] (0.5,2);
+    \end{knot}
+    \draw[thick,rounded corners,fill=white] (1.8,0.75) rectangle ++(0.4,0.5);
+    \draw[thick,rounded corners,fill=white] (2.3,0.75) rectangle ++(0.4,0.5);
+  \end{tikzpicture}
+\] The series junction is also called a ``\(1\)-junction'' or ``effort
 junction''. This makes sense, since the equations defining this
 \(3\)-port are exactly like the equations for the previous one, but with
 effort and flow switched! \[
@@ -31950,9 +31938,9 @@ The idea behind bond graphs is very simple. I've been describing various
 ``\(n\)-ports'' lately, and I've drawn pictures of them. In my pictures,
 a \(3\)-port looked like this: \[
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 \] In the case of an electrical system, this means 3 wires coming in and
@@ -31975,12 +31963,12 @@ and ``flow'' is current.
 
 It's pretty natural to draw a resistor like this: \[
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] But in the world of bond graphs, people draw it more like this: \[
   \begin{tikzpicture}
-    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1);
+    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,1);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 \] One ``bond'' for two ``wires''!
@@ -33238,15 +33226,15 @@ For example: \[
 this, we first arbitrarily pick an orientation on each edge: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -33256,15 +33244,15 @@ this, we first arbitrarily pick an orientation on each edge: \[
 flowing through that edge, in the direction of the arrow: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[label=above:{$2$},rotate=180]{$\textgreater$} (1,0)
-      to node[label=below:{$-3$},rotate=0]{$\textgreater$} (2,0)
-      to node[label=above:{$3$},rotate=-90]{$\textgreater$} (2,1);
+      to node[label=above:{$2$},rotate=180]{\textgreater} (1,0)
+      to node[label=below:{$-3$},rotate=0]{\textgreater} (2,0)
+      to node[label=above:{$3$},rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[label=below:{$3$},rotate=-90]{$\textgreater$} (0,1)
-      to node[label=above:{$2$},rotate=0]{$\textgreater$} (1,1)
-      to node[label=above:{$3$},rotate=0]{$\textgreater$} (2,1);
+      to node[label=below:{$3$},rotate=-90]{\textgreater} (0,1)
+      to node[label=above:{$2$},rotate=0]{\textgreater} (1,1)
+      to node[label=above:{$3$},rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[label=above:{$1$},rotate=-90]{$\textgreater$} (1,1);
+      to node[label=above:{$1$},rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -33280,15 +33268,15 @@ graph, saying how much current is flowing out of that vertex, minus how
 much is flowing in: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \node[label=below:{$-5$}] at (0,0) {$\bullet$};
     \node[label=below:{$-2$}] at (1,0) {$\bullet$};
     \node[label=below:{$0$}] at (2,0) {$\bullet$};
@@ -33314,11 +33302,11 @@ If a circuit is not closed, let's call it ``open''. These are
 interesting too. For example, we might have a circuit like this: \[
   \begin{tikzpicture}[scale=1.5]
     \draw[thick] (0,2)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=-90]{$\textgreater$} (1,0);
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=-90]{\textgreater} (1,0);
     \node at (0,1) {$\bullet$};
     \node at (1,1) {$\bullet$};
     \node[fill=white] at (0,2) {$x$};
@@ -34147,15 +34135,15 @@ circuit you don't see faces, just vertices and edges: \[
 graph, and orient its edges: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -34442,7 +34430,7 @@ trivalent vertices like this: \[
     \foreach \x in {0,0.5,1}{
       \draw[thick] (0.5,2)
         to (\x,1)
-        to node[rotate=-90]{$\textgreater$} (\x,0) node[label=below:{$+$}]{};
+        to node[rotate=-90]{\textgreater} (\x,0) node[label=below:{$+$}]{};
     }
   \end{tikzpicture}
   \qquad
@@ -34450,13 +34438,13 @@ trivalent vertices like this: \[
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=-90]{$\textgreater$} (0.5,0);
+      to node[rotate=-90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$+$}] at (0,0) {};
     \node[label=below:{$+$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -34466,13 +34454,13 @@ trivalent vertices like this: \[
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=90]{$\textgreater$} (0.5,0);
+      to node[rotate=90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$+$}] at (0,0) {};
     \node[label=below:{$-$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -34482,13 +34470,13 @@ trivalent vertices like this: \[
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=90]{$\textgreater$} (0,0);
+      to node[rotate=90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=90]{$\textgreater$} (0.5,0);
+      to node[rotate=90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$-$}] at (0,0) {};
     \node[label=below:{$-$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -34541,15 +34529,15 @@ There's a closely related result that's also interesting. Suppose we
 have a directed graph: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -34585,15 +34573,15 @@ for the history. But anyway, I think it's neat that we can take the bare
 bones of an electrical circuit: \[
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -35757,8 +35745,8 @@ those:
 However, our category has some defects. First of all, there's no
 morphism corresponding to two perfectly conductive wires that cross like
 this: \[
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}
@@ -35922,8 +35910,8 @@ with a ``cup'': \[
     \end{knot}
   \end{tikzpicture}
 \] and a ``symmetry'': \[
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}
@@ -36118,8 +36106,8 @@ Yes, I think so, because it contains the cup \[
     \end{knot}
   \end{tikzpicture}
 \] and symmetry: \[
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}

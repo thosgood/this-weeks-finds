@@ -21,7 +21,7 @@ printf '%s\n' '\usepackage[margin=1.6in]{geometry}' >> $TEX
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{amsmath,amssymb}' >> $TEX
 printf '%s\n' '\usepackage[colorlinks=true]{hyperref}' >> $TEX
-printf '%s\n' '\usepackage{color}' >> $TEX
+printf '%s\n' '\usepackage{xcolor}' >> $TEX
 printf '%s\n' '\definecolor{myurlcolor}{rgb}{0.6,0,0}' >> $TEX
 printf '%s\n' '\definecolor{mycitecolor}{rgb}{0,0,0.8}' >> $TEX
 printf '%s\n' '\definecolor{myrefcolor}{rgb}{0,0,0.8}' >> $TEX

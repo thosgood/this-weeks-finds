@@ -309,8 +309,8 @@ However, our category has some defects. First of all, there's no
 morphism corresponding to two perfectly conductive wires that cross like
 this:
 $$
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}
@@ -435,8 +435,8 @@ $$
 $$
 and a "symmetry":
 $$
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}
@@ -579,8 +579,8 @@ $$
 $$
 and symmetry:
 $$
-  \begin{tikzpicture}[clip width=7]
-    \begin{knot}
+  \begin{tikzpicture}
+    \begin{knot}[clip width=7]
       \strand[thick] (1,2) to (0,0);
       \strand[thick] (0,2) to (1,0);
     \end{knot}

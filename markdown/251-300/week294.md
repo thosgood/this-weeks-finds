@@ -534,15 +534,15 @@ graph, and orient its edges:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -802,7 +802,7 @@ $$
     \foreach \x in {0,0.5,1}{
       \draw[thick] (0.5,2)
         to (\x,1)
-        to node[rotate=-90]{$\textgreater$} (\x,0) node[label=below:{$+$}]{};
+        to node[rotate=-90]{\textgreater} (\x,0) node[label=below:{$+$}]{};
     }
   \end{tikzpicture}
   \qquad
@@ -810,13 +810,13 @@ $$
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=-90]{$\textgreater$} (0.5,0);
+      to node[rotate=-90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$+$}] at (0,0) {};
     \node[label=below:{$+$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -826,13 +826,13 @@ $$
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=90]{$\textgreater$} (0.5,0);
+      to node[rotate=90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$+$}] at (0,0) {};
     \node[label=below:{$-$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -842,13 +842,13 @@ $$
     \node at (0.5,2) {$\bullet$};
     \draw[thick] (0.5,2)
       to (0,1)
-      to node[rotate=90]{$\textgreater$} (0,0);
+      to node[rotate=90]{\textgreater} (0,0);
     \draw[thick] (0.5,2)
       to (0.5,1)
-      to node[rotate=90]{$\textgreater$} (0.5,0);
+      to node[rotate=90]{\textgreater} (0.5,0);
     \draw[thick] (0.5,2)
       to (1,1)
-      to node[rotate=90]{$\textgreater$} (1,0);
+      to node[rotate=90]{\textgreater} (1,0);
     \node[label=below:{$-$}] at (0,0) {};
     \node[label=below:{$-$}] at (0.5,0) {};
     \node[label=below:{$-$}] at (1,0) {};
@@ -907,15 +907,15 @@ have a directed graph:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -940,15 +940,15 @@ bare bones of an electrical circuit:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};

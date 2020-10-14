@@ -401,15 +401,15 @@ we first arbitrarily pick an orientation on each edge:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -421,15 +421,15 @@ flowing through that edge, in the direction of the arrow:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[label=above:{$2$},rotate=180]{$\textgreater$} (1,0)
-      to node[label=below:{$-3$},rotate=0]{$\textgreater$} (2,0)
-      to node[label=above:{$3$},rotate=-90]{$\textgreater$} (2,1);
+      to node[label=above:{$2$},rotate=180]{\textgreater} (1,0)
+      to node[label=below:{$-3$},rotate=0]{\textgreater} (2,0)
+      to node[label=above:{$3$},rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[label=below:{$3$},rotate=-90]{$\textgreater$} (0,1)
-      to node[label=above:{$2$},rotate=0]{$\textgreater$} (1,1)
-      to node[label=above:{$3$},rotate=0]{$\textgreater$} (2,1);
+      to node[label=below:{$3$},rotate=-90]{\textgreater} (0,1)
+      to node[label=above:{$2$},rotate=0]{\textgreater} (1,1)
+      to node[label=above:{$3$},rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[label=above:{$1$},rotate=-90]{$\textgreater$} (1,1);
+      to node[label=above:{$1$},rotate=-90]{\textgreater} (1,1);
     \foreach \x in {0,1,2}{
       \foreach \y in {0,1}
         \node at (\x,\y) {$\bullet$};
@@ -447,15 +447,15 @@ much is flowing in:
 $$
   \begin{tikzpicture}[scale=2]
     \draw[thick] (0,0)
-      to node[rotate=180]{$\textgreater$} (1,0)
-      to node[rotate=0]{$\textgreater$} (2,0)
-      to node[rotate=-90]{$\textgreater$} (2,1);
+      to node[rotate=180]{\textgreater} (1,0)
+      to node[rotate=0]{\textgreater} (2,0)
+      to node[rotate=-90]{\textgreater} (2,1);
     \draw[thick] (0,0)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=0]{$\textgreater$} (2,1);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=0]{\textgreater} (2,1);
     \draw[thick] (1,0)
-      to node[rotate=-90]{$\textgreater$} (1,1);
+      to node[rotate=-90]{\textgreater} (1,1);
     \node[label=below:{$-5$}] at (0,0) {$\bullet$};
     \node[label=below:{$-2$}] at (1,0) {$\bullet$};
     \node[label=below:{$0$}] at (2,0) {$\bullet$};
@@ -483,11 +483,11 @@ interesting too. For example, we might have a circuit like this:
 $$
   \begin{tikzpicture}[scale=1.5]
     \draw[thick] (0,2)
-      to node[rotate=-90]{$\textgreater$} (0,1)
-      to node[rotate=-90]{$\textgreater$} (0,0);
+      to node[rotate=-90]{\textgreater} (0,1)
+      to node[rotate=-90]{\textgreater} (0,0);
     \draw[thick] (0,1)
-      to node[rotate=0]{$\textgreater$} (1,1)
-      to node[rotate=-90]{$\textgreater$} (1,0);
+      to node[rotate=0]{\textgreater} (1,1)
+      to node[rotate=-90]{\textgreater} (1,0);
     \node at (0,1) {$\bullet$};
     \node at (1,1) {$\bullet$};
     \node[fill=white] at (0,2) {$x$};

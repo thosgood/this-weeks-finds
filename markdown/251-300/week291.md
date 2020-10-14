@@ -157,7 +157,7 @@ capacitances, inertances, effort sources and flow sources. All these are
 "$1$-ports", meaning they have one wire coming in and one going out:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 $$
@@ -177,7 +177,7 @@ perfect constant voltage source and connect its input and output with a
 perfectly conductive wire:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \begin{knot}
       \strand[thick] (0,0)
@@ -243,7 +243,7 @@ Okay, now let's talk about $2$-ports and $3$-ports. Remember, a $1$-port
 looks like this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 $$
@@ -251,7 +251,7 @@ If all we have is $1$-ports, we can only build circuits by stringing them
 together in series:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3) to node[rotate=-90]{\scriptsize$\textgreater$} (0,4);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,3) to node[rotate=-90]{\scriptsize\textgreater} (0,4);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,2.75) rectangle ++(0.5,0.5);
@@ -260,7 +260,7 @@ $$
 or perhaps forming a closed loop:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,3);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,3);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
     \draw[thick,fill=white,rounded corners] (-0.25,1.75) rectangle ++(0.5,0.5);
     \begin{knot}
@@ -277,8 +277,8 @@ fun, we need some $2$-ports or $3$-ports!
 A $2$-port looks like this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 $$
@@ -337,18 +337,18 @@ Here they seem to arise from treating the first port as an "input" and
 the second as an "output". In other words, instead of this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 $$
 people sometimes think of the $2$-port this way:
 $$
   \begin{tikzpicture}
-    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,0.75) to (-0.25,0.75);
-    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,0.75) to (0.25,0.75);
-    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.5,1.25) to (-0.25,1.25);
-    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize$\textgreater$} (0.5,1.25) to (0.25,1.25);
+    \draw[thick] (-0.5,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.5,0.75) to (-0.25,0.75);
+    \draw[thick] (0.5,0) to node[rotate=90]{\scriptsize\textgreater} (0.5,0.75) to (0.25,0.75);
+    \draw[thick] (-0.5,2) to node[rotate=-90]{\scriptsize\textgreater} (-0.5,1.25) to (-0.25,1.25);
+    \draw[thick] (0.5,2) to node[rotate=90]{\scriptsize\textgreater} (0.5,1.25) to (0.25,1.25);
     \draw[thick,fill=white,rounded corners] (-0.25,0.5) rectangle ++(0.5,1);
   \end{tikzpicture}
 $$

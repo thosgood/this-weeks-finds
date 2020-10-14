@@ -117,7 +117,7 @@ can arbitrarily choose one wire and call it the the "input", with the
 other being the "output":
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 $$

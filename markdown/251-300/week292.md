@@ -50,9 +50,9 @@ various "$n$-ports" lately, and I've drawn pictures of them. In my
 pictures, a $3$-port looked like this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (-0.25,2);
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
-    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0.25,2);
+    \draw[thick] (-0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (-0.25,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
+    \draw[thick] (0.25,0) to node[rotate=-90]{\scriptsize\textgreater} (0.25,1) to node[rotate=-90]{\scriptsize\textgreater} (0.25,2);
     \draw[thick,fill=white,rounded corners] (-0.5,0.75) rectangle ++(1,0.5);
   \end{tikzpicture}
 $$
@@ -77,14 +77,14 @@ and "flow" is current.
 It's pretty natural to draw a resistor like this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1) to node[rotate=-90]{\scriptsize$\textgreater$} (0,2);
+    \draw[thick] (0,0) to node[rotate=-90]{\scriptsize\textgreater} (0,1) to node[rotate=-90]{\scriptsize\textgreater} (0,2);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 $$
 But in the world of bond graphs, people draw it more like this:
 $$
   \begin{tikzpicture}
-    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize$\textgreater$} (0,1);
+    \draw[thick] (0,2) to node[rotate=-90]{\scriptsize\textgreater} (0,1);
     \draw[thick,fill=white,rounded corners] (-0.25,0.75) rectangle ++(0.5,0.5);
   \end{tikzpicture}
 $$
