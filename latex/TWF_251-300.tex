@@ -48,6 +48,7 @@
 \usepackage{tikz}
 \usetikzlibrary{knots}
 \usetikzlibrary{arrows}
+\usetikzlibrary{patterns}
 
 \usepackage{pgfplots}
 
@@ -34865,67 +34866,36 @@ either review what I said there, or just nod and act like you understand
 what I'm doing.
 
 First, suppose we have two resistors ``in series''. This means they're
-stuck together end to end, like this:
-
-\begin{verbatim}
-        |
-        |
-      -----
-     | R1  |
-      -----
-        |
-        |
-      -----
-     | R2  |
-      -----
-        |
-        |
-\end{verbatim}
-
-What happens when we put a voltage across this circuit? How much current
-will flow through?
+stuck together end to end, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white] at (0,1) {$R_2$};
+  \end{tikzpicture}
+\] What happens when we put a voltage across this circuit? How much
+current will flow through?
 
 To answer this, fix the voltage across the whole circuit, say \(V\). By
 Kirchoff's voltage law, this is the sum of the voltages across the
-individual resistors, say \(V_1\) and \(V_2\):
-
-\begin{verbatim}
-        | 
-        |
-      -----
-     | R1  | V1
-      -----
-        |                        V = V1 + V2
-        |        
-      -----
-     | R2  | V2
-      -----
-        |
-        | 
-\end{verbatim}
-
-Next let's think about the current flowing through each resistor. By
+individual resistors, say \(V_1\) and \(V_2\): \[
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white,label=right:{$V_1$}] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=right:{$V_2$}] at (0,1) {$R_2$};
+    \node[draw] at (2.5,1.5) {$V=V_1+V_2$};
+  \end{tikzpicture}
+\] Next let's think about the current flowing through each resistor. By
 Kirchhoff's current law, the current through the first resistor must
 equal the current through the second one. So, let's call this current
-\(I\) in each case:
-
-\begin{verbatim}
-        | 
-        |
-      -----
-   I | R1  | V1
-      -----
-        |                     V = V1 + V2
-        | 
-      -----
-   I | R2  | V2
-      -----
-        |
-        |
-\end{verbatim}
-
-Now, Ohm's law says that the voltage across a linear resistor equals the
-current through it times its resistance. Let's say our resistors are
+\(I\) in each case: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,3) to (0,0);
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I$},label=right:{$V_1$}] at (0,2) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I$},label=right:{$V_2$}] at (0,1) {$R_2$};
+    \node[draw] at (2.5,1.5) {$V=V_1+V_2$};
+  \end{tikzpicture}
+\] Now, Ohm's law says that the voltage across a linear resistor equals
+the current through it times its resistance. Let's say our resistors are
 linear. So, we get: \[I R_1 = V_1\] and \[I R_2 = V_2\] Adding these two
 equations we get: \[I (R_1 + R_2) = V\] This looks like Ohm's law again,
 but now for a resistor with resistance \[R_1 + R_2.\] The moral: two
@@ -34933,81 +34903,35 @@ resistors in series act like a single resistor whose resistance is the
 sum of theirs!
 
 Next, suppose we have two resistors ``in parallel''. This means they're
-stuck together side by side, like this:
-
-\begin{verbatim}
-             /\
-            /  \
-           /    \
-          /      \
-         /        \
-        /          \
-       /            \
-     ----          ----
-    | R1 |        | R2 |            
-     ----          ----
-       \            /
-        \          /
-         \        /
-          \      /
-           \    /
-            \  /
-             \/ 
-\end{verbatim}
-
-What happens when we make some current flow through this circuit? What
-will the voltage across it be?
+stuck together side by side, like this: \[
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+  \end{tikzpicture}
+\] What happens when we make some current flow through this circuit?
+What will the voltage across it be?
 
 To answer this, fix the current through the whole circuit, say \(I\). By
 Kirchoff's current law, this is the sum of the currents through the
-individual resistors, say \(I_1\) and \(I_2\):
-
-\begin{verbatim}
-             /\
-            /  \
-           /    \
-          /      \
-         /        \
-        /          \
-       /            \
-     ----          ----
- I1 | R1 |     I2 | R2 |            I = I1 + I2
-     ----          ----
-       \            /
-        \          /
-         \        /
-          \      /
-           \    /
-            \  /
-             \/ 
-\end{verbatim}
-
-Next let's think about the voltage across each resistor. By Kirchhoff's
-voltage law, the voltage across the first resistor must equal the
-voltage across the second one. So, let's call this voltage \(V\) in each
-case:
-
-\begin{verbatim}
-             /\
-            /  \
-           /    \
-          /      \
-         /        \
-        /          \
-       /            \
-     ----          ----
- I1 | R1 | V   I2 | R2 | V          I = I1 + I2
-     ----          ----
-       \            /
-        \          /
-         \        /
-          \      /
-           \    /
-            \  /
-             \/ 
-\end{verbatim}
-
-Now, Ohm's law says that the current through a linear resistor equals
+individual resistors, say \(I_1\) and \(I_2\): \[
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_1$}] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_2$}] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+    \node[draw] at (1.5,1) {$I=I_1+I_2$};
+  \end{tikzpicture}
+\] Next let's think about the voltage across each resistor. By
+Kirchhoff's voltage law, the voltage across the first resistor must
+equal the voltage across the second one. So, let's call this voltage
+\(V\) in each case: \[
+  \begin{tikzpicture}[xscale=2,yscale=1.5]
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_1$},label=right:{$V$}] (R1) at (-0.5,1) {$R_1$};
+    \node[draw,thick,rounded corners,fill=white,label=left:{$I_2$},label=right:{$V$}] (R2) at (0.5,1) {$R_2$};
+    \draw[thick] (0,2) to (R1) to (0,0) to (R2) to (0,2);
+    \node[draw] at (1.5,1) {$I=I_1+I_2$};
+  \end{tikzpicture}
+\] Now, Ohm's law says that the current through a linear resistor equals
 the voltage across it divided by its resistance. So, if our resistors
 are linear, we get \[I_1 = \frac{V}{R_1}\] and \[I_2 = \frac{V}{R_2}\]
 Adding these two equations we get:
@@ -35059,54 +34983,40 @@ for graphs drawn on a closed disk! This is should probably be called
 Instead of giving you a long-winded description of how this works, let
 me just illustrate it. We start with two resistors in series. This is a
 graph with two edges and three vertices drawn on something that's
-topologically a closed disk. Let's draw it on a rectangle:
+topologically a closed disk. Let's draw it on a rectangle: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+  \end{tikzpicture}
+\] The two dashed edges are the resistors. The two vertices on the
+boundary of the square, drawn as \(\times\)'s, are the ``input'' and
+``output'' vertices. There's also a vertex in the interior of the
+square, drawn as a little \(\bullet\).
 
-\begin{verbatim}
- ......x...... 
- .     |     .      
- .     |     .      
- .     |     .
- .     o     .
- .     |     .
- .     |     .      
- .     |     .
- ......x...... 
-\end{verbatim}
-
-The two dashed edges are the resistors. The two vertices on the boundary
-of the square, drawn as \(x\)'s, are the ``input'' and ``output''
-vertices. There's also a vertex in the interior of the square, drawn as
-a little circle.
-
-Now let's superimpose the Poincaré dual graph:
-
-\begin{verbatim}
- ......x...... 
- .  ___|___  .      
- . /   |   \ .      
- ./    |    .
- x     o     x
- .\    |    /.
- . \___|___/ .
- .     |     .      
- ......x...... 
-\end{verbatim}
-
-This is a mess, so now let's remove the original graph:
-
-\begin{verbatim}
- ............. 
- .  _______  .      
- . /       \ .      
- ./         .
- x           x
- .\         /.
- . \_______/ .
- .           .      
- ............. 
-\end{verbatim}
-
-This Poincaré dual graph shows two resistors in parallel! There's an
+Now let's superimpose the Poincaré dual graph: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+\] This is a mess, so now let's remove the original graph: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+\] This Poincaré dual graph shows two resistors in parallel! There's an
 ``input'' at left connected to an ``output'' at right by two edges, each
 with a resistor on it. In case you're wondering, the difference between
 ``input'' and ``output'' is purely conventional here.
@@ -35151,24 +35061,43 @@ outputs: \[
     \node[fill=white] at (0.5,0) {$\times$};
     \node[fill=white] at (2.5,0) {$\times$};
   \end{tikzpicture}
-\] The inputs and outputs are marked as \(x\)'s here. I've drawn a
-planar graph, but we could also have a nonplanar one, like this:
-
-\begin{verbatim}
-   x     x   x   x 
-    \     \ /    |      
-     \     \     | 
-      \   / \    |
-       \ /   \   | 
-        o--------o 
-       /       \ |
-      /         |
-     o-----o-----o
-     |     |     |
-     x     x     x
-\end{verbatim}
-
-(Poincaré duality works best for planar circuits, but I'm still
+\] The inputs and outputs are marked as \(\times\)'s here. I've drawn a
+planar graph, but we could also have a nonplanar one, like this: \[
+  \begin{tikzpicture}
+    \draw[thick] (-0.5,3.5)
+      to (-0.5,3)
+      to (0.5,2);
+    \draw[thick] (2,3.5) to (2,0);
+    \draw[thick] (0.5,2)
+      to (0,1)
+      to (0,0);
+    \draw[thick] (0,1) to (2,1);
+    \draw[thick] (1,1) to (1,0);
+    \begin{knot}[clip width=7]
+      \strand[thick] (0.5,2) to (2,2);
+      \strand[thick] (0.5,3.5)
+        to (0.5,3)
+        to (1.5,2)
+        to (1.5,1.5)
+        to (2,1);
+      \strand[thick] (1.5,3.5)
+        to (1.5,3)
+        to (0.5,2);
+    \end{knot}
+    \node[fill=white] at (-0.5,3.5) {$\times$};
+    \node[fill=white] at (0.5,3.5) {$\times$};
+    \node[fill=white] at (1.5,3.5) {$\times$};
+    \node[fill=white] at (2,3.5) {$\times$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (2,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (1,1) {$\bullet$};
+    \node at (2,1) {$\bullet$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (2,0) {$\times$};
+  \end{tikzpicture}
+\] (Poincaré duality works best for planar circuits, but I'm still
 struggling to find its place in the grand scheme of things --- for
 example, how it permeates the big set of analogies between different
 physical systems that I explained starting in
@@ -35198,21 +35127,16 @@ since: \[P(e) = \frac{(\varphi(y) - \varphi(x))^2}{R(e)}\] The total
 power is a quadratic function in a bunch of variables, so it's easy to
 minimize.
 
-Let's actually do this for two resistors in series:
-
-\begin{verbatim}
-     \varphi0 x
-        |
-        | R1
-        |        
-     \varphi1 o
-        |
-        | R2
-        |
-     \varphi2 x
-\end{verbatim}
-
-We need to find \(\varphi_1\) that minimizes the total power
+Let's actually do this for two resistors in series: \[
+  \begin{tikzpicture}[scale=1.5]
+    \node[label=left:{$\varphi_0$}] (0) at (0,2) {$\times$};
+    \node[label=left:{$\varphi_1$}] (1) at (0,1) {$\bullet$};
+    \node[label=left:{$\varphi_2$}] (2) at (0,0) {$\times$};
+    \draw[thick,dashed] (0)
+      to node[label=right:{$R_1$}]{} (1)
+      to node[label=right:{$R_2$}]{} (2);
+  \end{tikzpicture}
+\] We need to find \(\varphi_1\) that minimizes the total power
 \[P = \frac{(\varphi_1 - \varphi_0)^2}{R_1} + \frac{(\varphi_2 - \varphi_1)^2}{R_2}\]
 So, we differentiate \(P\) with respect to \(\varphi_1\) and set the
 derivative to zero:
@@ -35233,23 +35157,19 @@ Since the currents \(I_1\) and \(I_2\) are equal, let's call them both
 law says \[I R_1 = V_1\] and \[I R_2 = V_2\] Adding these equations, we
 see that when you put resistors in series, their resistances add.
 
-Okay, now let's try two resistors in parallel:
-
-\begin{verbatim}
-        x \varphi0
-       / \
-      /   \
-     /     \
-    /R1     \R2
-    \       /
-     \     /
-      \   /
-       \ /
-        x \varphi1
-\end{verbatim}
-
-This problem is oddly boring. There are no vertices except the input and
-the output, so the minimization problem is trivial! If we fix the
+Okay, now let's try two resistors in parallel: \[
+  \begin{tikzpicture}[scale=1.5]
+    \node[label=right:{$\varphi_0$}] (0) at (0,2) {$\times$};
+    \node[label=right:{$\varphi_1$}] (1) at (0,0) {$\times$};
+    \draw[thick,dashed] (0)
+      to (-0.5,1) node[label=left:{$R_1$}]{}
+      to (1);
+    \draw[thick,dashed] (0)
+      to (0.5,1) node[label=right:{$R_2$}]{}
+      to (1);
+  \end{tikzpicture}
+\] This problem is oddly boring. There are no vertices except the input
+and the output, so the minimization problem is trivial! If we fix the
 potential at the input and output, we instantly know the voltages across
 the two resistors, and then using Ohm's law we get the currents.
 
@@ -35258,37 +35178,26 @@ they be very similar? After all, they're Poincaré duals of each other!
 
 Well, yeah. But the problem is, we're not using the Poincaré dual
 boundary conditions. For the resistors in series we had a graph with a
-vertex in the middle:
-
-\begin{verbatim}
- ......x...... 
- .     |     .      
- .     |     .      
- .     |     .
- .     o     .
- .     |     .
- .     |     .      
- .     |     .
- ......x...... 
-\end{verbatim}
-
-For the resistors in parallel we have a graph with a face in the middle:
-
-\begin{verbatim}
- ............. 
- .  _______  .      
- . /       \ .      
- ./         .
- x           x
- .\         /.
- . \_______/ .
- .           .      
- ............. 
-\end{verbatim}
-
-So, to treat the resistors in parallel in a Poincaré dual way, we should
-use boundary conditions that involve faces rather than vertices. I
-talked about these faces back in \protect\hyperlink{week293}{``Week
+vertex in the middle: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+  \end{tikzpicture}
+\] For the resistors in parallel we have a graph with a face in the
+middle: \[
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+\] So, to treat the resistors in parallel in a Poincaré dual way, we
+should use boundary conditions that involve faces rather than vertices.
+I talked about these faces back in \protect\hyperlink{week293}{``Week
 293''}: electrical engineers call them ``meshes''. Each mesh has a
 current flowing around it. So, our boundary conditions should specify
 the current flowing around each input or output mesh: that is, each mesh

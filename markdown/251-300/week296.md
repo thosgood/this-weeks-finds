@@ -81,6 +81,16 @@ wires hanging out. We're not allowed to peek inside the box. All we
 know is what it does, viewed externally.
 
 For example, we could have a fancy circuit like this:
+$$
+  \begin{tikzpicture}
+    \node[fill=white] at (0,4) {$\times$}
+    \node at (0,3) {$\bullet$};
+    \node at (-0.5,2) {$\bullet$};
+    \node at (0.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node[fill=white] at (0,0) {$\times$}
+  \end{tikzpicture}
+$$
 
         x
         |

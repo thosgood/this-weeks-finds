@@ -63,6 +63,7 @@ printf "\n" >> $TEX
 printf '%s\n' '\usepackage{tikz}' >> $TEX
 printf '%s\n' '\usetikzlibrary{knots}' >> $TEX
 printf '%s\n' '\usetikzlibrary{arrows}' >> $TEX
+printf '%s\n' '\usetikzlibrary{patterns}' >> $TEX
 
 printf "\n" >> $TEX
 printf '%s\n' '\usepackage{pgfplots}' >> $TEX
