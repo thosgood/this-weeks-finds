@@ -239,20 +239,38 @@ Dirichlet whenever the circuit is of a special form: namely, when it has
 one resistor connecting each pair of terminals.
 
 But what about other circuits made from resistors, like this?
-
-            x           x
-            |           |
-            o-----------o
-           / \          |
-          /   \         |
-         /     o--------o
-        |     / \       | 
-        |    /   \      |
-        o---o-----o-----o
-        |   |           |
-        x   x           x
-
-Here the x's are the terminals, but there are also other vertices,
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (0,2)
+      to (0,0);
+    \draw[thick] (0.5,4)
+      to (0.5,3)
+      to (1,2)
+      to (0.5,1)
+      to (0.5,0);
+    \draw[thick] (1,2) to (1.5,1);
+    \draw[thick] (2.5,4) to (2.5,0);
+    \draw[thick] (0.5,3) to (2.5,3);
+    \draw[thick] (1,2) to (2.5,2);
+    \draw[thick] (0,1) to (2.5,1);
+    \node at (0.5,3) {$\bullet$};
+    \node at (2.5,3) {$\bullet$};
+    \node at (1,2) {$\bullet$};
+    \node at (2.5,2) {$\bullet$};
+    \node at (0,1) {$\bullet$};
+    \node at (0.5,1) {$\bullet$};
+    \node at (1.5,1) {$\bullet$};
+    \node at (2.5,1) {$\bullet$};
+    \node[fill=white] at (0.5,4) {$\times$};
+    \node[fill=white] at (2.5,4) {$\times$};
+    \node[fill=white] at (0,0) {$\times$};
+    \node[fill=white] at (0.5,0) {$\times$};
+    \node[fill=white] at (2.5,0) {$\times$};
+  \end{tikzpicture}
+$$
+Here the $\times$'s are the terminals, but there are also other vertices,
 which I'll call "internal vertices". Also, not every vertex is
 connected to every other vertex. Do we get a larger class of quadratic
 forms if we allow more general circuits like this?
