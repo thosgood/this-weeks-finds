@@ -186,46 +186,44 @@ Instead of giving you a long-winded description of how this works, let
 me just illustrate it. We start with two resistors in series. This is a
 graph with two edges and three vertices drawn on something that's
 topologically a closed disk. Let's draw it on a rectangle:
-
-     ......x...... 
-     .     |     .      
-     .     |     .      
-     .     |     .
-     .     o     .
-     .     |     .
-     .     |     .      
-     .     |     .
-     ......x...... 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+  \end{tikzpicture}
+$$
 The two dashed edges are the resistors. The two vertices on the boundary
-of the square, drawn as $x$'s, are the "input" and "output" vertices.
+of the square, drawn as $\times$'s, are the "input" and "output" vertices.
 There's also a vertex in the interior of the square, drawn as a little
-circle.
+$\bullet$.
 
 Now let's superimpose the Poincaré dual graph:
-
-     ......x...... 
-     .  ___|___  .      
-     . /   |   \ .      
-     ./    |    .
-     x     o     x
-     .\    |    /.
-     . \___|___/ .
-     .     |     .      
-     ......x...... 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+$$
 This is a mess, so now let's remove the original graph:
-
-     ............. 
-     .  _______  .      
-     . /       \ .      
-     ./         .
-     x           x
-     .\         /.
-     . \_______/ .
-     .           .      
-     ............. 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+$$
 This Poincaré dual graph shows two resistors in parallel! There's an
 "input" at left connected to an "output" at right by two edges, each
 with a resistor on it. In case you're wondering, the difference between
@@ -273,7 +271,7 @@ $$
     \node[fill=white] at (2.5,0) {$\times$};
   \end{tikzpicture}
 $$
-The inputs and outputs are marked as $x$'s here. I've drawn a planar
+The inputs and outputs are marked as $\times$'s here. I've drawn a planar
 graph, but we could also have a nonplanar one, like this:
 $$
   \begin{tikzpicture}
@@ -348,17 +346,16 @@ The total power is a quadratic function in a bunch of variables, so
 it's easy to minimize.
 
 Let's actually do this for two resistors in series:
-
-         \varphi0 x
-            |
-            | R1
-            |        
-         \varphi1 o
-            |
-            | R2
-            |
-         \varphi2 x
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \node[label=left:{$\varphi_0$}] (0) at (0,2) {$\times$};
+    \node[label=left:{$\varphi_1$}] (1) at (0,1) {$\bullet$};
+    \node[label=left:{$\varphi_2$}] (2) at (0,0) {$\times$};
+    \draw[thick,dashed] (0)
+      to node[label=right:{$R_1$}]{} (1)
+      to node[label=right:{$R_2$}]{} (2);
+  \end{tikzpicture}
+$$
 We need to find $\varphi_1$ that minimizes the total power
 $$P = \frac{(\varphi_1 - \varphi_0)^2}{R_1} + \frac{(\varphi_2 - \varphi_1)^2}{R_2}$$
 So, we differentiate $P$ with respect to $\varphi_1$ and set the derivative to
@@ -387,18 +384,18 @@ Adding these equations, we see that when you put resistors in series,
 their resistances add.
 
 Okay, now let's try two resistors in parallel:
-
-            x \varphi0
-           / \
-          /   \
-         /     \
-        /R1     \R2
-        \       /
-         \     /
-          \   /
-           \ /
-            x \varphi1
-
+$$
+  \begin{tikzpicture}[scale=1.5]
+    \node[label=right:{$\varphi_0$}] (0) at (0,2) {$\times$};
+    \node[label=right:{$\varphi_1$}] (1) at (0,0) {$\times$};
+    \draw[thick,dashed] (0)
+      to (-0.5,1) node[label=left:{$R_1$}]{}
+      to (1);
+    \draw[thick,dashed] (0)
+      to (0.5,1) node[label=right:{$R_2$}]{}
+      to (1);
+  \end{tikzpicture}
+$$
 This problem is oddly boring. There are no vertices except the input and
 the output, so the minimization problem is trivial! If we fix the
 potential at the input and output, we instantly know the voltages across
@@ -411,29 +408,25 @@ each other!
 Well, yeah. But the problem is, we're not using the Poincaré dual
 boundary conditions. For the resistors in series we had a graph with a
 vertex in the middle:
-
-     ......x...... 
-     .     |     .      
-     .     |     .      
-     .     |     .
-     .     o     .
-     .     |     .
-     .     |     .      
-     .     |     .
-     ......x...... 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (1,0) to (1,2);
+    \node at (1,1) {$\bullet$};
+    \node[fill=white] at (1,0) {$\times$};
+    \node[fill=white] at (1,2) {$\times$};
+  \end{tikzpicture}
+$$
 For the resistors in parallel we have a graph with a face in the middle:
-
-     ............. 
-     .  _______  .      
-     . /       \ .      
-     ./         .
-     x           x
-     .\         /.
-     . \_______/ .
-     .           .      
-     ............. 
-
+$$
+  \begin{tikzpicture}
+    \draw[thick] (0,0) rectangle ++(2,2);
+    \draw[thick,dashed] (0,1) .. controls (0.5,1.75) and (1.5,1.75) .. (2,1);
+    \draw[thick,dashed] (0,1) .. controls (0.5,0.25) and (1.5,0.25) .. (2,1);
+    \node[fill=white] at (0,1) {$\times$};
+    \node[fill=white] at (2,1) {$\times$};
+  \end{tikzpicture}
+$$
 So, to treat the resistors in parallel in a Poincaré dual way, we should
 use boundary conditions that involve faces rather than vertices. I
 talked about these faces back in ["Week 293"](#week293): electrical
